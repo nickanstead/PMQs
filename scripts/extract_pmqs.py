@@ -1,4 +1,3 @@
-Extract pmqs · PY
 #!/usr/bin/env python3
 """
 extract_pmqs.py: build a dataset of PMQs question/answer exchanges from
