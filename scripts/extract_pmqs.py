@@ -1,16 +1,18 @@
+Extract pmqs · PY
 #!/usr/bin/env python3
 """
 extract_pmqs.py: build a dataset of PMQs question/answer exchanges from
 mySociety's ParlParse XML (TheyWorkForYou), 1979 onwards.
-
+ 
 Output (one CSV per year):
   data/pmqs/<year>.csv          one row per question/answer exchange
   data/diagnostics/<year>.csv   one row per day checked, for sanity-checking
-
+ 
 Usage:
   python scripts/extract_pmqs.py              current year only
   python scripts/extract_pmqs.py 1979 1989    inclusive range of years
-
+  add --force to redo years that already have a CSV
+ 
 Past years whose CSV already exists are skipped; delete the file to redo one.
 Standard library only, so no installs are needed.
 """
@@ -24,14 +26,14 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from collections import Counter
 from pathlib import Path
-
+ 
 BASE = "https://www.theyworkforyou.com/pwdata/scrapedxml/debates/"
 PEOPLE_URL = "https://raw.githubusercontent.com/mysociety/parlparse/master/members/people.json"
 OUT_DIR = Path("data/pmqs")
 DIAG_DIR = Path("data/diagnostics")
 CACHE = Path("data/cache")
 HEADERS = {"User-Agent": "pmqs-honeymoon-clock (academic research, LSE)"}
-
+ 
 # (surname, full name, start inclusive, end exclusive)
 PRIME_MINISTERS = [
     ("Thatcher", "Margaret Thatcher", "1979-05-04", "1990-11-28"),
@@ -60,17 +62,17 @@ MAIN_OPPOSITION = [
     ("2010-05-11", "2024-07-05", "Labour"),
     ("2024-07-05", "9999-12-31", "Conservative"),
 ]
-
+ 
 PM_HEADING = re.compile(r"prime minister|engagements", re.I)
 NOT_PM_HEADING = re.compile(r"deputy prime minister", re.I)
 SPEAKER_NAME = re.compile(r"\bspeaker\b", re.I)
 FORMULA = re.compile(
     r"official engagements|engagements for (monday|tuesday|wednesday|thursday|friday)", re.I)
 QUESTION_NUMBER = re.compile(r"^\s*(Q\d+\.?\s*)?(\[\d+\]\s*)?")
-
+ 
 _index_html = None
-
-
+ 
+ 
 def fetch(url, tries=3):
     for attempt in range(tries):
         try:
@@ -81,26 +83,26 @@ def fetch(url, tries=3):
             if attempt == tries - 1:
                 raise
             time.sleep(10 * (attempt + 1))
-
-
+ 
+ 
 def lookup(table, date):
     for start, end, value in table:
         if start <= date < end:
             return value
     return None
-
-
+ 
+ 
 def pm_for(date):
     for surname, full, start, end in PRIME_MINISTERS:
         if start <= date < end:
             return surname, full
     return None, None
-
-
+ 
+ 
 def text_of(el):
     return re.sub(r"\s+", " ", "".join(el.itertext())).strip()
-
-
+ 
+ 
 def load_people():
     path = CACHE / "people.json"
     if not path.exists():
@@ -119,15 +121,15 @@ def load_people():
         by_person.setdefault(pid, []).append(
             (m.get("start_date", "0000"), m.get("end_date", "9999-12-31"), party))
     return member_to_person, by_person
-
-
+ 
+ 
 def party_on(by_person, pid, date):
     for start, end, party in by_person.get(pid, []):
         if party and start <= date <= end:
             return party
     return ""
-
-
+ 
+ 
 def day_files(year):
     """Latest version of each Tuesday-Thursday debates file in a year.
     PMQs has been on Wednesdays since 1997 and Tuesdays/Thursdays before."""
@@ -142,8 +144,8 @@ def day_files(year):
         if date not in latest or letter > latest[date][1]:
             latest[date] = (fname, letter)
     return [(d, latest[d][0]) for d in sorted(latest)]
-
-
+ 
+ 
 def pmqs_speeches(root):
     inside, out = False, []
     for el in root:
@@ -156,23 +158,25 @@ def pmqs_speeches(root):
         elif el.tag == "speech" and inside and el.get("nospeaker") != "true":
             out.append(el)
     return out
-
-
+ 
+ 
 def process_day(date, xml_bytes, people):
     member_to_person, by_person = people
     surname, pm_name = pm_for(date)
     root = ET.fromstring(xml_bytes)
-
+ 
     speeches = []
     for el in pmqs_speeches(root):
         name = el.get("speakername", "")
-        if SPEAKER_NAME.search(name):
-            continue  # the Speaker's interventions are not questions or answers
         pid = el.get("person_id") or member_to_person.get(el.get("speakerid", ""), "")
+        # The Speaker's interventions are neither questions nor answers. Modern
+        # files name the Speaker personally ("Lindsay Hoyle"), so check party too.
+        if SPEAKER_NAME.search(name) or party_on(by_person, pid, date) == "Speaker":
+            continue
         speeches.append((name, pid, text_of(el)))
     if not speeches:
         return [], {"pmqs_speeches": 0, "note": "no PMQs section found"}
-
+ 
     # The PM is the most frequent speaker whose name matches their surname.
     # Requiring 30% of speeches stops a namesake MP being picked on days
     # when a deputy stands in.
@@ -186,11 +190,11 @@ def process_day(date, xml_bytes, people):
     if pm_pid is None:
         return [], {"pmqs_speeches": len(speeches),
                     "note": "PM not found: possibly a stand-in, excluded"}
-
+ 
     def is_pm(name, pid):
         lowered = name.lower()
         return pid == pm_pid or ("prime minister" in lowered and "deputy" not in lowered)
-
+ 
     # Pair each MP's speech with the PM's next reply.
     exchanges, pending = [], None
     for name, pid, text in speeches:
@@ -207,7 +211,7 @@ def process_day(date, xml_bytes, people):
                 pending = (pending[0], pending[1], pending[2] + " " + text)
             else:
                 pending = (name, pid, text)  # an unanswered earlier speech is dropped
-
+ 
     gov = lookup(GOVERNMENTS, date) or []
     main_opp = lookup(MAIN_OPPOSITION, date)
     for e in exchanges:
@@ -220,7 +224,7 @@ def process_day(date, xml_bytes, people):
             e["q_role"] = "government"
         else:
             e["q_role"] = "opposition"
-
+ 
     # Leader of the Opposition: the main opposition party's most frequent
     # questioner that day, if they asked at least two questions.
     counts = Counter(e["q_pid"] for e in exchanges
@@ -231,7 +235,7 @@ def process_day(date, xml_bytes, people):
             for e in exchanges:
                 if e["q_pid"] == top:
                     e["q_role"] = "leader_of_opposition"
-
+ 
     rows = []
     for i, e in enumerate(exchanges, 1):
         rows.append({
@@ -243,8 +247,8 @@ def process_day(date, xml_bytes, people):
             "question": e["question"], "answer": e["answer"],
         })
     return rows, {"pmqs_speeches": len(speeches), "note": ""}
-
-
+ 
+ 
 def process_year(year, people):
     rows, diag = [], []
     for date, fname in day_files(year):
@@ -258,30 +262,31 @@ def process_year(year, people):
         diag.append({"date": date, "file": fname, "exchanges": len(day_rows), **info})
         time.sleep(0.5)  # be polite to mySociety's server
     return rows, diag
-
-
+ 
+ 
 def write_csv(path, rows, fields):
     path.parent.mkdir(parents=True, exist_ok=True)
     with open(path, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fields)
         writer.writeheader()
         writer.writerows(rows)
-
-
+ 
+ 
 ROW_FIELDS = ["exchange_id", "date", "pm", "sequence", "q_name", "q_pid", "q_party",
               "q_role", "is_formula", "q_words", "a_words", "question", "answer"]
 DIAG_FIELDS = ["date", "file", "exchanges", "pmqs_speeches", "note"]
-
-
+ 
+ 
 def main():
     this_year = dt.date.today().year
-    args = [int(a) for a in sys.argv[1:] if a.strip()]
+    force = "--force" in sys.argv
+    args = [int(a) for a in sys.argv[1:] if a.strip().isdigit()]
     start = args[0] if args else this_year
     end = args[1] if len(args) > 1 else (start if args else this_year)
     people = load_people()
     for year in range(start, end + 1):
         out = OUT_DIR / f"{year}.csv"
-        if out.exists() and year < this_year:
+        if out.exists() and year < this_year and not force:
             print(f"{year}: already done, skipping")
             continue
         rows, diag = process_year(year, people)
@@ -289,7 +294,7 @@ def main():
         write_csv(DIAG_DIR / f"{year}.csv", diag, DIAG_FIELDS)
         sessions = sum(1 for d in diag if d["exchanges"])
         print(f"{year}: {len(rows)} exchanges from {sessions} sessions")
-
-
+ 
+ 
 if __name__ == "__main__":
     main()
