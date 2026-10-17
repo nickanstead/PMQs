@@ -1,105 +1,105 @@
-date,file,exchanges,pmqs_speeches,note
-2007-01-09,debates2007-01-09b.xml,0,0,no PMQs section found
-2007-01-10,debates2007-01-10b.xml,0,90,"PM not found: possibly a stand-in, excluded"
-2007-01-11,debates2007-01-11b.xml,0,0,no PMQs section found
-2007-01-16,debates2007-01-16b.xml,0,0,no PMQs section found
-2007-01-17,debates2007-01-17c.xml,0,114,"PM not found: possibly a stand-in, excluded"
-2007-01-18,debates2007-01-18b.xml,0,0,no PMQs section found
-2007-01-23,debates2007-01-23b.xml,0,0,no PMQs section found
-2007-01-24,debates2007-01-24b.xml,26,55,
-2007-01-25,debates2007-01-25c.xml,0,0,no PMQs section found
-2007-01-30,debates2007-01-30b.xml,0,0,no PMQs section found
-2007-01-31,debates2007-01-31b.xml,29,59,
-2007-02-01,debates2007-02-01b.xml,0,0,no PMQs section found
-2007-02-06,debates2007-02-06b.xml,0,0,no PMQs section found
-2007-02-07,debates2007-02-07b.xml,0,127,"PM not found: possibly a stand-in, excluded"
-2007-02-08,debates2007-02-08c.xml,0,0,no PMQs section found
-2007-02-20,debates2007-02-20b.xml,0,0,no PMQs section found
-2007-02-21,debates2007-02-21c.xml,49,103,
-2007-02-22,debates2007-02-22c.xml,0,0,no PMQs section found
-2007-02-27,debates2007-02-27b.xml,0,0,no PMQs section found
-2007-02-28,debates2007-02-28b.xml,27,56,
-2007-03-01,debates2007-03-01b.xml,0,0,no PMQs section found
-2007-03-06,debates2007-03-06b.xml,0,0,no PMQs section found
-2007-03-07,debates2007-03-07b.xml,23,47,
-2007-03-08,debates2007-03-08b.xml,0,0,no PMQs section found
-2007-03-13,debates2007-03-13b.xml,0,152,"PM not found: possibly a stand-in, excluded"
-2007-03-14,debates2007-03-14c.xml,26,53,
-2007-03-15,debates2007-03-15b.xml,0,0,no PMQs section found
-2007-03-20,debates2007-03-20b.xml,0,0,no PMQs section found
-2007-03-21,debates2007-03-21b.xml,29,60,
-2007-03-22,debates2007-03-22b.xml,0,0,no PMQs section found
-2007-03-27,debates2007-03-27d.xml,0,0,no PMQs section found
-2007-03-28,debates2007-03-28b.xml,0,94,"PM not found: possibly a stand-in, excluded"
-2007-03-29,debates2007-03-29b.xml,0,0,no PMQs section found
-2007-04-17,debates2007-04-17e.xml,0,0,no PMQs section found
-2007-04-18,debates2007-04-18b.xml,24,79,
-2007-04-19,debates2007-04-19b.xml,0,0,no PMQs section found
-2007-04-24,debates2007-04-24c.xml,0,0,no PMQs section found
-2007-04-25,debates2007-04-25b.xml,30,60,
-2007-04-26,debates2007-04-26b.xml,0,0,no PMQs section found
-2007-05-01,debates2007-05-01b.xml,0,0,no PMQs section found
-2007-05-02,debates2007-05-02b.xml,26,55,
-2007-05-03,debates2007-05-03b.xml,0,0,no PMQs section found
-2007-05-08,debates2007-05-08b.xml,0,0,no PMQs section found
-2007-05-09,debates2007-05-09b.xml,0,100,"PM not found: possibly a stand-in, excluded"
-2007-05-10,debates2007-05-10b.xml,0,0,no PMQs section found
-2007-05-15,debates2007-05-15b.xml,0,0,no PMQs section found
-2007-05-16,debates2007-05-16b.xml,0,68,"PM not found: possibly a stand-in, excluded"
-2007-05-17,debates2007-05-17b.xml,0,0,no PMQs section found
-2007-05-22,debates2007-05-22b.xml,0,0,no PMQs section found
-2007-05-23,debates2007-05-23b.xml,0,106,"PM not found: possibly a stand-in, excluded"
-2007-05-24,debates2007-05-24b.xml,0,0,no PMQs section found
-2007-06-05,debates2007-06-05b.xml,0,0,no PMQs section found
-2007-06-06,debates2007-06-06b.xml,28,56,
-2007-06-07,debates2007-06-07b.xml,0,0,no PMQs section found
-2007-06-12,debates2007-06-12b.xml,0,0,no PMQs section found
-2007-06-13,debates2007-06-13b.xml,0,95,"PM not found: possibly a stand-in, excluded"
-2007-06-14,debates2007-06-14b.xml,0,0,no PMQs section found
-2007-06-19,debates2007-06-19b.xml,0,0,no PMQs section found
-2007-06-20,debates2007-06-20b.xml,0,181,"PM not found: possibly a stand-in, excluded"
-2007-06-21,debates2007-06-21b.xml,0,0,no PMQs section found
-2007-06-26,debates2007-06-26b.xml,0,0,no PMQs section found
-2007-06-27,debates2007-06-27c.xml,0,54,"PM not found: possibly a stand-in, excluded"
-2007-06-28,debates2007-06-28b.xml,0,0,no PMQs section found
-2007-07-03,debates2007-07-03b.xml,0,0,no PMQs section found
-2007-07-04,debates2007-07-04b.xml,0,115,"PM not found: possibly a stand-in, excluded"
-2007-07-05,debates2007-07-05b.xml,0,0,no PMQs section found
-2007-07-10,debates2007-07-10b.xml,0,0,no PMQs section found
-2007-07-11,debates2007-07-11b.xml,62,132,
-2007-07-12,debates2007-07-12b.xml,0,0,no PMQs section found
-2007-07-17,debates2007-07-17b.xml,0,0,no PMQs section found
-2007-07-18,debates2007-07-18b.xml,0,131,"PM not found: possibly a stand-in, excluded"
-2007-07-19,debates2007-07-19b.xml,0,0,no PMQs section found
-2007-07-24,debates2007-07-24b.xml,0,0,no PMQs section found
-2007-07-25,debates2007-07-25b.xml,46,155,
-2007-07-26,debates2007-07-26b.xml,0,0,no PMQs section found
-2007-10-09,debates2007-10-09b.xml,0,0,no PMQs section found
-2007-10-10,debates2007-10-10c.xml,0,101,"PM not found: possibly a stand-in, excluded"
-2007-10-11,debates2007-10-11b.xml,0,0,no PMQs section found
-2007-10-16,debates2007-10-16b.xml,0,0,no PMQs section found
-2007-10-17,debates2007-10-17b.xml,0,84,"PM not found: possibly a stand-in, excluded"
-2007-10-18,debates2007-10-18b.xml,0,0,no PMQs section found
-2007-10-23,debates2007-10-23b.xml,0,0,no PMQs section found
-2007-10-24,debates2007-10-24b.xml,28,60,
-2007-10-25,debates2007-10-25b.xml,0,0,no PMQs section found
-2007-10-30,debates2007-10-30b.xml,0,0,no PMQs section found
-2007-11-06,debates2007-11-06b.xml,0,0,no PMQs section found
-2007-11-07,debates2007-11-07b.xml,0,0,no PMQs section found
-2007-11-08,debates2007-11-08b.xml,0,0,no PMQs section found
-2007-11-13,debates2007-11-13c.xml,0,0,no PMQs section found
-2007-11-14,debates2007-11-14b.xml,46,94,
-2007-11-15,debates2007-11-15b.xml,0,0,no PMQs section found
-2007-11-20,debates2007-11-20b.xml,0,0,no PMQs section found
-2007-11-21,debates2007-11-21b.xml,27,60,
-2007-11-22,debates2007-11-22c.xml,0,0,no PMQs section found
-2007-11-27,debates2007-11-27d.xml,0,0,no PMQs section found
-2007-11-28,debates2007-11-28b.xml,0,116,"PM not found: possibly a stand-in, excluded"
-2007-11-29,debates2007-11-29b.xml,0,0,no PMQs section found
-2007-12-04,debates2007-12-04c.xml,0,0,no PMQs section found
-2007-12-05,debates2007-12-05e.xml,0,108,"PM not found: possibly a stand-in, excluded"
-2007-12-06,debates2007-12-06b.xml,0,0,no PMQs section found
-2007-12-11,debates2007-12-11d.xml,0,0,no PMQs section found
-2007-12-12,debates2007-12-12b.xml,53,110,
-2007-12-13,debates2007-12-13f.xml,0,0,no PMQs section found
-2007-12-18,debates2007-12-18b.xml,0,0,no PMQs section found
+date,file,exchanges,pmqs_speeches,note,detail
+2007-01-09,debates2007-01-09b.xml,0,0,no PMQs section found,HEALTH | Orders of the Day | DELEGATED LEGISLATION | PETITIONS | SHELTERED ACCOMMODATION (BEXLEY)
+2007-01-10,debates2007-01-10b.xml,24,51,,
+2007-01-11,debates2007-01-11b.xml,0,0,no PMQs section found,EDUCATION AND SKILLS | SOLICITOR-GENERAL | Business of the House | LEUKODYSTROPHIES
+2007-01-16,debates2007-01-16b.xml,0,0,no PMQs section found,FOREIGN AND COMMONWEALTH OFFICE | BILL PRESENTED | Orders of the Day | PENSIONS BILL (PROGRAMME) | PENSIONS BILL [MONEY] | DELEGATED LEGISLATION | PETITIONS | CLOSTRIDIUM DIFFICILE
+2007-01-17,debates2007-01-17c.xml,29,60,,
+2007-01-18,debates2007-01-18b.xml,0,0,no PMQs section found,TRADE AND INDUSTRY | MINISTER FOR WOMEN | Business of the House | PETITION | TRAIN SERVICES (MAIDENHEAD AND TWYFORD)
+2007-01-23,debates2007-01-23b.xml,0,0,no PMQs section found,SCOTLAND | COMMUNITIES AND LOCAL GOVERNMENT | Opposition Day — [3rd Allotted Day] | DELEGATED LEGISLATION | FOOTBALL (GAMBLING COMPANIES)
+2007-01-24,debates2007-01-24b.xml,26,55,,
+2007-01-25,debates2007-01-25c.xml,0,0,no PMQs section found,TREASURY | Business of the House | Points of Order | BILL PRESENTED | Orders of the Day | DELEGATED LEGISLATION | EUROPEAN UNION DOCUMENTS | PETITIONS
+2007-01-30,debates2007-01-30b.xml,0,0,no PMQs section found,PRIVATE BUSINESS | TRANSPORT | CONSTITUTIONAL AFFAIRS | Points of Order | Opposition Day — [4th Allotted Day] | DELEGATED LEGISLATION | EUROPEAN UNION DOCUMENTS | NORTHERN IRELAND GRAND COMMITTEE
+2007-01-31,debates2007-01-31b.xml,27,55,,1 questioners unmatched
+2007-02-01,debates2007-02-01b.xml,0,0,no PMQs section found,"ENVIRONMENT, FOOD AND RURAL AFFAIRS | Business of the House | Points of Order | OPERATION STACK"
+2007-02-06,debates2007-02-06b.xml,0,4,"PM not found: possibly a stand-in, excluded",Patricia Hewitt x2 | Patrick Cormack x1 | Stephen O'Brien x1
+2007-02-07,debates2007-02-07b.xml,28,60,,
+2007-02-08,debates2007-02-08c.xml,0,54,"PM not found: possibly a stand-in, excluded",Jack Straw x27 | Roger Gale x1 | George Howarth x1 | Paul Goodman x1
+2007-02-20,debates2007-02-20b.xml,0,0,no PMQs section found,PRIVATE BUSINESS | FOREIGN AND COMMONWEALTH OFFICE | Point of Order | Orders of the Day | DELEGATED LEGISLATION | PETITIONS | BRITISH STEEL INDUSTRY
+2007-02-21,debates2007-02-21c.xml,27,55,,
+2007-02-22,debates2007-02-22c.xml,0,0,no PMQs section found,TRADE AND INDUSTRY | WOMEN AND EQUALITY | Business of the House | Points of Order | HOSPITALS (WEST KENT)
+2007-02-27,debates2007-02-27b.xml,0,0,no PMQs section found,PRIVATE BUSINESS | SCOTLAND | COMMUNITIES AND LOCAL GOVERNMENT | Points of Order | Orders of the Day | DELEGATED LEGISLATION | EUROPEAN UNION DOCUMENTS | ADJOURNMENT (EASTER)
+2007-02-28,debates2007-02-28b.xml,22,46,,1 questioners unmatched
+2007-03-01,debates2007-03-01b.xml,0,0,no PMQs section found,TREASURY | Business of the House | Point of Order | FIRE PRECAUTIONS (SCHOOLS)
+2007-03-06,debates2007-03-06b.xml,0,0,no PMQs section found,PRIVATE BUSINESS | TRANSPORT | CONSTITUTIONAL AFFAIRS | BILL PRESENTED | SITTINGS IN WESTMINSTER HALL | RADIO MICROPHONES
+2007-03-07,debates2007-03-07b.xml,23,47,,
+2007-03-08,debates2007-03-08b.xml,0,0,no PMQs section found,"ENVIRONMENT, FOOD AND RURAL AFFAIRS | Business of the House | PETITION | LOCAL GOVERNMENT FUNDING (POOLE)"
+2007-03-13,debates2007-03-13b.xml,0,50,"PM not found: possibly a stand-in, excluded",Theresa Villiers x11 | John Healey x8 | Alun Michael x6 | Michael Fallon x6
+2007-03-14,debates2007-03-14c.xml,26,53,,
+2007-03-15,debates2007-03-15b.xml,0,0,no PMQs section found,EDUCATION AND SKILLS | SOLICITOR-GENERAL | Business of the House | PETITIONS | CHANNEL 4
+2007-03-20,debates2007-03-20b.xml,0,0,no PMQs section found,PRIVATE BUSINESS | FOREIGN AND COMMONWEALTH OFFICE | ROYAL ASSENT | BETTER HEALTHCARE CLOSER TO HOME PROJECT
+2007-03-21,debates2007-03-21b.xml,29,60,,
+2007-03-22,debates2007-03-22b.xml,0,0,no PMQs section found,TRADE AND INDUSTRY | WOMEN AND EQUALITY | Business of the House | Orders of the Day — WAYS AND MEANS | AMENDMENT OF THE LAW | DELEGATED LEGISLATION | HUNTING ACT 2004
+2007-03-27,debates2007-03-27d.xml,0,0,no PMQs section found,PRIVATE BUSINESS | SCOTLAND | COMMUNITIES AND LOCAL GOVERNMENT | Points of Order | BILL PRESENTED | Orders of the Day | AMENDMENT OF THE LAW | ROYAL ASSENT
+2007-03-28,debates2007-03-28b.xml,25,53,,1 questioners unmatched
+2007-03-29,debates2007-03-29b.xml,0,0,no PMQs section found,TREASURY | Business of the House | Points of Order | DEFERRED DIVISION NO. 85 | PETITION | HOUSING (NORTHAMPTON)
+2007-04-17,debates2007-04-17e.xml,0,0,no PMQs section found,TRANSPORT | CONSTITUTIONAL AFFAIRS | Opposition Day — [8th allotted day] | PETITION | FINANCIAL EDUCATION
+2007-04-18,debates2007-04-18b.xml,18,38,,
+2007-04-19,debates2007-04-19b.xml,0,0,no PMQs section found,"ENVIRONMENT, FOOD AND RURAL AFFAIRS | Business of the House | Points of Order | PETITION | WELFARE OF DOGS"
+2007-04-24,debates2007-04-24c.xml,0,0,no PMQs section found,HEALTH | Point of Order | Opposition Day — [9th Allotted Day] | EUROPEAN COMMUNITY DOCUMENTS | ADJOURNMENT (MAY) | DRAFT CLIMATE CHANGE BILL (JOINT COMMITT | PLANT SCIENCE AND CLIMATE CHANGE
+2007-04-25,debates2007-04-25b.xml,30,60,,
+2007-04-26,debates2007-04-26b.xml,0,0,no PMQs section found,EDUCATION AND SKILLS | SOLICITOR-GENERAL | Business of the House | Point of Order | MR. PETER FRANCIS
+2007-05-01,debates2007-05-01b.xml,0,0,no PMQs section found,FOREIGN AND COMMONWEALTH OFFICE | Orders of the Day | PETITIONS | BRIBERY IN INTERNATIONAL BUSINESS TRANSA
+2007-05-02,debates2007-05-02b.xml,26,55,,
+2007-05-03,debates2007-05-03b.xml,0,0,no PMQs section found,TRADE AND INDUSTRY | MINISTER FOR WOMEN | ROYAL ASSENT | Business of the House | POLICING IN LONDON
+2007-05-08,debates2007-05-08b.xml,0,0,no PMQs section found,PRIVATE BUSINESS | SCOTLAND | COMMUNITIES AND LOCAL GOVERNMENT | Opposition Day — [10th Allotted Day] | EUROPEAN UNION DOCUMENTS | DELEGATED LEGISLATION | DOG FIGHTING
+2007-05-09,debates2007-05-09b.xml,23,48,,
+2007-05-10,debates2007-05-10b.xml,0,0,no PMQs section found,TREASURY | Business of the House | Point of Order | Orders of the Day | LOCAL GOVERNMENT REORGANISATION (NORTHUM
+2007-05-15,debates2007-05-15b.xml,0,0,no PMQs section found,PRIVATE BUSINESS | TRANSPORT | JUSTICE | Points of Order | BILL PRESENTED | Opposition Day — [11th Allotted Day] | DELEGATED LEGISLATION | CENTENARY OF SCOUTING
+2007-05-16,debates2007-05-16b.xml,0,38,"PM not found: possibly a stand-in, excluded",John Prescott x19 | William Hague x5 | Richard Spring x2 | Vincent Cable x2
+2007-05-17,debates2007-05-17b.xml,0,0,no PMQs section found,"ENVIRONMENT, FOOD AND RURAL AFFAIRS | Business of the House | Orders of the Day | DELEGATED LEGISLATION | EUROPEAN UNION DOCUMENTS | BLACKWALL TUNNEL (CONTRAFLOW)"
+2007-05-22,debates2007-05-22b.xml,0,0,no PMQs section found,PRIVATE BUSINESS | HEALTH | NICE | Orders of the Day | DELEGATED LEGISLATION | PETITION | BURTON'S FOODS PLANT (MORETON)
+2007-05-23,debates2007-05-23b.xml,20,40,,
+2007-05-24,debates2007-05-24b.xml,0,0,no PMQs section found,EDUCATION AND SKILLS | SOLICITOR-GENERAL | Business of the House | EVERY CHILD A READER
+2007-06-05,debates2007-06-05b.xml,0,21,"PM not found: possibly a stand-in, excluded",Margaret Beckett x10 | William Hague x2 | William Cash x1 | Wayne David x1
+2007-06-06,debates2007-06-06b.xml,28,56,,
+2007-06-07,debates2007-06-07b.xml,0,0,no PMQs section found,"TRADE AND INDUSTRY | MINISTER FOR WOMEN | Business of the House | Orders of the Day | RATING (EMPTY PROPERTIES) BILL (PROGRAMM | RATING (EMPTY PROPERTIES) BILL [MONEY] | GERMAN ROAD, BRAMLEY"
+2007-06-12,debates2007-06-12b.xml,0,0,no PMQs section found,SCOTLAND | COMMUNITIES AND LOCAL GOVERNMENT | Point of Order | Orders of the Day | SERIOUS CRIME BILL [ LORDS] [ MONEY] | IMPROVING FACILITIES FOR EDUCATIONAL VIS | CARBON DIOXIDE REDUCTION TARGET
+2007-06-13,debates2007-06-13b.xml,25,51,,
+2007-06-14,debates2007-06-14b.xml,0,0,no PMQs section found,TREASURY | Business of the House | Points of Order | DIGITAL SWITCHOVER (DISCLOSURE OF INFORM | Orders of the Day | NORTH-EAST REGIONAL SPATIAL STRATEGY
+2007-06-19,debates2007-06-19b.xml,0,0,no PMQs section found,TRANSPORT | JUSTICE | Points of Order | Orders of the Day | BUSINESS OF THE HOUSE | PARLIAMENT (JOINT DEPARTMENTS) BILL [LOR | PARLIAMENT (JOINT DEPARTMENTS) BILL [LOR | CORRECTIONS TO THE OFFICIAL REPORT
+2007-06-20,debates2007-06-20b.xml,26,54,,
+2007-06-21,debates2007-06-21b.xml,0,0,no PMQs section found,"ENVIRONMENT, FOOD AND RURAL AFFAIRS | Business of the House | Points of Order | KIRSTY JONES"
+2007-06-26,debates2007-06-26b.xml,0,0,no PMQs section found,PRIVATE BUSINESS | HEALTH | BILLS PRESENTED | Orders of the Day | Deferred Divisions | DELEGATED LEGISLATION | REGULATORY REFORM | EUROPEAN UNION DOCUMENTS
+2007-06-27,debates2007-06-27c.xml,0,23,"PM not found: possibly a stand-in, excluded",Tony Blair x11 | David Cameron x5 | David Burrowes x2 | Colin Burgon x2
+2007-06-28,debates2007-06-28b.xml,0,0,no PMQs section found,EDUCATION AND SKILLS | SOLICITOR-GENERAL | Business of the House | Orders of the Day | DELEGATED LEGISLATION | BURIAL LAW REFORM
+2007-07-03,debates2007-07-03b.xml,0,0,no PMQs section found,PRIVATE BUSINESS | FOREIGN AND COMMONWEALTH AFFAIRS | Opposition Day — [15th Allotted Day] | REGULATORY REFORM | PETITION | THOMAS TELFORD ANNIVERSARY
+2007-07-04,debates2007-07-04b.xml,24,53,,
+2007-07-05,debates2007-07-05b.xml,0,0,no PMQs section found,"BUSINESS, ENTERPRISE AND REGULATORY REFO | MINISTER FOR WOMEN | HMRC | Business of the House | Orders of the Day | PETITIONS | SEVERE MENTAL HEALTH DISORDERS"
+2007-07-10,debates2007-07-10b.xml,0,0,no PMQs section found,PRIVATE BUSINESS | SCOTLAND | COMMUNITIES AND LOCAL GOVERNMENT | Point of Order | Orders of the Day — CONSOLIDATED FUND (A | DELEGATED LEGISLATION | BARWICK IN ELMET HILL FORT
+2007-07-11,debates2007-07-11b.xml,29,60,,
+2007-07-12,debates2007-07-12b.xml,0,8,"PM not found: possibly a stand-in, excluded",Alistair Darling x4 | Peter Tapsell x2 | Barry Gardiner x1 | David Gauke x1
+2007-07-17,debates2007-07-17b.xml,0,0,no PMQs section found,PRIVATE BUSINESS | TRANSPORT | DUCHY OF LANCASTER | PENSIONS BILL (PROGRAMME) (NO.3) | Orders of the Day | DELEGATED LEGISLATION | ALDRIN QUIBUYEN
+2007-07-18,debates2007-07-18b.xml,23,49,,
+2007-07-19,debates2007-07-19b.xml,0,0,no PMQs section found,"ENVIRONMENT, FOOD AND RURAL AFFAIRS | SOLICITOR-GENERAL | ROYAL ASSENT | Business of the House | Points of Order | ILLEGAL RAVES (SOUTH-WEST NORFOLK)"
+2007-07-24,debates2007-07-24b.xml,0,0,no PMQs section found,PRIVATE BUSINESS | HEALTH | Point of Order | Opposition Day — [18th Allotted Day] | DELEGATED LEGISLATION | REGULATORY REFORM | EUROPEAN DOCUMENTS | BUSINESS OF THE HOUSE
+2007-07-25,debates2007-07-25b.xml,22,47,,
+2007-07-26,debates2007-07-26b.xml,0,0,no PMQs section found,"CHILDREN, SCHOOLS AND FAMILIES | INNOVATION, UNIVERSITIES AND SKILLS | Business of the House | ROYAL ASSENT | Point of Order | PETITIONS | FLOODING (EAST LEEDS)"
+2007-10-09,debates2007-10-09b.xml,0,0,no PMQs section found,FOREIGN AND COMMONWEALTH OFFICE | Point of Order | PETITION | ANTI-DOPING IN SPORT
+2007-10-10,debates2007-10-10c.xml,27,56,,
+2007-10-11,debates2007-10-11b.xml,0,0,no PMQs section found,"BUSINESS, ENTERPRISE AND REGULATORY REFO | WOMEN AND EQUALITY | Business of the House | GREATER LONDON AUTHORITY BILL (PROGRAMME | Orders of the Day | FURTHER EDUCATION AND TRAINING BILL [ LO | CRIMINAL JUSTICE AND IMMIGRATION BILL (P | PETITION"
+2007-10-16,debates2007-10-16b.xml,0,0,no PMQs section found,PRIVATE BUSINESS | SCOTLAND | COMMUNITIES AND LOCAL GOVERNMENT | DELEGATED LEGISLATION | CHILD PROTECTION (SEX OFFENDERS)
+2007-10-17,debates2007-10-17b.xml,22,49,,
+2007-10-18,debates2007-10-18b.xml,0,0,no PMQs section found,TREASURY | Business of the House | TRANSPORT IN PUDSEY
+2007-10-23,debates2007-10-23b.xml,0,0,no PMQs section found,TRANSPORT | DUCHY OF LANCASTER | Points of Order | ROYAL ASSENT | HOUSE OF COMMONS MEMBERS' FUND (CUSTODIA | PETITIONS | SCHOOLS (BERWICK-UPON-TWEED)
+2007-10-24,debates2007-10-24b.xml,28,60,,
+2007-10-25,debates2007-10-25b.xml,0,0,no PMQs section found,"ENVIRONMENT, FOOD AND RURAL AFFAIRS | SOLICITOR-GENERAL | Business of the House | Points of Order | MODERNISATION OF THE HOUSE OF COMMONS (C | PROCEDURE | PROCEDURE (CHANGES TO STANDING ORDERS) | EUROPEAN STANDING COMMITTEES (TEMPORARY "
+2007-10-30,debates2007-10-30b.xml,0,0,no PMQs section found,ROYAL ASSENT | HER MAJESTY'S MOST GRACIOUS SPEECH
+2007-11-06,debates2007-11-06b.xml,0,0,no PMQs section found,OUTLAWRIES BILL | ROMANIAN AND BULGARIAN MIGRANTS
+2007-11-07,debates2007-11-07b.xml,0,0,no PMQs section found,Orders of the Day | LAND TITLE TRANSFERS
+2007-11-08,debates2007-11-08b.xml,0,0,no PMQs section found,Business of the House | Point of Order | Orders of the Day | COMMITTEES | SUMMER RECESS (DURATION)
+2007-11-13,debates2007-11-13c.xml,0,159,"PM not found: possibly a stand-in, excluded",Edward Balls x32 | Graham Stuart x11 | Michael Gove x10 | Norman Lamb x10
+2007-11-14,debates2007-11-14b.xml,25,51,,
+2007-11-15,debates2007-11-15b.xml,0,0,no PMQs section found,"INNOVATION, UNIVERSITIES AND SKILLS | Business of the House | Points of Order | BILLS PRESENTED | TOPICAL DEBATE | CROSSRAIL BILL | DAEDALUS AIRFIELD"
+2007-11-20,debates2007-11-20b.xml,0,0,no PMQs section found,FOREIGN AND COMMONWEALTH OFFICE | Points of Order | Orders of the Day | CHANNEL TUNNEL RAIL LINK (SUPPLEMENTARY  | CHANNEL TUNNEL RAIL LINK (SUPPLEMENTARY  | DELEGATED LEGISLATION | MICHAEL SHIELDS
+2007-11-21,debates2007-11-21b.xml,27,60,,
+2007-11-22,debates2007-11-22c.xml,0,0,no PMQs section found,"BUSINESS, ENTERPRISE AND REGULATORY REFO | Business of the House | TOPICAL DEBATE | Orders of the Day | SALE OF STUDENT LOANS BILL (PROGRAMME) | SALE OF STUDENT LOANS BILL [MONEY] | DELEGATED LEGISLATION | PETITIONS"
+2007-11-27,debates2007-11-27d.xml,0,2,"PM not found: possibly a stand-in, excluded",Greg Hands x1 | John Baron x1
+2007-11-28,debates2007-11-28b.xml,30,67,,
+2007-11-29,debates2007-11-29b.xml,0,0,no PMQs section found,TREASURY | Business of the House | Points of Order | ALLERGY SERVICES
+2007-12-04,debates2007-12-04c.xml,0,0,no PMQs section found,TRANSPORT | Opposition Day — [3rd allotted day] | DELEGATED LEGISLATION | EUROPEAN DOCUMENTS | PETITIONS | ADJOURNMENT
+2007-12-05,debates2007-12-05e.xml,27,59,,
+2007-12-06,debates2007-12-06b.xml,0,0,no PMQs section found,"ENVIRONMENT, FOOD AND RURAL AFFAIRS | Business of the House | Orders of the Day — CONSOLIDATED FUND BI | DELEGATED LEGISLATION | RAIL SERVICES (ENFIELD, NORTH)"
+2007-12-11,debates2007-12-11d.xml,0,0,no PMQs section found,JUSTICE | SECTION 5 OF THE EUROPEAN COMMUNITIES (A | DELEGATED LEGISLATION | PETITIONS | SCHOOL FUNDING (SHROPSHIRE)
+2007-12-12,debates2007-12-12b.xml,28,57,,
+2007-12-13,debates2007-12-13f.xml,0,0,no PMQs section found,PUBLIC ACCOUNTS COMMISSION | CHURCH COMMISSIONERS | ELECTORAL COMMISSION COMMITTEE | CHURCH COMMISSIONERS | SOLICITOR-GENERAL | WOMEN AND EQUALITY | LEADER OF THE HOUSE | HOUSE OF COMMONS COMMISSION
+2007-12-18,debates2007-12-18b.xml,0,0,no PMQs section found,PRIVATE BUSINESS | HEALTH | COMMITTEES | PETITIONS | DEBT COLLECTION AGENCIES (MRS. BERYL BRA

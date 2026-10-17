@@ -1,14 +1,14 @@
-date,file,exchanges,pmqs_speeches,note
-2004-11-23,debates2004-11-23a.xml,0,0,no PMQs section found
-2004-11-24,debates2004-11-24a.xml,0,0,no PMQs section found
-2004-11-25,debates2004-11-25a.xml,0,0,no PMQs section found
-2004-11-30,debates2004-11-30a.xml,0,0,no PMQs section found
-2004-12-01,debates2004-12-01a.xml,26,53,
-2004-12-02,debates2004-12-02a.xml,0,0,no PMQs section found
-2004-12-07,debates2004-12-07a.xml,0,0,no PMQs section found
-2004-12-08,debates2004-12-08a.xml,26,53,
-2004-12-09,debates2004-12-09a.xml,0,0,no PMQs section found
-2004-12-14,debates2004-12-14a.xml,0,0,no PMQs section found
-2004-12-15,debates2004-12-15a.xml,23,47,
-2004-12-16,debates2004-12-16a.xml,0,0,no PMQs section found
-2004-12-21,debates2004-12-21a.xml,0,0,no PMQs section found
+date,file,exchanges,pmqs_speeches,note,detail
+2004-11-23,debates2004-11-23a.xml,0,0,no PMQs section found,Speaker's Statement | SESSIONAL ORDERS | Queen's Speech | Debate on the Address | LEARNING-DISABLED ATHLETES
+2004-11-24,debates2004-11-24a.xml,0,0,no PMQs section found,REPORT OF THE SPOLIATION ADVISORY PANEL | BILLS PRESENTED | Orders of the Day — Debate on the Addres | Foreign Affairs and Defence | WELSH GRAND COMMITTEE | NORTHERN IRELAND GRAND COMMITTEE | BUSINESS OF THE HOUSE | PETITION — GP Surgery (Romford)
+2004-11-25,debates2004-11-25a.xml,0,0,no PMQs section found,"Business of the House | BILLS PRESENTED | Orders of the Day — Debate on the Addres | Environment, Transport and Local and Dev | BUSINESS OF THE HOUSE | UNITED NATIONS INDUSTRIAL DEVELOPMENT OR"
+2004-11-30,debates2004-11-30a.xml,0,0,no PMQs section found,WAYS AND MEANS | SCOTLAND | ADVOCATE-GENERAL FOR SCOTLAND | CONSTITUTIONAL AFFAIRS | LEADER OF THE HOUSE | HOUSE OF COMMONS COMMISSION | LEADER OF THE HOUSE | Deepcut Allegations
+2004-12-01,debates2004-12-01a.xml,24,49,,
+2004-12-02,debates2004-12-02a.xml,0,0,no PMQs section found,EDUCATION AND SKILLS | SOLICITOR-GENERAL | Pre-Budget Report | Local Government Finance Settlement | Business of the House | Fisheries | WESTMINSTER HALL | ADJOURNMENT (CHRISTMAS)
+2004-12-07,debates2004-12-07a.xml,0,0,no PMQs section found,HEALTH | BILL PRESENTED | Point of Order | Orders of the Day — Serious Organised Cr | SERIOUS ORGANISED CRIME AND POLICE BILL  | SERIOUS ORGANISED CRIME AND POLICE BILL  | DELEGATED LEGISLATION | DEREGULATION
+2004-12-08,debates2004-12-08a.xml,22,45,,1 questioners unmatched
+2004-12-09,debates2004-12-09a.xml,0,0,no PMQs section found,TRADE AND INDUSTRY | MINISTER FOR WOMEN | Business of the House | Northern Ireland | Points of Order | ESTIMATES DAY — [1st Allotted Day] — VOT | Academies | VOTE ON ACCOUNT
+2004-12-14,debates2004-12-14a.xml,0,0,no PMQs section found,FOREIGN AND COMMONWEALTH AFFAIRS | Mental Capacity Bill (Programme) (No. 3) | Orders of the Day — Mental Capacity Bill | DELEGATED LEGISLATION | EUROPEAN DOCUMENTS | PETITION — Pensions payments | RAIL SERVICES (BEXHILL)
+2004-12-15,debates2004-12-15a.xml,23,47,,
+2004-12-16,debates2004-12-16a.xml,0,0,no PMQs section found,TREASURY | Future Infantry Structure | Business of the House | Points of Order | BILLS PRESENTED | SECTION 5 OF THE EUROPEAN COMMUNITIES (A | Orders of the Day — School Transport Bil | ROYAL ASSENT
+2004-12-21,debates2004-12-21a.xml,0,0,no PMQs section found,INDEFINITE LEAVE TO REMAIN | TRANSPORT | DUCHY OF LANCASTER | Infant Death Syndrome | Points of Order | Christmas Adjournment | DELEGATED LEGISLATION — Electoral Commis | NORTHERN IRELAND GRAND COMMITTEE

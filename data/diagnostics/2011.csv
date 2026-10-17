@@ -1,104 +1,104 @@
-date,file,exchanges,pmqs_speeches,note
-2011-01-11,debates2011-01-11a.xml,0,0,no PMQs section found
-2011-01-12,debates2011-01-12a.xml,31,62,
-2011-01-13,debates2011-01-13a.xml,0,0,no PMQs section found
-2011-01-18,debates2011-01-18a.xml,0,0,no PMQs section found
-2011-01-19,debates2011-01-19b.xml,0,126,"PM not found: possibly a stand-in, excluded"
-2011-01-20,debates2011-01-20a.xml,0,0,no PMQs section found
-2011-01-25,debates2011-01-25a.xml,0,0,no PMQs section found
-2011-01-26,debates2011-01-26a.xml,0,195,"PM not found: possibly a stand-in, excluded"
-2011-01-27,debates2011-01-27a.xml,0,0,no PMQs section found
-2011-02-01,debates2011-02-01a.xml,0,0,no PMQs section found
-2011-02-02,debates2011-02-02a.xml,31,63,
-2011-02-03,debates2011-02-03a.xml,0,0,no PMQs section found
-2011-02-08,debates2011-02-08b.xml,0,0,no PMQs section found
-2011-02-09,debates2011-02-09a.xml,0,222,"PM not found: possibly a stand-in, excluded"
-2011-02-10,debates2011-02-10b.xml,0,0,no PMQs section found
-2011-02-15,debates2011-02-15a.xml,0,0,no PMQs section found
-2011-02-16,debates2011-02-16b.xml,0,115,"PM not found: possibly a stand-in, excluded"
-2011-02-17,debates2011-02-17b.xml,0,0,no PMQs section found
-2011-03-01,debates2011-03-01b.xml,0,0,no PMQs section found
-2011-03-02,debates2011-03-02b.xml,0,121,"PM not found: possibly a stand-in, excluded"
-2011-03-03,debates2011-03-03c.xml,0,0,no PMQs section found
-2011-03-08,debates2011-03-08c.xml,0,0,no PMQs section found
-2011-03-09,debates2011-03-09b.xml,32,64,
-2011-03-10,debates2011-03-10b.xml,0,0,no PMQs section found
-2011-03-15,debates2011-03-15b.xml,0,0,no PMQs section found
-2011-03-16,debates2011-03-16b.xml,31,63,
-2011-03-17,debates2011-03-17c.xml,0,0,no PMQs section found
-2011-03-22,debates2011-03-22b.xml,0,0,no PMQs section found
-2011-03-23,debates2011-03-23c.xml,33,69,
-2011-03-24,debates2011-03-24b.xml,0,0,no PMQs section found
-2011-03-29,debates2011-03-29c.xml,0,0,no PMQs section found
-2011-03-30,debates2011-03-30b.xml,0,136,"PM not found: possibly a stand-in, excluded"
-2011-03-31,debates2011-03-31d.xml,0,0,no PMQs section found
-2011-04-05,debates2011-04-05c.xml,0,0,no PMQs section found
-2011-04-26,debates2011-04-26d.xml,0,0,no PMQs section found
-2011-04-27,debates2011-04-27f.xml,32,67,
-2011-04-28,debates2011-04-28d.xml,0,0,no PMQs section found
-2011-05-03,debates2011-05-03c.xml,0,0,no PMQs section found
-2011-05-04,debates2011-05-04c.xml,32,64,
-2011-05-05,debates2011-05-05c.xml,0,0,no PMQs section found
-2011-05-10,debates2011-05-10c.xml,0,0,no PMQs section found
-2011-05-11,debates2011-05-11d.xml,0,115,"PM not found: possibly a stand-in, excluded"
-2011-05-12,debates2011-05-12d.xml,0,0,no PMQs section found
-2011-05-17,debates2011-05-17c.xml,0,0,no PMQs section found
-2011-05-18,debates2011-05-18c.xml,0,159,"PM not found: possibly a stand-in, excluded"
-2011-05-19,debates2011-05-19c.xml,0,0,no PMQs section found
-2011-05-24,debates2011-05-24b.xml,0,0,no PMQs section found
-2011-06-07,debates2011-06-07c.xml,0,0,no PMQs section found
-2011-06-08,debates2011-06-08b.xml,29,69,
-2011-06-09,debates2011-06-09b.xml,0,0,no PMQs section found
-2011-06-14,debates2011-06-14c.xml,0,0,no PMQs section found
-2011-06-15,debates2011-06-15b.xml,0,115,"PM not found: possibly a stand-in, excluded"
-2011-06-16,debates2011-06-16c.xml,0,0,no PMQs section found
-2011-06-21,debates2011-06-21b.xml,0,0,no PMQs section found
-2011-06-22,debates2011-06-22c.xml,32,70,
-2011-06-23,debates2011-06-23b.xml,0,0,no PMQs section found
-2011-06-28,debates2011-06-28a.xml,0,0,no PMQs section found
-2011-06-29,debates2011-06-29a.xml,0,129,"PM not found: possibly a stand-in, excluded"
-2011-06-30,debates2011-06-30b.xml,0,0,no PMQs section found
-2011-07-05,debates2011-07-05a.xml,0,0,no PMQs section found
-2011-07-06,debates2011-07-06b.xml,58,121,
-2011-07-07,debates2011-07-07a.xml,0,0,no PMQs section found
-2011-07-12,debates2011-07-12c.xml,0,0,no PMQs section found
-2011-07-13,debates2011-07-13b.xml,110,277,
-2011-07-14,debates2011-07-14b.xml,0,0,no PMQs section found
-2011-07-19,debates2011-07-19a.xml,0,0,no PMQs section found
-2011-07-20,debates2011-07-20a.xml,0,0,no PMQs section found
-2011-08-11,debates2011-08-11a.xml,0,0,no PMQs section found
-2011-09-06,debates2011-09-06a.xml,0,0,no PMQs section found
-2011-09-07,debates2011-09-07b.xml,33,68,
-2011-09-08,debates2011-09-08b.xml,0,0,no PMQs section found
-2011-09-13,debates2011-09-13a.xml,0,0,no PMQs section found
-2011-09-14,debates2011-09-14b.xml,0,243,"PM not found: possibly a stand-in, excluded"
-2011-09-15,debates2011-09-15b.xml,0,0,no PMQs section found
-2011-10-11,debates2011-10-11b.xml,0,0,no PMQs section found
-2011-10-12,debates2011-10-12a.xml,0,113,"PM not found: possibly a stand-in, excluded"
-2011-10-13,debates2011-10-13b.xml,0,0,no PMQs section found
-2011-10-18,debates2011-10-18b.xml,0,0,no PMQs section found
-2011-10-19,debates2011-10-19b.xml,0,158,"PM not found: possibly a stand-in, excluded"
-2011-10-20,debates2011-10-20a.xml,0,0,no PMQs section found
-2011-10-25,debates2011-10-25b.xml,0,0,no PMQs section found
-2011-10-26,debates2011-10-26a.xml,34,68,
-2011-10-27,debates2011-10-27c.xml,0,0,no PMQs section found
-2011-11-01,debates2011-11-01d.xml,0,0,no PMQs section found
-2011-11-02,debates2011-11-02a.xml,0,161,"PM not found: possibly a stand-in, excluded"
-2011-11-03,debates2011-11-03a.xml,0,0,no PMQs section found
-2011-11-08,debates2011-11-08b.xml,0,0,no PMQs section found
-2011-11-09,debates2011-11-09a.xml,0,131,"PM not found: possibly a stand-in, excluded"
-2011-11-10,debates2011-11-10b.xml,0,0,no PMQs section found
-2011-11-15,debates2011-11-15b.xml,0,0,no PMQs section found
-2011-11-22,debates2011-11-22b.xml,0,0,no PMQs section found
-2011-11-23,debates2011-11-23b.xml,0,113,"PM not found: possibly a stand-in, excluded"
-2011-11-24,debates2011-11-24a.xml,0,0,no PMQs section found
-2011-11-29,debates2011-11-29a.xml,0,0,no PMQs section found
-2011-11-30,debates2011-11-30b.xml,0,214,"PM not found: possibly a stand-in, excluded"
-2011-12-01,debates2011-12-01b.xml,0,0,no PMQs section found
-2011-12-06,debates2011-12-06b.xml,0,0,no PMQs section found
-2011-12-07,debates2011-12-07a.xml,32,68,
-2011-12-08,debates2011-12-08a.xml,0,0,no PMQs section found
-2011-12-13,debates2011-12-13a.xml,0,0,no PMQs section found
-2011-12-14,debates2011-12-14a.xml,0,119,"PM not found: possibly a stand-in, excluded"
-2011-12-15,debates2011-12-15a.xml,0,0,no PMQs section found
-2011-12-20,debates2011-12-20b.xml,0,0,no PMQs section found
+date,file,exchanges,pmqs_speeches,note,detail
+2011-01-11,debates2011-01-11a.xml,0,0,no PMQs section found,JUSTICE | Points of Order | Food Labelling Regulations (Amendment) | PETITION — Minimum Sentence for Murder | BENEFIT ENTITLEMENTS (JOANNA CRANFIELD)
+2011-01-12,debates2011-01-12a.xml,31,62,,
+2011-01-13,debates2011-01-13a.xml,0,0,no PMQs section found,"BUSINESS, INNOVATION AND SKILLS | Business of the House | Points of Order | National Insurance Contributions Bill | PETITION — Immigration (Sivarajah Sugant | CAREERS ADVICE (SCHOOLS)"
+2011-01-18,debates2011-01-18a.xml,0,0,no PMQs section found,DEPUTY PRIME MINISTER | ATTORNEY-GENERAL | CHURCH COMMISSIONERS | ELECTORAL COMMISSION COMMITTEE | CHURCH COMMISSIONERS | ELECTORAL COMMISSION COMMITTEE | CHURCH COMMISSIONERS | ELECTORAL COMMISSION COMMITTEE
+2011-01-19,debates2011-01-19b.xml,31,64,,
+2011-01-20,debates2011-01-20a.xml,0,0,no PMQs section found,"CULTURE, MEDIA AND SPORT | LEADER OF THE HOUSE | HOUSE OF COMMONS COMMISSION | LEADER OF THE HOUSE | Petitions | HOUSE OF COMMONS COMMISSION | Business of the House | Points of Order"
+2011-01-25,debates2011-01-25a.xml,0,0,no PMQs section found,HEALTH | Points of Order | Firearms (Amendment) Bill | EUROPEAN UNION DOCUMENTS | RAF LEUCHARS
+2011-01-26,debates2011-01-26a.xml,30,62,,1 questioners unmatched
+2011-01-27,debates2011-01-27a.xml,0,0,no PMQs section found,TRANSPORT | WOMEN AND EQUALITIES | Business of the House | Points of Order | Scotland Bill | SCOTLAND BILL (PROGRAMME) | SCOTLAND BILL (MONEY) | WESTERN SAHARA
+2011-02-01,debates2011-02-01a.xml,0,0,no PMQs section found,BUSINESS BEFORE QUESTIONS | FOREIGN AND COMMONWEALTH OFFICE | Points of Order | NHS Acute Medical and Surgical Services  | EUROPEAN UNION DOCUMENT | business of the house | PETITION — Child Benefit | POST-16 STUDENTS
+2011-02-02,debates2011-02-02a.xml,31,63,,
+2011-02-03,debates2011-02-03a.xml,0,0,no PMQs section found,"ENVIRONMENT, FOOD AND RURAL AFFAIRS | CITES | Business of the House | Points of Order | Backbench Business — [18th Allotted Day] | STV"
+2011-02-08,debates2011-02-08b.xml,0,0,no PMQs section found,TREASURY | Points of Order | BBC Licence Fee Payers (Voting Rights) | EDUCATION BILL (PROGRAMME) | EDUCATION BILL (MONEY) | PETITION — Education Maintenance Allowan | HIGHER EDUCATION (STUDENT VISAS)
+2011-02-09,debates2011-02-09a.xml,27,58,,
+2011-02-10,debates2011-02-10b.xml,0,0,no PMQs section found,ENERGY AND CLIMATE CHANGE | Business of the House | Points of Order | Backbench Business — [20th Allotted Day] | CHILDREN IN CARE
+2011-02-15,debates2011-02-15a.xml,0,0,no PMQs section found,JUSTICE | PARLIAMENTARY VOTING SYSTEM AND CONSTITU | ECONOMIC DEVELOPMENT (NORTH-EAST)
+2011-02-16,debates2011-02-16b.xml,30,62,,
+2011-02-17,debates2011-02-17b.xml,0,0,no PMQs section found,"BUSINESS, INNOVATION AND SKILLS | Business of the House | Points of Order | Business without Debate — ESTIMATES | PETITIONS | HOUSING BENEFIT"
+2011-03-01,debates2011-03-01b.xml,0,0,no PMQs section found,DEPUTY PRIME MINISTER | ATTORNEY-GENERAL | ELECTORAL COMMISSION COMMITTEE | CHURCH COMMISSIONERS | ELECTORAL COMMISSION COMMITTEE | CHURCH COMMISSIONERS | ELECTORAL COMMISSION COMMITTEE | CHURCH COMMISSIONERS
+2011-03-02,debates2011-03-02b.xml,30,61,,
+2011-03-03,debates2011-03-03c.xml,0,0,no PMQs section found,"CULTURE, MEDIA AND SPORT | LEADER OF THE HOUSE | HOUSE OF COMMONS COMMISSION | Business of the House | Points of Order | Opposition Day — [12th Allotted Day firs | CONSOLIDATED FUND (APPROPRIATION) (NO.2) | PETITION — Rail Services (Melksham, Wilt"
+2011-03-08,debates2011-03-08c.xml,0,0,no PMQs section found,HEALTH | NEW MEMBER | Points of Order | Charitable Healthcare Providers (Value A | DELEGATED LEGISLATION | PETITIONS | HUMANITARIAN DISASTERS
+2011-03-09,debates2011-03-09b.xml,32,64,,
+2011-03-10,debates2011-03-10b.xml,0,0,no PMQs section found,TRANSPORT | WOMEN AND EQUALITIES | Business of the House | MOBILE COMMUNICATIONS (INTERCEPTION)
+2011-03-15,debates2011-03-15b.xml,0,0,no PMQs section found,FOREIGN AND COMMONWEALTH OFFICE | Points of Order | Financial Services (Regulation of Deriva | Business of the House | DETENTION OF TERRORIST SUSPECTS (TEMPORA | PETITION — Education Maintenance Allowan | OPERATION ORE (STAFFORDSHIRE)
+2011-03-16,debates2011-03-16b.xml,31,63,,
+2011-03-17,debates2011-03-17c.xml,0,0,no PMQs section found,"ENVIRONMENT, FOOD AND RURAL AFFAIRS | Business of the House | BILL PRESENTED | MEDWAY CITY STATUS"
+2011-03-22,debates2011-03-22b.xml,0,0,no PMQs section found,TREASURY | Points of Order | Dangerous and Reckless Cycling (Offences | PETITION — Sentencing Guidelines (Mansla | ROYAL ASSENT
+2011-03-23,debates2011-03-23c.xml,33,67,,
+2011-03-24,debates2011-03-24b.xml,0,0,no PMQs section found,ENERGY AND CLIMATE CHANGE | Business of the House | Points of Order | BILLS PRESENTED — European Convention on | AMENDMENT OF THE LAW | MATERNITY SERVICES (HASTINGS)
+2011-03-29,debates2011-03-29c.xml,0,0,no PMQs section found,JUSTICE | Points of Order | Ways and Means | AMENDMENT OF THE LAW | 9. CAPITAL ALLOWANCES | 11. HIGH STRENGTH BEER DUTY | 12. TOBACCO PRODUCTS DUTY (RATES) | 19. AGGREGATES LEVY (RATE)
+2011-03-30,debates2011-03-30b.xml,31,65,,
+2011-03-31,debates2011-03-31d.xml,0,0,no PMQs section found,"BUSINESS, INNOVATION AND SKILLS | Business of the House | Points of Order | Police Reform and Social Responsibility  | ZURBARAN PAINTINGS (AUCKLAND CASTLE)"
+2011-04-05,debates2011-04-05c.xml,0,0,no PMQs section found,BUSINESS BEFORE QUESTIONS — NEW WRIT | DEPUTY PRIME MINISTER | ATTORNEY-GENERAL | CHURCH COMMISSIONERS | ELECTORAL COMMISSION COMMITTEE | Points of Order | BILL PRESENTED — Sustainable Energy (Loc | WORK AND PENSIONS
+2011-04-26,debates2011-04-26d.xml,0,0,no PMQs section found,HEALTH | Points of Order | Industrial Relations (Voting Procedures) | FUNERAL PAYMENTS
+2011-04-27,debates2011-04-27f.xml,32,67,,
+2011-04-28,debates2011-04-28d.xml,0,0,no PMQs section found,"CULTURE, MEDIA AND SPORT | LEADER OF THE HOUSE | HOUSE OF COMMONS COMMISSION | LEADER OF THE HOUSE | HOUSE OF COMMONS COMMISSION | Business of the House | Point of Order | London Olympic Games and Paralympic Game"
+2011-05-03,debates2011-05-03c.xml,0,0,no PMQs section found,FOREIGN AND COMMONWEALTH OFFICE | Points of Order | Planning (Green Belt Protection) | PETITION — NHS Reforms | SPECIAL REPRESENTATIVE FOR INTERNATIONAL
+2011-05-04,debates2011-05-04c.xml,32,64,,
+2011-05-05,debates2011-05-05c.xml,0,0,no PMQs section found,TRANSPORT | WOMEN AND EQUALITIES | Business of the House | PORT HEALTH AUTHORITIES
+2011-05-10,debates2011-05-10c.xml,0,0,no PMQs section found,BUSINESS BEFORE QUESTIONS | TREASURY | Point of Order | Lip-reading | ENERGY BILL [LORDS] (PROGRAMME) | ENERGY BILL [LORDS] (MONEY) | ENERGY BILL [LORDS] (WAYS AND MEANS) | DELEGATED LEGISLATION
+2011-05-11,debates2011-05-11d.xml,28,58,,
+2011-05-12,debates2011-05-12d.xml,0,0,no PMQs section found,"ENVIRONMENT, FOOD AND RURAL AFFAIRS | ELECTORAL COMMISSION COMMITTEE | CHURCH COMMISSIONERS | ELECTORAL COMMISSION COMMITTEE | CHURCH COMMISSIONERS | PUBLIC ACCOUNTS COMMISSION | Business of the House | Points of Order"
+2011-05-17,debates2011-05-17c.xml,0,0,no PMQs section found,JUSTICE | LOCALISM BILL (WAYS AND MEANS) | PUBLIC HEALTH OBSERVATORIES
+2011-05-18,debates2011-05-18c.xml,31,65,,
+2011-05-19,debates2011-05-19c.xml,0,0,no PMQs section found,ENERGY AND CLIMATE CHANGE | Business of the House | Points of Order | Backbench Business — [27th Allotted Day] | Business of the House | EAST COAST MAIN LINE CALL CENTRE
+2011-05-24,debates2011-05-24b.xml,0,0,no PMQs section found,DEPUTY PRIME MINISTER | ATTORNEY-GENERAL | Points of Order | Autism (Quality Standards) | ROYAL ASSENT | JUSTICE | FOREIGN AND COMMONWEALTH OFFICE | EUROPEAN UNION DOCUMENTS
+2011-06-07,debates2011-06-07c.xml,0,0,no PMQs section found,HEALTH | TERRORISM PREVENTION AND INVESTIGATION M | TERRORISM PREVENTION AND INVESTIGATION M | CARE SERVICES (OLDER PEOPLE)
+2011-06-08,debates2011-06-08b.xml,28,57,,
+2011-06-09,debates2011-06-09b.xml,0,0,no PMQs section found,"BUSINESS, INNOVATION AND SKILLS | Business of the House | POSTAL SERVICES BILL (PROGRAMME) (NO. 2) | CANNABIS AND PSYCHOSIS (YOUNG PEOPLE)"
+2011-06-14,debates2011-06-14c.xml,0,0,no PMQs section found,FOREIGN AND COMMONWEALTH OFFICE | Point of Order | Private Landlords (Register and Duties) | ARMED FORCES BILL (PROGRAMME) (NO. 2) | PETITION — McMillan Daycare Nursery (Hul | HOSPITAL FOOD
+2011-06-15,debates2011-06-15b.xml,29,63,,
+2011-06-16,debates2011-06-16c.xml,0,0,no PMQs section found,"CULTURE, MEDIA AND SPORT | HOUSE OF COMMONS COMMISSION | LEADER OF THE HOUSE | Opposition Day Debates | HOUSE OF COMMONS COMMISSION | LEADER OF THE HOUSE | Business of the House | ECONOMIC REGENERATION (BARNSLEY)"
+2011-06-21,debates2011-06-21b.xml,0,0,no PMQs section found,"TREASURY | Points of Order | BILL PRESENTED — Legal Aid, Sentencing a | VOLUNTEERING"
+2011-06-22,debates2011-06-22c.xml,32,70,,
+2011-06-23,debates2011-06-23b.xml,0,0,no PMQs section found,TRANSPORT | WOMEN AND EQUALITIES | Business of the House | Points of Order | Backbench Business — [29th Allotted Day] | BUSINESS OF THE HOUSE (FINANCE (NO. 3) B | DENTAL BLEACHING
+2011-06-28,debates2011-06-28a.xml,0,0,no PMQs section found,JUSTICE | Point of Order | Bail (Amendment) | New Clause 10 — VAT | PETITION — Leave to Remain (Sam Fontana  | EMPLOYMENT (LIVINGSTON)
+2011-06-29,debates2011-06-29a.xml,33,66,,
+2011-06-30,debates2011-06-30b.xml,0,0,no PMQs section found,"ENVIRONMENT, FOOD AND RURAL AFFAIRS | CHURCH COMMISSIONERS | Business of the House | Points of Order | Civil List | LIVERPOOL PASSPORT OFFICE"
+2011-07-05,debates2011-07-05a.xml,0,0,no PMQs section found,DEPUTY PRIME MINISTER | ATTORNEY-GENERAL | Points of Order | BILL PRESENTED — Police (detention and b | BUSINESS OF THE HOUSE (POLICE (DETENTION | BUSINESS OF THE HOUSE (SOVEREIGN GRANT B | COMMITTEE ON MEMBERS’ ALLOWANCES | PAY FOR CHAIRS OF SELECT COMMITTEES
+2011-07-06,debates2011-07-06b.xml,26,54,,
+2011-07-07,debates2011-07-07a.xml,0,0,no PMQs section found,ENERGY AND CLIMATE CHANGE | Business of the House | SUPPLY AND APPROPRIATION (MAIN ESTIMATES | Business of the House (Police (Detention | PETITION — Barnett Formula | IAN PUDDICK (INTERNET CRIME)
+2011-07-12,debates2011-07-12c.xml,0,0,no PMQs section found,HEALTH | Points of Order | National Debt Cap | ROYAL ASSENT | PUBLIC BODIES BILL [LORDS] (MONEY) | PUBLIC BODIES BILL [LORDS] (WAYS AND MEA | DELEGATED LEGISLATION | YOUTH UNEMPLOYMENT (WALSALL)
+2011-07-13,debates2011-07-13b.xml,107,216,,
+2011-07-14,debates2011-07-14b.xml,0,0,no PMQs section found,"BUSINESS BEFORE QUESTIONS | BUSINESS, INNOVATION AND SKILLS | Business of the House | Points of Order | BILL PRESENTED — Cycles (protective Head | Business of the House (18 July) | DELEGATED LEGISLATION | PETITION — High Speed Rail"
+2011-07-19,debates2011-07-19a.xml,0,0,no PMQs section found,"FOREIGN AND COMMONWEALTH OFFICE | Point of Order | School Funding Reform | ROYAL ASSENT | Point of Order | Betting Shops | CULTURE, MEDIA AND SPORT | PETITIONS"
+2011-07-20,debates2011-07-20a.xml,0,437,"PM not found: possibly a stand-in, excluded",David Cameron x105 | Edward Miliband x25 | Several hon. Members x14 | John Whittingdale x10
+2011-08-11,debates2011-08-11a.xml,0,130,"PM not found: possibly a stand-in, excluded",Theresa May x29 | Yvette Cooper x17 | Several hon. Members x7 | Gavin Barwell x4
+2011-09-06,debates2011-09-06a.xml,0,0,no PMQs section found,BUSINESS BEFORE QUESTIONS | TREASURY | VAT | NORTHERN IRELAND GRAND COMMITTEE | METAL THEFTS (ELECTRICITY INDUSTRY)
+2011-09-07,debates2011-09-07b.xml,33,68,,
+2011-09-08,debates2011-09-08b.xml,0,0,no PMQs section found,"CULTURE, MEDIA AND SPORT | HOUSE OF COMMONS COMMISSION | LEADER OF THE HOUSE | Business of the House | Point of Order | London Olympic Games and Paralympic Game | SENTENCING (CAMERON ROSS)"
+2011-09-13,debates2011-09-13a.xml,0,0,no PMQs section found,BUSINESS BEFORE QUESTIONS | JUSTICE | Points of Order | Motor Insurance Regulation | Opposition Day — [20th Allotted Day] | PETITIONS | MICROGRAVITY RESEARCH
+2011-09-14,debates2011-09-14b.xml,32,67,,
+2011-09-15,debates2011-09-15b.xml,0,0,no PMQs section found,TRANSPORT | WOMEN AND EQUALITIES | Business of the House | Point of Order | ROYAL ASSENT | Backbench Business — [31st Allotted Day] | DELEGATED LEGISLATION | ROYAL BRITISH LEGION (PRINCES RISBOROUGH
+2011-10-11,debates2011-10-11b.xml,0,0,no PMQs section found,BUSINESS BEFORE QUESTIONS | DEPUTY PRIME MINISTER | ATTORNEY-GENERAL | Points of Order | Co-operative Housing Tenure Bill | deferred divisions | DELEGATED LEGISLATION | business of the House (13 October)
+2011-10-12,debates2011-10-12a.xml,31,63,,
+2011-10-13,debates2011-10-13b.xml,0,48,"PM not found: possibly a stand-in, excluded",James Gray x9 | Chris Bryant x8 | David Heath x4 | Kevin Brennan x3
+2011-10-18,debates2011-10-18b.xml,0,0,no PMQs section found,HEALTH | Point of Order | ROYAL ASSENT | Concessionary Bus Travel (Amendment) | PETITIONS | MARINE MANAGEMENT ORGANISATION
+2011-10-19,debates2011-10-19b.xml,32,69,,
+2011-10-20,debates2011-10-20a.xml,0,226,"PM not found: possibly a stand-in, excluded",Greg Clark x24 | Hilary Benn x15 | Nick Raynsford x9 | Geoffrey Clifton-Brown x8
+2011-10-25,debates2011-10-25b.xml,0,0,no PMQs section found,BUSINESS BEFORE QUESTIONS | FOREIGN AND COMMONWEALTH OFFICE | BUSINESS OF THE HOUSE (26 OCTOBER) | PETITION — Wharfedale Hospital Ward 1 (O | CONSTITUTIONAL STATUS (SCOTLAND)
+2011-10-26,debates2011-10-26a.xml,34,68,,
+2011-10-27,debates2011-10-27c.xml,0,0,no PMQs section found,"BUSINESS BEFORE QUESTIONS | BUSINESS, INNOVATION AND SKILLS | Business of the House | Points of Order | Council of Europe (UK Chairmanship) | BAE SYSTEMS (LANCASHIRE)"
+2011-11-01,debates2011-11-01d.xml,0,1,"PM not found: possibly a stand-in, excluded",Meg Hillier x1
+2011-11-02,debates2011-11-02a.xml,31,64,,
+2011-11-03,debates2011-11-03a.xml,0,0,no PMQs section found,"CULTURE, MEDIA AND SPORT | LEADER OF THE HOUSE | Business of the House | ROYAL ASSENT | BILL PRESENTED | FEMALE GENITAL MUTILATION"
+2011-11-08,debates2011-11-08b.xml,0,0,no PMQs section found,BUSINESS BEFORE QUESTIONS | JUSTICE | Points of Order | Internet Regulation (Material Inciting G | DELEGATED LEGISLATION | EUROPEAN UNION DOCUMENTS | DELEGATED LEGISLATION | YEMEN
+2011-11-09,debates2011-11-09a.xml,28,57,,
+2011-11-10,debates2011-11-10b.xml,0,0,no PMQs section found,TRANSPORT | WOMEN AND EQUALITIES | Business of the House | Point of Order | Armed Forces Personnel | PETITION — Dartford Crossing | WOODHAVEN HOSPITAL
+2011-11-15,debates2011-11-15b.xml,0,224,"PM not found: possibly a stand-in, excluded",Chloe Smith x13 | Owen Smith x11 | Fiona O'Donnell x10 | Michael McCann x8
+2011-11-22,debates2011-11-22b.xml,0,0,no PMQs section found,BUSINESS BEFORE QUESTIONS | HEALTH | Opposition Day — [12th Allotted Day – Se | PETITION — Boundary Changes (Edmonton) | IMMIGRATION (STRANRAER/CAIRNRYAN)
+2011-11-23,debates2011-11-23b.xml,26,56,,
+2011-11-24,debates2011-11-24a.xml,0,0,no PMQs section found,"BUSINESS BEFORE QUESTIONS | ENVIRONMENT, FOOD AND RURAL AFFAIRS | CHURCH COMMISSIONERS | PUBLIC ACCOUNTS COMMISSION | CHURCH COMMISSIONERS | Business of the House | Points of Order | Backbench Business — [Un-allotted Day]"
+2011-11-29,debates2011-11-29a.xml,0,0,no PMQs section found,BUSINESS BEFORE QUESTIONS | FOREIGN AND COMMONWEALTH OFFICE | Points of order | Electoral Register (Access to Public Ser | LONDON OLYMPIC GAMES AND PARALYMPIC GAME | EMPTY HOMES
+2011-11-30,debates2011-11-30b.xml,28,65,,
+2011-12-01,debates2011-12-01b.xml,0,0,no PMQs section found,ENERGY AND CLIMATE CHANGE | Business of the House | Point of Order | Backbench Business | Business of the House (7 December) | BUSINESS OF THE HOUSE (8 DECEMBER) | PHENYLKETONURIA (KUVAN)
+2011-12-06,debates2011-12-06b.xml,0,0,no PMQs section found,BUSINESS BEFORE QUESTIONS | CHANCELLOR OF THE EXCHEQUER | business of the house | SHORT-LIFE HOMES (LAMBETH)
+2011-12-07,debates2011-12-07a.xml,32,68,,
+2011-12-08,debates2011-12-08a.xml,0,0,no PMQs section found,"BUSINESS, INNOVATION AND SKILLS | Business of the House | Opposition Day | LOW DOSE NALTREXONE"
+2011-12-13,debates2011-12-13a.xml,0,0,no PMQs section found,"BUSINESS BEFORE QUESTIONS | JUSTICE | Points of Order | BILL PRESENTED — Passive Flue Gas System | CHARITIES BILL [LORDS] | Opposition Day | PETITION — Royal Mail Delivery Office, K | ILLEGAL MUSIC DOWNLOADING"
+2011-12-14,debates2011-12-14a.xml,31,66,,1 questioners unmatched
+2011-12-15,debates2011-12-15a.xml,0,32,"PM not found: possibly a stand-in, excluded",George Young x16 | Derek Twigg x1 | Rob Wilson x1 | Barry Gardiner x1
+2011-12-20,debates2011-12-20b.xml,0,0,no PMQs section found,"BUSINESS BEFORE QUESTIONS | DEPUTY PRIME MINISTER | ATTORNEY-GENERAL | Points of Order | National Health Service (Right to Treatm | BUSINESS, INNOVATION AND SKILLS | COMMUNITIES AND LOCAL GOVERNMENT | ENERGY AND CLIMATE CHANGE"
