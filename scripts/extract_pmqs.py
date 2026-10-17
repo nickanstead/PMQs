@@ -86,7 +86,9 @@ QUESTION_NUMBER = re.compile(r"^\s*(Q\d+\.?\s*)?(\[\d+\]\s*)?")
 _index_html = None
 
 
-def fetch(url, tries=3):
+def fetch(url, tries=5):
+    """Download with patient retries: mySociety's server sometimes returns
+    503 (busy), so back off for 30s, 60s, 90s... before giving up."""
     for attempt in range(tries):
         try:
             req = urllib.request.Request(url, headers=HEADERS)
@@ -95,7 +97,7 @@ def fetch(url, tries=3):
         except Exception:
             if attempt == tries - 1:
                 raise
-            time.sleep(10 * (attempt + 1))
+            time.sleep(30 * (attempt + 1))
 
 
 def lookup(table, date):
@@ -159,7 +161,14 @@ def day_files(year):
     return [(d, latest[d][0]) for d in sorted(latest)]
 
 
+ASKED_PM = re.compile(r"asked the prime minister", re.I)
+
+
 def pmqs_speeches(root):
+    """Speeches inside questions to the PM. A section starts at a heading
+    mentioning the PM or engagements, or (for older Hansard, where headings
+    name the topic) at a tabled question that 'asked the Prime Minister'.
+    It ends at the next major heading that is neither."""
     inside, out = False, []
     for el in root:
         if el.tag in ("major-heading", "minor-heading"):
@@ -168,8 +177,11 @@ def pmqs_speeches(root):
                 inside = True
             elif el.tag == "major-heading":
                 inside = False
-        elif el.tag == "speech" and inside and el.get("nospeaker") != "true":
-            out.append(el)
+        elif el.tag == "speech" and el.get("nospeaker") != "true":
+            if not inside and ASKED_PM.search(text_of(el)[:300]):
+                inside = True
+            if inside:
+                out.append(el)
     return out
 
 
@@ -188,25 +200,40 @@ def process_day(date, xml_bytes, people):
             continue
         speeches.append((name, pid, text_of(el)))
     if not speeches:
-        return [], {"pmqs_speeches": 0, "note": "no PMQs section found"}
+        headings = [text_of(h)[:40] for h in root if h.tag == "major-heading"][:8]
+        return [], {"pmqs_speeches": 0, "note": "no PMQs section found",
+                    "detail": " | ".join(headings)}
 
     # The PM is the most frequent speaker whose name matches their surname.
     # Requiring 30% of speeches stops a namesake MP being picked on days
     # when a deputy stands in.
     surname_re = re.compile(rf"\b{re.escape(surname)}\b", re.I)
+    # Older files may lack IDs, so identify speakers by ID or, failing that, by name.
+    def key(name, pid):
+        return pid or name.lower()
+
+    def titled_pm(name):
+        lowered = name.lower()
+        return "prime minister" in lowered and "deputy" not in lowered
+
     candidates = Counter(pid for name, pid, _ in speeches if pid and surname_re.search(name))
     pm_pid = None
     if candidates:
         top, n = candidates.most_common(1)[0]
         if n >= 0.3 * len(speeches):
             pm_pid = top
-    if pm_pid is None:
-        return [], {"pmqs_speeches": len(speeches),
-                    "note": "PM not found: possibly a stand-in, excluded"}
 
     def is_pm(name, pid):
-        lowered = name.lower()
-        return pid == pm_pid or ("prime minister" in lowered and "deputy" not in lowered)
+        # Surname alone is trusted only when there is no ID, as in older files;
+        # otherwise a namesake (e.g. Diana Johnson under Boris Johnson) would match.
+        return ((pm_pid is not None and pid == pm_pid) or titled_pm(name)
+                or (not pid and bool(surname_re.search(name))))
+
+    if sum(is_pm(name, pid) for name, pid, _ in speeches) < 0.3 * len(speeches):
+        names = Counter(name for name, _, _ in speeches).most_common(4)
+        return [], {"pmqs_speeches": len(speeches),
+                    "note": "PM not found: possibly a stand-in, excluded",
+                    "detail": " | ".join(f"{n} x{c}" for n, c in names)}
 
     # Pair each MP's speech with the PM's next reply.
     exchanges, pending = [], None
@@ -220,7 +247,7 @@ def process_day(date, xml_bytes, people):
                 exchanges[-1]["answer"] += " " + text  # answer resumed after interruption
         else:
             text = QUESTION_NUMBER.sub("", text)
-            if pending and pending[1] == pid:
+            if pending and key(pending[0], pending[1]) == key(name, pid):
                 pending = (pending[0], pending[1], pending[2] + " " + text)
             else:
                 pending = (name, pid, text)  # an unanswered earlier speech is dropped
@@ -259,7 +286,9 @@ def process_day(date, xml_bytes, people):
             "q_words": len(e["question"].split()), "a_words": len(e["answer"].split()),
             "question": e["question"], "answer": e["answer"],
         })
-    return rows, {"pmqs_speeches": len(speeches), "note": ""}
+    unknown = sum(1 for r in rows if r["q_role"] == "unknown")
+    return rows, {"pmqs_speeches": len(speeches), "note": "",
+                  "detail": f"{unknown} questioners unmatched" if unknown else ""}
 
 
 def process_year(year, people):
@@ -271,6 +300,10 @@ def process_year(year, people):
             day_rows, info = process_day(date, fetch(BASE + fname), people)
         except ET.ParseError as err:
             day_rows, info = [], {"pmqs_speeches": "", "note": f"XML parse error: {err}"}
+        except Exception as err:
+            # One failed download no longer stops the run; the year is
+            # flagged and redone automatically next time.
+            day_rows, info = [], {"pmqs_speeches": "", "note": f"download failed: {err}"}
         rows.extend(day_rows)
         diag.append({"date": date, "file": fname, "exchanges": len(day_rows), **info})
         time.sleep(0.5)  # be polite to mySociety's server
@@ -287,7 +320,15 @@ def write_csv(path, rows, fields):
 
 ROW_FIELDS = ["exchange_id", "date", "pm", "sequence", "q_name", "q_pid", "q_party",
               "q_role", "is_formula", "q_words", "a_words", "question", "answer"]
-DIAG_FIELDS = ["date", "file", "exchanges", "pmqs_speeches", "note"]
+DIAG_FIELDS = ["date", "file", "exchanges", "pmqs_speeches", "note", "detail"]
+
+
+def year_complete(year):
+    """A past year counts as done only if it had no failed downloads."""
+    diag = DIAG_DIR / f"{year}.csv"
+    if not (OUT_DIR / f"{year}.csv").exists() or not diag.exists():
+        return False
+    return "download failed" not in diag.read_text(encoding="utf-8")
 
 
 def main():
@@ -299,7 +340,7 @@ def main():
     people = load_people()
     for year in range(start, end + 1):
         out = OUT_DIR / f"{year}.csv"
-        if out.exists() and year < this_year and not force:
+        if year < this_year and not force and year_complete(year):
             print(f"{year}: already done, skipping")
             continue
         rows, diag = process_year(year, people)
