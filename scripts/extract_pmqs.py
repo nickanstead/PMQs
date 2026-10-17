@@ -217,6 +217,9 @@ def day_files(year):
     return files
 
 
+ASKED_PM = re.compile(r"(asked|to ask) the prime minister", re.I)
+
+
 def pmqs_speeches(root):
     """Speeches inside questions to the PM. A section starts at a heading
     mentioning the PM or engagements, or at a tabled question that 'asked'
@@ -358,13 +361,17 @@ def process_year(year, people):
         if pm_for(date)[0] is None:
             continue
         try:
-            day_rows, info = process_day(date, fetch(BASE + fname), people)
-        except ET.ParseError as err:
-            day_rows, info = [], {"pmqs_speeches": "", "note": f"XML parse error: {err}"}
+            xml_bytes = fetch(BASE + fname)
         except Exception as err:
             # One failed download no longer stops the run; the year is
             # flagged and redone automatically next time.
-            day_rows, info = [], {"pmqs_speeches": "", "note": f"download failed: {err}"}
+            diag.append({"date": date, "file": fname, "exchanges": 0,
+                         "pmqs_speeches": "", "note": f"download failed: {err}"})
+            continue
+        try:
+            day_rows, info = process_day(date, xml_bytes, people)
+        except ET.ParseError as err:
+            day_rows, info = [], {"pmqs_speeches": "", "note": f"XML parse error: {err}"}
         rows.extend(day_rows)
         diag.append({"date": date, "file": fname, "exchanges": len(day_rows), **info})
         time.sleep(0.5)  # be polite to mySociety's server
