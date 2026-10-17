@@ -1,0 +1,42 @@
+name: Resolve ambiguous names (Historic Hansard)
+
+on:
+  workflow_dispatch:
+    inputs:
+      minutes:
+        description: "Time limit in minutes (run again to continue)"
+        default: "300"
+      check_only:
+        description: "Only run the self-check"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  resolve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Look up ambiguous questioners
+        run: python -u scripts/resolve_names.py --minutes ${{ github.event.inputs.minutes }} ${{ github.event.inputs.check_only == 'true' && '--check-only' || '' }}
+
+      - name: Apply matches to the data
+        if: always()
+        run: python -u scripts/enrich_parties.py
+
+      - name: Commit
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/pmqs data/reference
+          git diff --cached --quiet || git commit -m "Resolve ambiguous names via Historic Hansard"
+          git push
