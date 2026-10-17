@@ -161,22 +161,21 @@ def day_files(year):
     return [(d, latest[d][0]) for d in sorted(latest)]
 
 
-ASKED_PM = re.compile(r"asked the prime minister", re.I)
+ASKED_PM = re.compile(r"(asked|to ask) the prime minister", re.I)
 
 
 def pmqs_speeches(root):
     """Speeches inside questions to the PM. A section starts at a heading
-    mentioning the PM or engagements, or (for older Hansard, where headings
-    name the topic) at a tabled question that 'asked the Prime Minister'.
-    It ends at the next major heading that is neither."""
+    mentioning the PM or engagements, or at a tabled question that 'asked'
+    (or is 'To ask') the Prime Minister, as in older Hansard where headings
+    name the topic. It ends at the next heading that is neither, so that a
+    following statement or debate is not swept in; a later question to the
+    PM under a topic heading reopens it."""
     inside, out = False, []
     for el in root:
         if el.tag in ("major-heading", "minor-heading"):
             heading = text_of(el)
-            if PM_HEADING.search(heading) and not NOT_PM_HEADING.search(heading):
-                inside = True
-            elif el.tag == "major-heading":
-                inside = False
+            inside = bool(PM_HEADING.search(heading) and not NOT_PM_HEADING.search(heading))
         elif el.tag == "speech" and el.get("nospeaker") != "true":
             if not inside and ASKED_PM.search(text_of(el)[:300]):
                 inside = True
@@ -192,7 +191,13 @@ def process_day(date, xml_bytes, people):
 
     speeches = []
     for el in pmqs_speeches(root):
-        name = el.get("speakername", "")
+        name = el.get("speakername", "").strip()
+        if not name and not el.get("person_id") and not el.get("speakerid"):
+            # Unnamed speech: in older Hansard, the same speaker continuing.
+            if speeches:
+                speeches[-1] = (speeches[-1][0], speeches[-1][1],
+                                speeches[-1][2] + " " + text_of(el))
+            continue
         pid = el.get("person_id") or member_to_person.get(el.get("speakerid", ""), "")
         # The Speaker's interventions are neither questions nor answers. Modern
         # files name the Speaker personally ("Lindsay Hoyle"), so check party too.
@@ -293,7 +298,10 @@ def process_day(date, xml_bytes, people):
 
 def process_year(year, people):
     rows, diag = [], []
-    for date, fname in day_files(year):
+    files = day_files(year)
+    if not files:
+        print(f"{year}: WARNING no files found in the TheyWorkForYou index")
+    for date, fname in files:
         if pm_for(date)[0] is None:
             continue
         try:
