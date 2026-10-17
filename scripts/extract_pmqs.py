@@ -21,6 +21,7 @@ import json
 import re
 import sys
 import time
+import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
 from collections import Counter
@@ -145,23 +146,75 @@ def party_on(by_person, pid, date):
     return ""
 
 
+def exists(url, tries=4):
+    """True if a file is on the server, False on 404; retries if busy."""
+    for attempt in range(tries):
+        try:
+            req = urllib.request.Request(url, headers=HEADERS, method="HEAD")
+            with urllib.request.urlopen(req, timeout=60):
+                return True
+        except urllib.error.HTTPError as err:
+            if err.code == 404:
+                return False
+            if err.code == 405:  # server refuses HEAD requests: ask for the file itself
+                try:
+                    fetch(url, tries=1)
+                    return True
+                except urllib.error.HTTPError as err2:
+                    if err2.code == 404:
+                        return False
+            if attempt == tries - 1:
+                raise
+        except Exception:
+            if attempt == tries - 1:
+                raise
+        time.sleep(30 * (attempt + 1))
+
+
+def probe_files(year):
+    """Find a year's files by asking for each one directly: for every
+    Tuesday-Thursday, try version a, then b, c... and keep the last that exists."""
+    found = []
+    day = dt.date(year, 1, 1)
+    while day.year == year:
+        if day.weekday() in (1, 2, 3) and pm_for(day.isoformat())[0]:
+            latest = None
+            for letter in "abcdefgh":
+                fname = f"debates{day.isoformat()}{letter}.xml"
+                if not exists(BASE + fname):
+                    break
+                latest = fname
+                time.sleep(0.2)
+            if latest:
+                found.append((day.isoformat(), latest))
+            time.sleep(0.2)
+        day += dt.timedelta(days=1)
+    return found
+
+
 def day_files(year):
     """Latest version of each Tuesday-Thursday debates file in a year.
-    PMQs has been on Wednesdays since 1997 and Tuesdays/Thursdays before."""
+    PMQs has been on Wednesdays since 1997 and Tuesdays/Thursdays before.
+    Uses the server's file index; if that lists suspiciously few files for
+    the year, checks for each day's file directly instead."""
     global _index_html
     if _index_html is None:
         _index_html = fetch(BASE).decode("utf-8", "replace")
     latest = {}
-    pattern = rf'href="(debates({year}-\d\d-\d\d)([a-z])\.xml)"'
+    pattern = rf"(debates({year}-\d\d-\d\d)([a-z]?)\.xml)"
     for fname, date, letter in re.findall(pattern, _index_html):
         if dt.date.fromisoformat(date).weekday() not in (1, 2, 3):
             continue
         if date not in latest or letter > latest[date][1]:
             latest[date] = (fname, letter)
-    return [(d, latest[d][0]) for d in sorted(latest)]
-
-
-ASKED_PM = re.compile(r"(asked|to ask) the prime minister", re.I)
+    files = [(d, latest[d][0]) for d in sorted(latest)]
+    if len(files) < 60:  # a normal year has 90+ Tuesday-Thursday sitting days
+        print(f"{year}: index lists only {len(files)} files; checking each day directly")
+        probed = probe_files(year)
+        print(f"{year}: direct check found {len(probed)} files")
+        if len(probed) > len(files):
+            files = probed
+    return files
 
 
 def pmqs_speeches(root):
