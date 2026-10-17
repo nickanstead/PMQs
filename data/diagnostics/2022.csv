@@ -1,107 +1,107 @@
-date,file,exchanges,pmqs_speeches,note
-2022-01-05,debates2022-01-05c.xml,28,57,
-2022-01-06,debates2022-01-06b.xml,0,0,no PMQs section found
-2022-01-11,debates2022-01-11b.xml,0,0,no PMQs section found
-2022-01-12,debates2022-01-12b.xml,35,71,
-2022-01-13,debates2022-01-13d.xml,0,0,no PMQs section found
-2022-01-18,debates2022-01-18b.xml,0,0,no PMQs section found
-2022-01-19,debates2022-01-19b.xml,27,61,
-2022-01-20,debates2022-01-20b.xml,0,0,no PMQs section found
-2022-01-25,debates2022-01-25e.xml,0,0,no PMQs section found
-2022-01-26,debates2022-01-26b.xml,25,55,
-2022-01-27,debates2022-01-27b.xml,0,0,no PMQs section found
-2022-02-01,debates2022-02-01c.xml,0,0,no PMQs section found
-2022-02-02,debates2022-02-02d.xml,26,52,
-2022-02-03,debates2022-02-03c.xml,0,0,no PMQs section found
-2022-02-08,debates2022-02-08a.xml,0,0,no PMQs section found
-2022-02-09,debates2022-02-09b.xml,27,55,
-2022-02-10,debates2022-02-10b.xml,0,0,no PMQs section found
-2022-02-22,debates2022-02-22b.xml,0,0,no PMQs section found
-2022-02-23,debates2022-02-23a.xml,28,59,
-2022-02-24,debates2022-02-24c.xml,0,36,"PM not found: possibly a stand-in, excluded"
-2022-03-01,debates2022-03-01d.xml,0,0,no PMQs section found
-2022-03-02,debates2022-03-02a.xml,28,56,
-2022-03-03,debates2022-03-03a.xml,0,0,no PMQs section found
-2022-03-08,debates2022-03-08c.xml,0,0,no PMQs section found
-2022-03-09,debates2022-03-09b.xml,28,56,
-2022-03-10,debates2022-03-10d.xml,0,0,no PMQs section found
-2022-03-15,debates2022-03-15c.xml,0,0,no PMQs section found
-2022-03-16,debates2022-03-16b.xml,0,61,"PM not found: possibly a stand-in, excluded"
-2022-03-17,debates2022-03-17b.xml,0,0,no PMQs section found
-2022-03-22,debates2022-03-22e.xml,0,0,no PMQs section found
-2022-03-23,debates2022-03-23c.xml,32,64,
-2022-03-24,debates2022-03-24c.xml,0,0,no PMQs section found
-2022-03-29,debates2022-03-29b.xml,0,0,no PMQs section found
-2022-03-30,debates2022-03-30b.xml,31,64,
-2022-03-31,debates2022-03-31b.xml,0,0,no PMQs section found
-2022-04-19,debates2022-04-19a.xml,0,0,no PMQs section found
-2022-04-20,debates2022-04-20c.xml,33,72,
-2022-04-21,debates2022-04-21b.xml,0,204,"PM not found: possibly a stand-in, excluded"
-2022-04-26,debates2022-04-26c.xml,0,74,"PM not found: possibly a stand-in, excluded"
-2022-04-27,debates2022-04-27a.xml,27,57,
-2022-04-28,debates2022-04-28c.xml,0,0,no PMQs section found
-2022-05-10,debates2022-05-10b.xml,0,0,no PMQs section found
-2022-05-11,debates2022-05-11b.xml,0,0,no PMQs section found
-2022-05-12,debates2022-05-12b.xml,0,0,no PMQs section found
-2022-05-17,debates2022-05-17d.xml,0,0,no PMQs section found
-2022-05-18,debates2022-05-18b.xml,25,51,
-2022-05-19,debates2022-05-19a.xml,0,0,no PMQs section found
-2022-05-24,debates2022-05-24a.xml,0,0,no PMQs section found
-2022-05-25,debates2022-05-25a.xml,29,62,
-2022-05-26,debates2022-05-26a.xml,0,0,no PMQs section found
-2022-06-07,debates2022-06-07c.xml,0,0,no PMQs section found
-2022-06-08,debates2022-06-08c.xml,26,55,
-2022-06-09,debates2022-06-09c.xml,0,0,no PMQs section found
-2022-06-14,debates2022-06-14d.xml,0,0,no PMQs section found
-2022-06-15,debates2022-06-15b.xml,26,67,
-2022-06-16,debates2022-06-16a.xml,0,0,no PMQs section found
-2022-06-21,debates2022-06-21b.xml,0,0,no PMQs section found
-2022-06-22,debates2022-06-22b.xml,27,57,
-2022-06-23,debates2022-06-23c.xml,0,0,no PMQs section found
-2022-06-28,debates2022-06-28b.xml,0,0,no PMQs section found
-2022-06-29,debates2022-06-29b.xml,0,57,"PM not found: possibly a stand-in, excluded"
-2022-06-30,debates2022-06-30b.xml,0,0,no PMQs section found
-2022-07-05,debates2022-07-05c.xml,0,0,no PMQs section found
-2022-07-06,debates2022-07-06b.xml,29,59,
-2022-07-07,debates2022-07-07a.xml,0,37,"PM not found: possibly a stand-in, excluded"
-2022-07-12,debates2022-07-12e.xml,0,0,no PMQs section found
-2022-07-13,debates2022-07-13c.xml,28,63,
-2022-07-14,debates2022-07-14b.xml,0,0,no PMQs section found
-2022-07-19,debates2022-07-19a.xml,0,0,no PMQs section found
-2022-07-20,debates2022-07-20b.xml,35,72,
-2022-07-21,debates2022-07-21b.xml,0,0,no PMQs section found
-2022-09-06,debates2022-09-06d.xml,0,94,"PM not found: possibly a stand-in, excluded"
-2022-09-07,debates2022-09-07c.xml,32,67,
-2022-09-08,debates2022-09-08b.xml,0,0,no PMQs section found
-2022-09-21,debates2022-09-21a.xml,0,0,no PMQs section found
-2022-09-22,debates2022-09-22a.xml,0,0,no PMQs section found
-2022-10-11,debates2022-10-11b.xml,0,0,no PMQs section found
-2022-10-12,debates2022-10-12b.xml,30,62,
-2022-10-13,debates2022-10-13a.xml,0,0,no PMQs section found
-2022-10-18,debates2022-10-18c.xml,0,0,no PMQs section found
-2022-10-19,debates2022-10-19b.xml,31,64,
-2022-10-20,debates2022-10-20b.xml,0,0,no PMQs section found
-2022-10-25,debates2022-10-25a.xml,0,0,no PMQs section found
-2022-10-26,debates2022-10-26d.xml,27,56,
-2022-10-27,debates2022-10-27c.xml,0,0,no PMQs section found
-2022-11-01,debates2022-11-01a.xml,0,0,no PMQs section found
-2022-11-02,debates2022-11-02a.xml,29,59,
-2022-11-03,debates2022-11-03c.xml,0,0,no PMQs section found
-2022-11-08,debates2022-11-08b.xml,0,0,no PMQs section found
-2022-11-09,debates2022-11-09c.xml,29,61,
-2022-11-15,debates2022-11-15a.xml,0,0,no PMQs section found
-2022-11-16,debates2022-11-16b.xml,0,66,"PM not found: possibly a stand-in, excluded"
-2022-11-17,debates2022-11-17d.xml,0,0,no PMQs section found
-2022-11-22,debates2022-11-22c.xml,0,0,no PMQs section found
-2022-11-23,debates2022-11-23e.xml,27,56,
-2022-11-24,debates2022-11-24b.xml,0,0,no PMQs section found
-2022-11-29,debates2022-11-29a.xml,0,0,no PMQs section found
-2022-11-30,debates2022-11-30d.xml,28,56,
-2022-12-01,debates2022-12-01a.xml,0,0,no PMQs section found
-2022-12-06,debates2022-12-06b.xml,0,0,no PMQs section found
-2022-12-07,debates2022-12-07d.xml,30,60,
-2022-12-08,debates2022-12-08a.xml,0,0,no PMQs section found
-2022-12-13,debates2022-12-13c.xml,0,0,no PMQs section found
-2022-12-14,debates2022-12-14c.xml,30,61,
-2022-12-15,debates2022-12-15b.xml,0,0,no PMQs section found
-2022-12-20,debates2022-12-20a.xml,0,0,no PMQs section found
+date,file,exchanges,pmqs_speeches,note,detail
+2022-01-05,debates2022-01-05c.xml,28,57,,opened by: Engagements; Prime Minister
+2022-01-06,debates2022-01-06b.xml,0,0,no PMQs section found,"Digital, Culture, Media and Sport | Attorney General | Business of the House | Russia | Afghan Citizens Resettlement Scheme | Backbench Business | Russia’s Grand Strategy | Antisemitism: Bristol University"
+2022-01-11,debates2022-01-11b.xml,0,0,no PMQs section found,"Business, Energy and Industrial Strategy | Downing Street Garden Event | Co-operatives (Employee Company Ownershi | Opposition Day - 10th Allotted DayOpposi | Household Energy Bills: VAT | Reducing Costs for Businesses | Business without Debate | Welsh Grand Committee"
+2022-01-12,debates2022-01-12b.xml,35,71,,opened by: Engagements; Prime Minister
+2022-01-13,debates2022-01-13d.xml,0,0,no PMQs section found,Cabinet Office | Underpayment of Benefits: Compensation | Business of the House | Covid-19 Update | Points of Order | Smart Motorways | Transport Committee | Backbench Business
+2022-01-18,debates2022-01-18b.xml,0,0,no PMQs section found,Business before Questions | Health and Social Care | Migrant Crossings: Role of the Military | Coronavirus Grant Schemes: Fraud | English Football League Governance: Derb | Digital Devices (Access for Next of Kin) | Animal Welfare (Sentience) Bill [Lords] | Animal Welfare (Sentience) Bill [Lords] 
+2022-01-19,debates2022-01-19b.xml,27,61,,opened by: Engagements; Prime Minister
+2022-01-20,debates2022-01-20b.xml,0,0,no PMQs section found,International Trade | British Council Staff: Afghanistan | Business of the House | Points of Order | Backbench Business | Uyghur Tribunal Judgment | Lawfare and UK Court System | Mental Health Act 1983: Detention of Peo
+2022-01-25,debates2022-01-25e.xml,0,0,no PMQs section found,"Prayers - [Mr Speaker in the Chair] | Foreign, Commonwealth and Development Of | Downing Street Parties: Police Investiga | Ukraine | Point of Order | Consumer Protection (Double Charging) | Judicial Review and Courts Bill (Program | Judicial Review and Courts Bill"
+2022-01-26,debates2022-01-26b.xml,25,55,,opened by: Engagements; Prime Minister
+2022-01-27,debates2022-01-27b.xml,0,0,no PMQs section found,"Environment, Food and Rural Affairs | Church Commissioners | The hon. Member for South West Bedfordsh | Electoral Commission Committee | The hon. Member for City of Chester, rep | Church Commissioners | The hon. Member for South West Bedfordsh | House of Commons Commission"
+2022-02-01,debates2022-02-01c.xml,0,0,no PMQs section found,Treasury | Points of Order | Social Housing (Emergency Protection of  | Opposition Day - [11th Allotted Day]Oppo | Tackling Fraud and Preventing Government | Oil and Gas Producers: Windfall Tax | Business without Debate | Delegated Legislation
+2022-02-02,debates2022-02-02d.xml,26,52,,opened by: Engagements; Prime Minister
+2022-02-03,debates2022-02-03c.xml,0,0,no PMQs section found,Transport | Business of the House | Economic Update | Covid-19: Purchasing Effort | Northern Ireland Border | Points of Order | Backbench Business | Government’s Education Catch-up and Ment
+2022-02-08,debates2022-02-08a.xml,0,0,no PMQs section found,Speaker’s Statement | Justice | Elective Treatment | Points of Order | Motor Vehicle Tests (Diesel Particulate  | Opposition Day - [12th Allotted Day]Oppo | Cost of Living and Food Insecurity | Royal Assent
+2022-02-09,debates2022-02-09b.xml,27,55,,opened by: Engagements; Prime Minister
+2022-02-10,debates2022-02-10b.xml,0,0,no PMQs section found,"Digital, Culture, Media and Sport | Attorney General | Russia Sanctions Legislation | Government Contracts: Randox Laboratorie | Business of the House | Backbench Business | UK-Taiwan Friendship and Co-operation | Dementia Research in the UK"
+2022-02-22,debates2022-02-22b.xml,0,0,no PMQs section found,"Business before Questions | Business, Energy and Industrial strategy | Ukraine | Points of Order | Bill Presented | Commonwealth Parliamentary Association ( | Charities Bill [Lords] | Public Service Pensions and Judicial Off"
+2022-02-23,debates2022-02-23a.xml,28,59,,opened by: Engagements; Prime Minister
+2022-02-24,debates2022-02-24c.xml,0,0,no PMQs section found,Cabinet Office | Speaker's Statement | Post Office: Horizon Compensation Arrang | Speaker’s Statement | Business of the House | Royal Assent | Higher Education Reform | Points of Order
+2022-03-01,debates2022-03-01d.xml,0,0,no PMQs section found,Speaker’s Statement | Health and Social Care | HMICFRS Recommendations | Ukraine | Points of Order | Bill Presented | Marine Protected Areas (Bottom Trawling) | Business of the House
+2022-03-02,debates2022-03-02a.xml,26,52,,opened by: Engagements; Prime Minister
+2022-03-03,debates2022-03-03a.xml,0,0,no PMQs section found,International Trade | Business of the House | Russia’s Attack on Ukraine | Backbench Business | Welsh Affairs | UK Shipbuilding
+2022-03-08,debates2022-03-08c.xml,0,0,no PMQs section found,"Speaker’s Statement | Foreign, Commonwealth and Development Of | Ukraine: Urgent Refugee Applications | Points of Order | Bills Presented | Institutes of Technology (Royal Charter) | Opposition Day - [15th Allotted Day]Oppo | National Insurance Contributions Increas"
+2022-03-09,debates2022-03-09b.xml,28,56,,opened by: Engagements; Prime Minister
+2022-03-10,debates2022-03-10d.xml,0,0,no PMQs section found,"Environment, Food and Rural Affairs | Electoral Commission Committee | Church Commissioners | Electoral Commission Committee | Church Commissioners | Parliamentary Works Sponsor Body | Refugees from Ukraine | Royal Assent"
+2022-03-15,debates2022-03-15c.xml,0,0,no PMQs section found,Business Before Questions | Treasury | Shale Gas Production | Legal Aid | International Travel | Quad Bikes | Ukraine | Business without Debate
+2022-03-16,debates2022-03-16b.xml,0,61,"PM not found: possibly a stand-in, excluded",Dominic Raab x31 | Angela Rayner x7 | Dean Russell x2 | Ian Blackford x2
+2022-03-17,debates2022-03-17b.xml,0,0,no PMQs section found,Transport | DWP Estate: Office Closures | Speaker’s Statement | Business of the House | Strategic Lawsuits Against Public Partic | Commission on Race and Ethnic Disparitie | Points of Order | Education Catch-Up Programme
+2022-03-22,debates2022-03-22e.xml,0,0,no PMQs section found,Prayers - [Mr Speaker in the Chair] | Justice | Speaker’s Statement | Sub-Postmasters: Compensation | Points of Order | Shared Prosperity Fund (Wales) Bill | Nationality and Borders Bill (Programme) | Consideration of Lords Amendments
+2022-03-23,debates2022-03-23c.xml,32,64,,opened by: Engagements; Prime Minister
+2022-03-24,debates2022-03-24c.xml,0,0,no PMQs section found,"Digital, Culture, Media and Sport | Attorney General | Business of the House | Points of Order | Royal Assent | Bill Presented | National Insurance Contributions (Increa | National Insurance Contributions (Increa"
+2022-03-29,debates2022-03-29b.xml,0,0,no PMQs section found,"Business, Energy and Industrial Strategy | Special Educational Needs and Disabiliti | Covid-19 Vaccine Damage Payments | Business of the House (Today) | Civil Proceedings | Coronavirus Act 2020 (Review of Temporar | Opposition Day - [18th Allotted Day, Fir | Appointment of Lord Lebedev"
+2022-03-30,debates2022-03-30b.xml,31,64,,opened by: Engagements; Prime Minister
+2022-03-31,debates2022-03-31b.xml,0,0,no PMQs section found,Cabinet Office | Rape as a Weapon of War in Ukraine | Royal Assent | Ukraine Refugee Visas | Homes for Ukraine Scheme | Business of the House | Points of Order | Backbench Business
+2022-04-19,debates2022-04-19a.xml,0,0,no PMQs section found,Speaker’s Statement | Health and Social Care | Global Migration Challenge | Easter Recess: Government Update | Energy Security Strategy | Points of Order | Sewage Discharges | Online Safety Bill
+2022-04-20,debates2022-04-20c.xml,30,66,,opened by: Engagements; Prime Minister
+2022-04-21,debates2022-04-21b.xml,0,0,no PMQs section found,International Trade | Business of the House | Points of Order | Referral of Prime Minister to Committee  | Digital Persecution
+2022-04-26,debates2022-04-26c.xml,0,0,no PMQs section found,"Foreign, Commonwealth and Development Of | Prime Minister’s Visit to India | Point of Order | Bill Presented | Whistleblowing | Judicial Review and Courts Bill (Program | Judicial Review and Courts Bill | Business of the House (Today)"
+2022-04-27,debates2022-04-27a.xml,27,57,,opened by: Engagements; Prime Minister
+2022-04-28,debates2022-04-28c.xml,0,0,no PMQs section found,"Business before Questions | Environment, Food and Rural Affairs | Church Commissioners | Electoral Commission Committee | Church Commissioners | Homes for Ukraine: Visa Application Cent | Points of Order | Message to attend the Lords Commissioner"
+2022-05-10,debates2022-05-10b.xml,0,0,no PMQs section found,Message to attend Her Majesty’s Counsell | Outlawries Bill | Queen’s Speech | Debate on the Address | UK Diagnostics Industry and Covid-19 Rec
+2022-05-11,debates2022-05-11b.xml,0,0,no PMQs section found,Speaker’s Statement | Ukraine: UK Military Support | Jim Fitton: Detention in Iraq | Bills Presented | Debate on the Address - 2nd DayDebate on | Preventing Crime and Delivering Justice | Independent Expert Panel | UK Shared Prosperity Fund: Rural Areas
+2022-05-12,debates2022-05-12b.xml,0,0,no PMQs section found,HM Passport Office Backlogs | Hong Kong Arrests Under National Securit | Business Question | Debate on the Address - 3rd DayDebate on | Fairness at Work and Power in Communitie | Safe Hands Funeral Plans
+2022-05-17,debates2022-05-17d.xml,0,0,no PMQs section found,Speaker’s Statement | Treasury | Northern Ireland Protocol | Points of Order | Bill Presented | Debate on the Address - [5th Day]Debate  | Tackling Short-term and Long-term Cost o | Business without Debate
+2022-05-18,debates2022-05-18b.xml,25,51,,opened by: Engagements; Prime Minister
+2022-05-19,debates2022-05-19a.xml,0,0,no PMQs section found,Business Before Questions | Transport | Food Price Inflation | Business of the House | Transport | NATO and International Security | Petition - Waverley Junior Academy | East Suffolk and Wherry Railway Lines
+2022-05-24,debates2022-05-24a.xml,0,0,no PMQs section found,Justice | Xinjiang Internment Camps: Shoot-to-Kill | Nazanin Zaghari-Ratcliffe: Forced Confes | Point of Order | Northern Ireland Troubles (Legacy and Re | Northern Ireland Troubles (Legacy and Re | Northern Ireland Troubles (Legacy and Re | Business without Debate
+2022-05-25,debates2022-05-25a.xml,29,62,,opened by: Engagements; Prime Minister
+2022-05-26,debates2022-05-26a.xml,0,0,no PMQs section found,"Prayers | Digital, Culture, Media and Sport | Attorney General | Evacuations from Afghanistan | Business of the House | Economy Update | Point of Order | Address to Her Majesty: Platinum Jubilee"
+2022-06-07,debates2022-06-07c.xml,0,0,no PMQs section found,"Speaker’s Statement | Business, Energy and Industrial Strategy | Opposition Day - [1st Allotted Day]Oppos | Standards in Public Life | Children’s Education Recovery and Childc | Business without Debate | Delegated Legislation | Great British Railways Headquarters: Sto"
+2022-06-08,debates2022-06-08c.xml,26,55,,opened by: Engagements; Prime Minister
+2022-06-09,debates2022-06-09c.xml,0,0,no PMQs section found,Cabinet Office | Northern Ireland Protocol: First Treasur | Business of the House | Points of Order | Social Housing and Building Safety | Backbench Business | Ofwat: Strategic Priorities | Petition - Barclays Muswell Hill Branch
+2022-06-14,debates2022-06-14d.xml,0,0,no PMQs section found,Speaker's Statement | Health and Social Care | Business of the House | Personal Statement | Opposition Day - 2nd Allotted DayOpposit | HM Passport Office Backlog | Channel 4 Privatisation | Business without Debate
+2022-06-15,debates2022-06-15b.xml,26,67,,opened by: Engagements; Prime Minister
+2022-06-16,debates2022-06-16a.xml,0,0,no PMQs section found,Prayers - [Mr Speaker in the Chair] | International Trade | Independent Adviser on Ministers’ Intere | Business of the House | Ukraine Update | Private Rented Sector | Points of Order | Select Committees and Contempts
+2022-06-21,debates2022-06-21b.xml,0,0,no PMQs section found,"Foreign, Commonwealth and Development Of | Bills Presented | Opposition Day - [3rd Allotted Day]Oppos | Access to GP Services and NHS Dentistry | Adviser on Ministerial Interests | Business without Debate | Delegated LegislatioN | Committees"
+2022-06-22,debates2022-06-22b.xml,27,57,,opened by: Engagements; Prime Minister
+2022-06-23,debates2022-06-23c.xml,0,0,no PMQs section found,"Environment, Food and Rural Affairs | Church Commissioners | Electoral Commission Committee | Church Commissioners | Parliamentary Works Sponsor Body | Church Commissioners | British Council Contractors: Afghanistan | Business of the House"
+2022-06-28,debates2022-06-28b.xml,0,0,no PMQs section found,Treasury | Rape: Criminal Prosecutions | Women’s Rights to Reproductive Healthcar | Elected Representatives (Prohibition of  | Opposition Day - [4th Allotted Day]Oppos | Community Payback | Royal Assent | Community Payback
+2022-06-29,debates2022-06-29b.xml,0,57,"PM not found: possibly a stand-in, excluded",Dominic Raab x28 | Angela Rayner x8 | Andrew Jones x2 | Ian Blackford x2
+2022-06-30,debates2022-06-30b.xml,0,0,no PMQs section found,Transport | Speaker’s Statement | Business of the House | Post Office: Compensation for Horizon Sc | Proxy Voting and Presence of Babies in t | Procedure Committee | Bill Presented | Backbench Business
+2022-07-05,debates2022-07-05c.xml,0,0,no PMQs section found,Justice | Standards in Public Life | Points of Order | Kinship Care | Estimates Day | Department for Work and Pensions | Action on Climate Change and Decarbonisa | Ways and Means
+2022-07-06,debates2022-07-06b.xml,29,59,,opened by: Engagements; Prime Minister
+2022-07-07,debates2022-07-07a.xml,0,0,no PMQs section found,"Digital, Culture, Media and Sport | Attorney General | Speaker’s Statement | Functioning of Government | Prime Minister’s Meeting with Alexander  | Business of the House | Point of Order | Supply and Appropriation (Main Estimates"
+2022-07-12,debates2022-07-12e.xml,0,0,no PMQs section found,"Business, Energy and Industrial Strategy | Points of Order | Pets (Microchips) | Online Safety Bill: Programme (No. 2) | Online Safety Bill | Business of the House (Today) | Restoration and Renewal of the Palace of | Business without Debate"
+2022-07-13,debates2022-07-13c.xml,26,59,,opened by: Engagements; Prime Minister
+2022-07-14,debates2022-07-14b.xml,0,0,no PMQs section found,Business Before Questions | Cabinet Office | British Special Forces in Afghanistan: N | Business of the House | Point of Order | Educational Poverty: Children in Residen | EDUCATION COMMITTEE | Backbench Business
+2022-07-19,debates2022-07-19a.xml,0,0,no PMQs section found,Health and Social Care | Australia-UK Free Trade Agreement: Scrut | Contaminated Blood Scandal: Interim Paym | Supply of Drugs to Children Under 16 (Ag | Northern Ireland Protocol Bill | Business without Debate | Delegated Legislation | Petition - Quarry in Preesall
+2022-07-20,debates2022-07-20b.xml,35,72,,opened by: Engagements; Prime Minister
+2022-07-21,debates2022-07-21b.xml,0,0,no PMQs section found,"Business before Questions | International Trade | Net Zero Strategy: High Court Ruling | Holocaust Memorial and Learning Centre | Business of the House | Points of Order | Channel Crossings, Migration and Asylum | HOME AFFAIRS COMMITTEE"
+2022-09-06,debates2022-09-06d.xml,0,0,no PMQs section found,"Foreign, Commonwealth and Development Of | Sewage Pollution | Point of Order | Bill Presented | Criminal Appeal (Amendment) | Trade (Australia and New Zealand) Bill | Trade (Australia and New Zealand) Bill ( | Business without Debate"
+2022-09-07,debates2022-09-07c.xml,32,67,,opened by: Engagements; Prime Minister
+2022-09-08,debates2022-09-08b.xml,0,0,no PMQs section found,"Environment, Food and Rural Affairs | Church Commissioners | The hon. Member for South West Bedfordsh | Electoral Commission Committee | Church Commissioners | Electoral Commission Committee | Church Commissioners | Business of the House"
+2022-09-21,debates2022-09-21a.xml,0,0,no PMQs section found,Speaker’s Statement | Members Sworn or Affirmed | Adjournment
+2022-09-22,debates2022-09-22a.xml,0,0,no PMQs section found,Members Sworn or Affirmed | Energy Prices: Support for Business | Shale Gas Extraction | Business of the House | Health and Social Care Update | Point of Order | Bills Presented | Business of the House (Today)
+2022-10-11,debates2022-10-11b.xml,0,0,no PMQs section found,Business before Questions | Treasury | Ukraine | Speaker’s Statement | Mahsa Amini | Sale of Property (Sealed Bids) | Bowel Conditions (Assessment) | Health and Social Care Levy (Repeal) Bil
+2022-10-12,debates2022-10-12b.xml,30,62,,opened by: Engagements; Prime Minister
+2022-10-13,debates2022-10-13a.xml,0,0,no PMQs section found,Speaker’s Statement | Transport | Edenfield Centre: Treatment of Patients | Business of the House | Point of Order | Economic Crime and Corporate Transparenc | Economic Crime and Corporate Transparenc | Committal
+2022-10-18,debates2022-10-18c.xml,0,0,no PMQs section found,Business Before Questions | Justice | Chinese Consulate: Attack on Hong Kong P | Points of Order | Bill Presented | Working Time Regulations (Amendment) | Public Order Bill (Programme) (No.2) | Public Order Bill
+2022-10-19,debates2022-10-19b.xml,31,64,,opened by: Engagements; Prime Minister
+2022-10-20,debates2022-10-20b.xml,0,0,no PMQs section found,"Speaker’s Statement | Digital, Culture, Media and Sport | Attorney General | Departure of Previous Home Secretary | Chinese Consul General: Manchester Prote | East Kent Maternity Services: Independen | Ukraine Update | Business of the House"
+2022-10-25,debates2022-10-25a.xml,0,0,no PMQs section found,"Business Before Questions | Business, Energy and Industrial Strategy | Crisis in Iran | Avanti West Coast Contract Renewal | Bill Presented | NHS Prescriptions (Drug Tariff Labelling | Retained EU Law (Revocation and Reform)  | Royal assent"
+2022-10-26,debates2022-10-26d.xml,27,56,,opened by: Engagements; Prime Minister
+2022-10-27,debates2022-10-27c.xml,0,0,no PMQs section found,"Speaker’s Statement | Cabinet Office | Cross-Channel Migrants: Manston Facility | Business of the House | Exempt Accommodation | Levelling Up, Housing and Communities Co | Backbench Business | National Food Strategy and Food Security"
+2022-11-01,debates2022-11-01a.xml,0,0,no PMQs section found,Speaker’s Statement | Health and Social Care | BBC Local Radio: Proposed Reduction in P | Overseas Chinese Police Stations in UK:  | National Security | Avian Influenza | Points of Order | Bill Presented
+2022-11-02,debates2022-11-02a.xml,29,59,,opened by: Engagements; Prime Minister
+2022-11-03,debates2022-11-03c.xml,0,0,no PMQs section found,International Trade | Police Service: HMI Report | Abuse and Deaths in Secure Mental Health | Business of the House | Points of Order | Free Trade Agreements: Parliamentary Scr | International Trade Committee | Backbench Business
+2022-11-08,debates2022-11-08b.xml,0,0,no PMQs section found,"Foreign, Commonwealth and Development Of | Points of Order | Bill Presented | Employee Share Ownership (Reform) | Opposition Day - [7th Allotted Day]Oppos | State Pension Triple Lock | Papers Relating to the Home Secretary | Deferred Divisions"
+2022-11-09,debates2022-11-09c.xml,29,61,,opened by: Engagements; Prime Minister
+2022-11-15,debates2022-11-15a.xml,0,0,no PMQs section found,Treasury | Points of Order | Bills Presented | Tax Reform Commission | BUSINESS OF THE HOUSE (TODAY) | Humble Address | Opposition Day - 8th Allotted DayOpposit | Management of the Economy and Ministeria
+2022-11-16,debates2022-11-16b.xml,0,66,"PM not found: possibly a stand-in, excluded",Dominic Raab x33 | Angela Rayner x6 | Clive Betts x2 | Kirsten Oswald x2
+2022-11-17,debates2022-11-17d.xml,0,0,no PMQs section found,"Department for Environment, Food and Rur | The Secretary of State was asked— | Speaker’s Committee on the Electoral Com | Church Commissioners | Electoral Commission Committee | Public Accounts Commission | Electoral Commission Committee | Church Commissioners"
+2022-11-22,debates2022-11-22c.xml,0,0,no PMQs section found,Justice | Solihull Murders | Nuclear Test Veterans: Medals | Disposable Barbecues | Ways and Means | Autumn Statement Resolutions | Energy (oil and gas) profits levy | 2. Amount of corporation tax relief for 
+2022-11-23,debates2022-11-23e.xml,27,56,,opened by: Engagements; Prime Minister
+2022-11-24,debates2022-11-24b.xml,0,0,no PMQs section found,Transport | Covid-19: PPE Procurement | Business of the House | Point of Order | Backbench Business | Independent Review of Children’s Social  | Death of Awaab Ishak and Rochdale Boroug
+2022-11-29,debates2022-11-29a.xml,0,0,no PMQs section found,"Business, Energy and Industrial Strategy | Anti-lockdown Protest in Shanghai: Arres | Energy Security | Bill Presented | National Eye Health Strategy | Privilege | Northern Ireland (Executive Formation et | Timetable"
+2022-11-30,debates2022-11-30d.xml,28,56,,opened by: Engagements; Prime Minister
+2022-12-01,debates2022-12-01a.xml,0,0,no PMQs section found,"Digital, Culture, Media and Sport | Church Commissioners | Parliamentary Works Sponsor Body | Electoral Commission Committee | Church Commissioners | Public Accounts Commission | Electoral Commission Committee | Rail Cancellations and Service Levels"
+2022-12-06,debates2022-12-06b.xml,0,0,no PMQs section found,Health and Social Care | Point of Order | Employment | Opposition Day - [9th Allotted Day]Oppos | NHS Workforce | Royal Assent | NHS Workforce | Government PPE Contracts
+2022-12-07,debates2022-12-07d.xml,30,60,,opened by: Engagements; Prime Minister
+2022-12-08,debates2022-12-08a.xml,0,0,no PMQs section found,Cabinet Office | Seasonal Worker Visas: Sponsorship Certi | Called-in Planning Decision: West Cumbri | Business of the House | Called-in Planning Decision: West Cumbri | Backbench Business | Cancer Services | BBC Local Radio
+2022-12-13,debates2022-12-13c.xml,0,0,no PMQs section found,"Foreign, Commonwealth and Development Of | Illegal Immigration | Point of Order | Bill Presented | Free School Meals (Primary Schools) | Levelling-up and Regeneration Bill | Business without Debate | BUSINESS OF THE HOUSE (14 DECEMBER)"
+2022-12-14,debates2022-12-14c.xml,17,35,,opened by: Engagements; Prime Minister
+2022-12-15,debates2022-12-15b.xml,0,0,no PMQs section found,Speaker’s Statement | International Trade | Chinese Consul General: Attack on Protes | Business of the House | Infected Blood Inquiry | Afghanistan: Independent Inquiry | Points of Order | Backbench Business
+2022-12-20,debates2022-12-20a.xml,0,0,no PMQs section found,Treasury | Annual Fisheries Negotiations with EU an | Service Family Accommodation | Ukraine | Shared Parental Leave and Pay (Bereaveme | Christmas Adjournment | Bus Routes: Local Consultation

@@ -1,112 +1,112 @@
-date,file,exchanges,pmqs_speeches,note
-2020-01-07,debates2020-01-07b.xml,0,0,no PMQs section found
-2020-01-08,debates2020-01-08d.xml,31,63,
-2020-01-09,debates2020-01-09c.xml,0,0,no PMQs section found
-2020-01-14,debates2020-01-14c.xml,0,0,no PMQs section found
-2020-01-15,debates2020-01-15d.xml,29,58,
-2020-01-16,debates2020-01-16f.xml,0,0,no PMQs section found
-2020-01-21,debates2020-01-21a.xml,0,0,no PMQs section found
-2020-01-22,debates2020-01-22d.xml,27,54,
-2020-01-23,debates2020-01-23a.xml,0,0,no PMQs section found
-2020-01-28,debates2020-01-28c.xml,0,0,no PMQs section found
-2020-01-29,debates2020-01-29d.xml,36,72,
-2020-01-30,debates2020-01-30b.xml,0,0,no PMQs section found
-2020-02-04,debates2020-02-04e.xml,0,0,no PMQs section found
-2020-02-05,debates2020-02-05b.xml,31,62,
-2020-02-06,debates2020-02-06c.xml,0,0,no PMQs section found
-2020-02-11,debates2020-02-11e.xml,0,0,no PMQs section found
-2020-02-12,debates2020-02-12c.xml,37,74,
-2020-02-13,debates2020-02-13f.xml,0,0,no PMQs section found
-2020-02-25,debates2020-02-25d.xml,0,0,no PMQs section found
-2020-02-26,debates2020-02-26b.xml,31,63,
-2020-02-27,debates2020-02-27a.xml,0,0,no PMQs section found
-2020-03-03,debates2020-03-03d.xml,0,0,no PMQs section found
-2020-03-04,debates2020-03-04d.xml,30,61,
-2020-03-05,debates2020-03-05c.xml,0,0,no PMQs section found
-2020-03-10,debates2020-03-10a.xml,0,0,no PMQs section found
-2020-03-11,debates2020-03-11b.xml,34,68,
-2020-03-12,debates2020-03-12b.xml,0,0,no PMQs section found
-2020-03-17,debates2020-03-17c.xml,0,0,no PMQs section found
-2020-03-18,debates2020-03-18a.xml,31,62,
-2020-03-19,debates2020-03-19a.xml,0,0,no PMQs section found
-2020-03-24,debates2020-03-24b.xml,0,0,no PMQs section found
-2020-03-25,debates2020-03-25b.xml,53,106,
-2020-04-21,debates2020-04-21a.xml,0,0,no PMQs section found
-2020-04-22,debates2020-04-22a.xml,0,50,"PM not found: possibly a stand-in, excluded"
-2020-04-28,debates2020-04-28c.xml,0,0,no PMQs section found
-2020-04-29,debates2020-04-29b.xml,0,52,"PM not found: possibly a stand-in, excluded"
-2020-05-05,debates2020-05-05b.xml,0,0,no PMQs section found
-2020-05-06,debates2020-05-06a.xml,21,42,
-2020-05-12,debates2020-05-12d.xml,0,0,no PMQs section found
-2020-05-13,debates2020-05-13b.xml,24,48,
-2020-05-19,debates2020-05-19b.xml,0,0,no PMQs section found
-2020-05-20,debates2020-05-20a.xml,21,43,
-2020-06-02,debates2020-06-02d.xml,0,0,no PMQs section found
-2020-06-03,debates2020-06-03a.xml,31,62,
-2020-06-04,debates2020-06-04c.xml,0,0,no PMQs section found
-2020-06-09,debates2020-06-09c.xml,0,0,no PMQs section found
-2020-06-10,debates2020-06-10c.xml,26,53,
-2020-06-11,debates2020-06-11b.xml,0,0,no PMQs section found
-2020-06-16,debates2020-06-16d.xml,0,0,no PMQs section found
-2020-06-17,debates2020-06-17e.xml,27,54,
-2020-06-18,debates2020-06-18c.xml,0,0,no PMQs section found
-2020-06-23,debates2020-06-23b.xml,0,0,no PMQs section found
-2020-06-24,debates2020-06-24e.xml,29,60,
-2020-06-25,debates2020-06-25b.xml,0,0,no PMQs section found
-2020-06-30,debates2020-06-30d.xml,0,0,no PMQs section found
-2020-07-01,debates2020-07-01d.xml,32,69,
-2020-07-02,debates2020-07-02c.xml,0,0,no PMQs section found
-2020-07-07,debates2020-07-07c.xml,0,0,no PMQs section found
-2020-07-08,debates2020-07-08b.xml,28,56,
-2020-07-09,debates2020-07-09c.xml,0,0,no PMQs section found
-2020-07-14,debates2020-07-14c.xml,0,0,no PMQs section found
-2020-07-15,debates2020-07-15b.xml,29,58,
-2020-07-16,debates2020-07-16c.xml,0,0,no PMQs section found
-2020-07-21,debates2020-07-21e.xml,0,0,no PMQs section found
-2020-07-22,debates2020-07-22c.xml,27,55,
-2020-09-01,debates2020-09-01b.xml,0,0,no PMQs section found
-2020-09-02,debates2020-09-02b.xml,25,53,
-2020-09-03,debates2020-09-03b.xml,0,0,no PMQs section found
-2020-09-08,debates2020-09-08d.xml,0,0,no PMQs section found
-2020-09-09,debates2020-09-09f.xml,26,53,
-2020-09-10,debates2020-09-10a.xml,0,0,no PMQs section found
-2020-09-15,debates2020-09-15c.xml,0,0,no PMQs section found
-2020-09-16,debates2020-09-16b.xml,25,50,
-2020-09-17,debates2020-09-17b.xml,0,0,no PMQs section found
-2020-09-22,debates2020-09-22a.xml,0,0,no PMQs section found
-2020-09-23,debates2020-09-23c.xml,28,56,
-2020-09-24,debates2020-09-24d.xml,0,0,no PMQs section found
-2020-09-29,debates2020-09-29d.xml,0,0,no PMQs section found
-2020-09-30,debates2020-09-30d.xml,28,57,
-2020-10-01,debates2020-10-01c.xml,0,0,no PMQs section found
-2020-10-06,debates2020-10-06b.xml,0,0,no PMQs section found
-2020-10-07,debates2020-10-07b.xml,25,50,
-2020-10-08,debates2020-10-08d.xml,0,0,no PMQs section found
-2020-10-13,debates2020-10-13b.xml,0,0,no PMQs section found
-2020-10-14,debates2020-10-14c.xml,27,54,
-2020-10-15,debates2020-10-15b.xml,0,0,no PMQs section found
-2020-10-20,debates2020-10-20c.xml,0,0,no PMQs section found
-2020-10-21,debates2020-10-21e.xml,31,63,
-2020-10-22,debates2020-10-22c.xml,0,0,no PMQs section found
-2020-11-03,debates2020-11-03d.xml,0,0,no PMQs section found
-2020-11-04,debates2020-11-04e.xml,33,66,
-2020-11-05,debates2020-11-05c.xml,0,0,no PMQs section found
-2020-11-10,debates2020-11-10d.xml,0,0,no PMQs section found
-2020-11-11,debates2020-11-11a.xml,25,50,
-2020-11-12,debates2020-11-12b.xml,0,0,no PMQs section found
-2020-11-17,debates2020-11-17a.xml,0,0,no PMQs section found
-2020-11-18,debates2020-11-18b.xml,28,58,
-2020-11-19,debates2020-11-19c.xml,0,0,no PMQs section found
-2020-11-24,debates2020-11-24c.xml,0,0,no PMQs section found
-2020-11-25,debates2020-11-25c.xml,28,57,
-2020-11-26,debates2020-11-26d.xml,0,0,no PMQs section found
-2020-12-01,debates2020-12-01c.xml,0,0,no PMQs section found
-2020-12-02,debates2020-12-02a.xml,27,54,
-2020-12-03,debates2020-12-03d.xml,0,0,no PMQs section found
-2020-12-08,debates2020-12-08b.xml,0,0,no PMQs section found
-2020-12-09,debates2020-12-09b.xml,30,63,
-2020-12-10,debates2020-12-10b.xml,0,0,no PMQs section found
-2020-12-15,debates2020-12-15a.xml,0,0,no PMQs section found
-2020-12-16,debates2020-12-16b.xml,27,56,
-2020-12-17,debates2020-12-17b.xml,0,0,no PMQs section found
-2020-12-30,debates2020-12-30b.xml,0,0,no PMQs section found
+date,file,exchanges,pmqs_speeches,note,detail
+2020-01-07,debates2020-01-07b.xml,0,0,no PMQs section found,Speaker’s Statement | Treasury | Middle East: Security | Points of Order | European Union (Withdrawal Agreement) Bi | UK Special Forces: Iraq and Afghanistan
+2020-01-08,debates2020-01-08d.xml,31,63,,opened by: Engagements; Prime Minister
+2020-01-09,debates2020-01-09c.xml,0,0,no PMQs section found,Exiting the European Union | Football Association and Bet365 | Business of the House | Australian Bushfires | Bill Presented | European Union (Withdrawal Agreement) Bi | Hospital Improvement Plans: VAT Rules
+2020-01-14,debates2020-01-14c.xml,0,0,no PMQs section found,JUSTICE | The Secretary of State was asked— | Flybe | Joint Comprehensive Plan Of Action | Debate on the Address | Education and Local Government | Petition - Traffic situation in Strathav | HMRC Tax Office: Cumbernauld
+2020-01-15,debates2020-01-15d.xml,27,54,,opened by: Engagements; Prime Minister
+2020-01-16,debates2020-01-16f.xml,0,0,no PMQs section found,"Digital, Culture, Media and Sport | Attorney General | Business of the House | Point of Order | Northern Ireland Executive Formation | Points of Order | BILL PRESENTED | Debate on the Address"
+2020-01-21,debates2020-01-21a.xml,0,0,no PMQs section found,"Business, Energy and Industrial Strategy | Direct Payments to Farmers (Legislative  | Direct Payments to Farmers (Legislative  | Committal | Proceedings in Committee, on Considerati | Other proceedings | Direct Payments to Farmers (Legislative  | Grenfell Tower Inquiry: Phase 1 Report"
+2020-01-22,debates2020-01-22d.xml,27,54,,opened by: Engagements; Prime Minister
+2020-01-23,debates2020-01-23a.xml,0,0,no PMQs section found,International Trade | Women and Equalities | Business of the House | Wuhan Coronavirus | Royal Assent | Holocaust Memorial Day | UK-US Extradition Agreement
+2020-01-28,debates2020-01-28c.xml,0,0,no PMQs section found,Business before Questions | Health and Social Care | Direct Payments to Farmers (Legislative  | UK Telecommunications | Criminal Law | Petition - Over 75s free TV licences | Mental Health Act: Section 136
+2020-01-29,debates2020-01-29d.xml,36,72,,opened by: Engagements; Prime Minister
+2020-01-30,debates2020-01-30b.xml,0,0,no PMQs section found,Transport | Middle East Peace Plan | Royal Assent | Business of the House | Points of Order | Bill Presented | Global Britain | War Widows’ Pension Scheme
+2020-02-04,debates2020-02-04e.xml,0,0,no PMQs section found,Foreign and Commonwealth Office | Universal Credit: Delayed Roll-Out | Lobby and Media Briefings: Journalists'  | Paterson Inquiry | Points of Order | NHS Funding Bill | Telecommunications Infrastructure (Lease | Rating and Valuation
+2020-02-05,debates2020-02-05b.xml,31,62,,opened by: Engagements; Prime Minister
+2020-02-06,debates2020-02-06c.xml,0,0,no PMQs section found,"Environment, Food and Rural Affairs | Church Commissioners | Public Accounts Commission | Church Commissioners | The hon. Member for South West Bedfordsh | House of Commons Commission | Church Commissioners | BBC Licence Fee"
+2020-02-11,debates2020-02-11e.xml,0,0,no PMQs section found,Treasury | Transport Infrastructure | Wuhan Coronavirus | Business Statement | Point of Order | Bill Presented | Prisoners (Disclosure of Information Abo | PRISONERS (DISCLOSURE OF INFORMATION ABO
+2020-02-12,debates2020-02-12c.xml,35,70,,opened by: Engagements; Prime Minister
+2020-02-13,debates2020-02-13f.xml,0,0,no PMQs section found,"Digital, Culture, Media and Sport | Attorney General | Online Harms Legislation | Maternity Services: East Kent | Business of the House | Bill Presented | February Adjournment | Coventry IKEA Store Closure"
+2020-02-25,debates2020-02-25d.xml,0,0,no PMQs section found,MINISTRY OF JUSTICE | Point of Order | Bill Presented | Hong Kong | Opposition Day - [4th Allotted Day]Oppos | Tax Avoidance and Evasion | Social Care | Business without Debate
+2020-02-26,debates2020-02-26b.xml,31,63,,opened by: Engagements; Prime Minister
+2020-02-27,debates2020-02-27a.xml,0,0,no PMQs section found,Cabinet Office | European Union: Future Relationship | Business of the House | Rough Sleeping | Child Protection | Point of Order | Welsh Affairs | Crime (West Sandwell)
+2020-03-03,debates2020-03-03d.xml,0,0,no PMQs section found,"Business Before Questions | Business, Energy and Industrial Strategy | Recent Violence in India | Coronavirus | Points of Order | Bills Presented | Rule of Law (Enforcement by Public Autho | Supply and Appropriation (Anticipation a"
+2020-03-04,debates2020-03-04d.xml,30,61,,opened by: Engagements; Prime Minister
+2020-03-05,debates2020-03-05c.xml,0,0,no PMQs section found,International Trade | Business of the House | Flybe | Bill Presented | International Women’s Day | WHO Framework Convention on Tobacco Cont
+2020-03-10,debates2020-03-10a.xml,0,0,no PMQs section found,"Health and Social Care | Turkey-Greece Border: Refugees | Point of Order | Bill Presented | Aviation Banning Orders (Disruptive Pass | Telecommunications Infrastructure (Lease | Backbench Business | Lesbian, Bisexual and Trans Women’s Heal"
+2020-03-11,debates2020-03-11b.xml,32,64,,opened by: Engagements; Prime Minister
+2020-03-12,debates2020-03-12b.xml,0,0,no PMQs section found,Business Before Questions | Transport | Planning for the Future | Veterans’ Mental Health | Bill Presented | Ways and Means | Income Tax (Charge) | Business without Debate
+2020-03-17,debates2020-03-17c.xml,0,0,no PMQs section found,Foreign and Commonwealth Office | Covid-19 | Company Transparency (Carbon in Supply C | Budget Resolutions | Income tax (charge) | 2. Income tax (main rates) | 3. Income tax (default and savings rates | 4. Income tax (starting rate limit for s
+2020-03-18,debates2020-03-18a.xml,29,58,,opened by: Engagements; Prime Minister
+2020-03-19,debates2020-03-19a.xml,0,0,no PMQs section found,"Business before Questions | Environment, Food and Rural Affairs | House of Commons Commission | Church Commissioners | Coronavirus: Employment Support | Windrush Lessons Learned Review | Business of the House | Points of Order"
+2020-03-24,debates2020-03-24b.xml,0,0,no PMQs section found,Treasury | Self-employed Persons: Financial Support | British Citizens Abroad: FCO Help to Ret | Covid-19 Update | Bill Presented | Wellbeing of Future Generations | Point of Order | Contingencies Fund Bill: Business of the
+2020-03-25,debates2020-03-25b.xml,53,106,,opened by: Engagements; Prime Minister
+2020-04-21,debates2020-04-21a.xml,0,0,no PMQs section found,Speaker’s Statement | A. Scrutiny proceedings | B. Urgent questions | C. Supplementary provisions | Hybrid Scrutiny Proceedings | A. Scrutiny proceedings | B. Urgent questions | C. Supplementary provisions
+2020-04-22,debates2020-04-22a.xml,0,50,"PM not found: possibly a stand-in, excluded",Dominic Raab x25 | Keir Starmer x6 | Ian Blackford x2 | Alexander Stafford x1
+2020-04-28,debates2020-04-28c.xml,0,0,no PMQs section found,"Prayers - [Mr Speaker in the Chair] | Attorney General | Housing, Communities and Local Governmen | Public Services | Point of Order | Business of the House (28 April) | Domestic Abuse Bill | Domestic abuse bill (Programme)"
+2020-04-29,debates2020-04-29b.xml,0,52,"PM not found: possibly a stand-in, excluded",Dominic Raab x26 | Keir Starmer x6 | Ian Blackford x2 | James Cartlidge x1
+2020-05-05,debates2020-05-05b.xml,0,0,no PMQs section found,Prayers - [Mr Speaker in the Chair] | Education | Health and Social Care | Covid-19 Update | Business of the House (5 May) | Local Government | Social Security | Adjournment
+2020-05-06,debates2020-05-06a.xml,21,42,,opened by: Engagements; Prime Minister
+2020-05-12,debates2020-05-12d.xml,0,0,no PMQs section found,Prayers - [Mr Speaker in the Chair] | International Trade | Defence | Covid-19: Economic Package | Speaker’s Statement | Business of the House (12 May) | Covid-19: Business | Covid-19: Transport
+2020-05-13,debates2020-05-13b.xml,24,48,,opened by: Engagements; Prime Minister
+2020-05-19,debates2020-05-19b.xml,0,0,no PMQs section found,"Prayers - [Mr Speaker in the Chair] | Environment, Food and Rural Affairs | House of Commons Commission | Parliamentary works sponsor body | Electoral Commission Committee | Public Accounts Commission | Church Commissioners | The hon. Member for South West Bedfordsh"
+2020-05-20,debates2020-05-20a.xml,21,43,,opened by: Engagements; Prime Minister
+2020-06-02,debates2020-06-02d.xml,0,0,no PMQs section found,Speaker’s Statement | Covid-19 Response | Points of Order | Business of the House (Today) | Proceedings during the Pandemic | Conduct of divisions | Participation in proceedings | Parliamentary Constituencies Bill
+2020-06-03,debates2020-06-03a.xml,31,62,,opened by: Engagements; Prime Minister
+2020-06-04,debates2020-06-04c.xml,0,0,no PMQs section found,"Digital, Culture, Media and Sport | Attorney General | Public Health England Review: Covid-19 D | Abortion Regulations: Northern Ireland | Victims of the Troubles: Payment Scheme | Business of the House | House Business during the Pandemic | Points of Order"
+2020-06-09,debates2020-06-09c.xml,0,0,no PMQs section found,Prayers - [Mr Speaker in the Chair] | Justice | Future Relationship with the EU | Education Settings: Wider Opening | Point of Order | Bill Presented | Pedicabs (London) | Counter-Terrorism and Sentencing Bill
+2020-06-10,debates2020-06-10c.xml,26,53,,opened by: Engagements; Prime Minister
+2020-06-11,debates2020-06-11b.xml,0,0,no PMQs section found,"Prayers - [Mr Speaker in the Chair] | Cabinet Office | Planning Process: Probity | Business of the House | Probation Services | Birmingham Commonwealth Games Bill [Lord | Zoos, Aquariums and Wildlife Sanctuaries"
+2020-06-16,debates2020-06-16d.xml,0,0,no PMQs section found,"Prayers - [Mr Speaker in the Chair] | Speaker’s Statement | Business, Energy and Industrial Strategy | Speaker’s Statement | Economic Outlook and Furlough Scheme Cha | Global Britain | UK-EU Negotiations | Automatic Electoral Registration"
+2020-06-17,debates2020-06-17e.xml,27,54,,opened by: Engagements; Prime Minister
+2020-06-18,debates2020-06-18c.xml,0,0,no PMQs section found,Prayers - [Mr Speaker in the Chair] | International Trade | DFID-FCO Merger | Business of the House | International Development | Backbench Business | Covid-19: BAME Communities | Petition - Establishment of a Food Stand
+2020-06-23,debates2020-06-23b.xml,0,0,no PMQs section found,Prayers - [Mr Speaker in the Chair] | Health and Social Care | Covid-19 Update | Windrush Compensation Scheme | Point of Order | Desecration of War Memorials | Medicines and Medical Devices Bill | Business of the House (Today)
+2020-06-24,debates2020-06-24e.xml,29,60,,opened by: Engagements; Prime Minister
+2020-06-25,debates2020-06-25b.xml,0,0,no PMQs section found,"Prayers - [Mr Speaker in the Chair] | Environment, Food and Rural Affairs | Church Commissioners | House of Commons Commission | Church Commissioners | Parliamentary Works Sponsor Body | Church Commissioners | Universal Credit: Court of Appeal Judgme"
+2020-06-30,debates2020-06-30d.xml,0,0,no PMQs section found,Prayers - [Mr Speaker in the Chair] | Foreign and Commonwealth Office | Speaker’s Statement | Civil Service Appointments | Lammy Review | Points of Order | New Homes (New Development Standards) | Immigration and Social Security Co-ordin
+2020-07-01,debates2020-07-01d.xml,32,64,,opened by: Engagements; Prime Minister
+2020-07-02,debates2020-07-02c.xml,0,0,no PMQs section found,Prayers - [Mr Speaker in the Chair] | Transport | Business of the House | Education Settings: Autumn Opening | Finance Bill | Business without Debate | Channel Islands Measure | Delegated Legislation
+2020-07-07,debates2020-07-07c.xml,0,0,no PMQs section found,"Prayers - [Mr Speaker in the Chair] | Treasury | Speaker’s Statement | Coronavirus | Arts, Culture and Heritage: Support Pack | Points of Order | Bill Presented | Magistrates (Retirement Age)"
+2020-07-08,debates2020-07-08b.xml,28,56,,opened by: Engagements; Prime Minister
+2020-07-09,debates2020-07-09c.xml,0,0,no PMQs section found,"Prayers - [Mr Speaker in the Chair] | Digital, Culture, Media and Sport | Attorney General | Bahrain: Prisoners Under Sentence of Dea | Business of the House | Independent Medicines and Medical Device | Point of Order | MAIN Estimates 2020-21"
+2020-07-14,debates2020-07-14c.xml,0,0,no PMQs section found,Prayers - [Mr Speaker in the Chair] | Justice | UK Telecommunications | Coronavirus Update | Points of Order | BILLS PRESENTED | Disabled Facilities Grants (Review) | Parliamentary Constituencies Bill
+2020-07-15,debates2020-07-15b.xml,29,58,,opened by: Engagements; Prime Minister
+2020-07-16,debates2020-07-16c.xml,0,0,no PMQs section found,Prayers - [Mr Speaker in the Chair] | Cabinet Office | British Overseas Troops: Civil Liability | Speaker's Statement | Business of the House | UK Internal Market: White Paper | Point of Order | Non-Domestic Rating (Public Lavatories) 
+2020-07-21,debates2020-07-21e.xml,0,0,no PMQs section found,"Prayers - [Mr Speaker in the Chair] | Business, Energy and Industrial Strategy | BBC | Windrush Lessons Learned Review | Point of Order | Death by Dangerous Driving (Sentencing) | Counter-Terrorism and Sentencing Bill | Business and Planning Bill"
+2020-07-22,debates2020-07-22c.xml,27,55,,opened by: Engagements; Prime Minister
+2020-09-01,debates2020-09-01b.xml,0,0,no PMQs section found,Prayers - [Mr Speaker in the Chair] | Speaker’s Statement | Health and Social Care | Covid-19 | Schools and Colleges: Qualification Resu | Point of Order | Immigration (Health and Social Care Staf | Fisheries Bill [Lords]
+2020-09-02,debates2020-09-02b.xml,25,53,,opened by: Engagements; Prime Minister
+2020-09-03,debates2020-09-03b.xml,0,0,no PMQs section found,Prayers - [Mr Speaker in the Chair] | International Trade | Kickstart Scheme | Business of the House | Point of Order | NON-DOMESTIC RATING (PUBLIC LAVATORIES)  | Non-Domestic Rating (Public Lavatories)  | South China Sea: Freedom of Navigation
+2020-09-08,debates2020-09-08d.xml,0,0,no PMQs section found,"Prayers - [Mr Speaker in the Chair] | Foreign, Commonwealth and Development Of | Northern Ireland Protocol: UK Legal Obli | Covid-19 Update | Point of Order | BILL PRESENTED | White Goods (Registration) | Extradition (Provisional Arrest) Bill [L"
+2020-09-09,debates2020-09-09f.xml,26,53,,opened by: Engagements; Prime Minister
+2020-09-10,debates2020-09-10a.xml,0,0,no PMQs section found,"Prayers - [Mr Speaker in the Chair] | Environment, Food and Rural Affairs | Parliamentary Works Sponsor Body | The right hon. Member for East Hampshire | Church Commissioners | The hon. Member for South West Bedfordsh | Electoral Commission Committee | The hon. Member for City of Chester, rep"
+2020-09-15,debates2020-09-15c.xml,0,0,no PMQs section found,Prayers - [Mr Speaker in the Chair] | Treasury | Coronavirus | Point of Order | Digitally Altered Body Images | United Kingdom Internal Market Bill | Business without Debate | Delegated Legislation
+2020-09-16,debates2020-09-16b.xml,25,50,,opened by: Engagements; Prime Minister
+2020-09-17,debates2020-09-17b.xml,0,0,no PMQs section found,Prayers - [Mr Speaker in the Chair] | Transport | Speaker's Statement | Business of the House | Covid-19 Update | Covid-19 Pandemic: Government Response | Public Administration and Constitutional | Backbench Business
+2020-09-22,debates2020-09-22a.xml,0,0,no PMQs section found,Prayers - [Mr Speaker in the Chair] | Justice | Covid-19 | Point of Order | Planning (Proper Maintenance of Land) | United Kingdom Internal Market Bill | Business without Debate | Delegated Legislation
+2020-09-23,debates2020-09-23c.xml,28,56,,opened by: Engagements; Prime Minister
+2020-09-24,debates2020-09-24d.xml,0,0,no PMQs section found,"Prayers - [Mr Speaker in the Chair] | Business before Questions | Digital, Culture, Media and Sport | Attorney General | Gender Recognition Act Consultation | Business of the House | The Economy | Belarus: Presidential Elections"
+2020-09-29,debates2020-09-29d.xml,0,0,no PMQs section found,"Prayers - [Mr Speaker in the Chair] | Business, Energy and Industrial Strategy | Students’ Return to Universities | Points of Order | Problem Drug Use | Delegated Legislation | United Kingdom Internal Market Bill (Pro | United Kingdom Internal Market Bill"
+2020-09-30,debates2020-09-30d.xml,28,57,,opened by: Engagements; Prime Minister
+2020-10-01,debates2020-10-01c.xml,0,0,no PMQs section found,Prayers - [Mr Speaker in the Chair] | Cabinet Office | Covid-19 Update and Hospitality Curfew | Business of the House | Lifetime Skills Guarantee and Post-16 Ed | Point of Order | Social Security (Up-rating of Benefits)  | Social Security (Up-rating of Benefits) 
+2020-10-06,debates2020-10-06b.xml,0,0,no PMQs section found,Prayers - [Mr Speaker in the Chair] | Health and Social Care | Areas with Additional Public Health Rest | Points of Order | Marriage and Civil Partnership (Minimum  | Prisoners (Disclosure of Information Abo | Consideration of Lords Amendments | Subsequent stages
+2020-10-07,debates2020-10-07b.xml,25,50,,opened by: Engagements; Prime Minister
+2020-10-08,debates2020-10-08d.xml,0,0,no PMQs section found,"Prayers - [Mr Speaker in the Chair] | International Trade | Business of the House | Points of Order | Backbench Business | Planning and House Building | Digital, Culture, Media and Sport: Suppo | Petition - Universal Credit uplift"
+2020-10-13,debates2020-10-13b.xml,0,0,no PMQs section found,"Prayers - [Mr Speaker in the Chair] | Foreign, Commonwealth and Development Of | Speaker’s Statement | Public Health Restrictions: Government E | School Breakfast | Business of the House (Today) | Public Health: Coronavirus Regulations | Public Health"
+2020-10-14,debates2020-10-14c.xml,27,54,,opened by: Engagements; Prime Minister
+2020-10-15,debates2020-10-15b.xml,0,0,no PMQs section found,"Prayers - [Mr Speaker in the Chair] | Environment, Food and Rural Affairs | House of Commons Commission | Church Commissioners | Parliamentary works sponsor body | The right hon. Member for East Hampshire | Speaker's Committee on the Electoral Com | The hon. Member for City of Chester, rep"
+2020-10-20,debates2020-10-20c.xml,0,0,no PMQs section found,Prayers - [Mr Speaker in the Chair] | Treasury | Equal Pay (Information and Claims) | Non-Domestic Rating (Lists) (No. 2) Bill | Backbench Business | Black History Month | Covid-19 Update | Business without Debate
+2020-10-21,debates2020-10-21e.xml,29,59,,opened by: Engagements; Prime Minister
+2020-10-22,debates2020-10-22c.xml,0,0,no PMQs section found,Prayers - [Mr Speaker in the Chair] | Business before Questions | Transport | Business of the House | Covid-19: Economy Update | Royal Assent | Covid-19: Disparate Impact | Point of Order
+2020-11-03,debates2020-11-03d.xml,0,0,no PMQs section found,Prayers - [Mr Speaker in the Chair] | Justice | Speaker’s Statement | Lockdown: Economic Support | Nazanin Zaghari-Ratcliffe | Personal Statement | Food Labelling (Environmental Sustainabi | Overseas Operations (Service Personnel a
+2020-11-04,debates2020-11-04e.xml,33,66,,opened by: Engagements; Prime Minister
+2020-11-05,debates2020-11-05c.xml,0,0,no PMQs section found,"Prayers - [Mr Speaker in the Chair] | Digital, Culture, Media and Sport | Attorney General | Coronavirus Regulations: Assisted Deaths | Business of the House | Economy Update | UK Terrorism Threat Level | Point of Order"
+2020-11-10,debates2020-11-10d.xml,0,0,no PMQs section found,"Prayers - [Mr Speaker in the Chair] | Business, Energy and Industrial Strategy | Armed Forces: Covid-19 Deployment | Covid-19 Update | Jet Skis (Licensing) | Parliamentary Constituencies Bill (Progr | Parliamentary Constituencies Bill | Forensic Science Regulator and Biometric"
+2020-11-11,debates2020-11-11a.xml,25,50,,opened by: Engagements; Prime Minister
+2020-11-12,debates2020-11-12b.xml,0,0,no PMQs section found,Prayers - [Mr Speaker in the Chair] | Cabinet Office | Hong Kong | Business of the House | Her Majesty the Queen’s Platinum Jubilee | Point of Order | Backbench Business | Refugee Communities: Covid-19
+2020-11-17,debates2020-11-17a.xml,0,0,no PMQs section found,Prayers - [Mr Speaker in the Chair] | Health and Social Care | Speaker’s Statement | Continuity Trade Agreements: Parliamenta | Points of Order | Doctors and Nurses (Developing Countries | National Security and Investment Bill | National Security and Investment Bill (P
+2020-11-18,debates2020-11-18b.xml,28,58,,opened by: Engagements; Prime Minister
+2020-11-19,debates2020-11-19c.xml,0,0,no PMQs section found,Prayers - [Mr Speaker in the Chair] | International Trade | DHSC Answers to Written Questions | Business of the House | Integrated Review | Sport Sector: Financial Support | Virtual Participation in Debate | Procedure Committee
+2020-11-24,debates2020-11-24c.xml,0,0,no PMQs section found,"Prayers - [Mr Speaker in the Chair] | Foreign, Commonwealth and Development Of | Leaseholders and Cladding | Point of Order | Bill Presented | National Health Service Reserve Staff | Private International Law (Implementatio | Consideration of Lords Message"
+2020-11-25,debates2020-11-25c.xml,28,57,,opened by: Engagements; Prime Minister
+2020-11-26,debates2020-11-26d.xml,0,0,no PMQs section found,"Prayers - [Mr Speaker in the Chair] | Business before Questions | Environment, food and rural affairs | Church Commissioners | Electoral Commission Committee | Church Commissioners | Business of the House | Covid-19 Update"
+2020-12-01,debates2020-12-01c.xml,0,0,no PMQs section found,Prayers - [Mr Speaker in the Chair] | Treasury | Points of Order | Apologies | Business of the House (Today) | Public Health | Business without Debate | Delegated Legislation
+2020-12-02,debates2020-12-02a.xml,27,54,,opened by: Engagements; Prime Minister
+2020-12-03,debates2020-12-03d.xml,0,0,no PMQs section found,"Prayers - [Mr Speaker in the Chair] | Transport | Exams and Accountability 2021 | Business of the House | Courts and Tribunals: Recovery | Backbench Business | Future of Coal in the UK | Digital Infrastructure, Connectivity and"
+2020-12-08,debates2020-12-08b.xml,0,0,no PMQs section found,Prayers - [Mr Speaker in the Chair] | Justice | Covid-19 Vaccine Roll-out | Gambling and Lotteries | BBC (Transparency) | Business of the House (Today) | Taxation (Post-transition Period) (Ways  | Northern Ireland (Ways and Means)
+2020-12-09,debates2020-12-09b.xml,30,63,,opened by: Engagements; Prime Minister
+2020-12-10,debates2020-12-10b.xml,0,0,no PMQs section found,"Prayers - [Mr Speaker in the Chair] | Business before Questions | Digital, Culture, Media and Sport | Attorney General | Future Relationship with the EU | Business of the House | Ockenden Review | United Kingdom Internal Market Bill"
+2020-12-15,debates2020-12-15a.xml,0,0,no PMQs section found,"Prayers - [Mr Speaker in the Chair] | Business, Energy and Industrial Strategy | Personal Statement | Business of the House | Online Harms Consultation | Point of Order | Bill Presented | Virginity Testing (Prohibition)"
+2020-12-16,debates2020-12-16b.xml,25,52,,opened by: Engagements; Prime Minister
+2020-12-17,debates2020-12-17b.xml,0,0,no PMQs section found,Prayers - [Mr Speaker in the Chair] | Cabinet Office | Business of the House | Covid-19 Update | Provisional Local Government Finance Set | Points of Order | ADJOURNMENT (CHRISTMAS) | TELECOMMUNICATIONS (SECURITY) BILL: PROG
+2020-12-30,debates2020-12-30b.xml,0,0,no PMQs section found,Speaker’s Statement | Bill Presented | Virtual Participation in Proceedings dur | European Union (Future Relationship) Bil | Timetable | Timing of proceedings and Questions to b | Consideration of Lords Amendments | Subsequent stages

@@ -1,104 +1,104 @@
-date,file,exchanges,pmqs_speeches,note
-2023-01-10,debates2023-01-10b.xml,0,0,no PMQs section found
-2023-01-11,debates2023-01-11e.xml,28,57,
-2023-01-12,debates2023-01-12b.xml,0,0,no PMQs section found
-2023-01-17,debates2023-01-17c.xml,0,0,no PMQs section found
-2023-01-18,debates2023-01-18e.xml,33,68,
-2023-01-19,debates2023-01-19b.xml,0,0,no PMQs section found
-2023-01-24,debates2023-01-24c.xml,0,0,no PMQs section found
-2023-01-25,debates2023-01-25b.xml,30,62,
-2023-01-26,debates2023-01-26b.xml,0,0,no PMQs section found
-2023-01-31,debates2023-01-31b.xml,0,0,no PMQs section found
-2023-02-01,debates2023-02-01c.xml,29,59,
-2023-02-02,debates2023-02-02d.xml,0,0,no PMQs section found
-2023-02-07,debates2023-02-07c.xml,0,0,no PMQs section found
-2023-02-08,debates2023-02-08b.xml,27,54,
-2023-02-09,debates2023-02-09b.xml,0,0,no PMQs section found
-2023-02-21,debates2023-02-21c.xml,0,0,no PMQs section found
-2023-02-22,debates2023-02-22b.xml,29,58,
-2023-02-23,debates2023-02-23c.xml,0,0,no PMQs section found
-2023-02-28,debates2023-02-28d.xml,0,0,no PMQs section found
-2023-03-01,debates2023-03-01b.xml,30,60,
-2023-03-02,debates2023-03-02b.xml,0,0,no PMQs section found
-2023-03-07,debates2023-03-07b.xml,0,0,no PMQs section found
-2023-03-08,debates2023-03-08b.xml,32,69,
-2023-03-09,debates2023-03-09b.xml,0,0,no PMQs section found
-2023-03-14,debates2023-03-14d.xml,0,0,no PMQs section found
-2023-03-15,debates2023-03-15c.xml,27,56,
-2023-03-16,debates2023-03-16d.xml,0,0,no PMQs section found
-2023-03-21,debates2023-03-21c.xml,0,0,no PMQs section found
-2023-03-22,debates2023-03-22b.xml,26,57,
-2023-03-23,debates2023-03-23b.xml,0,0,no PMQs section found
-2023-03-28,debates2023-03-28d.xml,0,0,no PMQs section found
-2023-03-29,debates2023-03-29c.xml,0,66,"PM not found: possibly a stand-in, excluded"
-2023-03-30,debates2023-03-30c.xml,0,0,no PMQs section found
-2023-04-18,debates2023-04-18c.xml,0,0,no PMQs section found
-2023-04-19,debates2023-04-19d.xml,27,61,
-2023-04-20,debates2023-04-20c.xml,0,0,no PMQs section found
-2023-04-25,debates2023-04-25c.xml,0,0,no PMQs section found
-2023-04-26,debates2023-04-26d.xml,27,54,
-2023-04-27,debates2023-04-27d.xml,0,0,no PMQs section found
-2023-05-02,debates2023-05-02a.xml,0,0,no PMQs section found
-2023-05-03,debates2023-05-03c.xml,29,62,
-2023-05-09,debates2023-05-09b.xml,0,0,no PMQs section found
-2023-05-10,debates2023-05-10a.xml,36,74,
-2023-05-11,debates2023-05-11a.xml,0,0,no PMQs section found
-2023-05-16,debates2023-05-16c.xml,0,0,no PMQs section found
-2023-05-17,debates2023-05-17d.xml,0,59,"PM not found: possibly a stand-in, excluded"
-2023-05-18,debates2023-05-18b.xml,0,0,no PMQs section found
-2023-05-23,debates2023-05-23d.xml,0,0,no PMQs section found
-2023-05-24,debates2023-05-24c.xml,33,69,
-2023-05-25,debates2023-05-25b.xml,0,0,no PMQs section found
-2023-06-06,debates2023-06-06c.xml,0,0,no PMQs section found
-2023-06-07,debates2023-06-07d.xml,0,62,"PM not found: possibly a stand-in, excluded"
-2023-06-08,debates2023-06-08a.xml,0,0,no PMQs section found
-2023-06-13,debates2023-06-13b.xml,0,0,no PMQs section found
-2023-06-14,debates2023-06-14b.xml,33,66,
-2023-06-15,debates2023-06-15a.xml,0,0,no PMQs section found
-2023-06-20,debates2023-06-20e.xml,0,0,no PMQs section found
-2023-06-21,debates2023-06-21c.xml,29,58,
-2023-06-22,debates2023-06-22a.xml,0,0,no PMQs section found
-2023-06-27,debates2023-06-27c.xml,0,0,no PMQs section found
-2023-06-28,debates2023-06-28d.xml,30,60,
-2023-06-29,debates2023-06-29b.xml,0,0,no PMQs section found
-2023-07-04,debates2023-07-04b.xml,0,0,no PMQs section found
-2023-07-05,debates2023-07-05b.xml,0,65,"PM not found: possibly a stand-in, excluded"
-2023-07-06,debates2023-07-06a.xml,0,0,no PMQs section found
-2023-07-11,debates2023-07-11e.xml,0,0,no PMQs section found
-2023-07-12,debates2023-07-12c.xml,0,62,"PM not found: possibly a stand-in, excluded"
-2023-07-13,debates2023-07-13b.xml,0,0,no PMQs section found
-2023-07-18,debates2023-07-18c.xml,0,0,no PMQs section found
-2023-07-19,debates2023-07-19b.xml,27,58,
-2023-07-20,debates2023-07-20c.xml,0,0,no PMQs section found
-2023-09-05,debates2023-09-05c.xml,0,0,no PMQs section found
-2023-09-06,debates2023-09-06c.xml,29,61,
-2023-09-07,debates2023-09-07d.xml,0,0,no PMQs section found
-2023-09-12,debates2023-09-12c.xml,0,0,no PMQs section found
-2023-09-13,debates2023-09-13b.xml,32,64,
-2023-09-14,debates2023-09-14a.xml,0,0,no PMQs section found
-2023-09-19,debates2023-09-19c.xml,0,0,no PMQs section found
-2023-10-17,debates2023-10-17e.xml,0,0,no PMQs section found
-2023-10-18,debates2023-10-18a.xml,28,56,
-2023-10-19,debates2023-10-19b.xml,0,0,no PMQs section found
-2023-10-24,debates2023-10-24b.xml,0,0,no PMQs section found
-2023-10-25,debates2023-10-25c.xml,27,56,
-2023-10-26,debates2023-10-26e.xml,0,0,no PMQs section found
-2023-11-07,debates2023-11-07d.xml,0,0,no PMQs section found
-2023-11-08,debates2023-11-08d.xml,0,0,no PMQs section found
-2023-11-09,debates2023-11-09b.xml,0,0,no PMQs section found
-2023-11-14,debates2023-11-14c.xml,0,0,no PMQs section found
-2023-11-15,debates2023-11-15b.xml,30,61,
-2023-11-16,debates2023-11-16a.xml,0,0,no PMQs section found
-2023-11-21,debates2023-11-21a.xml,0,0,no PMQs section found
-2023-11-22,debates2023-11-22d.xml,28,56,
-2023-11-23,debates2023-11-23d.xml,0,0,no PMQs section found
-2023-11-28,debates2023-11-28b.xml,0,0,no PMQs section found
-2023-11-29,debates2023-11-29b.xml,31,63,
-2023-11-30,debates2023-11-30a.xml,0,0,no PMQs section found
-2023-12-05,debates2023-12-05b.xml,0,0,no PMQs section found
-2023-12-06,debates2023-12-06b.xml,35,80,
-2023-12-07,debates2023-12-07b.xml,0,0,no PMQs section found
-2023-12-12,debates2023-12-12b.xml,0,0,no PMQs section found
-2023-12-13,debates2023-12-13c.xml,27,56,
-2023-12-14,debates2023-12-14a.xml,0,0,no PMQs section found
-2023-12-19,debates2023-12-19b.xml,0,0,no PMQs section found
+date,file,exchanges,pmqs_speeches,note,detail
+2023-01-10,debates2023-01-10b.xml,0,0,no PMQs section found,Justice | Windrush Lessons Learned Review: Impleme | Industrial Action | Points of Order | Bill Presented | Elected Representatives (Codes Of Conduc | Stamp Duty Land Tax (Reduction) Bill | Sport in Schools and Communities
+2023-01-11,debates2023-01-11e.xml,28,57,,opened by: Engagements; Prime Minister
+2023-01-12,debates2023-01-12b.xml,0,0,no PMQs section found,"Environment, Food and Rural Affairs | Business of the House | Point of Order | Bills Presented | Backbench Business | Iran | Landfill Tax Fraud | Retained EU Law: Trading Standards"
+2023-01-17,debates2023-01-17c.xml,0,0,no PMQs section found,"Business, Energy and Industrial Strategy | Police Conduct and David Carrick | Scotland Act 1998: Section 35 Power | Gender Recognition Reform (Scotland) Bil | Markets and Market Traders (Review of Su | Points of Order | Gender Recognition Reform (Scotland) Bil | Online Safety Bill"
+2023-01-18,debates2023-01-18e.xml,33,68,,opened by: Engagements; Prime Minister
+2023-01-19,debates2023-01-19b.xml,0,0,no PMQs section found,Transport | Speaker’s Statement | Levelling-up Fund Round 2 | Afghanistan: Ban on Women Aid Workers | Business of the House | Point of Order | Preventing Future Mass Atrocities Around | International Development Committee
+2023-01-24,debates2023-01-24c.xml,0,0,no PMQs section found,"Health and Social Care | Unaccompanied Asylum-seeking Children | Equal Marriage: Church of England | Probation Service: Chief Inspector’s Rev | Bill Presented | Defamation, Privacy, Freedom of Expressi | Economic Crime and Corporate Transparenc | Economic Crime and Corporate Transparenc"
+2023-01-25,debates2023-01-25b.xml,30,62,,opened by: Engagements; Prime Minister
+2023-01-26,debates2023-01-26b.xml,0,0,no PMQs section found,"Speaker’s Statement | Digital, Culture, Media and Sport | Church Commissioners | Public Accounts Commission | Church Commissioners | Restoration and Renewal Client Board | Electoral Commission Committee | Church Commissioners"
+2023-01-31,debates2023-01-31b.xml,0,0,no PMQs section found,"Foreign, Commonwealth and Development Of | IMF Economic Outlook | Bill Presented | Clean Air | Opposition Day - [12th Allotted Day]Oppo | Crime and Neighbourhood Policing | Non-domicile Tax Status | Business without Debate"
+2023-02-01,debates2023-02-01c.xml,29,59,,opened by: Engagements; Prime Minister
+2023-02-02,debates2023-02-02d.xml,0,0,no PMQs section found,Cabinet Office | British Steel: Negotiations | Business of the House | Reform of Children’s Social Care | Omagh Bombing | Backbench Business | LGBT History Month | Wild Deer Management and Sustainable Foo
+2023-02-07,debates2023-02-07c.xml,0,0,no PMQs section found,Prayers - [Mr Speaker in the Chair] | Treasury | Turkey and Syria Earthquake | Digital Pound | Points of Order | Bill Presented | Seizure of Russian State Assets and Supp | Seafarers’ Wages Bill [Lords] (Programme
+2023-02-08,debates2023-02-08b.xml,27,54,,opened by: Engagements; Prime Minister
+2023-02-09,debates2023-02-09b.xml,0,0,no PMQs section found,"business and Trade | Governor of Xinjiang: UK Visit | Capital Projects: Spending Decisions | Business of the House | Point of Order | Private Rented Sector | Department for Levelling Up, Housing and | Bill presented"
+2023-02-21,debates2023-02-21c.xml,0,0,no PMQs section found,Justice | Water Company Performance | Voter Identification | Raid of BBC Offices in India | Plymouth Shootings | Sun Protection Products (Value Added Tax | Social Security (Additional Payments) (N | Social Security (Additional Payments) (N
+2023-02-22,debates2023-02-22b.xml,29,58,,opened by: Engagements; Prime Minister
+2023-02-23,debates2023-02-23c.xml,0,0,no PMQs section found,"Environment, Food and Rural Affairs | UK Food Shortages | Business of the House | Football Governance White Paper | Bill Presented | Backbench Business | Future of the NHS | Business without Debate"
+2023-02-28,debates2023-02-28d.xml,0,0,no PMQs section found,Energy Security and Net Zero | Tributes to Baroness Boothroyd | Multi-storey Car Parks (Safety) | Opposition Day - [13th Allotted Day]Oppo | NHS Workforce Expansion | Royal Assent | NHS Workforce Expansion | Labour Market Activity
+2023-03-01,debates2023-03-01b.xml,30,60,,opened by: Engagements; Prime Minister
+2023-03-02,debates2023-03-02b.xml,0,0,no PMQs section found,Transport | Business of the House | Backbench Business | Change of Name by Registered Sex Offende | Welsh Affairs | North and East Syria: Autonomous Adminis
+2023-03-07,debates2023-03-07b.xml,0,0,no PMQs section found,Health and Social Care | Illegal Migration Bill | Science and Technology Framework | Bills Presented | Pension Contributions | Public Order Bill (Programme) (No.3) | Public Order Bill | Energy
+2023-03-08,debates2023-03-08b.xml,32,69,,opened by: Engagements; Prime Minister
+2023-03-09,debates2023-03-09b.xml,0,0,no PMQs section found,"Culture, Media and Sport | Electoral Commission Committee | Church Commissioners | Electoral Commission Committee | Church Commissioners | Business of the House | Point of Order | Supply and Appropriation (Anticipation a"
+2023-03-14,debates2023-03-14d.xml,0,0,no PMQs section found,"Foreign, Commonwealth and Development Of | HS2: Revised Timetable and Budget | BBC: Government Role in Impartiality | Building Safety | AUKUS Defence Partnership | Point of Order | Planning (Quarries) | Backbench Business"
+2023-03-15,debates2023-03-15c.xml,27,56,,opened by: Engagements; Prime Minister
+2023-03-16,debates2023-03-16d.xml,0,0,no PMQs section found,Cabinet Office | Health and Disability White Paper | Saudi Arabia’s Execution of Hussein Abo  | Business of the House | Security of Government Devices | Ways and Means | Budget Resolutions and Economic Situatio | HS2 Ltd and Local Community Relations
+2023-03-21,debates2023-03-21c.xml,0,0,no PMQs section found,Treasury | Metropolitan Police: Casey Review | Bill Presented | Same Sex Marriage (Church of England) | Ways and Means | Budget Resolutions and Economic Situatio | 2. Income tax (main rates) | 3. Income tax (default and savings rate)
+2023-03-22,debates2023-03-22b.xml,26,57,,opened by: Engagements; Prime Minister
+2023-03-23,debates2023-03-23b.xml,0,0,no PMQs section found,"Business and Trade | Food Price Inflation | Israel and the Occupied Palestinian Terr | Business of the House | Post Office: Horizon Compensation | Royal Assent | Investment Security Unit: Scrutiny | Business, Energy and Industrial Strategy"
+2023-03-28,debates2023-03-28d.xml,0,0,no PMQs section found,Business Before Questions | Justice | Strip Searching of Children | Afghan Resettlement Update | Bill Presented | Bus Services (Consultation) | Illegal Migration Bill | Business without Debate
+2023-03-29,debates2023-03-29c.xml,0,66,"PM not found: possibly a stand-in, excluded",Dominic Raab x31 | Angela Rayner x6 | Eleanor Laing x5 | Bill Wiggin x2
+2023-03-30,debates2023-03-30c.xml,0,0,no PMQs section found,"Speaker’s Statement | Environment, Food and Rural Affairs | Attorney General | Junior Doctors’ Strikes | Business of the House | State Pension Age: Review | Powering Up Britain | Belfast/Good Friday Agreement: 25th Anni"
+2023-04-18,debates2023-04-18c.xml,0,0,no PMQs section found,Energy Security and Net Zero | Top Secret Document Leaks | Machetes: Consultation | Points of Order | Bill Presented | Public Office (Child Sexual Abuse) | Finance (No. 2) Bill | Business without Debate
+2023-04-19,debates2023-04-19d.xml,27,61,,opened by: Engagements; Prime Minister
+2023-04-20,debates2023-04-20c.xml,0,0,no PMQs section found,Transport | Fishing Industry: Visas for Foreign Work | Business of the House | Israel and Occupied Palestinian Territor | Backbench Business | International Trade and Geopolitics | Human Rights Protections: Palestinians | Petition - Special school in Biddulph
+2023-04-25,debates2023-04-25c.xml,0,0,no PMQs section found,Speaker’s Statement | Health and Social Care | Bill Presented | Universal Jurisdiction (Extension) | Opposition Day - 14th Allotted DayOpposi | Water Quality: Sewage Discharge | Cost of Living Increases | Business without Debate
+2023-04-26,debates2023-04-26d.xml,27,54,,opened by: Engagements; Prime Minister
+2023-04-27,debates2023-04-27d.xml,0,0,no PMQs section found,"Culture, Media and Sport | Church Commissioners | Electoral Commission committee | The hon. Member for Lancaster and Fleetw | Church Commissioners | Electoral Commission committee | Church Commissioners | Voter ID"
+2023-05-02,debates2023-05-02a.xml,0,0,no PMQs section found,"Royal Assent | Foreign, Commonwealth and Development Of | UK Concussion Guidelines for Grassroots  | Sudan | Point of Order | National Minimum Wage | Higher Education (Freedom of Speech) Bil | Rohingya Refugees in Bangladesh"
+2023-05-03,debates2023-05-03c.xml,29,62,,opened by: Engagements; Prime Minister
+2023-05-09,debates2023-05-09b.xml,0,0,no PMQs section found,Treasury | Coronation: Policing of Protests | Recovering Access to Primary Care | Points of Order | Cladding Remediation Works (Code of Prac | Energy Bill [Lords] | Energy Bill [Lords] (Programme) | Energy Bill [Lords] (Money)
+2023-05-10,debates2023-05-10a.xml,36,74,,opened by: Engagements; Prime Minister
+2023-05-11,debates2023-05-11a.xml,0,0,no PMQs section found,Cabinet Office | Retained EU Law (Revocation and Reform)  | Business of the House | Ukraine | Royal Assent | Rail Services | Point of Order | Backbench Business
+2023-05-16,debates2023-05-16c.xml,0,0,no PMQs section found,Justice | National Crime Agency Investigation: Jav | Points of Order | Children Not in School (Register) | Opposition Day - 15th Allotted DayOpposi | Cost of Living | Public Order Act 2023 | Business without Debate
+2023-05-17,debates2023-05-17d.xml,0,59,"PM not found: possibly a stand-in, excluded",Oliver Dowden x29 | Angela Rayner x7 | Cat Smith x2 | Mhairi Black x2
+2023-05-18,debates2023-05-18b.xml,0,0,no PMQs section found,Business and Trade | Business of the House | Points of Order | Backbench Business | Public Access to Nature | Psilocybin Treatments | Health Services: Wantage and Didcot
+2023-05-23,debates2023-05-23d.xml,0,0,no PMQs section found,Energy Security and Net Zero | Ministerial Code: Investigation of Poten | Points of Order | Animal Welfare (Responsibility for Dog A | Opposition Day - [16th Allotted Day]Oppo | Leasehold Reform | Safety of School Buildings | Business without Debate
+2023-05-24,debates2023-05-24c.xml,33,69,,opened by: Engagements; Prime Minister
+2023-05-25,debates2023-05-25b.xml,0,0,no PMQs section found,"Environment, Food and Rural Affairs | Attorney General | Net Migration Figures | Business of the House | Patient Choice | New Hospitals | Animal Welfare | Backbench Business"
+2023-06-06,debates2023-06-06c.xml,0,0,no PMQs section found,Health and Social Care | Point of Order | Bill Presented | Care Supporters | Committee on Standards | British Nationality (Regularisation of P | Timetable | Timing of proceedings and Questions to b
+2023-06-07,debates2023-06-07d.xml,0,62,"PM not found: possibly a stand-in, excluded",Oliver Dowden x31 | Angela Rayner x6 | David Johnston x2 | Mhairi Black x2
+2023-06-08,debates2023-06-08a.xml,0,0,no PMQs section found,Transport | Business of the House | Points of Order | Backbench Business | National Carers Week | Council of Europe | Petition - East Putney station | Deep Geothermal Energy
+2023-06-13,debates2023-06-13b.xml,0,0,no PMQs section found,"Foreign, Commonwealth and Development Of | Mortgage Market | Spiking | Procurement Bill [Lords] | Energy Bill [Lords]: Ways and Means | Electronic Trade Documents Bill [Lords]: | Electronic Trade Documents Bill [Lords]  | Business without Debate"
+2023-06-14,debates2023-06-14b.xml,33,66,,opened by: Engagements; Prime Minister
+2023-06-15,debates2023-06-15a.xml,0,0,no PMQs section found,"Business before Questions | Culture, Media and Sport | Church Commissioners | Electoral Commission Committee | Church Commissioners | House of Commons Commission | Electoral Commission Committee | Abortion: Offences against the Person Ac"
+2023-06-20,debates2023-06-20e.xml,0,0,no PMQs section found,Treasury | Ugandan School Attack | Cost of Living Support | Bill Presented | Children in Hospital for Extended Period | Business of the House (Today) | Finance (No. 2) Bill (Procedure) | Finance (No. 2) Bill
+2023-06-21,debates2023-06-21c.xml,29,58,,opened by: Engagements; Prime Minister
+2023-06-22,debates2023-06-22a.xml,0,0,no PMQs section found,Cabinet Office | Sudan: Atrocities | Business of the House | Ukraine Recovery Conference | Backbench Business | Infected Blood Inquiry | Local Radio: BBC Proposals | Petition
+2023-06-27,debates2023-06-27c.xml,0,0,no PMQs section found,"Justice | Illegal Migration Bill: Economic Impact  | Schools (Gender and Parental Rights) | Opposition Day | Repurposing Russian Assets to Rebuild Uk | Business without Debate | Delegated Legislation | Air Quality: Luton Road, Dunstable"
+2023-06-28,debates2023-06-28d.xml,30,60,,opened by: Engagements; Prime Minister
+2023-06-29,debates2023-06-29b.xml,0,0,no PMQs section found,Business and Trade | Business of the House | Bills Presented | Royal Assent | Backbench Business | Fishing Industry | Artificial Intelligence | Migration and Economic Development Partn
+2023-07-04,debates2023-07-04b.xml,0,0,no PMQs section found,Energy Security and Net Zero | Violence in the West Bank | Points of Order | Republic of Somaliland (Recognition) | Estimates Day | Department for Work and Pensions | His Majesty’s Prison and Probation Servi | Women and Equalities Committee
+2023-07-05,debates2023-07-05b.xml,0,65,"PM not found: possibly a stand-in, excluded",Oliver Dowden x32 | Angela Rayner x6 | Mhairi Black x3 | Stephen Metcalfe x2
+2023-07-06,debates2023-07-06a.xml,0,0,no PMQs section found,"Environment, Food and Rural Affairs | Attorney General | Rail Ticket Offices | Hong Kong Pro-democracy Activists | Business of the House | Supply and Appropriation (Main Estimates | Building Safety and Social Housing | Iran"
+2023-07-11,debates2023-07-11e.xml,0,0,no PMQs section found,Health and Social Care | Financial Services Reforms | Points of Order | Bill Presented | Bullying and Respect at Work | Illegal Migration Bill (Programme) (No.  | Consideration of Lords Amendments | Subsequent stages
+2023-07-12,debates2023-07-12c.xml,0,58,"PM not found: possibly a stand-in, excluded",Oliver Dowden x29 | Angela Rayner x6 | Craig Mackinlay x2 | Mhairi Black x2
+2023-07-13,debates2023-07-13b.xml,0,0,no PMQs section found,Transport | NATO Summit | Business of the House | Public Sector Pay | Hong Kong Update | Point of Order | Free Trade Agreements: Scrutiny | BUSINESS AND TRADE COMMITTEE
+2023-07-18,debates2023-07-18c.xml,0,0,no PMQs section found,"Foreign, Commonwealth and Development Of | Post Office Horizon IT Scandal: Compensa | Comprehensive and Progressive Agreement  | Defence Command Paper Refresh | Afghan Resettlement Update | Bill Presented | High Income Child Benefit Charge (Report | Business of the House (Today)"
+2023-07-19,debates2023-07-19b.xml,27,58,,opened by: Engagements; Prime Minister
+2023-07-20,debates2023-07-20c.xml,0,0,no PMQs section found,"Prayers - [Mr Speaker in the Chair] | Culture, Media and Sport | Electoral Commission Committee | Church Commissioners | Electoral Commission Committee | Church Commissioners | Electoral Commission Committee | Church Commissioners"
+2023-09-05,debates2023-09-05c.xml,0,0,no PMQs section found,"Treasury | Nutrient Neutrality: Levelling-up and Re | Work Capability Assessment Consultation | Illegal Migration Update | Points of Order | Electronic Cigarettes (Branding, Promoti | The Speaker’s Absence | Energy Bill [Lords]"
+2023-09-06,debates2023-09-06c.xml,29,61,,opened by: Engagements; Prime Minister
+2023-09-07,debates2023-09-07d.xml,0,0,no PMQs section found,Prayers | Cabinet Office | Business of the House | HMPPS Update | Prevent: Independent Review | EU Programmes | Points of Order | Backbench Business
+2023-09-12,debates2023-09-12c.xml,0,0,no PMQs section found,Justice | Offshore Wind Contracts | Points of Order | Electricity Supply (Vulnerable Customers | Speaker’s Statement | Retirement of the Clerk of the House | Online Safety Bill (Programme) (No. 5) | Online Safety Bill
+2023-09-13,debates2023-09-13b.xml,30,60,,opened by: Engagements; Prime Minister
+2023-09-14,debates2023-09-14a.xml,0,0,no PMQs section found,Prayers - [Mr Speaker in the Chair] | Business and Trade | Libya Floods | Voter Identification Scheme | Business of the House | Backbench Business | Football and Dementia | Support for Bereaved Children
+2023-09-19,debates2023-09-19c.xml,0,0,no PMQs section found,Prayers - [Mr Speaker in the Chair] | Energy Security and Net Zero | School Building Closures | West Coast Main Line Franchise | Resettlement of Afghans | Birmingham City Council | Point of Order | Departmental Response Times
+2023-10-17,debates2023-10-17e.xml,0,0,no PMQs section found,Health and Social Care | Core School Budget Allocations | Devolution (Employment) (Scotland) | Levelling-up and Regeneration Bill (Prog | Consideration of Lords Amendments | Subsequent stages | Levelling-up and Regeneration Bill | Business without Debate
+2023-10-18,debates2023-10-18a.xml,28,56,,opened by: Engagements; Prime Minister
+2023-10-19,debates2023-10-19b.xml,0,0,no PMQs section found,"Environment, Food and Rural Affairs | Attorney General | The Attorney General was asked— | Business of the House | Point of Order | Backbench Business | Birth Trauma | Baby Loss Awareness Week"
+2023-10-24,debates2023-10-24b.xml,0,0,no PMQs section found,"Business Before Questions | Foreign, Commonwealth and Development Of | War in Ukraine | Illegal Migration | Points of Order | Parliamentary Sovereignty (Referendums) | Prisons | Levelling-up and Regeneration Bill"
+2023-10-25,debates2023-10-25c.xml,27,56,,opened by: Engagements; Prime Minister
+2023-10-26,debates2023-10-26e.xml,0,0,no PMQs section found,Business Before Questions | Transport | Points of Order | Deputy Speakers | Backbench Business | Petition - Southbourne Crossroads Car Pa | Osteoporosis | MESSAGE TO ATTEND THE LORDS COMMISSIONER
+2023-11-07,debates2023-11-07d.xml,0,0,no PMQs section found,MESSAGE TO ATTEND HIS MAJESTY | Outlawries Bill | King’s Speech | Debate on the Address | Dangerous Driving: Unduly Lenient Senten
+2023-11-08,debates2023-11-08d.xml,0,0,no PMQs section found,Speaker’s Statement | Pakistan: Evacuation of Afghans | British Steel | Occupied Palestinian Territories: Humani | Bills Presented | Debate on the Address | Breaking Down Barriers to Opportunity | Football Regulation
+2023-11-09,debates2023-11-09b.xml,0,0,no PMQs section found,Metropolitan Police: Operational Indepen | UK Sanctions Regime: Russia and Belarus | Business of the House | Artificial Intelligence Safety Summit | Debate on the Address | Making Britain a Clean Energy Superpower | Funding for Canals
+2023-11-14,debates2023-11-14c.xml,0,0,no PMQs section found,Speaker’s Statement | Treasury | Israel and the Occupied Palestinian Terr | Bills Presented | Debate on the Address | Economic Growth | Business Without Debate | Deferred Divisions
+2023-11-15,debates2023-11-15b.xml,26,53,,opened by: Engagements; Prime Minister
+2023-11-16,debates2023-11-16a.xml,0,0,no PMQs section found,"Business before Questions | Culture, Media and Sport | Electoral Commission Committee | Church Commissioners | Electoral Commission Committee | Church Commissioners | Restoration and Renewal Client Board | Business of the House"
+2023-11-21,debates2023-11-21a.xml,0,0,no PMQs section found,Business before Questions | Justice | International Development White Paper | Veterans Welfare Services | Points of Order | Media Bill | Media Bill (Programme) | Committal
+2023-11-22,debates2023-11-22d.xml,28,56,,opened by: Engagements; Prime Minister
+2023-11-23,debates2023-11-23d.xml,0,0,no PMQs section found,Cabinet Office | Speaker’s Statement | Business of the House | Bill Presented | Ways and Means | Autumn Statement Resolutions - Rates of  | Isle of Wight Local Government Finance
+2023-11-28,debates2023-11-28b.xml,0,0,no PMQs section found,Business Before Questions | Energy Security and Net Zero | Speaker’s Statement | Ukraine | Net Migration Figures | Criminal Justice Bill | Criminal Justice Bill (Programme) | Criminal Justice Bill (Money)
+2023-11-29,debates2023-11-29b.xml,31,63,,opened by: Engagements; Prime Minister
+2023-11-30,debates2023-11-30a.xml,0,0,no PMQs section found,Business and Trade | Business of the House | National Insurance Contributions (Reduct | Timetable | Timing of proceedings and Questions to b | Consideration of Lords Amendments | Subsequent stages | Reasons Committee
+2023-12-05,debates2023-12-05b.xml,0,0,no PMQs section found,Prayers | Health and Social Care | Middle East: UK Military Deployments | Opposition Day - 1st Allotted DayOpposit | Town Centre Safety | Water Companies: Executive Bonuses | Business without Debate | Delegated Legislation
+2023-12-06,debates2023-12-06b.xml,33,76,,opened by: Engagements; Prime Minister
+2023-12-07,debates2023-12-07b.xml,0,0,no PMQs section found,"Prayers | Environment, Food and Rural Affairs | Attorney General | Refurbishing Trains: Contracts | Cyber Interference: UK Democracy | Business of the House | BBC Funding | Bill Presented"
+2023-12-12,debates2023-12-12b.xml,0,0,no PMQs section found,"Speaker’s Statement | Foreign, Commonwealth and Development Of | Points of Order | Bills Presented | Safety of Rwanda (Asylum and Immigration | SAFETY OF RWANDA (ASYLUM AND IMMIGRATION | Business without Debate | Delegated Legislation"
+2023-12-13,debates2023-12-13c.xml,27,56,,opened by: Engagements; Prime Minister
+2023-12-14,debates2023-12-14a.xml,0,0,no PMQs section found,Transport | Venezuela: Threat to Guyana | Business of the House | COP28 | Citizens’ Rights | Human Trafficking | Home Affairs Committee | Backbench Business
+2023-12-19,debates2023-12-19b.xml,0,0,no PMQs section found,Speaker’s Statement | Treasury | Israel and Gaza | Ukraine | Deputy Speaker’s Statement | Long-term Plan for Housing | Points of Order | Miners’ Strike (Pardons)

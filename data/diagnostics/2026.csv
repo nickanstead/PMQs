@@ -1,78 +1,78 @@
-date,file,exchanges,pmqs_speeches,note
-2026-01-06,debates2026-01-06d.xml,0,0,no PMQs section found
-2026-01-07,debates2026-01-07d.xml,23,49,
-2026-01-08,debates2026-01-08c.xml,0,0,no PMQs section found
-2026-01-13,debates2026-01-13e.xml,0,0,no PMQs section found
-2026-01-14,debates2026-01-14e.xml,29,61,
-2026-01-15,debates2026-01-15b.xml,0,0,no PMQs section found
-2026-01-20,debates2026-01-20h.xml,0,0,no PMQs section found
-2026-01-21,debates2026-01-21c.xml,31,67,
-2026-01-22,debates2026-01-22a.xml,0,0,no PMQs section found
-2026-01-27,debates2026-01-27f.xml,0,0,no PMQs section found
-2026-01-28,debates2026-01-28d.xml,0,59,"PM not found: possibly a stand-in, excluded"
-2026-01-29,debates2026-01-29b.xml,0,0,no PMQs section found
-2026-02-03,debates2026-02-03d.xml,0,0,no PMQs section found
-2026-02-04,debates2026-02-04a.xml,27,54,
-2026-02-05,debates2026-02-05c.xml,0,0,no PMQs section found
-2026-02-10,debates2026-02-10b.xml,0,0,no PMQs section found
-2026-02-11,debates2026-02-11c.xml,31,65,
-2026-02-12,debates2026-02-12d.xml,0,0,no PMQs section found
-2026-02-24,debates2026-02-24c.xml,0,0,no PMQs section found
-2026-02-25,debates2026-02-25c.xml,27,61,
-2026-02-26,debates2026-02-26a.xml,0,0,no PMQs section found
-2026-03-03,debates2026-03-03a.xml,0,0,no PMQs section found
-2026-03-04,debates2026-03-04a.xml,26,57,
-2026-03-05,debates2026-03-05a.xml,0,0,no PMQs section found
-2026-03-10,debates2026-03-10b.xml,0,0,no PMQs section found
-2026-03-11,debates2026-03-11g.xml,27,58,
-2026-03-12,debates2026-03-12d.xml,0,0,no PMQs section found
-2026-03-17,debates2026-03-17b.xml,0,0,no PMQs section found
-2026-03-18,debates2026-03-18e.xml,25,51,
-2026-03-19,debates2026-03-19d.xml,0,0,no PMQs section found
-2026-03-24,debates2026-03-24c.xml,0,0,no PMQs section found
-2026-03-25,debates2026-03-25e.xml,29,65,
-2026-03-26,debates2026-03-26b.xml,0,0,no PMQs section found
-2026-04-14,debates2026-04-14e.xml,0,0,no PMQs section found
-2026-04-15,debates2026-04-15f.xml,25,52,
-2026-04-16,debates2026-04-16b.xml,0,0,no PMQs section found
-2026-04-21,debates2026-04-21f.xml,0,0,no PMQs section found
-2026-04-22,debates2026-04-22e.xml,29,58,
-2026-04-23,debates2026-04-23b.xml,0,0,no PMQs section found
-2026-04-28,debates2026-04-28d.xml,0,247,"PM not found: possibly a stand-in, excluded"
-2026-04-29,debates2026-04-29c.xml,27,54,
-2026-05-13,debates2026-05-13b.xml,0,0,no PMQs section found
-2026-05-14,debates2026-05-14e.xml,0,0,no PMQs section found
-2026-05-19,debates2026-05-19b.xml,0,0,no PMQs section found
-2026-05-20,debates2026-05-20c.xml,27,54,
-2026-05-21,debates2026-05-21c.xml,0,0,no PMQs section found
-2026-06-02,debates2026-06-02d.xml,0,0,no PMQs section found
-2026-06-03,debates2026-06-03b.xml,29,60,
-2026-06-04,debates2026-06-04d.xml,0,0,no PMQs section found
-2026-06-09,debates2026-06-09f.xml,0,0,no PMQs section found
-2026-06-10,debates2026-06-10b.xml,29,58,
-2026-06-11,debates2026-06-11d.xml,0,0,no PMQs section found
-2026-06-16,debates2026-06-16f.xml,0,0,no PMQs section found
-2026-06-17,debates2026-06-17d.xml,0,53,"PM not found: possibly a stand-in, excluded"
-2026-06-18,debates2026-06-18d.xml,0,0,no PMQs section found
-2026-06-23,debates2026-06-23d.xml,0,0,no PMQs section found
-2026-06-24,debates2026-06-24c.xml,30,60,
-2026-06-25,debates2026-06-25d.xml,0,0,no PMQs section found
-2026-06-30,debates2026-06-30c.xml,0,0,no PMQs section found
-2026-07-01,debates2026-07-01b.xml,25,50,
-2026-07-02,debates2026-07-02c.xml,0,0,no PMQs section found
-2026-07-07,debates2026-07-07a.xml,0,0,no PMQs section found
-2026-07-08,debates2026-07-08c.xml,0,50,"PM not found: possibly a stand-in, excluded"
-2026-07-09,debates2026-07-09b.xml,0,0,no PMQs section found
-2026-07-14,debates2026-07-14b.xml,0,0,no PMQs section found
-2026-07-15,debates2026-07-15a.xml,31,63,
-2026-07-16,debates2026-07-16b.xml,0,0,no PMQs section found
-2026-09-01,debates2026-09-01b.xml,0,0,no PMQs section found
-2026-09-02,debates2026-09-02c.xml,0,54,"PM not found: possibly a stand-in, excluded"
-2026-09-03,debates2026-09-03b.xml,0,0,no PMQs section found
-2026-09-08,debates2026-09-08b.xml,0,0,no PMQs section found
-2026-09-09,debates2026-09-09b.xml,0,50,"PM not found: possibly a stand-in, excluded"
-2026-09-10,debates2026-09-10b.xml,0,0,no PMQs section found
-2026-09-15,debates2026-09-15c.xml,0,0,no PMQs section found
-2026-10-13,debates2026-10-13c.xml,0,0,no PMQs section found
-2026-10-14,debates2026-10-14b.xml,0,54,"PM not found: possibly a stand-in, excluded"
-2026-10-15,debates2026-10-15a.xml,0,0,no PMQs section found
+date,file,exchanges,pmqs_speeches,note,detail
+2026-01-06,debates2026-01-06d.xml,0,0,no PMQs section found,Energy Security and Net Zero | Bills Presented | Property (Registration and Valuation) | Cyber Security and Resilience (Network a | Cyber Security and Resilience (Network a | Cyber Security and Resilience (Network a | Cyber Security and Resilience (Network a | Cyber Security and Resilience (Network a
+2026-01-07,debates2026-01-07d.xml,23,49,,opened by: Engagements; Prime Minister
+2026-01-08,debates2026-01-08c.xml,0,0,no PMQs section found,Transport | Business of the House | Road Safety Strategy | Subsea Telecommunications Cables: Resili | Joint Committee on the National Security | Points of Order | Bill Presented | Backbench Business
+2026-01-13,debates2026-01-13e.xml,0,0,no PMQs section found,Prayers - [Mr Speaker in the Chair] | Health and Social Care | Chinese Embassy | Storm Goretti | Business of the House | Iran | Points of Order | Bills Presented
+2026-01-14,debates2026-01-14e.xml,29,61,,opened by: Engagements; Prime Minister
+2026-01-15,debates2026-01-15b.xml,0,0,no PMQs section found,"Prayers | Business before Questions | Culture, Media and Sport | Church Commissioners | House of Commons Commission | Restoration and Renewal Client Board | House of Commons Commission | Church Commissioners"
+2026-01-20,debates2026-01-20h.xml,0,0,no PMQs section found,"Foreign, Commonwealth and Development Of | Mobile Phones and Social Media: Use by C | Chinese Embassy | Point of Order | Glaucoma Care (England) | Sentencing Bill (Programme) (No. 2) | Consideration of Lords Amendments | Subsequent stages"
+2026-01-21,debates2026-01-21c.xml,31,67,,opened by: Engagements; Prime Minister
+2026-01-22,debates2026-01-22a.xml,0,0,no PMQs section found,Cabinet Office | Business of the House | Local Government Reorganisation | Energy Costs | Energy Security and Net Zero Committee | Backbench Business | Fishing Industry | Agricultural Sector: Import Standards
+2026-01-27,debates2026-01-27f.xml,0,0,no PMQs section found,Speaker’s Statement | Treasury | Commonhold and Leasehold Reform | Business Rates | Electrically Assisted Pedal Cycles | Medical Training (Prioritisation) Bill ( | Timetable | Timing of proceedings and Questions to b
+2026-01-28,debates2026-01-28d.xml,0,59,"PM not found: possibly a stand-in, excluded",David Lammy x29 | Andrew Griffith x6 | Anneliese Midgley x2 | Daisy Cooper x2
+2026-01-29,debates2026-01-29b.xml,0,0,no PMQs section found,"Business and Trade | Business of the House | Women’s State Pension Age Communication: | Prison Capacity: Annual Statement | First 1,000 Days of Life | Health and Social Care Committee | Backbench Business | Holocaust Memorial Day"
+2026-02-03,debates2026-02-03d.xml,0,0,no PMQs section found,Speaker’s Statement | Business Before Questions | Justice | Iran | Separation Centres Review | Point of Order | British-made Bricks (Proposals) | Universal Credit (Removal of Two Child L
+2026-02-04,debates2026-02-04a.xml,27,54,,opened by: Engagements; Prime Minister
+2026-02-05,debates2026-02-05c.xml,0,0,no PMQs section found,"Business before Questions | Environment, Food and Rural Affairs | Solicitor General | Business of the House | Sudan | National Cancer Plan | Economic Security | Business and Trade Committee"
+2026-02-10,debates2026-02-10b.xml,0,0,no PMQs section found,Energy Security and Net Zero | Ministry of Defence: Palantir Contracts | Court Reporting Data | Local Power Plan | Point of Order | Bill presented | Eating Disorders (Training) | Business of the House (Today)
+2026-02-11,debates2026-02-11c.xml,31,65,,opened by: Engagements; Prime Minister
+2026-02-12,debates2026-02-12d.xml,0,0,no PMQs section found,"Transport | Lord Mandelson: Government Response to H | Royal Assent | Pharmacy First: Withholding Payments | Business of the House | Social Rented Housing Sector | Housing, Communities and Local Governmen | Point of Order"
+2026-02-24,debates2026-02-24c.xml,0,0,no PMQs section found,Speaker’s Statement | Health and Social Care | Points of Order | Bill Presented | Food Labelling (Halal and Kosher Meat) | Opposition Day - 18th Allotted DayOpposi | Andrew Mountbatten-Windsor | Online Harm: Child Protection
+2026-02-25,debates2026-02-25c.xml,27,61,,opened by: Engagements; Prime Minister
+2026-02-26,debates2026-02-26a.xml,0,0,no PMQs section found,"Culture, Media and Sport | Restoration and Renewal Client Board | Church Commissioners | House of Commons Commission | Restoration and Renewal Client Board | Church Commissioners | House of Commons Commission | Church Commissioners"
+2026-03-03,debates2026-03-03a.xml,0,0,no PMQs section found,"Foreign, Commonwealth and Development Of | Spring Forecast | Bill Presented | Geotechnical Data | Sustainable Aviation Fuel BilL (Programm | Consideration of Lords Amendments | Subsequent stages | Sustainable Aviation Fuel Bill"
+2026-03-04,debates2026-03-04a.xml,26,57,,opened by: Engagements; Prime Minister
+2026-03-05,debates2026-03-05a.xml,0,0,no PMQs section found,Cabinet Office | Speaker’s Statement | Business of the House | Royal Assent | Consular Assistance | Energy Markets | Point of Order | Bill Presented
+2026-03-10,debates2026-03-10b.xml,0,0,no PMQs section found,Treasury | Digital ID: Public Consultation | Points of Order | Domestic Abuse (Pets) | Courts and Tribunals Bill | Courts and Tribunals Bill (Programme) | Committal | Proceedings in Public Bill Committee
+2026-03-11,debates2026-03-11g.xml,27,58,,opened by: Engagements; Prime Minister
+2026-03-12,debates2026-03-12d.xml,0,0,no PMQs section found,Business and Trade | Speaker’s Statement | Business of the House | Defending Democracy Taskforce | International Women’s Day | Fire Station Closures
+2026-03-17,debates2026-03-17b.xml,0,0,no PMQs section found,Justice | Meningitis Outbreak | Middle East | Youth Unemployment | Points of Order | Bill Presented | Clinical Negligence | Ministerial Salaries (Amendment) Bill (A
+2026-03-18,debates2026-03-18e.xml,25,51,,opened by: Engagements; Prime Minister
+2026-03-19,debates2026-03-19d.xml,0,0,no PMQs section found,"Environment, Food and Rural Affairs | Solicitor General | Business of the House | International Development | UK Steel Strategy | National Security Strategy, Political Fi | Joint Committee on the National Security | Community Mental Health Services"
+2026-03-24,debates2026-03-24c.xml,0,0,no PMQs section found,Business before Questions | Energy Security and Net Zero | Middle East: Economic Update | Points of Order | Personal Protective Equipment (Inclusive | Opposition Day | Defence | Business without Debate
+2026-03-25,debates2026-03-25e.xml,29,65,,opened by: Engagements; Prime Minister
+2026-03-26,debates2026-03-26b.xml,0,0,no PMQs section found,"Speaker’s Statement | Transport | Local Government Reorganisation | Business of the House | National Savings & Investments | Resident Doctors: Industrial Action | Coastal Erosion | environment, Food and Rural Affairs comm"
+2026-04-14,debates2026-04-14e.xml,0,0,no PMQs section found,Health and Social Care | Infected Blood Compensation Scheme | Knife Crime | Point of Order | Type 1 Diabetes Screening (Children) | Crime and Policing Bill (Money) | Crime and Policing Bill (Ways and Means) | Crime and Policing Bill
+2026-04-15,debates2026-04-15f.xml,25,52,,opened by: Engagements; Prime Minister
+2026-04-16,debates2026-04-16b.xml,0,0,no PMQs section found,"Culture, Media and Sport | Church Commissioners | Restoration and Renewal Client Board | Church Commissioners | Restoration and Renewal Client Board | The hon. Member for Blaenau Gwent and Rh | Business of the House | British Industrial Competitiveness Schem"
+2026-04-21,debates2026-04-21f.xml,0,0,no PMQs section found,"Speaker’s Statement | Foreign, Commonwealth and Development Of | Middle East: Economic Update | Points of Order | Road Surfaces (Maximum Noise Levels) | Peter Mandelson: Government Appointment | English Devolution and Community Empower | Consideration of Lords Amendments"
+2026-04-22,debates2026-04-22e.xml,29,58,,opened by: Engagements; Prime Minister
+2026-04-23,debates2026-04-23b.xml,0,0,no PMQs section found,"Cabinet Office | Business of the House | UK Biobank Data | Synthetic Chemicals | Environmental Audit Committee | Housing Conditions in Temporary Accommod | Housing, Communities and Local Governmen | Bill Presented"
+2026-04-28,debates2026-04-28d.xml,0,0,no PMQs section found,Treasury | Bills Presented | Local Area Energy Plans | Referral of Prime Minister to Committee  | Pension Schemes Bill | Business of the House | English Devolution and Community Empower | Business without Debate
+2026-04-29,debates2026-04-29c.xml,27,54,,opened by: Engagements; Prime Minister
+2026-05-13,debates2026-05-13b.xml,0,0,no PMQs section found,Message to attend His Majesty | Outlawries Bill | King’s Speech | Debate on the Address | New Developments: Unadopted Roads and Pu
+2026-05-14,debates2026-05-14e.xml,0,0,no PMQs section found,Speaker’s Statement | Business of the House | Supreme Court Dillon Judgment | National Security | Point of Order | Bills Presented | Debate on the Address | Heathrow Airport: Third Runway
+2026-05-19,debates2026-05-19b.xml,0,0,no PMQs section found,Business before Questions | Justice | Lord Mandelson: Government Response to H | Speaker’s Statement | High Speed 2 Reset | Energy Security | Petition - Banking Facilities in Cupar | Petition - Antisocial Behaviour in Holto
+2026-05-20,debates2026-05-20c.xml,27,54,,opened by: Engagements; Prime Minister
+2026-05-21,debates2026-05-21c.xml,0,0,no PMQs section found,Business and Trade | Costs for Motorists | Business of the House | Middle East: Economic Response | Middle East | Humble Address: Andrew Mountbatten-Winds | Steel Industry (Nationalisation) Bill | Steel Industry (Nationalisation) Bill (P
+2026-06-02,debates2026-06-02d.xml,0,0,no PMQs section found,Energy Security and Net Zero | Milburn Review: Interim Report | Murder of Henry Nowak | Points of Order | Armed Forces Bill (Programme) (No. 2) | Committee of the whole House | Consideration and Third Reading | Armed Forces Bill
+2026-06-03,debates2026-06-03b.xml,29,60,,opened by: Engagements; Prime Minister
+2026-06-04,debates2026-06-04d.xml,0,0,no PMQs section found,"Environment, Food and Rural Affairs | Solicitor General | Russian Attacks on Civilian Infrastructu | Business of the House | Children’s Social Care: Enduring Relatio | Point of Order: Rectification Procedure | Pride Month | General Medical Council"
+2026-06-09,debates2026-06-09f.xml,0,0,no PMQs section found,Health and Social Care | North Belfast: Violent Attack | Middle East | Bill Presented | Steel Industry (Nationalisation) Bill | Business without Debate | Delegated Legislation | Adjournment (Summer and Conference)
+2026-06-10,debates2026-06-10b.xml,29,58,,opened by: Engagements; Prime Minister
+2026-06-11,debates2026-06-11d.xml,0,0,no PMQs section found,Transport | Compassionate Use Medicine Schemes: VAT | Business of the House | Point of Order | Legacy of Jo Cox | Grenfell Tower Fire: Ninth Anniversary
+2026-06-16,debates2026-06-16f.xml,0,0,no PMQs section found,"Speaker’s Statement | Foreign, Commonwealth and Development Of | Thames Water | Personal Statements | Point of Order | Cyber Security and Resilience (Network a | Business without Debate | Delegated Legislation (Committees)"
+2026-06-17,debates2026-06-17d.xml,0,53,"PM not found: possibly a stand-in, excluded",David Lammy x26 | Claire Coutinho x6 | Lauren Sullivan x2 | Daisy Cooper x2
+2026-06-18,debates2026-06-18d.xml,0,0,no PMQs section found,"Business before Questions | Culture, Media and Sport | Electoral Commission Committee | House of Commons Commission | Church Commissioners | House of Commons Commission | Church Commissioners | Grooming Gangs: Independent Inquiry"
+2026-06-23,debates2026-06-23d.xml,0,0,no PMQs section found,Treasury | Opposition Day | Puberty Blockers | Business without Debate | Delegated Legislation | Speaker’s Committee for the Independent  | Modernisation Committee | Forest City: West Suffolk
+2026-06-24,debates2026-06-24c.xml,30,60,,opened by: Engagements; Prime Minister
+2026-06-25,debates2026-06-25d.xml,0,0,no PMQs section found,Cabinet Office | Sudan | Points of Order | Business of the House | Steel Trade Measure | Draft Conversion Practices Bill | Connect to Work Programme | Work and Pensions Committee
+2026-06-30,debates2026-06-30c.xml,0,0,no PMQs section found,Justice | Speaker’s Statement | Steel Tariffs: Northern Ireland | National Maternity and Neonatal Investig | Defence Investment Plan | Bill presented | Points of Order | Child Savings Accounts (Mental Capacity 
+2026-07-01,debates2026-07-01b.xml,25,50,,opened by: Engagements; Prime Minister
+2026-07-02,debates2026-07-02c.xml,0,0,no PMQs section found,Business and Trade | Business of the House | Historical Forced Adoption | Points of Order | Bill Presented | National Audit Office | Backbench Business | Commonhold and Leasehold Reform: Managin
+2026-07-07,debates2026-07-07a.xml,0,0,no PMQs section found,Energy Security and Net Zero | Point of Order | Outdoor Education | Opposition Day | Early Release of Prisoners | Business without Debate | Delegated Legislation | Petition - Speed Limits in Torwood Villa
+2026-07-08,debates2026-07-08c.xml,0,50,"PM not found: possibly a stand-in, excluded",David Lammy x25 | James Cleverly x6 | Paul Holmes x2 | Daisy Cooper x2
+2026-07-09,debates2026-07-09b.xml,0,0,no PMQs section found,"Business Before Questions | Environment, Food and Rural Affairs | Solicitor General | Iran Conflict: Ceasefire | Business of the House | NATO Summit | Timms Review: Interim Report | Science Diplomacy"
+2026-07-14,debates2026-07-14b.xml,0,0,no PMQs section found,Health and Social Care | Business of the House | Points of Order | UK-Switzerland Enhanced Free Trade Agree | Bills Presented | Freedom of Information Act 2000 (Amendme | Public Office (Accountability) Bill | Public Office (Accountability) Bill (Car
+2026-07-15,debates2026-07-15a.xml,31,63,,opened by: Engagements; Prime Minister
+2026-07-16,debates2026-07-16b.xml,0,0,no PMQs section found,Transport | British Steel | Speaker’s Statement | Business of the House | Local Government Reorganisation | Gibraltar: UK-EU Treaty | Transition to State Pension Age | Work and Pensions Committee
+2026-09-01,debates2026-09-01b.xml,0,0,no PMQs section found,"New Member | Foreign, Commonwealth and Development Of | Direction of Government | Criminal Justice Reform | Policing in Cleveland | Bills Presented | Road Safety Plans | Business of the House"
+2026-09-02,debates2026-09-02c.xml,0,54,"PM not found: possibly a stand-in, excluded",Andy Burnham x27 | Kemi Badenoch x6 | Ann Davies x2 | Edward Davey x2
+2026-09-03,debates2026-09-03b.xml,0,0,no PMQs section found,"Speaker’s Statement | Digital, Culture, Media and Sport | Church Commissioners | House of Commons Commission | Church Commissioners | SPEAKER’S COMMITTEE ON THE ELECTORAL COM | The right hon. and learned Member for Ke | CHURCH COMMISSIONERS"
+2026-09-08,debates2026-09-08b.xml,0,0,no PMQs section found,Business before Questions | Treasury | Falkland Islands: Sovereignty | Israel and Palestine | Online Safety | Artificial Superintelligence | Health Bill (Money) | Health Bill
+2026-09-09,debates2026-09-09b.xml,0,50,"PM not found: possibly a stand-in, excluded",Andy Burnham x25 | Kemi Badenoch x6 | Lillian Jones x2 | Edward Davey x2
+2026-09-10,debates2026-09-10b.xml,0,0,no PMQs section found,Speaker’s Statement | Cabinet Office | Air Traffic Control Disruption | Business of the House | Ukraine and Russia | Bills Presented | Social Housing Bill [Lords] | Social Housing Bill [Lords] (Programme)
+2026-09-15,debates2026-09-15c.xml,0,0,no PMQs section found,Justice | Tourism: Overnight Visitor Levy | Saudi East-West Oil Pipeline | English Whisky: Single Malt Definition | Thirlwall Inquiry: Final Report and Reco | Student Loans | treasury committee | Government Compensation Schemes
+2026-10-13,debates2026-10-13c.xml,0,0,no PMQs section found,Energy Security and Net Zero | Prisoner Early Release Scheme | Iran: Threats to British Interests | Pensions Triple Lock | Falkland Islands | Point of Order | Hares | Courts and Tribunals Bill
+2026-10-14,debates2026-10-14b.xml,0,54,"PM not found: possibly a stand-in, excluded",Andy Burnham x27 | Kemi Badenoch x6 | Jerome Mayhew x2 | Edward Davey x2
+2026-10-15,debates2026-10-15b.xml,0,0,no PMQs section found,"Prayers | Business, Innovation, Science and Trade | Sustainable Farming Incentive | Business of the House | National Care Service | Highways (Financing) Bill | Highways (Financing) Bill (Programme) | Highways (Financing) Bill (Money)"
