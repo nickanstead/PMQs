@@ -77,7 +77,13 @@ MAIN_OPPOSITION = [
     ("2024-07-05", "9999-12-31", "Conservative"),
 ]
 
-PM_HEADING = re.compile(r"prime minister|engagements", re.I)
+# Headings that open PMQs, matched against the whole heading once lower-cased
+# with punctuation removed: "Prime Minister", "Engagements", "PRIME MINISTER
+# (ENGAGEMENTS)". A heading that merely mentions the PM, such as "Prime
+# Minister's Update" for a statement, does not count.
+PM_HEADING = re.compile(
+    r"(oral answers to questions )?(the )?prime minister( engagements)?"
+    r"|engagements|prime ministers? questions|questions to the prime minister")
 NOT_PM_HEADING = re.compile(r"deputy prime minister", re.I)
 SPEAKER_NAME = re.compile(r"\bspeaker\b", re.I)
 FORMULA = re.compile(
@@ -217,7 +223,18 @@ def day_files(year):
     return files
 
 
-ASKED_PM = re.compile(r"(asked|to ask) the prime minister", re.I)
+# A question tabled to the PM, as printed in older Hansard: "asked the Prime
+# Minister...", "1. Mr. X asked the Prime Minister..." or "Mr. X: To ask the
+# Prime Minister...". Matched only at the start of a speech, so an MP saying
+# "I asked the Prime Minister last week" during a statement does not count.
+ASKED_PM = re.compile(
+    r"\s*(q?\d+\.?\s*)?(\[\d+\]\s*)?"
+    r"((mr|mrs|miss|ms|dr|sir|dame|lady|lord|rev|captain|major|colonel|commander|brigadier|lieut)"
+    r"\b[^:?,]{0,60}?(:\s*|\s+))?(asked|to ask) the prime minister", re.I)
+
+
+def normalise_heading(text):
+    return re.sub(r"\s+", " ", re.sub(r"[^a-z ]", " ", text.lower())).strip()
 
 
 def pmqs_speeches(root):
@@ -227,17 +244,20 @@ def pmqs_speeches(root):
     name the topic. It ends at the next heading that is neither, so that a
     following statement or debate is not swept in; a later question to the
     PM under a topic heading reopens it."""
-    inside, out = False, []
+    inside, out, opened = False, [], []
     for el in root:
         if el.tag in ("major-heading", "minor-heading"):
             heading = text_of(el)
-            inside = bool(PM_HEADING.search(heading) and not NOT_PM_HEADING.search(heading))
+            inside = bool(PM_HEADING.fullmatch(normalise_heading(heading)))
+            if inside:
+                opened.append(heading[:40])
         elif el.tag == "speech" and el.get("nospeaker") != "true":
-            if not inside and ASKED_PM.search(text_of(el)[:300]):
+            if not inside and ASKED_PM.match(text_of(el)):
                 inside = True
+                opened.append("tabled question")
             if inside:
                 out.append(el)
-    return out
+    return out, opened
 
 
 def process_day(date, xml_bytes, people):
@@ -246,7 +266,9 @@ def process_day(date, xml_bytes, people):
     root = ET.fromstring(xml_bytes)
 
     speeches = []
-    for el in pmqs_speeches(root):
+    section, opened = pmqs_speeches(root)
+    opened_by = "; ".join(sorted(set(opened)))[:120]
+    for el in section:
         name = el.get("speakername", "").strip()
         if not name and not el.get("person_id") and not el.get("speakerid"):
             # Unnamed speech: in older Hansard, the same speaker continuing.
@@ -348,8 +370,10 @@ def process_day(date, xml_bytes, people):
             "question": e["question"], "answer": e["answer"],
         })
     unknown = sum(1 for r in rows if r["q_role"] == "unknown")
-    return rows, {"pmqs_speeches": len(speeches), "note": "",
-                  "detail": f"{unknown} questioners unmatched" if unknown else ""}
+    detail = f"opened by: {opened_by}"
+    if unknown:
+        detail += f"; {unknown} questioners unmatched"
+    return rows, {"pmqs_speeches": len(speeches), "note": "", "detail": detail}
 
 
 def process_year(year, people):
