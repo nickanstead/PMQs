@@ -13,9 +13,8 @@ Mr. Mitchell,8,1978-04-27,1983-05-05,"Austin Mitchell (Grimsby): Labour | Bob Mi
 Mr. Robert Hughes,8,1989-04-04,1997-01-23,Robert Hughes (Aberdeen North): Labour | Robert Hughes (Harrow West): Conservative
 Mr. Lewis,7,1965-04-01,1970-07-21,Arthur Lewis (West Ham North): Labour | Kenneth Lewis (Rutland and Stamford): Conservative | Ronald Lewis (Carlisle): Labour
 Mr. J. T. Price,7,1968-02-01,1970-02-24,"Chris Price (Birmingham, Perry Barr): Labour | David Price (Eastleigh): Conservative | Thomas Price (Westhoughton): Labour | William Price (Rugby): Labour"
-Dr. Thomas,7,1988-01-12,1990-10-25,Dafydd Elis Thomas (Meirionnydd Nant Conwy): Plaid Cymru | John Stradling Thomas (Monmouth): ?
-Mr. Robertson,6,1987-05-12,1989-01-17,George Robertson (Hamilton): Labour | John Home Robertson (East Lothian): ?
-Mr. Brown,5,1961-05-04,1964-04-07,Alan Brown (Tottenham): Labour | George Brown (Belper): Labour | Thomas Brown (Ince): Labour | William Robson-Brown (Esher): ?
+Dr. Thomas,7,1988-01-12,1990-10-25,Dafydd Elis Thomas (Meirionnydd Nant Conwy): Plaid Cymru | John Stradling Thomas (Monmouth): Conservative
+Mr. Brown,5,1961-05-04,1964-04-07,Alan Brown (Tottenham): Labour | George Brown (Belper): Labour | Thomas Brown (Ince): Labour | William Robson-Brown (Esher): Conservative
 Mr. Morris,5,1965-11-18,1973-03-29,Alf Morris (Manchester Wythenshawe): Labour Co-op | Charles Morris (Manchester Openshaw): Labour | John Morris (Aberavon): Labour
 Mr. King,5,1966-02-10,1969-06-10,"Evelyn King (South Dorset): Conservative | Horace King (Southampton, Itchen): Speaker"
 Mr. R. C. Mitchell,5,1967-06-27,1975-02-18,"Bob Mitchell (Southampton, Itchen): Labour | David Mitchell (Basingstoke): Conservative"
@@ -26,7 +25,7 @@ Mr. John D. Taylor,5,1988-03-10,1992-07-14,John Taylor (Solihull): Conservative 
 Mr. Hughes,5,1990-10-18,1991-11-26,John Hughes (Coventry North East): Labour | Robert Hughes (Aberdeen North): Labour | Robert Hughes (Harrow West): Conservative | Roy Hughes (Newport East): Labour | Simon Hughes (Southwark and Bermondsey): Liberal
 Mr. Lewis,4,1962-04-12,1963-07-16,Arthur Lewis (West Ham North): Labour | Kenneth Lewis (Rutland and Stamford): Conservative
 Mr. Griffiths,4,1965-11-04,1965-12-02,David Griffiths (Rother Valley): Labour | Eldon Griffiths (Bury St Edmunds): Conservative | James Griffiths (Llanelli): Labour | Peter Griffiths (Smethwick): Conservative | William Griffiths (Manchester Exchange): Labour
-Mr. Bob Brown,4,1966-11-24,1968-03-19,Edward Brown (Bath): Conservative | George Brown (Belper): Labour | Hugh Brown (Glasgow Provan): Labour | Robert Brown (Newcastle upon Tyne West): Labour | Ronald Brown (Shoreditch and Finsbury): Labour | William Robson-Brown (Esher): ?
+Mr. Bob Brown,4,1966-11-24,1968-03-19,Edward Brown (Bath): Conservative | George Brown (Belper): Labour | Hugh Brown (Glasgow Provan): Labour | Robert Brown (Newcastle upon Tyne West): Labour | Ronald Brown (Shoreditch and Finsbury): Labour | William Robson-Brown (Esher): Conservative
 Mr. R. C. Mitchell,4,1972-02-03,1972-12-19,"Bob Mitchell (Southampton, Itchen): Labour | Colin Mitchell (Aberdeenshire West): Conservative | David Mitchell (Basingstoke): Conservative"
 Mr. Mitchell,4,1972-02-03,1972-12-19,"Bob Mitchell (Southampton, Itchen): Labour | Colin Mitchell (Aberdeenshire West): Conservative | David Mitchell (Basingstoke): Conservative"
 Mr. Jackson,4,1983-11-10,1987-05-12,Margaret Jackson (Derby South): Labour | Robert Jackson (Wantage): Conservative
@@ -55,7 +54,7 @@ Mr. Gilmour,2,1966-02-01,1966-02-01,Ian Gilmour (Norfolk Central): Conservative 
 Mr. Fraser,2,1966-02-03,1966-02-03,"Hugh Fraser (Stafford and Stone): Conservative | Ian Fraser (Plymouth, Sutton): Conservative | Thomas Fraser (Hamilton): Labour"
 Mr. Macmillan,2,1966-06-28,1968-07-23,Malcolm Macmillan (Na h-Eileanan an Iar): Labour | Maurice Macmillan (Farnham): Conservative
 Mr. Evans,2,1966-08-04,1967-02-23,"Albert Evans (Islington South West): Labour | Gwynfor Evans (Carmarthen): Plaid Cymru | Ioan Evans (Birmingham, Yardley): Labour Co-op"
-Mr. Walker,2,1967-02-16,1967-02-23,Harold Walker (Doncaster): Labour | Patrick Gordon Walker (Leyton): ? | Peter Walker (Worcester): Conservative
+Mr. Walker,2,1967-02-16,1967-02-23,Harold Walker (Doncaster): Labour | Patrick Gordon Walker (Leyton): Labour | Peter Walker (Worcester): Conservative
 Mr. Fraser,2,1967-03-14,1967-07-18,Hugh Fraser (Stafford and Stone): Conservative | John Fraser (Lambeth Norwood): Labour | Thomas Fraser (Hamilton): Labour
 Mr. Mitchell,2,1967-11-07,1969-12-11,"Bob Mitchell (Southampton, Test): Labour | David Mitchell (Basingstoke): Conservative"
 Mr. Archer,2,1970-07-14,1971-03-25,Jeffrey Archer (Louth Borough): Conservative | Peter Archer (Rowley Regis and Tipton): Labour
@@ -66,7 +65,7 @@ Mr. Mark Hughes,2,1986-05-13,1987-04-23,Robert Hughes (Aberdeen North): Labour |
 Mrs. Michie,2,1987-10-22,1987-10-22,"Bill Michie (Sheffield, Heeley): Labour | Ray Michie (Argyll and Bute): Liberal"
 Mr. Welsh,2,1987-11-10,1987-11-10,Andrew Welsh (Angus East): SNP | Michael Welsh (Doncaster North): Labour
 Mr. Smith,2,1988-02-23,1988-02-23,Alick Buchanan-Smith (Kincardine and Deeside): Conservative | Andrew Smith (Oxford East): Labour | Chris Smith (Islington South and Finsbury): Labour | Cyril Smith (Rochdale): Liberal | Dudley Smith (Warwick and Leamington): Conservative | Geoffrey Johnson Smith (Wealden): Conservative | John Smith (Monklands East): Labour | Tim Smith (Beaconsfield): Conservative
-Mr. Williams,1,1961-02-23,1961-02-23,David Williams (Neath): Labour | Llywelyn Williams (Abertillery): Labour | Paul Williams (Sunderland South): Conservative | Rolf Williams (Exeter): ? | William Williams (Manchester Openshaw): Labour
+Mr. Williams,1,1961-02-23,1961-02-23,David Williams (Neath): Labour | Llywelyn Williams (Abertillery): Labour | Paul Williams (Sunderland South): Conservative | Rolf Williams (Exeter): Conservative | William Williams (Manchester Openshaw): Labour
 Mr. Jenkins,1,1961-03-02,1961-03-02,Robert Jenkins (Camberwell Dulwich): Conservative | Roy Jenkins (Birmingham Stechford): Labour
 Mr. Price,1,1961-05-04,1961-05-04,David Price (Eastleigh): Conservative | Henry Price (Lewisham West): Conservative | Thomas Price (Westhoughton): Labour
 Mr. Davies,1,1961-05-30,1961-05-30,Clement Davies (Montgomeryshire): Liberal | Gwilym Davies (Rhondda East): Labour | Harold Davies (Leek): Labour | Ifor Davies (Gower): Labour | Stephen Davies (Merthyr Tydfil): Labour | William Rees-Davies (Isle of Thanet): Conservative
@@ -86,7 +85,7 @@ Mr. Wells,1,1966-02-03,1966-02-03,John Wells (Maidstone): Conservative | William
 Mr. Walker,1,1966-03-03,1966-03-03,Harold Walker (Doncaster): Labour | Peter Walker (Worcester): Conservative
 Mr. Edward M. Taylor,1,1966-03-08,1966-03-08,Charles Taylor (Eastbourne): Conservative | Frank Taylor (Manchester Moss Side): Conservative | Harry Taylor (Mansfield): Labour | Teddy Taylor (Glasgow Cathcart): Scottish Unionist
 Mr. Taylor,1,1966-03-08,1966-03-08,Charles Taylor (Eastbourne): Conservative | Frank Taylor (Manchester Moss Side): Conservative | Harry Taylor (Mansfield): Labour | Teddy Taylor (Glasgow Cathcart): Scottish Unionist
-Mr. Anderson,1,1966-06-30,1966-06-30,Betty Harvie Anderson (Renfrewshire East): ? | Donald Anderson (Monmouth): Labour
+Mr. Anderson,1,1966-06-30,1966-06-30,Betty Harvie Anderson (Renfrewshire East): Conservative | Donald Anderson (Monmouth): Labour
 Mr. Owen,1,1966-06-30,1966-06-30,"David Owen (Plymouth, Sutton): Labour | William Owen (Morpeth): Labour Co-op"
 Mr. maker,1,1966-07-14,1966-07-14,Bill Baker (Banffshire): Conservative | Francis Noel-Baker (Swindon): Labour | Philip Noel-Baker (Derby South): Labour
 Mr. Atkins,1,1967-06-20,1967-06-20,Humphrey Atkins (Merton and Morden): Conservative | Ronald Atkins (Preston North): Labour
