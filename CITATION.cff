@@ -6,7 +6,7 @@ version: 0.9.0
 date-released: 2026-10-19
 authors:
   - family-names: Anstead
-    given-names: Nicholas
+    given-names: Nick
     affiliation: "Department of Media and Communications, London School of Economics and Political Science"
     # orcid: "https://orcid.org/0000-0002-3462-1329"
 repository-code: "https://github.com/nickanstead/PMQs"
