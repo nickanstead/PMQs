@@ -2252,3 +2252,226 @@ exchange_id,date,name,status,hh_person,hh_name,person_id,party,constituency,scor
 1993-05-04-015,1993-05-04,Mr. Hughes,matched,mr-roy-hughes,Mr Roy Hughes,uk.org.publicwhip/person/22158,Labour,Newport East,1.50
 1993-05-04-020,1993-05-04,Mr. Robertson,matched,mr-raymond-robertson,Mr Raymond Robertson,uk.org.publicwhip/person/22655,Conservative,Aberdeen South,1.50
 1993-05-04-021,1993-05-04,Mr. Robert Hughes,speech_not_found,,,,,,
+1993-05-06-014,1993-05-06,Mr. Jones,matched,mr-martyn-jones,Mr Martyn Jones,uk.org.publicwhip/person/10324,Labour,Clwyd South West,1.50
+1993-05-11-013,1993-05-11,Mr. Brown,matched,mr-michael-brown,Mr Michael Brown,uk.org.publicwhip/person/22577,Conservative,Brigg and Cleethorpes,1.50
+1993-05-13-014,1993-05-13,Mr. Howarth,matched,mr-alan-howarth,Mr Alan Howarth,uk.org.publicwhip/person/10291,Conservative,Stratford-on-Avon,1.50
+1993-05-13-019,1993-05-13,Mr. Bruce,matched,mr-malcolm-bruce,Mr Malcolm Bruce,uk.org.publicwhip/person/10074,Liberal Democrats,Gordon,1.50
+1993-06-10-015,1993-06-10,Mr. Robertson,matched,mr-raymond-robertson,Mr Raymond Robertson,uk.org.publicwhip/person/22655,Conservative,Aberdeen South,1.50
+1993-06-17-009,1993-06-17,Mr. Liwyd,speech_not_found,,,,,,
+1993-06-17-017,1993-06-17,Mr. Griffiths,matched,mr-win-griffiths,Mr Win Griffiths,uk.org.publicwhip/person/10246,Labour,Bridgend,1.50
+1993-06-24-018,1993-06-24,Mrs. Campbell,matched,mrs-anne-campbell,Mrs Anne Campbell,uk.org.publicwhip/person/10087,Labour,Cambridge,1.50
+1993-06-29-014,1993-06-29,Dr. Jones,matched,dr-lynne-jones,Dr Lynne Jones,uk.org.publicwhip/person/10323,Labour,"Birmingham, Selly Oak",1.50
+1993-07-13-002,1993-07-13,Mr. Evans,matched,mr-david-evans-1,Mr David Evans,uk.org.publicwhip/person/22638,Conservative,Welwyn Hatfield,1.50
+1993-07-15-009,1993-07-15,Mr. Martin,matched,mr-david-martin,Mr David Martin,uk.org.publicwhip/person/22644,Conservative,Portsmouth South,1.50
+1993-07-20-010,1993-07-20,Mr. Hughes,matched,mr-roy-hughes,Mr Roy Hughes,uk.org.publicwhip/person/22158,Labour,Newport East,1.50
+1993-07-20-016,1993-07-20,Mr. Jones,matched,mr-jon-owen-jones,Mr Jon Owen Jones,uk.org.publicwhip/person/10322,Labour Co-Op,Cardiff Central,1.50
+1993-07-22-022,1993-07-22,Dame Jill Knights,speech_not_found,,,,,,
+1993-10-19-011,1993-10-19,Mr. Evans,matched,mr-nigel-evans,Mr Nigel Evans,uk.org.publicwhip/person/10190,Conservative,Ribble Valley,1.50
+1993-10-19-015,1993-10-19,Mr. Evans,matched,mr-david-evans-1,Mr David Evans,uk.org.publicwhip/person/22638,Conservative,Welwyn Hatfield,1.50
+1993-10-28-012,1993-10-28,Mr. Mitchell,matched,mr-austin-mitchell,Mr Austin Mitchell,uk.org.publicwhip/person/10436,Labour,Great Grimsby,1.50
+1993-11-04-002,1993-11-04,Mr. Evans,matched,mr-roger-evans,Mr Roger Evans,uk.org.publicwhip/person/22651,Conservative,Monmouth,1.50
+1993-11-04-006,1993-11-04,Mr. Evans,matched,mr-nigel-evans,Mr Nigel Evans,uk.org.publicwhip/person/10190,Conservative,Ribble Valley,1.50
+1993-11-23-013,1993-11-23,Mr. Taylor,matched,mr-ian-taylor,Mr Ian Taylor,uk.org.publicwhip/person/10587,Conservative,Esher,1.50
+1993-11-30-002,1993-11-30,Mr. Robinson,matched,mr-mark-robinson,Mr Mark Robinson,uk.org.publicwhip/person/22628,Conservative,Somerton and Frome,1.50
+1993-11-30-010,1993-11-30,Mr. Thompson,matched,mr-patrick-thompson,Mr Patrick Thompson,uk.org.publicwhip/person/22633,Conservative,Norwich North,1.50
+1993-12-02-002,1993-12-02,Mr. Jones,matched,mr-ieuan-wyn-jones,Mr Ieuan Wyn Jones,uk.org.publicwhip/person/10320,Plaid Cymru,Ynys Môn,1.50
+1993-12-02-004,1993-12-02,Mr. Bruce,matched,mr-ian-bruce,Mr Ian Bruce,uk.org.publicwhip/person/10073,Conservative,South Dorset,1.50
+1993-12-14-009,1993-12-14,Mr. Banks,matched,mr-tony-banks,Mr Tony Banks,uk.org.publicwhip/person/10025,Labour,Newham North West,1.50
+1993-12-14-013,1993-12-14,Mr. Griffiths,matched,mr-win-griffiths,Mr Win Griffiths,uk.org.publicwhip/person/10246,Labour,Bridgend,1.50
+1994-01-27-004,1994-01-27,Mr. Field,matched,mr-barry-field,Mr Barry Field,uk.org.publicwhip/person/22639,Conservative,Isle of Wight,1.50
+1994-02-01-015,1994-02-01,Mr. Lidingiton,speech_not_found,,,,,,
+1994-02-08-011,1994-02-08,Dr. Jones,matched,dr-lynne-jones,Dr Lynne Jones,uk.org.publicwhip/person/10323,Labour,"Birmingham, Selly Oak",1.50
+1994-02-10-014,1994-02-10,Mr. Howarth,matched,mr-alan-howarth,Mr Alan Howarth,uk.org.publicwhip/person/10291,Conservative,Stratford-on-Avon,1.50
+1994-02-24-011,1994-02-24,Mr. Howarth,matched,mr-george-howarth,Mr George Howarth,uk.org.publicwhip/person/10292,Labour,Knowsley North,1.50
+1994-03-10-004,1994-03-10,Mr. Thompson,matched,mr-patrick-thompson,Mr Patrick Thompson,uk.org.publicwhip/person/22633,Conservative,Norwich North,1.50
+1994-03-10-011,1994-03-10,Mr.Marshall,matched,mr-david-marshall,Mr David Marshall,uk.org.publicwhip/person/10417,Labour,Glasgow Shettleston,1.50
+1994-03-10-015,1994-03-10,Mr. Hughes,matched,mr-simon-hughes,Mr Simon Hughes,uk.org.publicwhip/person/10298,Liberal Democrats,Southwark and Bermondsey,1.50
+1994-03-10-019,1994-03-10,Mr. Jones,matched,mr-martyn-jones,Mr Martyn Jones,uk.org.publicwhip/person/10324,Labour,Clwyd South West,1.50
+1994-03-15-015,1994-03-15,Mr. Evans,matched,mr-roger-evans,Mr Roger Evans,uk.org.publicwhip/person/22651,Conservative,Monmouth,1.50
+1994-03-22-007,1994-03-22,Dame Elaine Kellett-Bowman,matched,mrs-elaine-kellett,Mrs Elaine Kellett,uk.org.publicwhip/person/17973,Conservative,Lancaster,1.50
+1994-03-22-014,1994-03-22,Mr. Clarke,matched,mr-eric-clarke,Mr Eric Clarke,uk.org.publicwhip/person/10114,Labour,Midlothian,1.50
+1994-03-24-011,1994-03-24,Mr. Jones,matched,mr-barry-jones,Mr Barry Jones,uk.org.publicwhip/person/10317,Labour,Alyn and Deeside,1.50
+1994-03-24-014,1994-03-24,Mrs. Michie,matched,mrs-ray-michie,Mrs Ray Michie,uk.org.publicwhip/person/10433,Liberal Democrats,Argyll and Bute,1.50
+1994-04-12-020,1994-04-12,Mr. Hughes,matched,mr-simon-hughes,Mr Simon Hughes,uk.org.publicwhip/person/10298,Liberal Democrats,Southwark and Bermondsey,1.50
+1994-04-19-015,1994-04-19,Mr. Evans,matched,mr-john-evans-2,Mr John Evans,uk.org.publicwhip/person/22255,Labour,St Helens North,1.50
+1994-04-28-002,1994-04-28,Mrs. Campbell,matched,mrs-anne-campbell,Mrs Anne Campbell,uk.org.publicwhip/person/10087,Labour,Cambridge,1.50
+1994-05-03-014,1994-05-03,Mr. Evans,matched,mr-john-evans-2,Mr John Evans,uk.org.publicwhip/person/22255,Labour,St Helens North,1.50
+1994-05-10-021,1994-05-10,Mr. Howarth,matched,mr-george-howarth,Mr George Howarth,uk.org.publicwhip/person/10292,Labour,Knowsley North,1.50
+1994-05-19-015,1994-05-19,Mr. Griffiths,matched,mr-win-griffiths,Mr Win Griffiths,uk.org.publicwhip/person/10246,Labour,Bridgend,1.50
+1994-06-14-012,1994-06-14,Mr. Hill,matched,mr-keith-hill,Mr Keith Hill,uk.org.publicwhip/person/10279,Labour,Streatham,1.50
+1994-06-14-014,1994-06-14,Mr. Bruce,matched,mr-ian-bruce,Mr Ian Bruce,uk.org.publicwhip/person/10073,Conservative,South Dorset,1.50
+1994-06-16-012,1994-06-16,Dame Elaine Kellett-Bowman,matched,mrs-elaine-kellett,Mrs Elaine Kellett,uk.org.publicwhip/person/17973,Conservative,Lancaster,1.50
+1994-06-16-018,1994-06-16,Mr. Hill,matched,mr-keith-hill,Mr Keith Hill,uk.org.publicwhip/person/10279,Labour,Streatham,1.50
+1994-06-21-011,1994-06-21,Mr. Griffiths,matched,mr-nigel-griffiths,Mr Nigel Griffiths,uk.org.publicwhip/person/10245,Labour,Edinburgh South,1.50
+1994-06-21-015,1994-06-21,Mr. Michie,matched,mr-bill-michie,Mr Bill Michie,uk.org.publicwhip/person/10432,Labour,"Sheffield, Heeley",1.50
+1994-06-30-010,1994-06-30,Mr. Hill,matched,mr-keith-hill,Mr Keith Hill,uk.org.publicwhip/person/10279,Labour,Streatham,1.50
+1994-06-30-021,1994-06-30,Mr. Griffiths,matched,mr-win-griffiths,Mr Win Griffiths,uk.org.publicwhip/person/10246,Labour,Bridgend,1.50
+1994-07-12-016,1994-07-12,Mr. Jones,matched,mr-barry-jones,Mr Barry Jones,uk.org.publicwhip/person/10317,Labour,Alyn and Deeside,1.50
+1994-07-14-012,1994-07-14,Mr. Hughes,matched,mr-simon-hughes,Mr Simon Hughes,uk.org.publicwhip/person/10298,Liberal Democrats,Southwark and Bermondsey,1.50
+1994-07-14-016,1994-07-14,Mr. Bruce,matched,mr-ian-bruce,Mr Ian Bruce,uk.org.publicwhip/person/10073,Conservative,South Dorset,1.50
+1994-10-18-002,1994-10-18,Mrs. Campbell,matched,mrs-anne-campbell,Mrs Anne Campbell,uk.org.publicwhip/person/10087,Labour,Cambridge,1.50
+1994-10-18-011,1994-10-18,Mr. Evans,matched,mr-nigel-evans,Mr Nigel Evans,uk.org.publicwhip/person/10190,Conservative,Ribble Valley,1.50
+1994-10-20-012,1994-10-20,Mr. Evans,matched,mr-david-evans-1,Mr David Evans,uk.org.publicwhip/person/22638,Conservative,Welwyn Hatfield,1.50
+1994-10-25-004,1994-10-25,Dr. Clark,matched,dr-michael-clark,Dr Michael Clark,uk.org.publicwhip/person/10111,Conservative,Rochford,1.50
+1994-10-27-009,1994-10-27,Mr. Walker,speech_not_found,,,,,,
+1994-11-01-018,1994-11-01,Mr. Evans,matched,mr-david-evans-1,Mr David Evans,uk.org.publicwhip/person/22638,Conservative,Welwyn Hatfield,1.50
+1994-11-24-010,1994-11-24,Mr. Robert Ainsworth,speech_not_found,,,,,,
+1994-11-24-011,1994-11-24,Mr. Ainsworth,speech_not_found,,,,,,
+1994-11-24-012,1994-11-24,Dame Elaine Kellett-Bowman,matched,mrs-elaine-kellett,Mrs Elaine Kellett,uk.org.publicwhip/person/17973,Conservative,Lancaster,1.50
+1994-11-29-017,1994-11-29,Mr. Hughes,matched,mr-simon-hughes,Mr Simon Hughes,uk.org.publicwhip/person/10298,Liberal Democrats,Southwark and Bermondsey,1.50
+1994-11-29-020,1994-11-29,Mr. Jones,matched,mr-ieuan-wyn-jones,Mr Ieuan Wyn Jones,uk.org.publicwhip/person/10320,Plaid Cymru,Ynys Môn,1.50
+1994-12-01-020,1994-12-01,Ms Morris,matched,ms-estelle-morris,Ms Estelle Morris,uk.org.publicwhip/person/10445,Labour,"Birmingham, Yardley",1.50
+1994-12-08-017,1994-12-08,Mrs. Jackson,matched,mrs-helen-jackson,Mrs Helen Jackson,uk.org.publicwhip/person/10309,Labour,"Sheffield, Hillsborough",1.50
+1994-12-08-019,1994-12-08,Mr. Thompson,matched,mr-patrick-thompson,Mr Patrick Thompson,uk.org.publicwhip/person/22633,Conservative,Norwich North,1.50
+1994-12-13-004,1994-12-13,Mr. Thompson,matched,mr-patrick-thompson,Mr Patrick Thompson,uk.org.publicwhip/person/22633,Conservative,Norwich North,1.50
+1994-12-13-011,1994-12-13,Mrs. Michie,matched,mrs-ray-michie,Mrs Ray Michie,uk.org.publicwhip/person/10433,Liberal Democrats,Argyll and Bute,1.50
+1994-12-13-021,1994-12-13,Mrs. Jackson,matched,mrs-helen-jackson,Mrs Helen Jackson,uk.org.publicwhip/person/10309,Labour,"Sheffield, Hillsborough",1.50
+1994-12-15-018,1994-12-15,Mrs. Michie,matched,mrs-ray-michie,Mrs Ray Michie,uk.org.publicwhip/person/10433,Liberal Democrats,Argyll and Bute,1.50
+1995-01-10-004,1995-01-10,Mr. Evans,matched,mr-david-evans-1,Mr David Evans,uk.org.publicwhip/person/22638,Conservative,Welwyn Hatfield,1.50
+1995-01-19-017,1995-01-19,Mr. Clarke,matched,mr-eric-clarke,Mr Eric Clarke,uk.org.publicwhip/person/10114,Labour,Midlothian,1.50
+1995-01-31-008,1995-01-31,Mr. Clarke,matched,mr-tom-clarke,Mr Tom Clarke,uk.org.publicwhip/person/10116,Labour,Monklands West,1.50
+1995-01-31-010,1995-01-31,Mr. Marshall,matched,mr-john-marshall-1,Mr John Marshall,uk.org.publicwhip/person/22674,Conservative,Hendon South,1.50
+1995-02-09-009,1995-02-09,Mr. Campbell,matched,mr-ronnie-campbell,Mr Ronnie Campbell,uk.org.publicwhip/person/10089,Labour,Blyth Valley,1.50
+1995-02-09-012,1995-02-09,Mr. Michie,matched,mr-bill-michie,Mr Bill Michie,uk.org.publicwhip/person/10432,Labour,"Sheffield, Heeley",1.50
+1995-02-09-017,1995-02-09,Mr. Bruce,matched,mr-ian-bruce,Mr Ian Bruce,uk.org.publicwhip/person/10073,Conservative,South Dorset,1.50
+1995-02-14-002,1995-02-14,Mrs. Michie,matched,mrs-ray-michie,Mrs Ray Michie,uk.org.publicwhip/person/10433,Liberal Democrats,Argyll and Bute,1.50
+1995-02-14-020,1995-02-14,Mr. Marshall,matched,mr-john-marshall-1,Mr John Marshall,uk.org.publicwhip/person/22674,Conservative,Hendon South,1.50
+1995-02-21-014,1995-02-21,Mr. Taylor,matched,mr-matthew-taylor,Mr Matthew Taylor,uk.org.publicwhip/person/10590,Liberal Democrats,Truro,1.50
+1995-02-23-016,1995-02-23,Mr. Campbell,matched,mr-ronnie-campbell,Mr Ronnie Campbell,uk.org.publicwhip/person/10089,Labour,Blyth Valley,1.50
+1995-02-28-002,1995-02-28,Mr. Kennedy,matched,mr-charles-kennedy,Mr Charles Kennedy,uk.org.publicwhip/person/10334,Liberal Democrats,Ross and Cromarty and Skye,1.50
+1995-02-28-004,1995-02-28,Dr. Jones,matched,dr-lynne-jones,Dr Lynne Jones,uk.org.publicwhip/person/10323,Labour,"Birmingham, Selly Oak",1.50
+1995-03-02-013,1995-03-02,Dame Elaine Kellett-Bowman,matched,mrs-elaine-kellett,Mrs Elaine Kellett,uk.org.publicwhip/person/17973,Conservative,Lancaster,1.50
+1995-03-07-015,1995-03-07,Mr. Marshall,matched,mr-john-marshall-1,Mr John Marshall,uk.org.publicwhip/person/22674,Conservative,Hendon South,1.50
+1995-03-07-017,1995-03-07,Mr. Lloyd,matched,mr-tony-lloyd,Mr Tony Lloyd,uk.org.publicwhip/person/10367,Labour,Stretford,1.50
+1995-03-21-002,1995-03-21,Mr. Hill,matched,mr-keith-hill,Mr Keith Hill,uk.org.publicwhip/person/10279,Labour,Streatham,1.50
+1995-03-21-012,1995-03-21,Mr. Thompson,matched,mr-patrick-thompson,Mr Patrick Thompson,uk.org.publicwhip/person/22633,Conservative,Norwich North,1.50
+1995-03-23-004,1995-03-23,Mr. Mitchell,matched,mr-austin-mitchell,Mr Austin Mitchell,uk.org.publicwhip/person/10436,Labour,Great Grimsby,1.50
+1995-03-28-022,1995-03-28,Mr. Hughes,matched,mr-simon-hughes,Mr Simon Hughes,uk.org.publicwhip/person/10298,Liberal Democrats,Southwark and Bermondsey,1.50
+1995-03-30-011,1995-03-30,Mr. Griffiths,matched,mr-nigel-griffiths,Mr Nigel Griffiths,uk.org.publicwhip/person/10245,Labour,Edinburgh South,1.50
+1995-04-25-011,1995-04-25,Mr. Griffiths,matched,mr-win-griffiths,Mr Win Griffiths,uk.org.publicwhip/person/10246,Labour,Bridgend,1.50
+1995-04-25-014,1995-04-25,Mr. Marshall,matched,dr-jim-marshall,Dr Jim Marshall,uk.org.publicwhip/person/10418,Labour,Leicester South,1.50
+1995-04-27-013,1995-04-27,Mr. Griffiths,matched,mr-nigel-griffiths,Mr Nigel Griffiths,uk.org.publicwhip/person/10245,Labour,Edinburgh South,1.50
+1995-05-02-014,1995-05-02,Dr. Jones,matched,dr-lynne-jones,Dr Lynne Jones,uk.org.publicwhip/person/10323,Labour,"Birmingham, Selly Oak",1.50
+1995-05-04-009,1995-05-04,Mr. Jones,matched,mr-martyn-jones,Mr Martyn Jones,uk.org.publicwhip/person/10324,Labour,Clwyd South West,1.50
+1995-05-04-011,1995-05-04,Mr. Robert Ainsworth,speech_not_found,,,,,,
+1995-05-04-012,1995-05-04,Mr. Ainsworth,speech_not_found,,,,,,
+1995-05-16-002,1995-05-16,Mr. Griffiths,matched,mr-nigel-griffiths,Mr Nigel Griffiths,uk.org.publicwhip/person/10245,Labour,Edinburgh South,1.50
+1995-05-16-010,1995-05-16,Mr. Griffiths,matched,mr-win-griffiths,Mr Win Griffiths,uk.org.publicwhip/person/10246,Labour,Bridgend,1.50
+1995-05-16-016,1995-05-16,Mr. Walker,matched,mr-bill-walker,Mr Bill Walker,uk.org.publicwhip/person/22605,Conservative,North Tayside,1.50
+1995-05-18-002,1995-05-18,Mr. Marshall,matched,mr-john-marshall-1,Mr John Marshall,uk.org.publicwhip/person/22674,Conservative,Hendon South,1.50
+1995-05-18-012,1995-05-18,Mr. Jones,matched,mr-martyn-jones,Mr Martyn Jones,uk.org.publicwhip/person/10324,Labour,Clwyd South West,1.50
+1995-05-18-019,1995-05-18,Mr. Hughes,matched,mr-simon-hughes,Mr Simon Hughes,uk.org.publicwhip/person/10298,Liberal Democrats,Southwark and Bermondsey,1.50
+1995-05-23-006,1995-05-23,Mr. Marshall,matched,mr-john-marshall-1,Mr John Marshall,uk.org.publicwhip/person/22674,Conservative,Hendon South,1.50
+1995-05-23-011,1995-05-23,Mr. Michie,matched,mr-bill-michie,Mr Bill Michie,uk.org.publicwhip/person/10432,Labour,"Sheffield, Heeley",1.50
+1995-05-23-013,1995-05-23,Mr. Robert G. Hughes,speech_not_found,,,,,,
+1995-05-23-015,1995-05-23,Mr. Banks,matched,mr-tony-banks,Mr Tony Banks,uk.org.publicwhip/person/10025,Labour,Newham North West,1.50
+1995-06-06-017,1995-06-06,Dame Elaine Kellett-Bowman,matched,mrs-elaine-kellett,Mrs Elaine Kellett,uk.org.publicwhip/person/17973,Conservative,Lancaster,1.50
+1995-06-08-015,1995-06-08,Mr. Evans,matched,mr-nigel-evans,Mr Nigel Evans,uk.org.publicwhip/person/10190,Conservative,Ribble Valley,1.50
+1995-06-13-007,1995-06-13,Mr. Evans,matched,mr-nigel-evans,Mr Nigel Evans,uk.org.publicwhip/person/10190,Conservative,Ribble Valley,1.50
+1995-06-20-002,1995-06-20,Dr. Jones,matched,dr-lynne-jones,Dr Lynne Jones,uk.org.publicwhip/person/10323,Labour,"Birmingham, Selly Oak",1.50
+1995-06-20-011,1995-06-20,Mr. Evans,matched,mr-john-evans-2,Mr John Evans,uk.org.publicwhip/person/22255,Labour,St Helens North,1.50
+1995-06-20-014,1995-06-20,Mr. Clarke,matched,mr-tom-clarke,Mr Tom Clarke,uk.org.publicwhip/person/10116,Labour,Monklands West,1.50
+1995-06-22-012,1995-06-22,Mr. Robert G. Hughes,speech_not_found,,,,,,
+1995-06-22-013,1995-06-22,Mr. Hughes,speech_not_found,,,,,,
+1995-06-22-020,1995-06-22,Mr. Marshall,matched,mr-john-marshall-1,Mr John Marshall,uk.org.publicwhip/person/22674,Conservative,Hendon South,1.50
+1995-06-29-002,1995-06-29,Mr. Mitchell,matched,mr-austin-mitchell,Mr Austin Mitchell,uk.org.publicwhip/person/10436,Labour,Great Grimsby,1.50
+1995-06-29-017,1995-06-29,Dame Elaine Kellett-Bowman,matched,mrs-elaine-kellett,Mrs Elaine Kellett,uk.org.publicwhip/person/17973,Conservative,Lancaster,1.50
+1995-07-04-018,1995-07-04,Mr. Hughes,matched,mr-simon-hughes,Mr Simon Hughes,uk.org.publicwhip/person/10298,Liberal Democrats,Southwark and Bermondsey,1.50
+1995-07-06-011,1995-07-06,Mr. Griffiths,matched,mr-nigel-griffiths,Mr Nigel Griffiths,uk.org.publicwhip/person/10245,Labour,Edinburgh South,1.50
+1995-07-11-007,1995-07-11,Mr. Thompson,matched,mr-patrick-thompson,Mr Patrick Thompson,uk.org.publicwhip/person/22633,Conservative,Norwich North,1.50
+1995-07-11-019,1995-07-11,Mr. Marshall,matched,mr-john-marshall-1,Mr John Marshall,uk.org.publicwhip/person/22674,Conservative,Hendon South,1.50
+1995-07-18-002,1995-07-18,Mr. Hill,speech_not_found,,,,,,
+1995-10-17-008,1995-10-17,Mr. Campbell,matched,mr-menzies-campbell,Mr Menzies Campbell,uk.org.publicwhip/person/10088,Liberal Democrats,North East Fife,1.50
+1995-10-31-012,1995-10-31,Mr. Robert G. Hughes,speech_not_found,,,,,,
+1995-10-31-013,1995-10-31,Mr. Hughes,speech_not_found,,,,,,
+1995-11-02-009,1995-11-02,Mr. Banks,matched,mr-tony-banks,Mr Tony Banks,uk.org.publicwhip/person/10025,Labour,Newham North West,1.50
+1995-11-21-002,1995-11-21,Mr. Taylor,matched,mr-matthew-taylor,Mr Matthew Taylor,uk.org.publicwhip/person/10590,Liberal Democrats,Truro,1.50
+1995-11-21-014,1995-11-21,Mr. Banks,matched,mr-robert-banks,Mr Robert Banks,uk.org.publicwhip/person/22343,Conservative,Harrogate,1.50
+1995-11-23-009,1995-11-23,Mr. Martin,matched,mr-michael-martin,Mr Michael Martin,uk.org.publicwhip/person/10420,Labour,Glasgow Springburn,1.50
+1995-11-23-016,1995-11-23,Mr. Banks,matched,mr-tony-banks,Mr Tony Banks,uk.org.publicwhip/person/10025,Labour,Newham North West,1.50
+1995-11-28-013,1995-11-28,Mr. Davies,matched,mr-bryan-davies,Mr Bryan Davies,uk.org.publicwhip/person/21687,Labour,Oldham Central and Royton,1.50
+1995-11-30-002,1995-11-30,Mr. Griffiths,matched,mr-nigel-griffiths,Mr Nigel Griffiths,uk.org.publicwhip/person/10245,Labour,Edinburgh South,1.50
+1995-11-30-009,1995-11-30,Mrs. Campbell,matched,mrs-anne-campbell,Mrs Anne Campbell,uk.org.publicwhip/person/10087,Labour,Cambridge,1.50
+1995-12-05-009,1995-12-05,Mr. Taylor,matched,mr-matthew-taylor,Mr Matthew Taylor,uk.org.publicwhip/person/10590,Liberal Democrats,Truro,1.50
+1995-12-07-010,1995-12-07,Mr. Banks,matched,mr-tony-banks,Mr Tony Banks,uk.org.publicwhip/person/10025,Labour,Newham North West,1.50
+1995-12-12-002,1995-12-12,Mr. Michie,matched,mr-bill-michie,Mr Bill Michie,uk.org.publicwhip/person/10432,Labour,"Sheffield, Heeley",1.50
+1995-12-12-021,1995-12-12,Mr. Banks,matched,mr-tony-banks,Mr Tony Banks,uk.org.publicwhip/person/10025,Labour,Newham North West,1.50
+1995-12-19-002,1995-12-19,Mr. Jones,matched,mr-barry-jones,Mr Barry Jones,uk.org.publicwhip/person/10317,Labour,Alyn and Deeside,1.50
+1996-01-09-007,1996-01-09,Dame Elaine Kellett-Bowman,matched,mrs-elaine-kellett,Mrs Elaine Kellett,uk.org.publicwhip/person/17973,Conservative,Lancaster,1.50
+1996-01-09-014,1996-01-09,Mr. Campbell,matched,mr-ronnie-campbell,Mr Ronnie Campbell,uk.org.publicwhip/person/10089,Labour,Blyth Valley,1.50
+1996-01-09-018,1996-01-09,Mrs. Kennedy,matched,ms-jane-kennedy,Ms Jane Kennedy,uk.org.publicwhip/person/10335,Labour,Liverpool Broadgreen,1.50
+1996-01-16-009,1996-01-16,Ms Jackson,matched,ms-glenda-jackson,Ms Glenda Jackson,uk.org.publicwhip/person/10308,Labour,Hampstead and Highgate,1.50
+1996-01-16-012,1996-01-16,Mr. Jones,matched,mr-jon-owen-jones,Mr Jon Owen Jones,uk.org.publicwhip/person/10322,Labour Co-Op,Cardiff Central,1.50
+1996-01-23-002,1996-01-23,Mrs. Kennedy,matched,ms-jane-kennedy,Ms Jane Kennedy,uk.org.publicwhip/person/10335,Labour,Liverpool Broadgreen,1.50
+1996-01-23-010,1996-01-23,Mr. Michie,matched,mr-bill-michie,Mr Bill Michie,uk.org.publicwhip/person/10432,Labour,"Sheffield, Heeley",1.50
+1996-01-30-012,1996-01-30,Mr. Davies,matched,mr-bryan-davies,Mr Bryan Davies,uk.org.publicwhip/person/21687,Labour,Oldham Central and Royton,1.50
+1996-02-01-016,1996-02-01,Mr. Robinson,matched,mr-mark-robinson,Mr Mark Robinson,uk.org.publicwhip/person/22628,Conservative,Somerton and Frome,1.50
+1996-02-15-017,1996-02-15,Mr. Hill,matched,mr-keith-hill,Mr Keith Hill,uk.org.publicwhip/person/10279,Labour,Streatham,1.50
+1996-02-20-002,1996-02-20,Mr. Jones,matched,mr-martyn-jones,Mr Martyn Jones,uk.org.publicwhip/person/10324,Labour,Clwyd South West,1.50
+1996-02-22-004,1996-02-22,Mr. Bruce,matched,mr-malcolm-bruce,Mr Malcolm Bruce,uk.org.publicwhip/person/10074,Liberal Democrats,Gordon,1.50
+1996-02-27-011,1996-02-27,Mr. Michie,matched,mr-bill-michie,Mr Bill Michie,uk.org.publicwhip/person/10432,Labour,"Sheffield, Heeley",1.50
+1996-02-27-014,1996-02-27,Ms Cunningham,matched,ms-roseanna-cunningham,Ms Roseanna Cunningham,uk.org.publicwhip/person/10148,SNP,Perth and Kinross,1.50
+1996-03-07-010,1996-03-07,Mrs. Campbell,matched,mrs-anne-campbell,Mrs Anne Campbell,uk.org.publicwhip/person/10087,Labour,Cambridge,1.50
+1996-03-12-004,1996-03-12,Mr. Hughes,matched,mr-roy-hughes,Mr Roy Hughes,uk.org.publicwhip/person/22158,Labour,Newport East,1.50
+1996-03-14-009,1996-03-14,Mr. Thompson,matched,mr-patrick-thompson,Mr Patrick Thompson,uk.org.publicwhip/person/22633,Conservative,Norwich North,1.50
+1996-03-14-017,1996-03-14,Mr. Robert G. Hughes,speech_not_found,,,,,,
+1996-03-19-017,1996-03-19,Mr. Marshall,matched,mr-david-marshall,Mr David Marshall,uk.org.publicwhip/person/10417,Labour,Glasgow Shettleston,1.50
+1996-04-02-013,1996-04-02,Mr. Brown,matched,mr-michael-brown,Mr Michael Brown,uk.org.publicwhip/person/22577,Conservative,Brigg and Cleethorpes,1.50
+1996-04-16-012,1996-04-16,Mr. Michie,matched,mr-bill-michie,Mr Bill Michie,uk.org.publicwhip/person/10432,Labour,"Sheffield, Heeley",1.50
+1996-04-16-013,1996-04-16,Mr. Michie,matched,mr-bill-michie,Mr Bill Michie,uk.org.publicwhip/person/10432,Labour,"Sheffield, Heeley",1.50
+1996-04-23-014,1996-04-23,Mr. Robert G. Hughes,speech_not_found,,,,,,
+1996-04-23-015,1996-04-23,Mr. Hughes,speech_not_found,,,,,,
+1996-04-25-009,1996-04-25,Mrs. Kennedy,matched,ms-jane-kennedy,Ms Jane Kennedy,uk.org.publicwhip/person/10335,Labour,Liverpool Broadgreen,1.50
+1996-04-25-012,1996-04-25,Mr. Davies,matched,mr-chris-davies,Mr Chris Davies,uk.org.publicwhip/person/16396,,Littleborough and Saddleworth,1.50
+1996-04-30-004,1996-04-30,Mr. Brown,matched,mr-michael-brown,Mr Michael Brown,uk.org.publicwhip/person/22577,Conservative,Brigg and Cleethorpes,1.50
+1996-04-30-013,1996-04-30,Mr. Marshall,matched,mr-john-marshall-1,Mr John Marshall,uk.org.publicwhip/person/22674,Conservative,Hendon South,1.50
+1996-05-07-002,1996-05-07,Mr. Banks,matched,mr-matthew-banks,Mr Matthew Banks,uk.org.publicwhip/person/22351,Conservative,Southport,1.50
+1996-05-09-002,1996-05-09,Mr. Banks,matched,mr-matthew-banks,Mr Matthew Banks,uk.org.publicwhip/person/22351,Conservative,Southport,1.50
+1996-05-09-007,1996-05-09,Mr. Risley,speech_not_found,,,,,,
+1996-05-09-012,1996-05-09,Mr. Robert G. Hughes,speech_not_found,,,,,,
+1996-05-09-013,1996-05-09,Mr. Hughes,speech_not_found,,,,,,
+1996-05-16-011,1996-05-16,Mr. Thompson,matched,mr-patrick-thompson,Mr Patrick Thompson,uk.org.publicwhip/person/22633,Conservative,Norwich North,1.50
+1996-06-06-012,1996-06-06,Mr. Bruce,matched,mr-ian-bruce,Mr Ian Bruce,uk.org.publicwhip/person/10073,Conservative,South Dorset,1.50
+1996-06-06-020,1996-06-06,Mr. Campbell,matched,mr-ronnie-campbell,Mr Ronnie Campbell,uk.org.publicwhip/person/10089,Labour,Blyth Valley,1.50
+1996-06-11-009,1996-06-11,Mr. Jones,matched,mr-barry-jones,Mr Barry Jones,uk.org.publicwhip/person/10317,Labour,Alyn and Deeside,1.50
+1996-06-18-013,1996-06-18,Mr. Brown,matched,mr-michael-brown,Mr Michael Brown,uk.org.publicwhip/person/22577,Conservative,Brigg and Cleethorpes,1.50
+1996-06-20-002,1996-06-20,Mr. Evans,matched,mr-nigel-evans,Mr Nigel Evans,uk.org.publicwhip/person/10190,Conservative,Ribble Valley,1.50
+1996-06-25-007,1996-06-25,Mr. Evans,matched,mr-david-evans-1,Mr David Evans,uk.org.publicwhip/person/22638,Conservative,Welwyn Hatfield,1.50
+1996-07-04-009,1996-07-04,Mr. Marshall,matched,mr-david-marshall,Mr David Marshall,uk.org.publicwhip/person/10417,Labour,Glasgow Shettleston,1.50
+1996-07-09-009,1996-07-09,Dame Elaine Kellett-Bowman,matched,mrs-elaine-kellett,Mrs Elaine Kellett,uk.org.publicwhip/person/17973,Conservative,Lancaster,1.50
+1996-07-09-016,1996-07-09,Mr. Evans,matched,mr-nigel-evans,Mr Nigel Evans,uk.org.publicwhip/person/10190,Conservative,Ribble Valley,1.50
+1996-07-09-018,1996-07-09,Mr. Michie,matched,mr-bill-michie,Mr Bill Michie,uk.org.publicwhip/person/10432,Labour,"Sheffield, Heeley",1.50
+1996-07-16-002,1996-07-16,Mrs. Kennedy,matched,ms-jane-kennedy,Ms Jane Kennedy,uk.org.publicwhip/person/10335,Labour,Liverpool Broadgreen,1.50
+1996-07-18-010,1996-07-18,Mr. Hughes,matched,mr-simon-hughes,Mr Simon Hughes,uk.org.publicwhip/person/10298,Liberal Democrats,Southwark and Bermondsey,1.50
+1996-07-18-012,1996-07-18,Mr. Robert Ainsworth,speech_not_found,,,,,,
+1996-07-18-013,1996-07-18,Mr. Ainsworth,speech_not_found,,,,,,
+1996-07-18-018,1996-07-18,Mrs. Campbell,matched,mrs-anne-campbell,Mrs Anne Campbell,uk.org.publicwhip/person/10087,Labour,Cambridge,1.50
+1996-10-15-002,1996-10-15,Mr. Campbell,matched,mr-ronnie-campbell,Mr Ronnie Campbell,uk.org.publicwhip/person/10089,Labour,Blyth Valley,1.50
+1996-10-15-009,1996-10-15,Mr. Banks,matched,mr-matthew-banks,Mr Matthew Banks,uk.org.publicwhip/person/22351,Conservative,Southport,1.50
+1996-10-29-002,1996-10-29,Mr. Jones,matched,mr-ieuan-wyn-jones,Mr Ieuan Wyn Jones,uk.org.publicwhip/person/10320,Plaid Cymru,Ynys Môn,1.50
+1996-10-29-012,1996-10-29,Mrs. Kennedy,matched,ms-jane-kennedy,Ms Jane Kennedy,uk.org.publicwhip/person/10335,Labour,Liverpool Broadgreen,1.50
+1996-11-19-011,1996-11-19,Ms Cunningham,matched,ms-roseanna-cunningham,Ms Roseanna Cunningham,uk.org.publicwhip/person/10148,SNP,Perth and Kinross,1.50
+1996-11-21-010,1996-11-21,Mr. Banks,matched,mr-tony-banks,Mr Tony Banks,uk.org.publicwhip/person/10025,Labour,Newham North West,1.50
+1996-11-21-016,1996-11-21,Mr. Marshall,matched,mr-john-marshall-1,Mr John Marshall,uk.org.publicwhip/person/22674,Conservative,Hendon South,1.50
+1996-11-26-018,1996-11-26,Mr. Thompson,matched,mr-patrick-thompson,Mr Patrick Thompson,uk.org.publicwhip/person/22633,Conservative,Norwich North,1.50
+1996-12-03-014,1996-12-03,Mr. Marshall,matched,mr-john-marshall-1,Mr John Marshall,uk.org.publicwhip/person/22674,Conservative,Hendon South,1.50
+1996-12-03-018,1996-12-03,Mr. Banks,matched,mr-matthew-banks,Mr Matthew Banks,uk.org.publicwhip/person/22351,Conservative,Southport,1.50
+1996-12-10-012,1996-12-10,Dr. Jones,matched,dr-lynne-jones,Dr Lynne Jones,uk.org.publicwhip/person/10323,Labour,"Birmingham, Selly Oak",1.50
+1996-12-17-014,1996-12-17,Mr. Robert G. Hughes,speech_not_found,,,,,,
+1997-01-16-015,1997-01-16,Mr. Cunningham,matched,mr-jim-cunningham,Mr Jim Cunningham,uk.org.publicwhip/person/10147,Labour,Coventry South East,1.50
+1997-01-16-017,1997-01-16,Mr. Evans,matched,mr-nigel-evans,Mr Nigel Evans,uk.org.publicwhip/person/10190,Conservative,Ribble Valley,1.50
+1997-01-21-002,1997-01-21,Mrs. Campbell,matched,mrs-anne-campbell,Mrs Anne Campbell,uk.org.publicwhip/person/10087,Labour,Cambridge,1.50
+1997-01-23-016,1997-01-23,Mr. Robert Hughes,speech_not_found,,,,,,
+1997-01-28-017,1997-01-28,Mr. Kennedy,matched,mr-charles-kennedy,Mr Charles Kennedy,uk.org.publicwhip/person/10334,Liberal Democrats,Ross and Cromarty and Skye,1.50
+1997-02-06-002,1997-02-06,Dr. Jones,matched,dr-lynne-jones,Dr Lynne Jones,uk.org.publicwhip/person/10323,Labour,"Birmingham, Selly Oak",1.50
+1997-02-06-016,1997-02-06,Mr. Hughes,matched,mr-kevin-hughes,Mr Kevin Hughes,uk.org.publicwhip/person/10297,Labour,Doncaster North,1.50
+1997-02-13-010,1997-02-13,Mr. Marshall,matched,mr-david-marshall,Mr David Marshall,uk.org.publicwhip/person/10417,Labour,Glasgow Shettleston,1.50
+1997-02-18-016,1997-02-18,Mr. Martin,matched,mr-michael-martin,Mr Michael Martin,uk.org.publicwhip/person/10420,Labour,Glasgow Springburn,1.50
+1997-02-20-005,1997-02-20,Mr. Marshall,matched,mr-john-marshall-1,Mr John Marshall,uk.org.publicwhip/person/22674,Conservative,Hendon South,1.50
+1997-02-25-021,1997-02-25,Mr. Davies,matched,mr-chris-davies,Mr Chris Davies,uk.org.publicwhip/person/16396,,Littleborough and Saddleworth,1.50
+1997-02-27-019,1997-02-27,Mr. Brown,matched,mr-michael-brown,Mr Michael Brown,uk.org.publicwhip/person/22577,Conservative,Brigg and Cleethorpes,1.50
+1997-03-04-015,1997-03-04,Mrs. Jackson,matched,mrs-helen-jackson,Mrs Helen Jackson,uk.org.publicwhip/person/10309,Labour,"Sheffield, Hillsborough",1.50
+1997-03-04-017,1997-03-04,Mr. Insley,speech_not_found,,,,,,
+1997-03-06-015,1997-03-06,Dr. Clark,matched,dr-michael-clark,Dr Michael Clark,uk.org.publicwhip/person/10111,Conservative,Rochford,1.50
+1997-03-13-018,1997-03-13,Mr. Thompson,matched,mr-patrick-thompson,Mr Patrick Thompson,uk.org.publicwhip/person/22633,Conservative,Norwich North,1.50
+1997-03-18-002,1997-03-18,Mr. Hughes,matched,mr-simon-hughes,Mr Simon Hughes,uk.org.publicwhip/person/10298,Liberal Democrats,Southwark and Bermondsey,1.50
