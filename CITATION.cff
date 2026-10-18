@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "PMQs exchanges, 1961 to the present"
+version: 0.9.0
+date-released: 2026-10-19
+authors:
+  - family-names: Anstead
+    given-names: Nicholas
+    affiliation: "Department of Media and Communications, London School of Economics and Political Science"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+repository-code: "https://github.com/nickanstead/PMQs"
+license: CC-BY-4.0
+keywords:
+  - Prime Minister's Questions
+  - House of Commons
+  - Hansard
+  - parliamentary debate
+  - political communication
+abstract: >-
+  Every question-and-answer exchange at Prime Minister's Questions in the UK
+  House of Commons since 1961, with the questioner's party and role, built
+  from Hansard via mySociety's ParlParse and updated weekly.
