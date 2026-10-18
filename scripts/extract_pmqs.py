@@ -51,7 +51,8 @@ PRIME_MINISTERS = [
     ("Johnson", "Boris Johnson", "2019-07-24", "2022-09-06"),
     ("Truss", "Liz Truss", "2022-09-06", "2022-10-25"),
     ("Sunak", "Rishi Sunak", "2022-10-25", "2024-07-05"),
-    ("Starmer", "Keir Starmer", "2024-07-05", "9999-12-31"),
+    ("Starmer", "Keir Starmer", "2024-07-05", "2026-07-20"),
+    ("Burnham", "Andy Burnham", "2026-07-20", "9999-12-31"),
 ]
 # Parties in government. Matched with startswith against ParlParse party
 # names, so "Labour" covers "Labour/Co-operative" but not the SDLP.
