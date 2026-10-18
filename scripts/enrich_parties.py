@@ -43,14 +43,16 @@ AMBIGUOUS_REPORT = REF_DIR / "ambiguous_names.csv"
 CUTOFF = "1997-05-02"  # ParlParse has party data from the 1997 election on
 
 # Party families for deciding government or opposition before 1997.
-# Ulster Unionists took the Conservative whip until the February 1974 election.
+# Ulster Unionists took the Conservative whip until all but one of their MPs
+# resigned it in 1972 (Stratton Mills's decision to stay is dated 18 December
+# 1972; sources differ on the date, some placing the break in 1974).
 CONSERVATIVE = {"Conservative", "Scottish Unionist", "National Liberal and Conservative",
                 "Conservative and National Liberal", "National Liberal"}
 LABOUR = {"Labour", "Labour Co-op", "Labour Co-Op"}
 
 
 def family(party, date):
-    if party in CONSERVATIVE or (party == "UUP" and date < "1974-02-28"):
+    if party in CONSERVATIVE or (party == "UUP" and date < "1972-12-18"):
         return "Conservative"
     if party in LABOUR:
         return "Labour"
@@ -91,18 +93,37 @@ def leader_on(date):
     return None
 
 # Mid-term moves that change an MP's side of the House (government to
-# opposition or back). Moves between opposition parties, such as Labour to
-# the SDP in 1981 while Labour was in opposition, do not change the role and
-# are not needed here. Verify before publication.
+# opposition or back). Rule: an MP's role follows party membership, not whip
+# status, so temporary whip suspensions or resignations of MPs who stayed in
+# their party (the 1968 Labour suspensions, the 1994-95 Maastricht rebels,
+# William Duthie 1961-63, Reginald Paget 1966-67, Rupert Allason 1993-94) are
+# deliberately not listed. Moves between opposition parties, such as Labour to
+# the SDP in 1981, do not change the role and are not listed either.
+# Each entry applies from its date until the end date (usually the next
+# general election). Checked in October 2026 against the House of Commons
+# Library and Wikipedia lists of MPs who changed party, the History of
+# Parliament member records and contemporary reports.
 DEFECTIONS = [
-    # (surname key, given-name start, from date, new party)
-    ("sillars", "james", "1976-01-26", "Scottish Labour"),
-    ("robertson", "john", "1976-01-26", "Scottish Labour"),
-    ("prentice", "reg", "1977-10-08", "Conservative"),
-    ("brocklebankfowler", "christopher", "1981-03-15", "Social Democratic"),
-    ("howarth", "alan", "1995-10-07", "Labour"),
-    ("nicholson", "emma", "1995-12-29", "Liberal Democrats"),
-    ("thurnham", "peter", "1996-10-12", "Liberal Democrats"),
+    # (surname key, given-name start, from, until, new party)
+    ("brown", "alan", "1962-05-04", "1964-10-15", "Conservative"),            # Lab, then Ind 1961, joined Con
+    ("johnson", "donald", "1964-01-23", "1964-10-15", "Independent"),         # left Con after local dispute
+    ("donnelly", "desmond", "1968-01-18", "1969-05-01", "Independent"),       # left Labour over defence cuts
+    ("donnelly", "desmond", "1969-05-01", "1970-06-18", "Democratic Party"),  # month only in sources
+    ("chichesterclark", "r", "1972-12-18", "1974-02-28", "Conservative"),     # UUP minister, stayed with govt
+    ("mills", "stratton", "1972-12-18", "1973-04-29", "Conservative"),        # kept Con whip when UUP left it
+    ("mills", "stratton", "1973-04-29", "1974-02-28", "Alliance"),            # then joined Alliance
+    ("mayhew", "christopher", "1974-07-09", "1974-10-10", "Liberal"),          # Lab to Liberal
+    ("stonehouse", "john", "1976-04-07", "1979-05-03", "Independent"),         # left Labour; then English National
+    ("sillars", "j", "1976-07-26", "1979-05-03", "Scottish Labour"),           # SLP founded Jan 1976; Labour whip resigned July
+    ("robertson", "john", "1976-07-26", "1979-05-03", "Scottish Labour"),      # MP for Paisley, as Sillars
+    ("prentice", "reg", "1977-10-08", "1979-05-03", "Conservative"),           # Lab to Con
+    ("brocklebankfowler", "christopher", "1981-03-16", "1983-06-09", "Social Democratic"),
+    ("browne", "john", "1992-03-13", "1992-04-09", "Independent Conservative"),  # whip removed, stood against party
+    ("howarth", "alan", "1995-10-07", "1997-05-01", "Labour"),                 # Con to Lab
+    ("nicholson", "emma", "1995-12-29", "1997-05-01", "Liberal Democrats"),    # Con to LD
+    ("thurnham", "peter", "1996-02-24", "1996-10-13", "Independent"),          # left Con
+    ("thurnham", "peter", "1996-10-13", "1997-05-01", "Liberal Democrats"),
+    ("gardiner", "george", "1997-03-08", "1997-05-01", "Referendum"),          # Con to Referendum Party
 ]
 
 TITLES = re.compile(
@@ -276,9 +297,9 @@ def load_hh_matches():
 
 
 def defected(members, pid, date, party):
-    for k, given, since, new in DEFECTIONS:
-        if date >= since and any(key(f) == k and g.lower().startswith(given)
-                                 for f, g in members.names(pid)):
+    for k, given, since, until, new in DEFECTIONS:
+        if since <= date < until and any(key(f) == k and any(t.startswith(given) for t in g.lower().split())
+                                         for f, g in members.names(pid)):
             return new
     return party
 
