@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>PMQs coding</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.117.2/dist/umd/supabase.js"></script>
+<style>
+:root{
+  --bg:#F6F5F1; --card:#FFFFFF; --ink:#1B1D1C; --muted:#4A4F4C; --line:#D9DCDA;
+  --accent:#1F4D3A; --accent-ink:#FFFFFF; --red:#B3261E; --btn-border:#9BA39F;
+  --disabled:#C9CDCB; --disabled-ink:#4A4F4C; --notice:#FFF6E0; --notice-ink:#5C4400;
+  color-scheme: light;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#121614; --card:#1B201E; --ink:#E9ECEA; --muted:#B4BAB7; --line:#33403A;
+    --accent:#5FAE8A; --accent-ink:#0D1A14; --red:#E0645A; --btn-border:#5C6662;
+    --disabled:#2E3532; --disabled-ink:#9AA19E; --notice:#3A2F12; --notice-ink:#F3DFA6;
+    color-scheme: dark;
+  }
+}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'IBM Plex Sans',system-ui,-apple-system,'Segoe UI',sans-serif;line-height:1.5}
+header{background:var(--accent);color:var(--accent-ink);border-bottom:4px solid var(--red)}
+.bar{max-width:1180px;margin:0 auto;padding:16px 24px;display:flex;flex-wrap:wrap;gap:8px 24px;align-items:center;justify-content:space-between}
+.brand{font-weight:600;font-size:18px;letter-spacing:.02em}
+.meta{font-size:14px;opacity:.92}
+main{max-width:1180px;margin:0 auto;padding:28px 24px 56px;display:flex;flex-direction:column;gap:24px}
+.narrow{max-width:640px}
+h1{font-family:'Source Serif 4',Georgia,serif;font-weight:600;font-size:32px;margin:0}
+h2{font-size:17px;font-weight:600;margin:0}
+p{margin:0}
+.lead{font-size:16px;color:var(--muted);max-width:760px}
+.pairgrid{display:flex;flex-wrap:wrap;gap:20px}
+.ex{flex:1 1 420px;min-width:0;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:24px;display:flex;flex-direction:column;gap:16px}
+.exlabel{font-weight:600;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.partlabel{font-size:13px;font-weight:600;color:var(--muted)}
+.text{font-family:'Source Serif 4',Georgia,serif;font-size:18px;line-height:1.6;white-space:pre-line;overflow-wrap:anywhere}
+.rule{height:1px;background:var(--line)}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:24px;display:flex;flex-direction:column;gap:24px}
+.q{display:flex;flex-direction:column;gap:10px}
+.opts{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.opt{font:inherit;font-size:15px;font-weight:500;min-height:48px;padding:10px 18px;border:1.5px solid var(--btn-border);border-radius:8px;background:var(--card);color:var(--ink);cursor:pointer;flex:1 1 160px}
+.opt:hover{border-color:var(--accent)}
+.opt[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.opt.small{flex:1 1 110px;font-size:14px;min-height:44px;padding:8px 12px}
+.rowlabel{flex:0 0 110px;font-size:14px;font-weight:600;color:var(--muted)}
+.primary{font:inherit;font-size:16px;font-weight:600;min-height:52px;padding:12px 28px;border:none;border-radius:8px;background:var(--accent);color:var(--accent-ink);cursor:pointer}
+.primary:disabled{background:var(--disabled);color:var(--disabled-ink);cursor:not-allowed}
+.ghost{font:inherit;font-size:14px;min-height:44px;padding:8px 14px;border:1.5px solid var(--btn-border);border-radius:8px;background:transparent;color:var(--ink);cursor:pointer}
+.ghost[aria-pressed="true"]{border-color:var(--red);color:var(--red)}
+.actions{display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between}
+details{font-size:14px;color:var(--muted)}
+summary{cursor:pointer;font-weight:600;color:var(--accent)}
+label{font-weight:600;font-size:15px}
+input[type=text],input[type=password]{font:inherit;font-size:17px;width:100%;min-height:48px;padding:10px 14px;border:1.5px solid var(--btn-border);border-radius:8px;background:var(--card);color:var(--ink)}
+.field{display:flex;flex-direction:column;gap:8px}
+.notice{background:var(--notice);color:var(--notice-ink);border-radius:8px;padding:12px 16px;font-size:15px}
+.small{font-size:13px;color:var(--muted)}
+code{font-family:ui-monospace,Menlo,monospace;font-size:15px;background:var(--bg);padding:2px 6px;border-radius:4px;border:1px solid var(--line)}
+[hidden]{display:none !important}
+</style>
+</head>
+<body>
+<header>
+  <div class="bar">
+    <div class="brand">PMQs coding</div>
+    <div class="meta" id="meta"></div>
+  </div>
+</header>
+
+<!-- Start screen -->
+<main id="start" class="narrow" hidden>
+  <h1>Welcome</h1>
+  <p class="lead">You’ll see two exchanges from Prime Minister’s Questions at a time and make three quick judgements about them. Names, parties and dates are hidden. Code as many pairs as you like, and stop whenever you want.</p>
+  <div class="field">
+    <label for="passcode">Passcode for this session</label>
+    <input id="passcode" type="text" autocomplete="off" autocapitalize="off" spellcheck="false">
+  </div>
+  <p class="small">Your anonymous coder code is <code id="coderShow"></code>. Make a note of it if you want to carry on later on another device.</p>
+  <details>
+    <summary>I already have a coder code</summary>
+    <div class="field" style="margin-top:12px">
+      <label for="coderIn">Your coder code</label>
+      <input id="coderIn" type="text" autocomplete="off" autocapitalize="off" spellcheck="false">
+    </div>
+  </details>
+  <div class="notice" id="startMsg" hidden></div>
+  <div><button class="primary" id="startBtn" type="button">Start coding</button></div>
+</main>
+
+<!-- Coding screen -->
+<main id="coding" hidden>
+  <p class="lead">Read both exchanges, then answer the three questions. Go with your first reading: there are no right answers, and close calls are expected.</p>
+
+  <div class="pairgrid">
+    <article class="ex" aria-labelledby="exA">
+      <div class="exlabel" id="exA">Exchange A</div>
+      <div><div class="partlabel">Question</div><p class="text" id="aQ"></p></div>
+      <div class="rule"></div>
+      <div><div class="partlabel">Prime Minister’s reply</div><p class="text" id="aR"></p></div>
+    </article>
+    <article class="ex" aria-labelledby="exB">
+      <div class="exlabel" id="exB">Exchange B</div>
+      <div><div class="partlabel">Question</div><p class="text" id="bQ"></p></div>
+      <div class="rule"></div>
+      <div><div class="partlabel">Prime Minister’s reply</div><p class="text" id="bR"></p></div>
+    </article>
+  </div>
+
+  <section class="panel">
+    <div class="q">
+      <h2>1. Which <u>question</u> is more hostile?</h2>
+      <div class="opts" data-key="q">
+        <button type="button" class="opt" data-val="A" aria-pressed="false">Question A</button>
+        <button type="button" class="opt" data-val="B" aria-pressed="false">Question B</button>
+      </div>
+    </div>
+    <div class="q">
+      <h2>2. Which <u>reply</u> is more hostile?</h2>
+      <div class="opts" data-key="r">
+        <button type="button" class="opt" data-val="A" aria-pressed="false">Reply A</button>
+        <button type="button" class="opt" data-val="B" aria-pressed="false">Reply B</button>
+      </div>
+    </div>
+    <div class="q">
+      <h2>3. For each exchange, does the reply raise or lower the temperature?</h2>
+      <div class="opts" data-key="escA">
+        <div class="rowlabel">Exchange A</div>
+        <button type="button" class="opt small" data-val="up" aria-pressed="false">Escalates</button>
+        <button type="button" class="opt small" data-val="same" aria-pressed="false">Matches</button>
+        <button type="button" class="opt small" data-val="down" aria-pressed="false">De-escalates</button>
+      </div>
+      <div class="opts" data-key="escB">
+        <div class="rowlabel">Exchange B</div>
+        <button type="button" class="opt small" data-val="up" aria-pressed="false">Escalates</button>
+        <button type="button" class="opt small" data-val="same" aria-pressed="false">Matches</button>
+        <button type="button" class="opt small" data-val="down" aria-pressed="false">De-escalates</button>
+      </div>
+    </div>
+    <details>
+      <summary>What counts as hostile?</summary>
+      <p style="margin-top:10px">[DEFINITION FROM CODEBOOK – e.g. attacks on the other person’s character, competence or honesty; ridicule; aggressive framing. Robust disagreement on policy alone is not hostile.]</p>
+    </details>
+  </section>
+
+  <div class="notice" id="codeMsg" hidden></div>
+  <div class="actions">
+    <button type="button" class="ghost" id="flagBtn" aria-pressed="false">Flag a problem with this pair</button>
+    <button type="button" class="primary" id="nextBtn" disabled>Next pair</button>
+  </div>
+  <p class="small">Each judgement is saved, against your anonymous coder code, when you press Next. You can stop at any point.</p>
+</main>
+
+<!-- Loading / done / error -->
+<main id="status" class="narrow" hidden>
+  <h1 id="statusTitle"></h1>
+  <p class="lead" id="statusText"></p>
+  <div><button class="primary" id="statusBtn" type="button" hidden></button></div>
+</main>
+
+<script>
+(function () {
+  'use strict';
+
+  var SUPABASE_URL = 'https://bemvauysphjjujbgcdxa.supabase.co';
+  var SUPABASE_KEY = 'sb_publishable_VPf39nal-F9QPat1a_sE4w_KuRJZ8WV';
+
+  var sb = null;
+  try {
+    sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY, { auth: { persistSession: false } });
+  } catch (e) { sb = null; }
+
+  // ---------- small helpers ----------
+  function $(id) { return document.getElementById(id); }
+  function store(k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
+  function recall(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
+  function forget(k) { try { localStorage.removeItem(k); } catch (e) {} }
+
+  function makeCoderId() {
+    var chars = 'abcdefghjkmnpqrstuvwxyz23456789';
+    var out = '';
+    var arr = new Uint32Array(10);
+    (window.crypto || window.msCrypto).getRandomValues(arr);
+    for (var i = 0; i < arr.length; i++) { out += chars[arr[i] % chars.length]; if (i === 4) out += '-'; }
+    return out;   // e.g. "k7hq2-m9xpa" (11 characters)
+  }
+
+  var screens = ['start', 'coding', 'status'];
+  function show(id) {
+    screens.forEach(function (s) { $(s).hidden = (s !== id); });
+    window.scrollTo(0, 0);
+  }
+  function status(title, text, btnLabel, btnAction) {
+    $('statusTitle').textContent = title;
+    $('statusText').textContent = text;
+    var b = $('statusBtn');
+    if (btnLabel) { b.textContent = btnLabel; b.hidden = false; b.onclick = btnAction; }
+    else { b.hidden = true; b.onclick = null; }
+    show('status');
+  }
+  function note(el, text) { el.textContent = text || ''; el.hidden = !text; }
+
+  // ---------- state ----------
+  var coder = recall('pmqs_coder') || makeCoderId();
+  store('pmqs_coder', coder);
+  var passcode = recall('pmqs_passcode');
+  var current = null;          // the pair being shown
+  var picks = {};
+  var flagged = false;
+  var shownAt = 0;
+  var doneCount = 0;
+  var busy = false;
+
+  function setMeta() {
+    $('meta').textContent = 'Coder ' + coder + (doneCount ? ' · ' + doneCount + ' done' : '');
+  }
+
+  function isPasscodeError(err) {
+    return err && (String(err.message || '').indexOf('bad passcode') !== -1 || err.code === '28000');
+  }
+
+  // ---------- start screen ----------
+  function openStart(message) {
+    $('coderShow').textContent = coder;
+    $('passcode').value = passcode || '';
+    note($('startMsg'), message);
+    setMeta();
+    show('start');
+  }
+
+  $('startBtn').addEventListener('click', function () {
+    var p = $('passcode').value.trim();
+    var c = $('coderIn').value.trim().toLowerCase();
+    if (!p) { note($('startMsg'), 'Please enter the passcode for this session.'); return; }
+    if (c) {
+      if (c.length < 8 || c.length > 64) { note($('startMsg'), 'That coder code doesn’t look right. Check it, or leave the box empty to use a new one.'); return; }
+      coder = c; store('pmqs_coder', coder);
+    }
+    passcode = p;
+    loadNext();
+  });
+
+  // ---------- coding ----------
+  function resetPicks() {
+    picks = {}; flagged = false;
+    document.querySelectorAll('.opts .opt').forEach(function (b) { b.setAttribute('aria-pressed', 'false'); });
+    $('flagBtn').setAttribute('aria-pressed', 'false');
+    $('flagBtn').textContent = 'Flag a problem with this pair';
+    updateNext();
+  }
+  function complete() { return picks.q && picks.r && picks.escA && picks.escB; }
+  function updateNext() { $('nextBtn').disabled = !complete() || busy; }
+
+  document.querySelectorAll('.opts').forEach(function (group) {
+    group.addEventListener('click', function (ev) {
+      var btn = ev.target.closest('.opt');
+      if (!btn) return;
+      var key = group.getAttribute('data-key');
+      picks[key] = btn.getAttribute('data-val');
+      group.querySelectorAll('.opt').forEach(function (b) { b.setAttribute('aria-pressed', b === btn ? 'true' : 'false'); });
+      updateNext();
+    });
+  });
+
+  $('flagBtn').addEventListener('click', function () {
+    flagged = !flagged;
+    this.setAttribute('aria-pressed', flagged ? 'true' : 'false');
+    this.textContent = flagged ? 'Flagged – thanks' : 'Flag a problem with this pair';
+  });
+
+  function render(pair) {
+    current = pair;
+    $('aQ').textContent = pair.a.question;
+    $('aR').textContent = pair.a.reply;
+    $('bQ').textContent = pair.b.question;
+    $('bR').textContent = pair.b.reply;
+    resetPicks();
+    note($('codeMsg'), '');
+    shownAt = Date.now();
+    show('coding');
+  }
+
+  function loadNext(message) {
+    if (!sb) { status('Can’t connect', 'The coding page couldn’t load its connection library. Check your internet connection and reload the page.', 'Reload', function () { location.reload(); }); return; }
+    status('Loading…', 'Fetching the next pair.');
+    sb.rpc('next_pair', { p_coder: coder, p_passcode: passcode }).then(function (res) {
+      if (res.error) {
+        if (isPasscodeError(res.error)) { forget('pmqs_passcode'); passcode = null; openStart('That passcode wasn’t recognised. Please check it and try again.'); return; }
+        status('Something went wrong', 'The next pair couldn’t be loaded. Please try again in a moment.', 'Try again', function () { loadNext(); });
+        return;
+      }
+      store('pmqs_passcode', passcode);
+      var pair = res.data;
+      if (!pair) {
+        status('All done for now', 'There are no more pairs waiting to be coded. Thank you – that’s a real help.', null, null);
+        return;
+      }
+      if (typeof pair === 'string') { try { pair = JSON.parse(pair); } catch (e) {} }
+      if (!doneCount && pair.coder_done) doneCount = pair.coder_done;
+      setMeta();
+      render(pair);
+      if (message) note($('codeMsg'), message);
+    }).catch(function () {
+      status('Connection problem', 'Your last answers may not have been sent. Check your connection and try again.', 'Try again', function () { loadNext(); });
+    });
+  }
+
+  $('nextBtn').addEventListener('click', function () {
+    if (!complete() || busy || !current) return;
+    busy = true; updateNext();
+    var seconds = Math.round((Date.now() - shownAt) / 1000);
+    sb.rpc('submit_judgement', {
+      p_coder: coder,
+      p_passcode: passcode,
+      p_pair_id: current.pair_id,
+      p_is_repeat: !!current.is_repeat,
+      p_q: picks.q,
+      p_r: picks.r,
+      p_esc_a: picks.escA,
+      p_esc_b: picks.escB,
+      p_flagged: flagged,
+      p_seconds: seconds
+    }).then(function (res) {
+      busy = false;
+      if (res.error) {
+        var msg = String(res.error.message || '');
+        if (isPasscodeError(res.error)) { forget('pmqs_passcode'); passcode = null; openStart('The passcode has changed. Please enter the new one to carry on.'); return; }
+        if (msg.indexOf('already judged') !== -1 || msg.indexOf('reserved') !== -1) {
+          loadNext('That pair had already been picked up by someone else, so here’s a fresh one.');
+          return;
+        }
+        updateNext();
+        note($('codeMsg'), 'Your answers couldn’t be saved. Please press Next again.');
+        return;
+      }
+      doneCount += 1;
+      setMeta();
+      loadNext();
+    }).catch(function () {
+      busy = false; updateNext();
+      note($('codeMsg'), 'Connection problem: your answers weren’t saved yet. Please press Next again.');
+    });
+  });
+
+  // ---------- go ----------
+  setMeta();
+  if (passcode) { loadNext(); } else { openStart(); }
+})();
+</script>
+</body>
+</html>
