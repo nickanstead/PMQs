@@ -273,7 +273,7 @@ def normalise_heading(text):
     return ORAL_PREFIX.sub("", h)
 
 
-def pmqs_speeches(root):
+def pmqs_speeches(root, keep_topics=True):
     """Speeches inside questions to the PM. A section starts at a heading
     mentioning the PM or engagements, or at a tabled question that 'asked'
     (or is 'To ask') the Prime Minister, as in older Hansard where headings
@@ -289,8 +289,10 @@ def pmqs_speeches(root):
                 pm_major = inside = is_pm
             else:
                 # Under a "Prime Minister" major heading, topic minor headings
-                # (a substantive question on, say, Iraq) stay inside.
-                inside = is_pm or pm_major
+                # (a substantive question on, say, Iraq) stay inside, unless
+                # keep_topics is off: process_day retries without it when it
+                # sweeps in the next department's questions.
+                inside = is_pm or (pm_major and keep_topics)
             if is_pm:
                 opened.append(heading[:40])
         elif el.tag == "speech" and el.get("nospeaker") != "true":
@@ -325,7 +327,7 @@ def pm_matcher(speeches, surname):
     pm_pid = None
     if candidates:
         top, n = candidates.most_common(1)[0]
-        if n >= 0.3 * len(speeches):
+        if n >= 0.2 * len(speeches):
             pm_pid = top
 
     def is_pm(name, pid):
@@ -334,7 +336,14 @@ def pm_matcher(speeches, surname):
         return ((pm_pid is not None and pid == pm_pid) or titled_pm(name)
                 or (not pid and bool(surname_re.search(name))))
 
-    return is_pm, sum(is_pm(name, pid) for name, pid, _ in speeches)
+    n_pm = sum(is_pm(name, pid) for name, pid, _ in speeches)
+    others = Counter(speaker_key(name, pid) for name, pid, _ in speeches if not is_pm(name, pid))
+    runner_up = others.most_common(1)[0][1] if others else 0
+    # The PM answered if they gave 30% of speeches, or at least 20% and
+    # clearly more than anyone else, as in long sessions full of interjections.
+    answered = n_pm >= 0.3 * len(speeches) or (n_pm >= 0.2 * len(speeches)
+                                                and n_pm >= 1.5 * runner_up)
+    return is_pm, n_pm, answered
 
 
 def speaker_key(name, pid):
@@ -379,23 +388,34 @@ def process_day(date, xml_bytes, people):
     member_to_person, by_person = people
     root = ET.fromstring(xml_bytes)
 
-    speeches = []
-    section, opened = pmqs_speeches(root)
-    opened_by = "; ".join(sorted(set(opened)))[:120]
-    for el in section:
-        name = el.get("speakername", "").strip()
-        if not name and not el.get("person_id") and not el.get("speakerid"):
-            # Unnamed speech: in older Hansard, the same speaker continuing.
-            if speeches:
-                speeches[-1] = (speeches[-1][0], speeches[-1][1],
-                                speeches[-1][2] + " " + text_of(el))
-            continue
-        pid = el.get("person_id") or member_to_person.get(el.get("speakerid", ""), "")
-        # The Speaker's interventions are neither questions nor answers. Modern
-        # files name the Speaker personally ("Lindsay Hoyle"), so check party too.
-        if SPEAKER_NAME.search(name) or party_on(by_person, pid, date) == "Speaker":
-            continue
-        speeches.append((name, pid, text_of(el)))
+    def collect(keep_topics):
+        section, opened = pmqs_speeches(root, keep_topics)
+        found = []
+        for el in section:
+            name = el.get("speakername", "").strip()
+            if not name and not el.get("person_id") and not el.get("speakerid"):
+                # Unnamed speech: in older Hansard, the same speaker continuing.
+                if found:
+                    found[-1] = (found[-1][0], found[-1][1], found[-1][2] + " " + text_of(el))
+                continue
+            pid = el.get("person_id") or member_to_person.get(el.get("speakerid", ""), "")
+            # The Speaker's interventions are neither questions nor answers. Modern
+            # files name the Speaker personally ("Lindsay Hoyle"), so check party too.
+            if SPEAKER_NAME.search(name) or party_on(by_person, pid, date) == "Speaker":
+                continue
+            found.append((name, pid, text_of(el)))
+        return found, "; ".join(sorted(set(opened)))[:120]
+
+    def which_pm(speeches):
+        # Which PM answered: on a handover day, whichever candidate fits best.
+        best = None
+        for surname, full in pm_candidates(date):
+            is_pm, n, answered = pm_matcher(speeches, surname)
+            if best is None or (answered, n) > (best[3], best[2]):
+                best = (is_pm, full, n, answered)
+        return best
+
+    speeches, opened_by = collect(True)
     if not speeches:
         if not pmqs_day(date):
             note = "not a PMQs day"
@@ -406,17 +426,20 @@ def process_day(date, xml_bytes, people):
             note = "no PMQs section found (no questions held)"
         return [], [], {"pmqs_speeches": 0, "note": note, "detail": all_headings(root)}
 
-    # Which PM answered: on a handover day, whichever candidate fits best.
-    best = None
-    for surname, full in pm_candidates(date):
-        is_pm, n = pm_matcher(speeches, surname)
-        if best is None or n > best[2]:
-            best = (is_pm, full, n)
-    is_pm, pm_name, n_pm = best
+    is_pm, pm_name, n_pm, answered = which_pm(speeches)
+    if not answered:
+        # Topic headings may have swept in the next department's questions
+        # (13 Mar 1990: Arts questions after PMQs); retry without them.
+        strict, strict_opened = collect(False)
+        if strict:
+            retry = which_pm(strict)
+            if retry[3]:
+                speeches, opened_by = strict, strict_opened + "; strict headings"
+                is_pm, pm_name, n_pm, answered = retry
     in_office = pm_for(date)[1]
 
     standin = None
-    if n_pm < 0.3 * len(speeches):
+    if not answered:
         is_answerer, resp_name, resp_pid = standin_matcher(speeches)
         names = Counter(name for name, _, _ in speeches).most_common(4)
         detail = " | ".join(f"{nm} x{c}" for nm, c in names)
