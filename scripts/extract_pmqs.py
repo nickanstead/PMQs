@@ -265,6 +265,11 @@ ASKED_PM = re.compile(
 ORAL_PREFIX = re.compile(r"^oral answers to questions\s*")
 
 
+# A tabled question: a question number at the start ("Q3.", "4.") or a
+# reference number in brackets ("[15127]") near the start of the speech.
+TABLED = re.compile(r"^\s*q?\d+\.|\[\d{3,}\]", re.I)
+
+
 def normalise_heading(text):
     """Lower-case, drop punctuation and drop a leading "Oral Answers to
     Questions", which 1997-2001 files combine with the heading itself
@@ -280,22 +285,31 @@ def pmqs_speeches(root, keep_topics=True):
     name the topic. It ends at the next heading that is neither, so that a
     following statement or debate is not swept in; a later question to the
     PM under a topic heading reopens it."""
-    inside, pm_major, out, opened = False, False, [], []
+    inside, pm_major, topic_pending, out, opened = False, False, False, [], []
     for el in root:
         if el.tag in ("major-heading", "minor-heading"):
             heading = text_of(el)
             is_pm = bool(PM_HEADING.fullmatch(normalise_heading(heading)))
+            topic_pending = False
             if el.tag == "major-heading":
                 pm_major = inside = is_pm
+            elif is_pm:
+                inside = True
             else:
-                # Under a "Prime Minister" major heading, topic minor headings
-                # (a substantive question on, say, Iraq) stay inside, unless
-                # keep_topics is off: process_day retries without it when it
-                # sweeps in the next department's questions.
-                inside = is_pm or (pm_major and keep_topics)
+                # Under a "Prime Minister" major heading, a topic minor heading
+                # (a substantive question on, say, Iraq) stays inside if the
+                # speech after it is a tabled question. A statement after PMQs
+                # ("With permission...") is not, so it is left out. With
+                # keep_topics off, process_day's fallback, topic headings close.
+                inside = False
+                topic_pending = pm_major and keep_topics
             if is_pm:
                 opened.append(heading[:40])
         elif el.tag == "speech" and el.get("nospeaker") != "true":
+            if topic_pending:
+                topic_pending = False
+                if TABLED.search(text_of(el)[:300]):
+                    inside = True
             if not inside and ASKED_PM.match(text_of(el)):
                 inside = True
                 opened.append("tabled question")
@@ -428,14 +442,13 @@ def process_day(date, xml_bytes, people):
 
     is_pm, pm_name, n_pm, answered = which_pm(speeches)
     if not answered:
-        # Topic headings may have swept in the next department's questions
-        # (13 Mar 1990: Arts questions after PMQs); retry without them.
+        # Topic headings may have swept in other business (13 Mar 1990: Arts
+        # questions after PMQs). Retry without them, and use that stricter
+        # section for the stand-in check too.
         strict, strict_opened = collect(False)
-        if strict:
-            retry = which_pm(strict)
-            if retry[3]:
-                speeches, opened_by = strict, strict_opened + "; strict headings"
-                is_pm, pm_name, n_pm, answered = retry
+        if strict and strict != speeches:
+            speeches, opened_by = strict, strict_opened + "; strict headings"
+            is_pm, pm_name, n_pm, answered = which_pm(speeches)
     in_office = pm_for(date)[1]
 
     standin = None
