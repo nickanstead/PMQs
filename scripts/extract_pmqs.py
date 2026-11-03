@@ -5,7 +5,10 @@ mySociety's ParlParse XML (TheyWorkForYou), 1961 onwards.
 
 Output (one CSV per year):
   data/pmqs/<year>.csv          one row per question/answer exchange
+  data/standins/<year>.csv      the same, for sessions someone else answered
   data/diagnostics/<year>.csv   one row per day checked, for sanity-checking
+  data/reports/missing_sessions.csv   PMQs days where questions were held
+                                       but no PMQs section was found
 
 Usage:
   python scripts/extract_pmqs.py              current year only
@@ -30,6 +33,8 @@ from pathlib import Path
 BASE = "https://www.theyworkforyou.com/pwdata/scrapedxml/debates/"
 PEOPLE_URL = "https://raw.githubusercontent.com/mysociety/parlparse/master/members/people.json"
 OUT_DIR = Path("data/pmqs")
+STANDIN_DIR = Path("data/standins")
+REPORT_DIR = Path("data/reports")
 DIAG_DIR = Path("data/diagnostics")
 CACHE = Path("data/cache")
 HEADERS = {"User-Agent": "pmqs-honeymoon-clock (academic research, LSE)"}
@@ -120,6 +125,29 @@ def pm_for(date):
         if start <= date < end:
             return surname, full
     return None, None
+
+
+# Blair's first PMQs: from here, once a week on Wednesdays.
+WEDNESDAY_FORMAT = "1997-05-21"
+
+
+def pmqs_day(date):
+    """True if PMQs would normally be held on this weekday: Tuesdays and
+    Thursdays until May 1997, Wednesdays after."""
+    wd = dt.date.fromisoformat(date).weekday()
+    return wd == 2 if date >= WEDNESDAY_FORMAT else wd in (1, 3)
+
+
+def pm_candidates(date):
+    """The PM in office, plus the outgoing PM on a handover day. The
+    outgoing PM answers PMQs that morning and leaves office that afternoon
+    (Blair 27 Jun 2007, Cameron 13 Jul 2016, May 24 Jul 2019), but the
+    table above gives the date to the successor."""
+    cands = []
+    for surname, full, start, end in PRIME_MINISTERS:
+        if start <= date < end or end == date:
+            cands.append((surname, full))
+    return cands
 
 
 def text_of(el):
@@ -234,8 +262,15 @@ ASKED_PM = re.compile(
     r"\b[^:?,]{0,60}?(:\s*|\s+))?(asked|to ask) the prime minister", re.I)
 
 
+ORAL_PREFIX = re.compile(r"^oral answers to questions\s*")
+
+
 def normalise_heading(text):
-    return re.sub(r"\s+", " ", re.sub(r"[^a-z ]", " ", text.lower())).strip()
+    """Lower-case, drop punctuation and drop a leading "Oral Answers to
+    Questions", which 1997-2001 files combine with the heading itself
+    ("Oral Answers to Questions — Engagements")."""
+    h = re.sub(r"\s+", " ", re.sub(r"[^a-z ]", " ", text.lower())).strip()
+    return ORAL_PREFIX.sub("", h)
 
 
 def pmqs_speeches(root):
@@ -245,12 +280,18 @@ def pmqs_speeches(root):
     name the topic. It ends at the next heading that is neither, so that a
     following statement or debate is not swept in; a later question to the
     PM under a topic heading reopens it."""
-    inside, out, opened = False, [], []
+    inside, pm_major, out, opened = False, False, [], []
     for el in root:
         if el.tag in ("major-heading", "minor-heading"):
             heading = text_of(el)
-            inside = bool(PM_HEADING.fullmatch(normalise_heading(heading)))
-            if inside:
+            is_pm = bool(PM_HEADING.fullmatch(normalise_heading(heading)))
+            if el.tag == "major-heading":
+                pm_major = inside = is_pm
+            else:
+                # Under a "Prime Minister" major heading, topic minor headings
+                # (a substantive question on, say, Iraq) stay inside.
+                inside = is_pm or pm_major
+            if is_pm:
                 opened.append(heading[:40])
         elif el.tag == "speech" and el.get("nospeaker") != "true":
             if not inside and ASKED_PM.match(text_of(el)):
@@ -261,9 +302,81 @@ def pmqs_speeches(root):
     return out, opened
 
 
+ORAL_HINT = re.compile(r"oral answers|\basked the\b|to ask the", re.I)
+
+
+def all_headings(root, limit=500):
+    heads = [text_of(h)[:50] for h in root if h.tag in ("major-heading", "minor-heading")]
+    return " | ".join(heads)[:limit]
+
+
+def titled_pm(name):
+    lowered = name.lower()
+    return "prime minister" in lowered and "deputy" not in lowered
+
+
+def pm_matcher(speeches, surname):
+    """A test for which speeches are the PM's, for one candidate PM, and how
+    many speeches it picks out. The PM is the most frequent speaker whose
+    name matches their surname; requiring 30% of speeches stops a namesake
+    MP being picked on days when a deputy stands in."""
+    surname_re = re.compile(rf"\b{re.escape(surname)}\b", re.I)
+    candidates = Counter(pid for name, pid, _ in speeches if pid and surname_re.search(name))
+    pm_pid = None
+    if candidates:
+        top, n = candidates.most_common(1)[0]
+        if n >= 0.3 * len(speeches):
+            pm_pid = top
+
+    def is_pm(name, pid):
+        # Surname alone is trusted only when there is no ID, as in older files;
+        # otherwise a namesake (e.g. Diana Johnson under Boris Johnson) would match.
+        return ((pm_pid is not None and pid == pm_pid) or titled_pm(name)
+                or (not pid and bool(surname_re.search(name))))
+
+    return is_pm, sum(is_pm(name, pid) for name, pid, _ in speeches)
+
+
+def speaker_key(name, pid):
+    # Older files may lack IDs, so identify speakers by ID or, failing that, by name.
+    return pid or name.lower()
+
+
+def standin_matcher(speeches):
+    """For a session the PM didn't answer: the most frequent speaker, if they
+    gave at least 30% of the speeches, is taken to be the person answering."""
+    counts = Counter(speaker_key(name, pid) for name, pid, _ in speeches)
+    top, n = counts.most_common(1)[0]
+    if n < 0.3 * len(speeches):
+        return None, None, None
+    name, pid = next((name, pid) for name, pid, _ in speeches if speaker_key(name, pid) == top)
+    return (lambda nm, p: speaker_key(nm, p) == top), name, pid
+
+
+def pair_exchanges(speeches, is_answerer):
+    """Pair each MP's speech with the answerer's next reply."""
+    exchanges, pending = [], None
+    for name, pid, text in speeches:
+        if is_answerer(name, pid):
+            if pending:
+                exchanges.append({"q_name": pending[0], "q_pid": pending[1],
+                                  "question": pending[2], "answer": text})
+                pending = None
+            elif exchanges:
+                exchanges[-1]["answer"] += " " + text  # answer resumed after interruption
+        else:
+            text = QUESTION_NUMBER.sub("", text)
+            if pending and speaker_key(pending[0], pending[1]) == speaker_key(name, pid):
+                pending = (pending[0], pending[1], pending[2] + " " + text)
+            else:
+                pending = (name, pid, text)  # an unanswered earlier speech is dropped
+    return exchanges
+
+
 def process_day(date, xml_bytes, people):
+    """Returns (rows, standin_rows, diagnostics). Exactly one of the two row
+    lists is filled on a day with PMQs."""
     member_to_person, by_person = people
-    surname, pm_name = pm_for(date)
     root = ET.fromstring(xml_bytes)
 
     speeches = []
@@ -284,57 +397,38 @@ def process_day(date, xml_bytes, people):
             continue
         speeches.append((name, pid, text_of(el)))
     if not speeches:
-        headings = [text_of(h)[:40] for h in root if h.tag == "major-heading"][:8]
-        return [], {"pmqs_speeches": 0, "note": "no PMQs section found",
-                    "detail": " | ".join(headings)}
-
-    # The PM is the most frequent speaker whose name matches their surname.
-    # Requiring 30% of speeches stops a namesake MP being picked on days
-    # when a deputy stands in.
-    surname_re = re.compile(rf"\b{re.escape(surname)}\b", re.I)
-    # Older files may lack IDs, so identify speakers by ID or, failing that, by name.
-    def key(name, pid):
-        return pid or name.lower()
-
-    def titled_pm(name):
-        lowered = name.lower()
-        return "prime minister" in lowered and "deputy" not in lowered
-
-    candidates = Counter(pid for name, pid, _ in speeches if pid and surname_re.search(name))
-    pm_pid = None
-    if candidates:
-        top, n = candidates.most_common(1)[0]
-        if n >= 0.3 * len(speeches):
-            pm_pid = top
-
-    def is_pm(name, pid):
-        # Surname alone is trusted only when there is no ID, as in older files;
-        # otherwise a namesake (e.g. Diana Johnson under Boris Johnson) would match.
-        return ((pm_pid is not None and pid == pm_pid) or titled_pm(name)
-                or (not pid and bool(surname_re.search(name))))
-
-    if sum(is_pm(name, pid) for name, pid, _ in speeches) < 0.3 * len(speeches):
-        names = Counter(name for name, _, _ in speeches).most_common(4)
-        return [], {"pmqs_speeches": len(speeches),
-                    "note": "PM not found: possibly a stand-in, excluded",
-                    "detail": " | ".join(f"{n} x{c}" for n, c in names)}
-
-    # Pair each MP's speech with the PM's next reply.
-    exchanges, pending = [], None
-    for name, pid, text in speeches:
-        if is_pm(name, pid):
-            if pending:
-                exchanges.append({"q_name": pending[0], "q_pid": pending[1],
-                                  "question": pending[2], "answer": text})
-                pending = None
-            elif exchanges:
-                exchanges[-1]["answer"] += " " + text  # answer resumed after interruption
+        if not pmqs_day(date):
+            note = "not a PMQs day"
+        elif any(ORAL_HINT.search(text_of(el)) for el in root
+                 if el.tag in ("major-heading", "minor-heading", "speech")):
+            note = "MISSING: questions held but no PMQs section found"
         else:
-            text = QUESTION_NUMBER.sub("", text)
-            if pending and key(pending[0], pending[1]) == key(name, pid):
-                pending = (pending[0], pending[1], pending[2] + " " + text)
-            else:
-                pending = (name, pid, text)  # an unanswered earlier speech is dropped
+            note = "no PMQs section found (no questions held)"
+        return [], [], {"pmqs_speeches": 0, "note": note, "detail": all_headings(root)}
+
+    # Which PM answered: on a handover day, whichever candidate fits best.
+    best = None
+    for surname, full in pm_candidates(date):
+        is_pm, n = pm_matcher(speeches, surname)
+        if best is None or n > best[2]:
+            best = (is_pm, full, n)
+    is_pm, pm_name, n_pm = best
+    in_office = pm_for(date)[1]
+
+    standin = None
+    if n_pm < 0.3 * len(speeches):
+        is_answerer, resp_name, resp_pid = standin_matcher(speeches)
+        names = Counter(name for name, _, _ in speeches).most_common(4)
+        detail = " | ".join(f"{nm} x{c}" for nm, c in names)
+        if is_answerer is None:
+            return [], [], {"pmqs_speeches": len(speeches),
+                            "note": "PM not found and no clear stand-in, excluded",
+                            "detail": detail}
+        standin = (resp_name, resp_pid)
+        exchanges = pair_exchanges(speeches, is_answerer)
+        pm_name = in_office
+    else:
+        exchanges = pair_exchanges(speeches, is_pm)
 
     gov = lookup(GOVERNMENTS, date) or []
     main_opp = lookup(MAIN_OPPOSITION, date)
@@ -362,28 +456,36 @@ def process_day(date, xml_bytes, people):
 
     rows = []
     for i, e in enumerate(exchanges, 1):
-        rows.append({
-            "exchange_id": f"{date}-{i:03d}", "date": date, "pm": pm_name,
-            "sequence": i, "q_name": e["q_name"], "q_pid": e["q_pid"],
+        row = {
+            "exchange_id": f"{date}-{i:03d}" + ("-s" if standin else ""), "date": date,
+            "pm": pm_name, "sequence": i, "q_name": e["q_name"], "q_pid": e["q_pid"],
             "q_party": e["q_party"], "q_role": e["q_role"],
             "is_formula": int(e["is_formula"]),
             "q_words": len(e["question"].split()), "a_words": len(e["answer"].split()),
             "question": e["question"], "answer": e["answer"],
-        })
+        }
+        if standin:
+            row["answered_by"], row["answered_by_pid"] = standin
+        rows.append(row)
     unknown = sum(1 for r in rows if r["q_role"] == "unknown")
     detail = f"opened by: {opened_by}"
     if unknown:
         detail += f"; {unknown} questioners unmatched"
-    return rows, {"pmqs_speeches": len(speeches), "note": "", "detail": detail}
+    if standin:
+        return [], rows, {"pmqs_speeches": len(speeches),
+                          "note": f"stand-in: {standin[0]}", "detail": detail}
+    if pm_name != in_office:
+        detail += f"; handover day, answered by outgoing PM"
+    return rows, [], {"pmqs_speeches": len(speeches), "note": "", "detail": detail}
 
 
 def process_year(year, people):
-    rows, diag = [], []
+    rows, standins, diag = [], [], []
     files = day_files(year)
     if not files:
         print(f"{year}: WARNING no files found in the TheyWorkForYou index")
     for date, fname in files:
-        if pm_for(date)[0] is None:
+        if not pm_candidates(date):
             continue
         try:
             xml_bytes = fetch(BASE + fname)
@@ -394,13 +496,16 @@ def process_year(year, people):
                          "pmqs_speeches": "", "note": f"download failed: {err}"})
             continue
         try:
-            day_rows, info = process_day(date, xml_bytes, people)
+            day_rows, day_standins, info = process_day(date, xml_bytes, people)
         except ET.ParseError as err:
-            day_rows, info = [], {"pmqs_speeches": "", "note": f"XML parse error: {err}"}
+            day_rows, day_standins, info = [], [], {"pmqs_speeches": "",
+                                                    "note": f"XML parse error: {err}"}
         rows.extend(day_rows)
-        diag.append({"date": date, "file": fname, "exchanges": len(day_rows), **info})
+        standins.extend(day_standins)
+        diag.append({"date": date, "file": fname,
+                     "exchanges": len(day_rows) + len(day_standins), **info})
         time.sleep(0.5)  # be polite to mySociety's server
-    return rows, diag
+    return rows, standins, diag
 
 
 def write_csv(path, rows, fields):
@@ -413,7 +518,18 @@ def write_csv(path, rows, fields):
 
 ROW_FIELDS = ["exchange_id", "date", "pm", "sequence", "q_name", "q_pid", "q_party",
               "q_role", "is_formula", "q_words", "a_words", "question", "answer"]
+STANDIN_FIELDS = ROW_FIELDS + ["answered_by", "answered_by_pid"]
 DIAG_FIELDS = ["date", "file", "exchanges", "pmqs_speeches", "note", "detail"]
+
+
+def write_missing_report():
+    """Collect every suspected missing session, across all years, in one file."""
+    missing = []
+    for path in sorted(DIAG_DIR.glob("*.csv")):
+        with open(path, encoding="utf-8") as f:
+            missing += [r for r in csv.DictReader(f) if r["note"].startswith("MISSING")]
+    write_csv(REPORT_DIR / "missing_sessions.csv", missing, DIAG_FIELDS)
+    print(f"{len(missing)} suspected missing sessions listed in {REPORT_DIR / 'missing_sessions.csv'}")
 
 
 def year_complete(year):
@@ -436,11 +552,14 @@ def main():
         if year < this_year and not force and year_complete(year):
             print(f"{year}: already done, skipping")
             continue
-        rows, diag = process_year(year, people)
+        rows, standins, diag = process_year(year, people)
         write_csv(out, rows, ROW_FIELDS)
+        write_csv(STANDIN_DIR / f"{year}.csv", standins, STANDIN_FIELDS)
         write_csv(DIAG_DIR / f"{year}.csv", diag, DIAG_FIELDS)
-        sessions = sum(1 for d in diag if d["exchanges"])
-        print(f"{year}: {len(rows)} exchanges from {sessions} sessions")
+        sessions = sum(1 for d in diag if d["exchanges"] and not d["note"].startswith("stand-in"))
+        n_si = sum(1 for d in diag if d["note"].startswith("stand-in"))
+        print(f"{year}: {len(rows)} exchanges from {sessions} sessions; {n_si} stand-in sessions")
+    write_missing_report()
 
 
 if __name__ == "__main__":

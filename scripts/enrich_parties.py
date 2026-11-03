@@ -32,7 +32,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from extract_pmqs import CACHE, OUT_DIR, PEOPLE_URL, ROW_FIELDS, fetch, lookup  # noqa: E402
+from extract_pmqs import CACHE, OUT_DIR, PEOPLE_URL, ROW_FIELDS, STANDIN_DIR, fetch, lookup  # noqa: E402
 
 ELECTIONS_URL = ("https://raw.githubusercontent.com/ukparliament/"
                  "uk-general-elections/main/db/data/download.csv")
@@ -310,11 +310,14 @@ def main():
     hh = load_hh_matches()
     report = collections.defaultdict(lambda: {"count": 0, "first": "9999", "last": "", "cands": {}})
     totals = collections.Counter()
-    for path in sorted(OUT_DIR.glob("*.csv")):
+    paths = sorted(OUT_DIR.glob("*.csv")) + sorted(STANDIN_DIR.glob("*.csv"))
+    for path in paths:
         if int(path.stem) > 1997:
             continue
         with open(path, encoding="utf-8") as f:
-            rows = list(csv.DictReader(f))
+            reader = csv.DictReader(f)
+            rows = list(reader)
+            file_fields = list(reader.fieldnames or ROW_FIELDS)
         changed = False
         for r in rows:
             if r["date"] >= CUTOFF:
@@ -322,7 +325,9 @@ def main():
             date, name = r["date"], r["q_name"]
             how, m, party, cands = members.resolve(name, date)
             pid = m["person_id"] if m else ""
-            if r["exchange_id"] in hh:
+            # A stored match is used only if it is for the same questioner, in
+            # case a rebuild has renumbered that day's exchanges.
+            if r["exchange_id"] in hh and hh[r["exchange_id"]]["name"] == name:
                 found = hh[r["exchange_id"]]
                 how, pid, party = "historic_hansard", found["person_id"], found["party"]
             for man in manual:
@@ -371,7 +376,7 @@ def main():
             totals["with_party"] += bool(party)
             changed = True
         if changed:
-            fields = ROW_FIELDS + (["q_match"] if "q_match" not in ROW_FIELDS else [])
+            fields = file_fields + (["q_match"] if "q_match" not in file_fields else [])
             for r in rows:
                 r.setdefault("q_match", "")
             with open(path, "w", newline="", encoding="utf-8") as f:
