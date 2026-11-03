@@ -31,17 +31,25 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Keep a copy of the current data for comparison
+        run: cp -r data/pmqs /tmp/old_pmqs
+
       - name: Extract PMQs exchanges
         run: python -u scripts/extract_pmqs.py ${{ github.event.inputs.start_year }} ${{ github.event.inputs.end_year }} ${{ github.event.inputs.force == 'true' && '--force' || '' }}
 
       - name: Attach names and parties before 1997
         run: python -u scripts/enrich_parties.py
 
+      - name: Compare with the previous data
+        if: always()
+        run: python -u scripts/compare_rebuild.py /tmp/old_pmqs "${{ github.event.inputs.start_year }}-${{ github.event.inputs.end_year }}"
+
       - name: Commit new data
         if: always()   # save finished years even if a later one fails
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/pmqs data/diagnostics data/reference
+          mkdir -p data/standins data/reports
+          git add data/pmqs data/standins data/diagnostics data/reports data/reference
           git diff --cached --quiet || git commit -m "Update PMQs data"
           git push
