@@ -2475,3 +2475,1437 @@ exchange_id,date,name,status,hh_person,hh_name,person_id,party,constituency,scor
 1997-03-06-015,1997-03-06,Dr. Clark,matched,dr-michael-clark,Dr Michael Clark,uk.org.publicwhip/person/10111,Conservative,Rochford,1.50
 1997-03-13-018,1997-03-13,Mr. Thompson,matched,mr-patrick-thompson,Mr Patrick Thompson,uk.org.publicwhip/person/22633,Conservative,Norwich North,1.50
 1997-03-18-002,1997-03-18,Mr. Hughes,matched,mr-simon-hughes,Mr Simon Hughes,uk.org.publicwhip/person/10298,Liberal Democrats,Southwark and Bermondsey,1.50
+1961-01-26-012,1961-01-26,Mr. Gresham Cooke,speech_not_found,,,,,,
+1961-01-26-013,1961-01-26,Mr. Gresham Cooke,speech_not_found,,,,,,
+1961-01-26-025,1961-01-26,Mr. Hughes,speech_not_found,,,,,,
+1961-02-02-020,1961-02-02,Mr. Gresham Cooke,speech_not_found,,,,,,
+1961-02-07-017,1961-02-07,Mr. Hughes,speech_not_found,,,,,,
+1961-02-14-006,1961-02-14,Mr. Lee,speech_not_found,,,,,,
+1961-02-16-006,1961-02-16,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1961-02-21-007,1961-02-21,Mr. Hughes,speech_not_found,,,,,,
+1961-02-21-016,1961-02-21,Miss Lee,speech_not_found,,,,,,
+1961-02-28-014,1961-02-28,Mr. Hughes,matched,mr-hector-hughes,Mr Hector Hughes,uk.org.publicwhip/person/21863,Labour,Aberdeen North,1.50
+1961-02-28-021,1961-02-28,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1961-02-28-024,1961-02-28,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1961-03-02-004,1961-03-02,Mr. Noel-Baker,speech_not_found,,,,,,
+1961-03-02-005,1961-03-02,Mr. Noel-Baker,speech_not_found,,,,,,
+1961-03-23-022,1961-03-23,Mr. Hughes,speech_not_found,,,,,,
+1961-05-04-005,1961-05-04,Mr. Hughes,speech_not_found,,,,,,
+1961-05-04-007,1961-05-04,Mr. Gresham Cooke,speech_not_found,,,,,,
+1961-05-04-010,1961-05-04,Miss Lee,speech_not_found,,,,,,
+1961-05-09-007,1961-05-09,Mr. Noel-Baker,speech_not_found,,,,,,
+1961-05-16-002,1961-05-16,Mr. Silverman,matched,mr-samuel-silverman,Mr Samuel Silverman,uk.org.publicwhip/person/19095,Labour,Nelson and Colne,1.50
+1961-05-16-012,1961-05-16,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1961-05-16-015,1961-05-16,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1961-05-16-017,1961-05-16,Mr. Noel-Baker,matched,mr-philip-noel-baker,Mr Philip Noel-Baker,uk.org.publicwhip/person/18611,Labour,Derby South,1.50
+1961-05-16-018,1961-05-16,Mr. Noel-Baker,matched,mr-philip-noel-baker,Mr Philip Noel-Baker,uk.org.publicwhip/person/18611,Labour,Derby South,1.50
+1961-05-16-020,1961-05-16,Mr. Noel-Baker,matched,mr-philip-noel-baker,Mr Philip Noel-Baker,uk.org.publicwhip/person/18611,Labour,Derby South,1.50
+1961-06-13-006,1961-06-13,Miss Lee,speech_not_found,,,,,,
+1961-06-13-007,1961-06-13,Miss Lee,speech_not_found,,,,,,
+1961-06-13-008,1961-06-13,Miss Lee,speech_not_found,,,,,,
+1961-06-22-011,1961-06-22,Mr. Noel-Baker,matched,mr-francis-noel-baker,Mr Francis Noel-Baker,uk.org.publicwhip/person/18612,Labour,Swindon,1.50
+1961-06-29-011,1961-06-29,Mr. Hughes,speech_not_found,,,,,,
+1961-07-06-005,1961-07-06,Mr. Hughes,speech_not_found,,,,,,
+1961-07-06-015,1961-07-06,Mr. Hughes,speech_not_found,,,,,,
+1961-07-18-004,1961-07-18,Mr. Noel-Baker,matched,mr-francis-noel-baker,Mr Francis Noel-Baker,uk.org.publicwhip/person/18612,Labour,Swindon,1.50
+1961-07-20-002,1961-07-20,Mr. Hughes,matched,mr-hector-hughes,Mr Hector Hughes,uk.org.publicwhip/person/21863,Labour,Aberdeen North,1.50
+1961-07-20-005,1961-07-20,Mr. Noel-Baker,matched,mr-philip-noel-baker,Mr Philip Noel-Baker,uk.org.publicwhip/person/18611,Labour,Derby South,1.50
+1961-07-20-006,1961-07-20,Mr. Noel-Baker,matched,mr-philip-noel-baker,Mr Philip Noel-Baker,uk.org.publicwhip/person/18611,Labour,Derby South,1.50
+1961-07-20-007,1961-07-20,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1961-07-20-014,1961-07-20,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1961-07-25-002,1961-07-25,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1961-07-27-002,1961-07-27,Mr. Noel-Baker,matched,mr-philip-noel-baker,Mr Philip Noel-Baker,uk.org.publicwhip/person/18611,Labour,Derby South,1.50
+1961-07-27-020,1961-07-27,Mr. Noel-Baker,matched,mr-philip-noel-baker,Mr Philip Noel-Baker,uk.org.publicwhip/person/18611,Labour,Derby South,1.50
+1961-07-27-022,1961-07-27,Mr. Foot,speech_not_found,,,,,,
+1961-07-27-024,1961-07-27,Mr. Hughes,speech_not_found,,,,,,
+1961-08-03-011,1961-08-03,Mr. Lee,speech_not_found,,,,,,
+1961-10-24-012,1961-10-24,Mr. Hughes,matched,mr-hector-hughes,Mr Hector Hughes,uk.org.publicwhip/person/21863,Labour,Aberdeen North,1.50
+1961-11-07-020,1961-11-07,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1961-11-09-008,1961-11-09,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1961-11-09-017,1961-11-09,Mr. Lee,speech_not_found,,,,,,
+1961-11-14-012,1961-11-14,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1961-11-21-015,1961-11-21,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1961-11-28-024,1961-11-28,Mr. Noel-Baker,matched,mr-philip-noel-baker,Mr Philip Noel-Baker,uk.org.publicwhip/person/18611,Labour,Derby South,1.50
+1961-11-28-025,1961-11-28,Mr. Noel-Baker,matched,mr-philip-noel-baker,Mr Philip Noel-Baker,uk.org.publicwhip/person/18611,Labour,Derby South,1.50
+1961-11-30-011,1961-11-30,Mr. Noel-Baker,speech_not_found,,,,,,
+1961-11-30-013,1961-11-30,Mr. Noel-Baker,speech_not_found,,,,,,
+1961-11-30-017,1961-11-30,Mr. Foot,speech_not_found,,,,,,
+1961-11-30-019,1961-11-30,Miss Lee,speech_not_found,,,,,,
+1961-11-30-020,1961-11-30,Mr. Foot,speech_not_found,,,,,,
+1961-12-05-021,1961-12-05,Mr. Hughes,matched,mr-hector-hughes,Mr Hector Hughes,uk.org.publicwhip/person/21863,Labour,Aberdeen North,1.50
+1961-12-05-024,1961-12-05,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1961-12-07-009,1961-12-07,Mr. Hughes,speech_not_found,,,,,,
+1961-12-07-019,1961-12-07,Mr. Hughes,speech_not_found,,,,,,
+1961-12-12-002,1961-12-12,Mr. Hughes,matched,mr-cledwyn-hughes,Mr Cledwyn Hughes,uk.org.publicwhip/person/21711,Labour,Anglesey,1.50
+1962-01-30-002,1962-01-30,Mr. Noel-Baker,matched,mr-francis-noel-baker,Mr Francis Noel-Baker,uk.org.publicwhip/person/18612,Labour,Swindon,1.50
+1962-01-30-004,1962-01-30,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1962-02-01-004,1962-02-01,Mr. Noel-Baker,matched,mr-philip-noel-baker,Mr Philip Noel-Baker,uk.org.publicwhip/person/18611,Labour,Derby South,1.50
+1962-02-06-011,1962-02-06,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1962-02-06-018,1962-02-06,Miss Lee,speech_not_found,,,,,,
+1962-02-06-021,1962-02-06,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1962-02-20-016,1962-02-20,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1962-02-22-009,1962-02-22,Mr. Noel-Baker,speech_not_found,,,,,,
+1962-02-27-017,1962-02-27,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1962-03-08-009,1962-03-08,Mr. Silverman,matched,mr-samuel-silverman,Mr Samuel Silverman,uk.org.publicwhip/person/19095,Labour,Nelson and Colne,1.50
+1962-03-13-004,1962-03-13,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1962-03-13-014,1962-03-13,Mr. Foot,speech_not_found,,,,,,
+1962-03-13-015,1962-03-13,Mr. Foot,speech_not_found,,,,,,
+1962-03-20-012,1962-03-20,Mr. Foot,matched,mr-michael-foot,Mr Michael Foot,uk.org.publicwhip/person/17433,Labour,Ebbw Vale,1.50
+1962-03-20-013,1962-03-20,Mr. Foot,matched,mr-michael-foot,Mr Michael Foot,uk.org.publicwhip/person/17433,Labour,Ebbw Vale,1.50
+1962-03-20-014,1962-03-20,Mr. Foot,matched,mr-michael-foot,Mr Michael Foot,uk.org.publicwhip/person/17433,Labour,Ebbw Vale,1.50
+1962-03-22-002,1962-03-22,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1962-03-27-012,1962-03-27,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1962-03-27-029,1962-03-27,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1962-03-29-002,1962-03-29,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1962-03-29-014,1962-03-29,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1962-04-03-017,1962-04-03,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1962-04-10-014,1962-04-10,Mr. Foot,matched,mr-michael-foot,Mr Michael Foot,uk.org.publicwhip/person/17433,Labour,Ebbw Vale,1.50
+1962-04-10-015,1962-04-10,Mr. Foot,matched,mr-michael-foot,Mr Michael Foot,uk.org.publicwhip/person/17433,Labour,Ebbw Vale,1.50
+1962-04-19-002,1962-04-19,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1962-04-19-021,1962-04-19,Mr. Foot,speech_not_found,,,,,,
+1962-05-10-018,1962-05-10,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1962-05-10-020,1962-05-10,Mr. Noel-Baker,speech_not_found,,,,,,
+1962-05-10-021,1962-05-10,Mr. Noel-Baker,speech_not_found,,,,,,
+1962-05-15-013,1962-05-15,Mr. Foot,matched,mr-michael-foot,Mr Michael Foot,uk.org.publicwhip/person/17433,Labour,Ebbw Vale,1.50
+1962-05-15-019,1962-05-15,Mr. Silverman,matched,mr-samuel-silverman,Mr Samuel Silverman,uk.org.publicwhip/person/19095,Labour,Nelson and Colne,1.50
+1962-05-17-013,1962-05-17,Mr. Silverman,matched,mr-samuel-silverman,Mr Samuel Silverman,uk.org.publicwhip/person/19095,Labour,Nelson and Colne,1.50
+1962-05-17-015,1962-05-17,Mr. Silverman,matched,mr-samuel-silverman,Mr Samuel Silverman,uk.org.publicwhip/person/19095,Labour,Nelson and Colne,1.50
+1962-05-31-008,1962-05-31,Mr. Noel-Baker,matched,mr-philip-noel-baker,Mr Philip Noel-Baker,uk.org.publicwhip/person/18611,Labour,Derby South,1.50
+1962-05-31-024,1962-05-31,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1962-06-28-012,1962-06-28,Mr. Silverman,matched,mr-samuel-silverman,Mr Samuel Silverman,uk.org.publicwhip/person/19095,Labour,Nelson and Colne,1.50
+1962-06-28-014,1962-06-28,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1962-07-03-002,1962-07-03,Mr. Noel-Baker,matched,mr-francis-noel-baker,Mr Francis Noel-Baker,uk.org.publicwhip/person/18612,Labour,Swindon,1.50
+1962-07-03-006,1962-07-03,Mr. Hughes,matched,mr-hector-hughes,Mr Hector Hughes,uk.org.publicwhip/person/21863,Labour,Aberdeen North,1.50
+1962-07-05-009,1962-07-05,Mr. Hughes,matched,mr-hector-hughes,Mr Hector Hughes,uk.org.publicwhip/person/21863,Labour,Aberdeen North,1.50
+1962-07-19-019,1962-07-19,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1962-07-19-021,1962-07-19,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1962-07-24-008,1962-07-24,Mr. Foot,matched,mr-michael-foot,Mr Michael Foot,uk.org.publicwhip/person/17433,Labour,Ebbw Vale,1.50
+1962-07-24-011,1962-07-24,Mr. Foot,matched,mr-michael-foot,Mr Michael Foot,uk.org.publicwhip/person/17433,Labour,Ebbw Vale,1.50
+1962-07-24-012,1962-07-24,Mr. Foot,matched,mr-michael-foot,Mr Michael Foot,uk.org.publicwhip/person/17433,Labour,Ebbw Vale,1.50
+1962-07-26-003,1962-07-26,Mr. Gresham Cooke,speech_not_found,,,,,,
+1962-11-06-014,1962-11-06,Mr. Noel-Baker,matched,mr-philip-noel-baker,Mr Philip Noel-Baker,uk.org.publicwhip/person/18611,Labour,Derby South,1.50
+1962-11-15-023,1962-11-15,Miss Lee,speech_not_found,,,,,,
+1962-11-27-013,1962-11-27,Mr. Howell,matched,mr-denis-howell,Mr Denis Howell,uk.org.publicwhip/person/21743,Labour,Birmingham Small Heath,1.50
+1962-11-29-007,1962-11-29,Mr. Hughes,speech_not_found,,,,,,
+1962-12-06-023,1962-12-06,Mr. Foot,matched,mr-michael-foot,Mr Michael Foot,uk.org.publicwhip/person/17433,Labour,Ebbw Vale,1.50
+1962-12-11-016,1962-12-11,Mr. Foot,matched,mr-michael-foot,Mr Michael Foot,uk.org.publicwhip/person/17433,Labour,Ebbw Vale,1.50
+1962-12-11-018,1962-12-11,Mr. Foot,matched,mr-michael-foot,Mr Michael Foot,uk.org.publicwhip/person/17433,Labour,Ebbw Vale,1.50
+1963-01-22-002,1963-01-22,Mr. Hughes,matched,mr-hector-hughes,Mr Hector Hughes,uk.org.publicwhip/person/21863,Labour,Aberdeen North,1.50
+1963-01-29-006,1963-01-29,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1963-01-31-009,1963-01-31,Mr. B. Harrison,speech_not_found,,,,,,
+1963-02-05-005,1963-02-05,Miss Lee,speech_not_found,,,,,,
+1963-02-05-010,1963-02-05,Mr. Gresham Cooke,speech_not_found,,,,,,
+1963-02-05-011,1963-02-05,Mr. Gresham Cooke,speech_not_found,,,,,,
+1963-02-05-021,1963-02-05,Mr. Hughes,speech_not_found,,,,,,
+1963-02-07-019,1963-02-07,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1963-02-12-006,1963-02-12,Mr. Gresham Cooke,speech_not_found,,,,,,
+1963-02-12-007,1963-02-12,Q.12. Mr. P. Noel-Baker,matched,mr-philip-noel-baker,Mr Philip Noel-Baker,uk.org.publicwhip/person/18611,Labour,Derby South,1.50
+1963-02-12-011,1963-02-12,Mr. Noel-Baker,matched,mr-philip-noel-baker,Mr Philip Noel-Baker,uk.org.publicwhip/person/18611,Labour,Derby South,1.50
+1963-02-14-003,1963-02-14,Mr. Gresham Cooke,speech_not_found,,,,,,
+1963-02-14-020,1963-02-14,Mr. Noel-Baker,speech_not_found,,,,,,
+1963-02-14-021,1963-02-14,Mr. Noel-Baker,speech_not_found,,,,,,
+1963-02-21-012,1963-02-21,Mr. Lee,speech_not_found,,,,,,
+1963-02-26-003,1963-02-26,Mr. Gresham Cooke,speech_not_found,,,,,,
+1963-02-26-004,1963-02-26,Mr. Gresham Cooke,speech_not_found,,,,,,
+1963-02-28-019,1963-02-28,Mr. Noel-Baker,matched,mr-philip-noel-baker,Mr Philip Noel-Baker,uk.org.publicwhip/person/18611,Labour,Derby South,1.50
+1963-02-28-020,1963-02-28,Mr. Noel-Baker,matched,mr-philip-noel-baker,Mr Philip Noel-Baker,uk.org.publicwhip/person/18611,Labour,Derby South,1.50
+1963-02-28-024,1963-02-28,Mr. Noel-Baker,matched,mr-philip-noel-baker,Mr Philip Noel-Baker,uk.org.publicwhip/person/18611,Labour,Derby South,1.50
+1963-03-05-016,1963-03-05,Mr. Noel-Baker,matched,mr-philip-noel-baker,Mr Philip Noel-Baker,uk.org.publicwhip/person/18611,Labour,Derby South,1.50
+1963-03-05-017,1963-03-05,Mr. Noel-Baker,matched,mr-philip-noel-baker,Mr Philip Noel-Baker,uk.org.publicwhip/person/18611,Labour,Derby South,1.50
+1963-03-07-003,1963-03-07,Mr. Gresham Cooke,speech_not_found,,,,,,
+1963-03-07-004,1963-03-07,Mr. Gresham Cooke,speech_not_found,,,,,,
+1963-03-07-010,1963-03-07,Mr. Foot,matched,mr-michael-foot,Mr Michael Foot,uk.org.publicwhip/person/17433,Labour,Ebbw Vale,1.50
+1963-03-12-014,1963-03-12,Mr. Noel-Baker,matched,mr-francis-noel-baker,Mr Francis Noel-Baker,uk.org.publicwhip/person/18612,Labour,Swindon,1.50
+1963-03-19-002,1963-03-19,Mr. Noel-Baker,matched,mr-francis-noel-baker,Mr Francis Noel-Baker,uk.org.publicwhip/person/18612,Labour,Swindon,1.50
+1963-03-19-009,1963-03-19,Miss Lee,speech_not_found,,,,,,
+1963-03-21-007,1963-03-21,Mr. Foot,matched,mr-michael-foot,Mr Michael Foot,uk.org.publicwhip/person/17433,Labour,Ebbw Vale,1.50
+1963-03-26-002,1963-03-26,Mr. Noel-Baker,speech_not_found,,,,,,
+1963-03-26-012,1963-03-26,Miss Lee,speech_not_found,,,,,,
+1963-03-26-013,1963-03-26,Miss Lee,speech_not_found,,,,,,
+1963-03-26-014,1963-03-26,Miss Lee,speech_not_found,,,,,,
+1963-03-26-025,1963-03-26,Mr. Noel-Baker,speech_not_found,,,,,,
+1963-03-26-026,1963-03-26,Mr. Noel-Baker,speech_not_found,,,,,,
+1963-04-02-004,1963-04-02,Mr. Noel-Baker,speech_not_found,,,,,,
+1963-04-02-007,1963-04-02,Mr. Lee,speech_not_found,,,,,,
+1963-04-09-008,1963-04-09,Mr. D. Smith,matched,mr-dudley-smith,Mr Dudley Smith,uk.org.publicwhip/person/21752,Conservative,Brentford and Chiswick,1.50
+1963-04-09-015,1963-04-09,Mr. Gresham Cooke,speech_not_found,,,,,,
+1963-04-09-016,1963-04-09,Mr. Gresham Cooke,speech_not_found,,,,,,
+1963-04-11-002,1963-04-11,Mr. Foot,matched,mr-michael-foot,Mr Michael Foot,uk.org.publicwhip/person/17433,Labour,Ebbw Vale,1.50
+1963-04-11-004,1963-04-11,Mr. Foot,matched,mr-michael-foot,Mr Michael Foot,uk.org.publicwhip/person/17433,Labour,Ebbw Vale,1.50
+1963-04-11-019,1963-04-11,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1963-04-11-025,1963-04-11,Mr. Noel-Baker,matched,mr-philip-noel-baker,Mr Philip Noel-Baker,uk.org.publicwhip/person/18611,Labour,Derby South,1.50
+1963-04-11-026,1963-04-11,Mr. Noel-Baker,matched,mr-philip-noel-baker,Mr Philip Noel-Baker,uk.org.publicwhip/person/18611,Labour,Derby South,1.50
+1963-05-02-008,1963-05-02,Miss Lee,speech_not_found,,,,,,
+1963-05-02-011,1963-05-02,Mr. Silverman,matched,mr-samuel-silverman,Mr Samuel Silverman,uk.org.publicwhip/person/19095,Labour,Nelson and Colne,1.50
+1963-05-02-012,1963-05-02,Mr. Silverman,matched,mr-samuel-silverman,Mr Samuel Silverman,uk.org.publicwhip/person/19095,Labour,Nelson and Colne,1.50
+1963-05-02-016,1963-05-02,Mr. Foot,matched,mr-michael-foot,Mr Michael Foot,uk.org.publicwhip/person/17433,Labour,Ebbw Vale,1.50
+1963-05-07-007,1963-05-07,Mr. Cooke,speech_not_found,,,,,,
+1963-05-16-014,1963-05-16,Mr. Foot,matched,mr-michael-foot,Mr Michael Foot,uk.org.publicwhip/person/17433,Labour,Ebbw Vale,1.50
+1963-05-28-017,1963-05-28,Mr. Hughes,speech_not_found,,,,,,
+1963-06-27-014,1963-06-27,Mr. Foot,matched,mr-michael-foot,Mr Michael Foot,uk.org.publicwhip/person/17433,Labour,Ebbw Vale,1.50
+1963-07-09-009,1963-07-09,Mr. Hughes,speech_not_found,,,,,,
+1963-07-25-004,1963-07-25,Mr. Page,matched,mr-john-page,Mr John Page,uk.org.publicwhip/person/22485,Conservative,Harrow West,1.50
+1963-08-01-024,1963-08-01,Mr. Foot,speech_not_found,,,,,,
+1963-11-19-002,1963-11-19,Mr. Hughes,matched,mr-hector-hughes,Mr Hector Hughes,uk.org.publicwhip/person/21863,Labour,Aberdeen North,1.50
+1963-12-03-009,1963-12-03,Mr. Hynd,matched,mr-john-hynd,Mr John Hynd,uk.org.publicwhip/person/17887,Labour,"Sheffield, Attercliffe",1.50
+1963-12-03-017,1963-12-03,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1963-12-03-028,1963-12-03,Mr. Hughes,speech_not_found,,,,,,
+1963-12-12-003,1963-12-12,Mr. Gresham Cooke,speech_not_found,,,,,,
+1963-12-17-003,1963-12-17,Mr. Gresham Cooke,speech_not_found,,,,,,
+1964-01-23-004,1964-01-23,Mr. Noel-Baker,matched,mr-philip-noel-baker,Mr Philip Noel-Baker,uk.org.publicwhip/person/18611,Labour,Derby South,1.50
+1964-01-23-005,1964-01-23,Mr. Noel-Baker,matched,mr-philip-noel-baker,Mr Philip Noel-Baker,uk.org.publicwhip/person/18611,Labour,Derby South,1.50
+1964-01-23-008,1964-01-23,Mr. Noel-Baker,matched,mr-philip-noel-baker,Mr Philip Noel-Baker,uk.org.publicwhip/person/18611,Labour,Derby South,1.50
+1964-01-23-015,1964-01-23,Mr. Gresham Cooke,speech_not_found,,,,,,
+1964-01-28-014,1964-01-28,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1964-01-28-023,1964-01-28,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1964-02-20-023,1964-02-20,Mr. Noel-Baker,matched,mr-philip-noel-baker,Mr Philip Noel-Baker,uk.org.publicwhip/person/18611,Labour,Derby South,1.50
+1964-02-20-026,1964-02-20,Mr. Noel-Baker,matched,mr-philip-noel-baker,Mr Philip Noel-Baker,uk.org.publicwhip/person/18611,Labour,Derby South,1.50
+1964-02-25-004,1964-02-25,Mr. Foot,matched,mr-dingle-foot,Mr Dingle Foot,uk.org.publicwhip/person/17431,Labour,Ipswich,1.50
+1964-03-17-008,1964-03-17,Mr. Noel-Baker,matched,mr-philip-noel-baker,Mr Philip Noel-Baker,uk.org.publicwhip/person/18611,Labour,Derby South,1.50
+1964-03-17-009,1964-03-17,Mr. Noel-Baker,matched,mr-philip-noel-baker,Mr Philip Noel-Baker,uk.org.publicwhip/person/18611,Labour,Derby South,1.50
+1964-03-26-004,1964-03-26,Mr. Gresham Cooke,speech_not_found,,,,,,
+1964-04-14-004,1964-04-14,Mr. Noel-Baker,matched,mr-philip-noel-baker,Mr Philip Noel-Baker,uk.org.publicwhip/person/18611,Labour,Derby South,1.50
+1964-04-14-005,1964-04-14,Mr. Noel-Baker,matched,mr-philip-noel-baker,Mr Philip Noel-Baker,uk.org.publicwhip/person/18611,Labour,Derby South,1.50
+1964-04-14-008,1964-04-14,Mr. Noel-Baker,matched,mr-philip-noel-baker,Mr Philip Noel-Baker,uk.org.publicwhip/person/18611,Labour,Derby South,1.50
+1964-04-14-010,1964-04-14,Mr. Foot,matched,mr-dingle-foot,Mr Dingle Foot,uk.org.publicwhip/person/17431,Labour,Ipswich,1.50
+1964-04-14-018,1964-04-14,Mr. Hughes,matched,mr-hector-hughes,Mr Hector Hughes,uk.org.publicwhip/person/21863,Labour,Aberdeen North,1.50
+1964-04-14-020,1964-04-14,Mr. Foot,speech_not_found,,,,,,
+1964-04-14-021,1964-04-14,Mr. Foot,speech_not_found,,,,,,
+1964-04-21-005,1964-04-21,Miss Lee,speech_not_found,,,,,,
+1964-04-21-019,1964-04-21,Mr. Hughes,matched,mr-hector-hughes,Mr Hector Hughes,uk.org.publicwhip/person/21863,Labour,Aberdeen North,1.50
+1964-04-30-018,1964-04-30,Mr. Foot,matched,mr-dingle-foot,Mr Dingle Foot,uk.org.publicwhip/person/17431,Labour,Ipswich,1.50
+1964-05-05-008,1964-05-05,Mr. Noel-Baker,matched,mr-philip-noel-baker,Mr Philip Noel-Baker,uk.org.publicwhip/person/18611,Labour,Derby South,1.50
+1964-05-05-017,1964-05-05,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1964-05-12-006,1964-05-12,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1964-05-14-012,1964-05-14,>Q7. Mr. M. Foot,matched,mr-michael-foot,Mr Michael Foot,uk.org.publicwhip/person/17433,Labour,Ebbw Vale,1.50
+1964-06-04-002,1964-06-04,Mr. Silverman,matched,mr-julius-silverman,Mr Julius Silverman,uk.org.publicwhip/person/19096,Labour,Birmingham Aston,1.50
+1964-06-09-008,1964-06-09,Mr. Noel-Baker,matched,mr-francis-noel-baker,Mr Francis Noel-Baker,uk.org.publicwhip/person/18612,Labour,Swindon,1.50
+1964-06-09-017,1964-06-09,Miss Lee,speech_not_found,,,,,,
+1964-06-09-019,1964-06-09,Miss Lee,speech_not_found,,,,,,
+1964-06-16-008,1964-06-16,Mr. Gresham Cooke,speech_not_found,,,,,,
+1964-06-16-020,1964-06-16,Mr. Hughes,speech_not_found,,,,,,
+1964-06-16-021,1964-06-16,Mr. Hughes,speech_not_found,,,,,,
+1964-06-18-017,1964-06-18,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1964-06-23-005,1964-06-23,Mr. Hughes,speech_not_found,,,,,,
+1964-06-23-009,1964-06-23,Mr. Hughes,speech_not_found,,,,,,
+1964-06-25-026,1964-06-25,Mr. Noel-Baker,matched,mr-philip-noel-baker,Mr Philip Noel-Baker,uk.org.publicwhip/person/18611,Labour,Derby South,1.50
+1964-06-25-029,1964-06-25,Mr. Noel-Baker,matched,mr-philip-noel-baker,Mr Philip Noel-Baker,uk.org.publicwhip/person/18611,Labour,Derby South,1.50
+1964-06-30-003,1964-06-30,Q.2. Mr. D. Foot,matched,mr-dingle-foot,Mr Dingle Foot,uk.org.publicwhip/person/17431,Labour,Ipswich,1.50
+1964-06-30-004,1964-06-30,Mr. Foot,matched,mr-dingle-foot,Mr Dingle Foot,uk.org.publicwhip/person/17431,Labour,Ipswich,1.50
+1964-06-30-013,1964-06-30,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1964-07-02-008,1964-07-02,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1964-07-02-010,1964-07-02,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1964-07-16-003,1964-07-16,Mr. Howell,matched,mr-denis-howell,Mr Denis Howell,uk.org.publicwhip/person/21743,Labour,Birmingham Small Heath,1.50
+1964-07-21-002,1964-07-21,Mr. Noel-Baker,matched,mr-francis-noel-baker,Mr Francis Noel-Baker,uk.org.publicwhip/person/18612,Labour,Swindon,1.50
+1964-07-21-016,1964-07-21,Mr. Noel-Baker,speech_not_found,,,,,,
+1964-07-28-012,1964-07-28,Mr. Noel-Baker,matched,mr-philip-noel-baker,Mr Philip Noel-Baker,uk.org.publicwhip/person/18611,Labour,Derby South,1.50
+1964-07-30-004,1964-07-30,Mr. Gresham Cooke,speech_not_found,,,,,,
+1964-11-10-025,1964-11-10,Mr. Fletcher-Cooke,speech_not_found,,,,,,
+1964-11-17-002,1964-11-17,Mr. Hughes,matched,mr-hector-hughes,Mr Hector Hughes,uk.org.publicwhip/person/21863,Labour,Aberdeen North,1.50
+1964-11-19-003,1964-11-19,Mr. Gresham Cooke,speech_not_found,,,,,,
+1964-11-26-013,1964-11-26,Mr. Hughes,speech_not_found,,,,,,
+1964-12-17-001,1964-12-17,Mr. Gresham Cooke,speech_not_found,,,,,,
+1964-12-17-002,1964-12-17,Mr. Gresham Cooke,speech_not_found,,,,,,
+1965-01-19-003,1965-01-19,Mr. Fletcher-Cooke,speech_not_found,,,,,,
+1965-01-19-004,1965-01-19,Mr. Fletcher-Cooke,speech_not_found,,,,,,
+1965-01-21-009,1965-01-21,Mr. Hughes,matched,mr-hector-hughes,Mr Hector Hughes,uk.org.publicwhip/person/21863,Labour,Aberdeen North,1.50
+1965-02-02-022,1965-02-02,Mr. Hughes,speech_not_found,,,,,,
+1965-02-09-004,1965-02-09,Mrs. Short,matched,mrs-renee-short,Mrs Renée Short,uk.org.publicwhip/person/22552,Labour,Wolverhampton North East,1.50
+1965-02-09-008,1965-02-09,Mrs. Short,matched,mrs-renee-short,Mrs Renée Short,uk.org.publicwhip/person/22552,Labour,Wolverhampton North East,1.50
+1965-04-06-018,1965-04-06,Mr. Foot,matched,mr-michael-foot,Mr Michael Foot,uk.org.publicwhip/person/17433,Labour,Ebbw Vale,1.50
+1965-04-06-021,1965-04-06,Mr. Foot,matched,mr-michael-foot,Mr Michael Foot,uk.org.publicwhip/person/17433,Labour,Ebbw Vale,1.50
+1965-04-29-002,1965-04-29,Mr. Lloyd,matched,mr-ian-lloyd,Mr Ian Lloyd,uk.org.publicwhip/person/21900,Conservative,Portsmouth Langstone,1.50
+1965-05-18-012,1965-05-18,Mrs. Short,speech_not_found,,,,,,
+1965-05-25-011,1965-05-25,Mr. Cooke,speech_not_found,,,,,,
+1965-05-25-016,1965-05-25,Mrs. Short,speech_not_found,,,,,,
+1965-06-03-012,1965-06-03,Mr. Gresham Cooke,speech_not_found,,,,,,
+1965-06-17-007,1965-06-17,Mr. Lloyd,matched,mr-ian-lloyd,Mr Ian Lloyd,uk.org.publicwhip/person/21900,Conservative,Portsmouth Langstone,1.50
+1965-06-22-012,1965-06-22,Mr. Cooke,matched,mr-robert-cooke,Mr Robert Cooke,uk.org.publicwhip/person/22127,Conservative,Bristol West,1.50
+1965-06-22-022,1965-06-22,Mrs. Short,speech_not_found,,,,,,
+1965-07-08-002,1965-07-08,Mr. Cooke,matched,mr-robert-cooke,Mr Robert Cooke,uk.org.publicwhip/person/22127,Conservative,Bristol West,1.50
+1965-07-13-018,1965-07-13,Mr. Cooke,matched,mr-robert-cooke,Mr Robert Cooke,uk.org.publicwhip/person/22127,Conservative,Bristol West,1.50
+1965-07-22-011,1965-07-22,Mr. Fletcher-Cooke,speech_not_found,,,,,,
+1965-07-22-012,1965-07-22,Mr. Fletcher-Cooke,speech_not_found,,,,,,
+1965-07-27-014,1965-07-27,Mr. Jenkins,matched,mr-hugh-jenkins,Mr Hugh Jenkins,uk.org.publicwhip/person/21890,Labour,Wandsworth Putney,1.50
+1965-07-27-020,1965-07-27,Mr. Gresham Cooke,speech_not_found,,,,,,
+1965-07-27-021,1965-07-27,Mr. Gresham Cooke,speech_not_found,,,,,,
+1965-11-02-004,1965-11-02,Mr. Hughes,speech_not_found,,,,,,
+1965-11-18-012,1965-11-18,Mrs. Short,speech_not_found,,,,,,
+1965-11-23-025,1965-11-23,Mr. Noel-Baker,speech_not_found,,,,,,
+1965-11-25-016,1965-11-25,Mr. Foot,speech_not_found,,,,,,
+1965-11-25-019,1965-11-25,Mr. Silverman,speech_not_found,,,,,,
+1965-12-02-024,1965-12-02,Mr. Jenkins,speech_not_found,,,,,,
+1965-12-07-019,1965-12-07,Mr. Foot,speech_not_found,,,,,,
+1965-12-09-005,1965-12-09,Mr. Jenkins,matched,mr-hugh-jenkins,Mr Hugh Jenkins,uk.org.publicwhip/person/21890,Labour,Wandsworth Putney,1.50
+1965-12-21-017,1965-12-21,Mr. Lloyd,matched,mr-ian-lloyd,Mr Ian Lloyd,uk.org.publicwhip/person/21900,Conservative,Portsmouth Langstone,1.50
+1965-12-21-019,1965-12-21,Mr. Lloyd,matched,mr-ian-lloyd,Mr Ian Lloyd,uk.org.publicwhip/person/21900,Conservative,Portsmouth Langstone,1.50
+1965-12-21-026,1965-12-21,Mrs. Short,matched,mrs-renee-short,Mrs Renée Short,uk.org.publicwhip/person/22552,Labour,Wolverhampton North East,1.50
+1966-01-27-010,1966-01-27,Mr. Lloyd,matched,mr-ian-lloyd,Mr Ian Lloyd,uk.org.publicwhip/person/21900,Conservative,Portsmouth Langstone,1.50
+1966-01-27-015,1966-01-27,Mr. Lloyd,matched,mr-ian-lloyd,Mr Ian Lloyd,uk.org.publicwhip/person/21900,Conservative,Portsmouth Langstone,1.50
+1966-02-08-015,1966-02-08,Mr. Jenkins,speech_not_found,,,,,,
+1966-02-10-021,1966-02-10,Mr. Noel-Baker,speech_not_found,,,,,,
+1966-02-17-003,1966-02-17,Mr. Noel-Baker,matched,mr-philip-noel-baker,Mr Philip Noel-Baker,uk.org.publicwhip/person/18611,Labour,Derby South,1.50
+1966-03-01-012,1966-03-01,Mrs. Short,matched,mrs-renee-short,Mrs Renée Short,uk.org.publicwhip/person/22552,Labour,Wolverhampton North East,1.50
+1966-03-01-024,1966-03-01,Mr. Lloyd,speech_not_found,,,,,,
+1966-04-26-007,1966-04-26,Dr. Kerr,matched,dr-david-kerr,Dr David Kerr,uk.org.publicwhip/person/17989,Labour,Wandsworth Central,1.50
+1966-04-28-018,1966-04-28,Mr. Hughes,speech_not_found,,,,,,
+1966-04-28-024,1966-04-28,Mr. Edward M. Taylor,speech_not_found,,,,,,
+1966-04-28-025,1966-04-28,Mr. Taylor,speech_not_found,,,,,,
+1966-05-03-004,1966-05-03,Mr. Edward M. Taylor,speech_not_found,,,,,,
+1966-05-03-005,1966-05-03,Mr. Taylor,speech_not_found,,,,,,
+1966-05-03-012,1966-05-03,Mr. Gresham Cooke,speech_not_found,,,,,,
+1966-05-05-014,1966-05-05,Mrs. Short,speech_not_found,,,,,,
+1966-05-10-013,1966-05-10,Mrs. Short,speech_not_found,,,,,,
+1966-05-17-012,1966-05-17,Mrs. Kerr,matched,mrs-anne-kerr,Mrs Anne Kerr,uk.org.publicwhip/person/17991,Labour,Rochester and Chatham,1.50
+1966-05-19-007,1966-05-19,Mr. Lloyd,speech_not_found,,,,,,
+1966-05-24-014,1966-05-24,Mr. Lee,speech_not_found,,,,,,
+1966-05-24-015,1966-05-24,Mr. Foot,speech_not_found,,,,,,
+1966-06-30-022,1966-06-30,Mrs. Short,speech_not_found,,,,,,
+1966-07-07-015,1966-07-07,Dr. Kerr,matched,dr-david-kerr,Dr David Kerr,uk.org.publicwhip/person/17989,Labour,Wandsworth Central,1.50
+1966-07-12-018,1966-07-12,Mr. Lloyd,speech_not_found,,,,,,
+1966-07-12-029,1966-07-12,Mr. Gilmour,speech_not_found,,,,,,
+1966-07-14-001,1966-07-14,Mr. Edward M. Taylor,speech_not_found,,,,,,
+1966-07-14-003,1966-07-14,Mr. Taylor,speech_not_found,,,,,,
+1966-07-14-019,1966-07-14,Mr. Lee,speech_not_found,,,,,,
+1966-07-21-018,1966-07-21,Mrs. Short,matched,mrs-renee-short,Mrs Renée Short,uk.org.publicwhip/person/22552,Labour,Wolverhampton North East,1.50
+1966-07-28-023,1966-07-28,Mr. Hughes,speech_not_found,,,,,,
+1966-07-28-025,1966-07-28,Mr. Lloyd,speech_not_found,,,,,,
+1966-08-02-025,1966-08-02,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1966-08-04-013,1966-08-04,Mr. Roberts,speech_not_found,,,,,,
+1966-08-04-016,1966-08-04,Mr. Roberts,speech_not_found,,,,,,
+1966-08-09-004,1966-08-09,Mr. Colin Jackson,speech_not_found,,,,,,
+1966-08-11-014,1966-08-11,Mrs. Short,speech_not_found,,,,,,
+1966-10-20-015,1966-10-20,Mr. Hughes,matched,mr-hector-hughes,Mr Hector Hughes,uk.org.publicwhip/person/21863,Labour,Aberdeen North,1.50
+1966-10-20-019,1966-10-20,Mr. Edward M. Taylor,speech_not_found,,,,,,
+1966-10-20-020,1966-10-20,Mr. Taylor,speech_not_found,,,,,,
+1966-10-27-017,1966-10-27,Mr. Alan Lee Williams,speech_not_found,,,,,,
+1966-10-27-018,1966-10-27,Mr. Williams,speech_not_found,,,,,,
+1966-10-27-019,1966-10-27,Mr. Alan Lee Williams,speech_not_found,,,,,,
+1966-10-27-020,1966-10-27,Mr. Williams,speech_not_found,,,,,,
+1966-11-03-003,1966-11-03,Mr. Gresham Cooke,speech_not_found,,,,,,
+1966-11-03-004,1966-11-03,Mr. Cooke,speech_not_found,,,,,,
+1966-11-15-001,1966-11-15,Mr. Edward M. Taylor,speech_not_found,,,,,,
+1966-11-15-002,1966-11-15,Mr. Taylor,speech_not_found,,,,,,
+1966-11-17-031,1966-11-17,Mr. Jackson,speech_not_found,,,,,,
+1966-11-17-032,1966-11-17,Mr. Jackson,speech_not_found,,,,,,
+1966-11-24-026,1966-11-24,Mr. Gresham Cooke,speech_not_found,,,,,,
+1966-12-01-013,1966-12-01,Mr. Harris,matched,mr-frederic-harris,Mr Frederic Harris,uk.org.publicwhip/person/21809,Conservative,Croydon North West,1.50
+1966-12-08-017,1966-12-08,Mr. Lloyd,matched,mr-ian-lloyd,Mr Ian Lloyd,uk.org.publicwhip/person/21900,Conservative,Portsmouth Langstone,1.50
+1966-12-13-018,1966-12-13,Mr. Roberts,matched,mr-gwilym-roberts,Mr Gwilym Roberts,uk.org.publicwhip/person/21848,Labour,Bedfordshire South,1.50
+1967-01-19-011,1967-01-19,Mr. Taylor,speech_not_found,,,,,,
+1967-02-07-015,1967-02-07,Mr. Roberts,matched,mr-gwilym-roberts,Mr Gwilym Roberts,uk.org.publicwhip/person/21848,Labour,Bedfordshire South,1.50
+1967-02-16-004,1967-02-16,Mr. Edward M. Taylor,speech_not_found,,,,,,
+1967-02-16-005,1967-02-16,Mr. Taylor,speech_not_found,,,,,,
+1967-02-16-022,1967-02-16,Mr. Lee,speech_not_found,,,,,,
+1967-02-21-020,1967-02-21,Mr. Noel-Baker,matched,mr-philip-noel-baker,Mr Philip Noel-Baker,uk.org.publicwhip/person/18611,Labour,Derby South,1.50
+1967-02-23-002,1967-02-23,Mr. Lloyd,matched,mr-ian-lloyd,Mr Ian Lloyd,uk.org.publicwhip/person/21900,Conservative,Portsmouth Langstone,1.50
+1967-03-21-009,1967-03-21,Mr. Gilmour,matched,mr-ian-gilmour,Mr Ian Gilmour,uk.org.publicwhip/person/17522,Conservative,Norfolk Central,1.50
+1967-03-21-014,1967-03-21,Mr. Colin Jackson,speech_not_found,,,,,,
+1967-03-21-015,1967-03-21,Mr. Jackson,speech_not_found,,,,,,
+1967-03-23-016,1967-03-23,Mr. Lloyd,matched,mr-ian-lloyd,Mr Ian Lloyd,uk.org.publicwhip/person/21900,Conservative,Portsmouth Langstone,1.50
+1967-03-23-017,1967-03-23,Mr. Lloyd,matched,mr-ian-lloyd,Mr Ian Lloyd,uk.org.publicwhip/person/21900,Conservative,Portsmouth Langstone,1.50
+1967-03-23-019,1967-03-23,Mr. Lloyd,matched,mr-ian-lloyd,Mr Ian Lloyd,uk.org.publicwhip/person/21900,Conservative,Portsmouth Langstone,1.50
+1967-04-20-002,1967-04-20,Mr. Roberts,matched,mr-gwilym-roberts,Mr Gwilym Roberts,uk.org.publicwhip/person/21848,Labour,Bedfordshire South,1.50
+1967-05-02-020,1967-05-02,Mrs. Short,matched,mrs-renee-short,Mrs Renée Short,uk.org.publicwhip/person/22552,Labour,Wolverhampton North East,1.50
+1967-05-04-003,1967-05-04,Mr. Edward M. Taylor,speech_not_found,,,,,,
+1967-05-04-005,1967-05-04,Mr. Johnson,matched,mr-james-johnson,Mr James Johnson,uk.org.publicwhip/person/21914,Labour,Kingston upon Hull West,1.50
+1967-05-11-028,1967-05-11,Mr. Alan Lee Williams,speech_not_found,,,,,,
+1967-06-06-007,1967-06-06,Mr. Noel-Baker,matched,mr-francis-noel-baker,Mr Francis Noel-Baker,uk.org.publicwhip/person/18612,Labour,Swindon,1.50
+1967-06-06-010,1967-06-06,Mr. Noel-Baker,matched,mr-francis-noel-baker,Mr Francis Noel-Baker,uk.org.publicwhip/person/18612,Labour,Swindon,1.50
+1967-06-06-025,1967-06-06,Mr. Gresham Cooke,speech_not_found,,,,,,
+1967-06-06-028,1967-06-06,Mr. Edward M. Taylor,speech_not_found,,,,,,
+1967-06-08-020,1967-06-08,Mr. Lloyd,speech_not_found,,,,,,
+1967-07-06-008,1967-07-06,Mr. Edward M. Taylor,speech_not_found,,,,,,
+1967-07-11-009,1967-07-11,Mr. Roberts,speech_not_found,,,,,,
+1967-07-11-023,1967-07-11,Mr. Noel-Baker,speech_not_found,,,,,,
+1967-07-13-002,1967-07-13,Mr. Gresham Cooke,speech_not_found,,,,,,
+1967-07-18-019,1967-07-18,Mr. Lloyd,speech_not_found,,,,,,
+1967-07-18-020,1967-07-18,Mr. Lee,speech_not_found,,,,,,
+1967-07-25-002,1967-07-25,Mr. Watkins,matched,mr-david-watkins,Mr David Watkins,uk.org.publicwhip/person/19459,Labour,Consett,1.50
+1967-07-25-012,1967-07-25,Mr. Johnson,matched,mr-james-johnson,Mr James Johnson,uk.org.publicwhip/person/21914,Labour,Kingston upon Hull West,1.50
+1967-07-25-018,1967-07-25,Mr. Gresham Cooke,speech_not_found,,,,,,
+1967-07-25-020,1967-07-25,Mr. Noel-Baker,matched,mr-francis-noel-baker,Mr Francis Noel-Baker,uk.org.publicwhip/person/18612,Labour,Swindon,1.50
+1967-10-24-005,1967-10-24,Mr. Roberts,matched,mr-gwilym-roberts,Mr Gwilym Roberts,uk.org.publicwhip/person/21848,Labour,Bedfordshire South,1.50
+1967-10-24-008,1967-10-24,Mr. Hughes,matched,mr-hector-hughes,Mr Hector Hughes,uk.org.publicwhip/person/21863,Labour,Aberdeen North,1.50
+1967-10-24-013,1967-10-24,Mr. Roberts,matched,mr-gwilym-roberts,Mr Gwilym Roberts,uk.org.publicwhip/person/21848,Labour,Bedfordshire South,1.50
+1967-10-24-024,1967-10-24,Mr. Edward M. Taylor,speech_not_found,,,,,,
+1967-10-26-013,1967-10-26,Mr. Johnson,speech_not_found,,,,,,
+1967-11-14-016,1967-11-14,Mrs. Short,matched,mrs-renee-short,Mrs Renée Short,uk.org.publicwhip/person/22552,Labour,Wolverhampton North East,1.50
+1967-11-16-010,1967-11-16,Mr. Alan Lee Williams,speech_not_found,,,,,,
+1967-11-16-021,1967-11-16,Mr. Gresham Cooke,speech_not_found,,,,,,
+1967-11-30-007,1967-11-30,Mr. Edward M. Taylor,speech_not_found,,,,,,
+1967-11-30-020,1967-11-30,Mrs. Jeger,speech_not_found,,,,,,
+1967-12-05-006,1967-12-05,Dr. Kerr,matched,dr-david-kerr,Dr David Kerr,uk.org.publicwhip/person/17989,Labour,Wandsworth Central,1.50
+1967-12-07-020,1967-12-07,Mr. Noel-Baker,matched,mr-francis-noel-baker,Mr Francis Noel-Baker,uk.org.publicwhip/person/18612,Labour,Swindon,1.50
+1967-12-12-022,1967-12-12,Mr. Lloyd,speech_not_found,,,,,,
+1967-12-12-027,1967-12-12,Mr. Lloyd,speech_not_found,,,,,,
+1967-12-14-013,1967-12-14,Mr. Watkins,matched,mr-david-watkins,Mr David Watkins,uk.org.publicwhip/person/19459,Labour,Consett,1.50
+1967-12-14-019,1967-12-14,Mrs. Jeger,matched,mrs-lena-jeger,Mrs Lena Jeger,uk.org.publicwhip/person/17922,Labour,Holborn and St Pancras South,1.50
+1968-01-18-002,1968-01-18,Mr. Roberts,matched,mr-gwilym-roberts,Mr Gwilym Roberts,uk.org.publicwhip/person/21848,Labour,Bedfordshire South,1.50
+1968-01-25-006,1968-01-25,Mr. Taylor,speech_not_found,,,,,,
+1968-01-25-020,1968-01-25,Mr. Clifford Williams,speech_not_found,,,,,,
+1968-01-25-021,1968-01-25,Mr. Williams,speech_not_found,,,,,,
+1968-02-01-002,1968-02-01,Dr. Kerr,matched,dr-david-kerr,Dr David Kerr,uk.org.publicwhip/person/17989,Labour,Wandsworth Central,1.50
+1968-02-06-002,1968-02-06,Mr. Roberts,speech_not_found,,,,,,
+1968-02-15-009,1968-02-15,Mr. Edward M. Taylor,speech_not_found,,,,,,
+1968-02-22-002,1968-02-22,Mrs. Short,matched,mrs-renee-short,Mrs Renée Short,uk.org.publicwhip/person/22552,Labour,Wolverhampton North East,1.50
+1968-03-07-012,1968-03-07,Mrs. Butler,speech_not_found,,,,,,
+1968-03-07-014,1968-03-07,Mrs. Butler,speech_not_found,,,,,,
+1968-03-14-005,1968-03-14,Mr. Lloyd,matched,mr-ian-lloyd,Mr Ian Lloyd,uk.org.publicwhip/person/21900,Conservative,Portsmouth Langstone,1.50
+1968-03-14-036,1968-03-14,Mr. Colin Jackson,speech_not_found,,,,,,
+1968-03-19-015,1968-03-19,Mr. Hughes,matched,mr-hector-hughes,Mr Hector Hughes,uk.org.publicwhip/person/21863,Labour,Aberdeen North,1.50
+1968-03-19-020,1968-03-19,Mr. Edward M. Taylor,speech_not_found,,,,,,
+1968-03-26-005,1968-03-26,Mrs. Short,matched,mrs-renee-short,Mrs Renée Short,uk.org.publicwhip/person/22552,Labour,Wolverhampton North East,1.50
+1968-04-02-018,1968-04-02,Mrs. Short,speech_not_found,,,,,,
+1968-04-23-016,1968-04-23,Mr. Lloyd,speech_not_found,,,,,,
+1968-05-16-012,1968-05-16,Mr. Johnson,matched,mr-james-johnson,Mr James Johnson,uk.org.publicwhip/person/21914,Labour,Kingston upon Hull West,1.50
+1968-05-21-008,1968-05-21,Dr. Kerr,matched,dr-david-kerr,Dr David Kerr,uk.org.publicwhip/person/17989,Labour,Wandsworth Central,1.50
+1968-06-11-006,1968-06-11,Mr. Lloyd,matched,mr-ian-lloyd,Mr Ian Lloyd,uk.org.publicwhip/person/21900,Conservative,Portsmouth Langstone,1.50
+1968-06-11-023,1968-06-11,Mr. Hughes,matched,mr-hector-hughes,Mr Hector Hughes,uk.org.publicwhip/person/21863,Labour,Aberdeen North,1.50
+1968-06-13-007,1968-06-13,Dr. Dunwoody,speech_not_found,,,,,,
+1968-06-18-015,1968-06-18,Mr. Roberts,matched,mr-gwilym-roberts,Mr Gwilym Roberts,uk.org.publicwhip/person/21848,Labour,Bedfordshire South,1.50
+1968-06-25-028,1968-06-25,Mr. Gresham Cooke,speech_not_found,,,,,,
+1968-07-04-009,1968-07-04,Mrs. Short,matched,mrs-renee-short,Mrs Renée Short,uk.org.publicwhip/person/22552,Labour,Wolverhampton North East,1.50
+1968-07-25-009,1968-07-25,Mr. Lee,speech_not_found,,,,,,
+1968-10-15-007,1968-10-15,Mr. Edward M. Taylor,speech_not_found,,,,,,
+1968-10-22-003,1968-10-22,Mr. Lloyd,matched,mr-ian-lloyd,Mr Ian Lloyd,uk.org.publicwhip/person/21900,Conservative,Portsmouth Langstone,1.50
+1968-10-22-019,1968-10-22,Mr. Hughes,matched,mr-hector-hughes,Mr Hector Hughes,uk.org.publicwhip/person/21863,Labour,Aberdeen North,1.50
+1968-10-24-023,1968-10-24,Mr. Taylor,speech_not_found,,,,,,
+1968-11-12-004,1968-11-12,Dr. Kerr,matched,dr-david-kerr,Dr David Kerr,uk.org.publicwhip/person/17989,Labour,Wandsworth Central,1.50
+1968-11-12-006,1968-11-12,Mr. Johnson,matched,mr-james-johnson,Mr James Johnson,uk.org.publicwhip/person/21914,Labour,Kingston upon Hull West,1.50
+1968-11-14-014,1968-11-14,Dr. Dunwoody,matched,dr-john-dunwoody,Dr John Dunwoody,uk.org.publicwhip/person/22538,Labour,Falmouth and Camborne,1.50
+1968-11-19-011,1968-11-19,Dr. Kerr,matched,dr-david-kerr,Dr David Kerr,uk.org.publicwhip/person/17989,Labour,Wandsworth Central,1.50
+1968-11-21-021,1968-11-21,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1968-11-26-002,1968-11-26,Dr. Dunwoody,matched,dr-john-dunwoody,Dr John Dunwoody,uk.org.publicwhip/person/22538,Labour,Falmouth and Camborne,1.50
+1968-12-03-018,1968-12-03,Mr. Gresham Cooke,speech_not_found,,,,,,
+1968-12-03-019,1968-12-03,Mr. Gresham Cooke,speech_not_found,,,,,,
+1968-12-12-009,1968-12-12,Mr. Lloyd,matched,mr-ian-lloyd,Mr Ian Lloyd,uk.org.publicwhip/person/21900,Conservative,Portsmouth Langstone,1.50
+1968-12-12-011,1968-12-12,Mr. Colin Jackson,speech_not_found,,,,,,
+1968-12-12-012,1968-12-12,Mr. Jackson,speech_not_found,,,,,,
+1969-01-28-012,1969-01-28,Mr. Hughes,matched,mr-hector-hughes,Mr Hector Hughes,uk.org.publicwhip/person/21863,Labour,Aberdeen North,1.50
+1969-01-28-018,1969-01-28,Mr. Scott,speech_not_found,,,,,,
+1969-02-06-002,1969-02-06,Mr. Lloyd,matched,mr-ian-lloyd,Mr Ian Lloyd,uk.org.publicwhip/person/21900,Conservative,Portsmouth Langstone,1.50
+1969-03-06-002,1969-03-06,Mr. Roberts,matched,mr-gwilym-roberts,Mr Gwilym Roberts,uk.org.publicwhip/person/21848,Labour,Bedfordshire South,1.50
+1969-03-06-004,1969-03-06,Mr. Roberts,matched,mr-gwilym-roberts,Mr Gwilym Roberts,uk.org.publicwhip/person/21848,Labour,Bedfordshire South,1.50
+1969-03-13-008,1969-03-13,Mr. Jackson,matched,mr-peter-jackson,Mr Peter Jackson,uk.org.publicwhip/person/22079,Labour,High Peak,1.50
+1969-03-13-022,1969-03-13,Mr. Lee,matched,mr-john-lee-1,Mr John Lee,uk.org.publicwhip/person/21988,Labour,Reading,1.50
+1969-03-18-002,1969-03-18,Mr. Smith,matched,mr-dudley-smith,Mr Dudley Smith,uk.org.publicwhip/person/21752,Conservative,Warwick and Leamington,1.50
+1969-04-03-008,1969-04-03,Mr. Johnson,matched,mr-james-johnson,Mr James Johnson,uk.org.publicwhip/person/21914,Labour,Kingston upon Hull West,1.50
+1969-04-17-013,1969-04-17,Mr. Edward M. Taylor,speech_not_found,,,,,,
+1969-04-17-014,1969-04-17,Mr. Taylor,speech_not_found,,,,,,
+1969-05-06-011,1969-05-06,Mr. Edward M. Taylor,speech_not_found,,,,,,
+1969-05-13-002,1969-05-13,Mrs. Short,speech_not_found,,,,,,
+1969-05-13-004,1969-05-13,Mr. Smith,speech_not_found,,,,,,
+1969-05-15-006,1969-05-15,Mr. Smith,speech_not_found,,,,,,
+1969-05-20-007,1969-05-20,Mr. Lloyd,speech_not_found,,,,,,
+1969-06-19-002,1969-06-19,Mr. Edward M. Taylor,speech_not_found,,,,,,
+1969-06-19-003,1969-06-19,Mr. Taylor,speech_not_found,,,,,,
+1969-06-19-011,1969-06-19,Mr. Hughes,matched,mr-hector-hughes,Mr Hector Hughes,uk.org.publicwhip/person/21863,Labour,Aberdeen North,1.50
+1969-06-26-012,1969-06-26,Mr. Gresham Cooke,speech_not_found,,,,,,
+1969-07-08-014,1969-07-08,Mrs. Short,matched,mrs-renee-short,Mrs Renée Short,uk.org.publicwhip/person/22552,Labour,Wolverhampton North East,1.50
+1969-07-10-005,1969-07-10,Mrs. Short,matched,mrs-renee-short,Mrs Renée Short,uk.org.publicwhip/person/22552,Labour,Wolverhampton North East,1.50
+1969-10-14-007,1969-10-14,Mrs. Short,matched,mrs-renee-short,Mrs Renée Short,uk.org.publicwhip/person/22552,Labour,Wolverhampton North East,1.50
+1969-10-21-004,1969-10-21,Mr. Edward M. Taylor,speech_not_found,,,,,,
+1969-10-21-005,1969-10-21,Mr. Taylor,speech_not_found,,,,,,
+1969-10-21-015,1969-10-21,Mr. Roberts,matched,mr-gwilym-roberts,Mr Gwilym Roberts,uk.org.publicwhip/person/21848,Labour,Bedfordshire South,1.50
+1969-11-06-002,1969-11-06,Mr. Hughes,matched,mr-hector-hughes,Mr Hector Hughes,uk.org.publicwhip/person/21863,Labour,Aberdeen North,1.50
+1969-11-11-008,1969-11-11,Mr. Lloyd,matched,mr-ian-lloyd,Mr Ian Lloyd,uk.org.publicwhip/person/21900,Conservative,Portsmouth Langstone,1.50
+1969-11-20-004,1969-11-20,Mrs. Short,speech_not_found,,,,,,
+1969-12-09-008,1969-12-09,Mrs. Short,matched,mrs-renee-short,Mrs Renée Short,uk.org.publicwhip/person/22552,Labour,Wolverhampton North East,1.50
+1969-12-18-013,1969-12-18,Mr. Jenkins,matched,mr-hugh-jenkins,Mr Hugh Jenkins,uk.org.publicwhip/person/21890,Labour,Wandsworth Putney,1.50
+1970-02-10-007,1970-02-10,Mr. Edward M. Taylor,speech_not_found,,,,,,
+1970-02-10-008,1970-02-10,Mr. Taylor,speech_not_found,,,,,,
+1970-02-12-008,1970-02-12,Mr. McNair-Wilson,matched,mr-michael-mcnair-wilson,Mr Michael McNair-Wilson,uk.org.publicwhip/person/18416,Conservative,Walthamstow East,1.50
+1970-02-17-002,1970-02-17,Mr. Jenkins,speech_not_found,,,,,,
+1970-02-19-001,1970-02-19,Mr. Edward M. Taylor,speech_not_found,,,,,,
+1970-02-19-002,1970-02-19,Mr. Taylor,speech_not_found,,,,,,
+1970-02-19-012,1970-02-19,Mrs. Short,matched,mrs-renee-short,Mrs Renée Short,uk.org.publicwhip/person/22552,Labour,Wolverhampton North East,1.50
+1970-02-26-017,1970-02-26,Mr. Taylor,matched,mr-frank-taylor,Mr Frank Taylor,uk.org.publicwhip/person/21798,Conservative,Manchester Moss Side,1.50
+1970-03-03-017,1970-03-03,Mr. Johnson,matched,mr-james-johnson,Mr James Johnson,uk.org.publicwhip/person/21914,Labour,Kingston upon Hull West,1.50
+1970-03-17-005,1970-03-17,Mr. Jenkins,speech_not_found,,,,,,
+1970-03-17-008,1970-03-17,Mrs. Short,speech_not_found,,,,,,
+1970-03-17-009,1970-03-17,Mrs. Short,speech_not_found,,,,,,
+1970-04-14-005,1970-04-14,Mr. Edward M. Taylor,speech_not_found,,,,,,
+1970-04-14-007,1970-04-14,Mr. Edward M. Taylor,speech_not_found,,,,,,
+1970-04-21-016,1970-04-21,Mr. Edward M. Taylor,speech_not_found,,,,,,
+1970-07-21-008,1970-07-21,Mr. Johnson,matched,mr-james-johnson,Mr James Johnson,uk.org.publicwhip/person/21914,Labour,Kingston upon Hull West,1.50
+1970-10-27-024,1970-10-27,Mr. Johnson,matched,mr-james-johnson,Mr James Johnson,uk.org.publicwhip/person/21914,Labour,Kingston upon Hull West,1.50
+1971-02-11-017,1971-02-11,Mr. Hughes,matched,mr-roy-hughes,Mr Roy Hughes,uk.org.publicwhip/person/22158,Labour,Newport (Monmouthshire/Gwent),0.83
+1971-04-01-006,1971-04-01,Mrs. Short,matched,mrs-renee-short,Mrs Renée Short,uk.org.publicwhip/person/22552,Labour,Wolverhampton North East,1.50
+1971-04-01-027,1971-04-01,Mr. Lloyd,matched,mr-ian-lloyd,Mr Ian Lloyd,uk.org.publicwhip/person/21900,Conservative,Portsmouth Langstone,1.50
+1971-04-27-023,1971-04-27,Mr. Hall,matched,sir-john-hall,Sir John Hall,uk.org.publicwhip/person/21951,Conservative,Wycombe,1.50
+1971-05-25-009,1971-05-25,Mr. Jenkins,matched,mr-roy-jenkins,Mr Roy Jenkins,uk.org.publicwhip/person/16436,Labour,Birmingham Stechford,1.50
+1971-05-25-021,1971-05-25,Mr. Jenkins,speech_not_found,,,,,,
+1971-06-24-006,1971-06-24,Mr. Davis,matched,mr-clinton-davis,Mr Clinton Davis,uk.org.publicwhip/person/22561,Labour,Hackney Central,1.50
+1971-06-24-018,1971-06-24,Mr. Jenkins,matched,mr-roy-jenkins,Mr Roy Jenkins,uk.org.publicwhip/person/16436,Labour,Birmingham Stechford,1.50
+1971-07-01-010,1971-07-01,Mr. Jenkins,matched,mr-hugh-jenkins,Mr Hugh Jenkins,uk.org.publicwhip/person/21890,Labour,Wandsworth Putney,1.50
+1971-07-08-001,1971-07-08,Mr. Barnett,speech_not_found,,,,,,
+1971-07-08-002,1971-07-08,Mr. Barnett,speech_not_found,,,,,,
+1971-07-15-012,1971-07-15,Mr. Mallalieu,matched,mr-joseph-mallalieu,Mr Joseph Mallalieu,uk.org.publicwhip/person/18305,Labour,Huddersfield East,1.50
+1971-07-15-021,1971-07-15,Mr. Hughes,matched,mr-robert-hughes-1,Mr Robert Hughes,uk.org.publicwhip/person/22114,Labour,Aberdeen North,1.50
+1971-07-15-022,1971-07-15,Mr. Jenkins,matched,mr-hugh-jenkins,Mr Hugh Jenkins,uk.org.publicwhip/person/21890,Labour,Wandsworth Putney,1.50
+1971-07-20-006,1971-07-20,Mr. Johnson,matched,mr-walter-johnson,Mr Walter Johnson,uk.org.publicwhip/person/22205,Labour,Derby South,1.50
+1971-07-22-011,1971-07-22,Mr. Ted Fletcher,speech_not_found,,,,,,
+1971-07-22-012,1971-07-22,Mr. Fletcher,speech_not_found,,,,,,
+1971-07-27-018,1971-07-27,Mr. Burnett,speech_not_found,,,,,,
+1971-10-19-011,1971-10-19,Mrs. Short,matched,mrs-renee-short,Mrs Renée Short,uk.org.publicwhip/person/22552,Labour,Wolverhampton North East,1.50
+1971-11-11-023,1971-11-11,Mrs. Short,matched,mrs-renee-short,Mrs Renée Short,uk.org.publicwhip/person/22552,Labour,Wolverhampton North East,1.50
+1971-11-30-002,1971-11-30,Mr. Johnson,matched,mr-walter-johnson,Mr Walter Johnson,uk.org.publicwhip/person/22205,Labour,Derby South,1.50
+1971-11-30-007,1971-11-30,Mr. Barnett,matched,mr-joel-barnett,Mr Joel Barnett,uk.org.publicwhip/person/21941,Labour,Heywood and Royton,1.50
+1971-11-30-015,1971-11-30,Mr. Jenkins,matched,mr-roy-jenkins,Mr Roy Jenkins,uk.org.publicwhip/person/16436,Labour,Birmingham Stechford,1.50
+1971-12-07-011,1971-12-07,Mr. Barnett,matched,mr-joel-barnett,Mr Joel Barnett,uk.org.publicwhip/person/21941,Labour,Heywood and Royton,1.50
+1971-12-16-009,1971-12-16,Mr. Barnett,matched,mr-joel-barnett,Mr Joel Barnett,uk.org.publicwhip/person/21941,Labour,Heywood and Royton,1.50
+1972-01-18-017,1972-01-18,Mr. Barnett,matched,mr-joel-barnett,Mr Joel Barnett,uk.org.publicwhip/person/21941,Labour,Heywood and Royton,1.50
+1972-02-03-005,1972-02-03,Mr. Jenkins,matched,mr-roy-jenkins,Mr Roy Jenkins,uk.org.publicwhip/person/16436,Labour,Birmingham Stechford,1.50
+1972-02-03-010,1972-02-03,Mr. Barnett,matched,mr-joel-barnett,Mr Joel Barnett,uk.org.publicwhip/person/21941,Labour,Heywood and Royton,1.50
+1972-02-08-015,1972-02-08,Mr. Edward Taylor,speech_not_found,,,,,,
+1972-02-08-016,1972-02-08,Mr. Taylor,speech_not_found,,,,,,
+1972-02-15-007,1972-02-15,Mr. Barnett,matched,mr-joel-barnett,Mr Joel Barnett,uk.org.publicwhip/person/21941,Labour,Heywood and Royton,1.50
+1972-02-17-013,1972-02-17,Mr. Cunningham,matched,mr-george-cunningham,Mr George Cunningham,uk.org.publicwhip/person/22512,Labour,Islington South West,1.50
+1972-02-24-016,1972-02-24,Mr. Barnett,matched,mr-joel-barnett,Mr Joel Barnett,uk.org.publicwhip/person/21941,Labour,Heywood and Royton,1.50
+1972-03-02-019,1972-03-02,Mr. Barnett,matched,mr-joel-barnett,Mr Joel Barnett,uk.org.publicwhip/person/21941,Labour,Heywood and Royton,1.50
+1972-03-09-003,1972-03-09,Mr. Edward Taylor,speech_not_found,,,,,,
+1972-03-09-010,1972-03-09,Mr. Barnett,matched,mr-joel-barnett,Mr Joel Barnett,uk.org.publicwhip/person/21941,Labour,Heywood and Royton,1.50
+1972-03-23-022,1972-03-23,Mr. Barnett,matched,mr-joel-barnett,Mr Joel Barnett,uk.org.publicwhip/person/21941,Labour,Heywood and Royton,1.50
+1972-03-28-011,1972-03-28,Mr. Mallalieu,matched,mr-joseph-mallalieu,Mr Joseph Mallalieu,uk.org.publicwhip/person/18305,Labour,Huddersfield East,1.50
+1972-03-28-014,1972-03-28,Mr. Barnett,matched,mr-joel-barnett,Mr Joel Barnett,uk.org.publicwhip/person/21941,Labour,Heywood and Royton,1.50
+1972-05-02-005,1972-05-02,Mr. Fowler,matched,mr-norman-fowler,Mr Norman Fowler,uk.org.publicwhip/person/10212,Conservative,Nottingham South,1.50
+1972-05-04-006,1972-05-04,Mr. Edward Taylor,speech_not_found,,,,,,
+1972-05-23-003,1972-05-23,Mr. Edward Taylor,speech_not_found,,,,,,
+1972-06-06-007,1972-06-06,Mr. Edward Taylor,speech_not_found,,,,,,
+1972-06-15-006,1972-06-15,Mr. Barnett,matched,mr-joel-barnett,Mr Joel Barnett,uk.org.publicwhip/person/21941,Labour,Heywood and Royton,1.50
+1972-06-27-010,1972-06-27,Mr. Barnett,matched,mr-joel-barnett,Mr Joel Barnett,uk.org.publicwhip/person/21941,Labour,Heywood and Royton,1.50
+1972-06-29-015,1972-06-29,Mr. Edward Taylor,speech_not_found,,,,,,
+1972-07-04-002,1972-07-04,Mr. Lloyd,matched,mr-ian-lloyd,Mr Ian Lloyd,uk.org.publicwhip/person/21900,Conservative,Portsmouth Langstone,1.50
+1972-07-13-006,1972-07-13,Mr. Barnett,matched,mr-joel-barnett,Mr Joel Barnett,uk.org.publicwhip/person/21941,Labour,Heywood and Royton,1.50
+1972-08-08-013,1972-08-08,Mr. Edward Taylor,speech_not_found,,,,,,
+1972-10-17-005,1972-10-17,Mr. Barnett,matched,mr-joel-barnett,Mr Joel Barnett,uk.org.publicwhip/person/21941,Labour,Heywood and Royton,1.50
+1972-11-14-006,1972-11-14,Mr. Barnett,matched,mr-guy-barnett,Mr Guy Barnett,uk.org.publicwhip/person/22051,Labour,Greenwich,1.50
+1972-11-14-014,1972-11-14,Mr. Fowler,matched,mr-norman-fowler,Mr Norman Fowler,uk.org.publicwhip/person/10212,Conservative,Nottingham South,1.50
+1972-11-21-013,1972-11-21,Mr. Edward Taylor,speech_not_found,,,,,,
+1972-11-28-006,1972-11-28,Mr. Hughes,matched,mr-robert-hughes-1,Mr Robert Hughes,uk.org.publicwhip/person/22114,Labour,Aberdeen North,1.50
+1972-11-28-011,1972-11-28,Mrs. Short,matched,mrs-renee-short,Mrs Renée Short,uk.org.publicwhip/person/22552,Labour,Wolverhampton North East,1.50
+1972-12-07-006,1972-12-07,Mrs. Short,matched,mrs-renee-short,Mrs Renée Short,uk.org.publicwhip/person/22552,Labour,Wolverhampton North East,1.50
+1973-03-06-016,1973-03-06,Mr. Edward Taylor,speech_not_found,,,,,,
+1973-03-06-017,1973-03-06,Mr. Taylor,speech_not_found,,,,,,
+1973-03-22-006,1973-03-22,Mr. Edward Taylor,speech_not_found,,,,,,
+1973-04-05-002,1973-04-05,Mr. Taylor,speech_not_found,,,,,,
+1973-04-10-020,1973-04-10,Mr. Hughes,matched,mr-robert-hughes-1,Mr Robert Hughes,uk.org.publicwhip/person/22114,Labour,Aberdeen North,1.50
+1973-04-17-009,1973-04-17,Miss Hall,matched,miss-joan-hall,Miss Joan Hall,uk.org.publicwhip/person/21939,Conservative,Keighley,1.50
+1973-04-19-012,1973-04-19,Mr. Edward Taylor,speech_not_found,,,,,,
+1973-05-08-008,1973-05-08,Mr. Edward Taylor,speech_not_found,,,,,,
+1973-05-08-012,1973-05-08,Mr. Fowler,matched,mr-norman-fowler,Mr Norman Fowler,uk.org.publicwhip/person/10212,Conservative,Nottingham South,1.50
+1973-05-10-015,1973-05-10,Miss Hall,matched,miss-joan-hall,Miss Joan Hall,uk.org.publicwhip/person/21939,Conservative,Keighley,1.50
+1973-05-10-024,1973-05-10,Mrs. Short,matched,mrs-renee-short,Mrs Renée Short,uk.org.publicwhip/person/22552,Labour,Wolverhampton North East,1.50
+1973-05-17-011,1973-05-17,Mrs. Short,matched,mrs-renee-short,Mrs Renée Short,uk.org.publicwhip/person/22552,Labour,Wolverhampton North East,1.50
+1973-05-24-020,1973-05-24,Mr. Edward Taylor,speech_not_found,,,,,,
+1973-05-24-021,1973-05-24,Mr. Taylor,speech_not_found,,,,,,
+1973-05-24-025,1973-05-24,Mr. Fowler,matched,mr-norman-fowler,Mr Norman Fowler,uk.org.publicwhip/person/10212,Conservative,Nottingham South,1.50
+1973-05-24-026,1973-05-24,Mr. Fowler,matched,mr-norman-fowler,Mr Norman Fowler,uk.org.publicwhip/person/10212,Conservative,Nottingham South,1.50
+1973-06-12-002,1973-06-12,Mrs. Short,matched,mrs-renee-short,Mrs Renée Short,uk.org.publicwhip/person/22552,Labour,Wolverhampton North East,1.50
+1973-06-14-021,1973-06-14,Mr. Edward Taylor,speech_not_found,,,,,,
+1973-06-19-015,1973-06-19,Mr. Fowler,matched,mr-norman-fowler,Mr Norman Fowler,uk.org.publicwhip/person/10212,Conservative,Nottingham South,1.50
+1973-06-19-018,1973-06-19,"Mr, Edward Taylor",speech_not_found,,,,,,
+1973-06-19-019,1973-06-19,Mr. Taylor,speech_not_found,,,,,,
+1973-06-26-009,1973-06-26,Mr. Taylor,matched,mr-robert-taylor-1,Mr Robert Taylor,uk.org.publicwhip/person/22125,Conservative,Croydon North West,1.50
+1973-06-26-018,1973-06-26,Mr. Jenkins,matched,mr-hugh-jenkins,Mr Hugh Jenkins,uk.org.publicwhip/person/21890,Labour,Wandsworth Putney,1.50
+1973-06-28-015,1973-06-28,Mr. Edward Taylor,speech_not_found,,,,,,
+1973-06-28-016,1973-06-28,Mr. Taylor,speech_not_found,,,,,,
+1973-06-28-020,1973-06-28,Mr. Fowler,matched,mr-norman-fowler,Mr Norman Fowler,uk.org.publicwhip/person/10212,Conservative,Nottingham South,1.50
+1973-07-03-003,1973-07-03,Mr. Barnett,matched,mr-joel-barnett,Mr Joel Barnett,uk.org.publicwhip/person/21941,Labour,Heywood and Royton,1.50
+1973-07-05-002,1973-07-05,Miss Hall,matched,miss-joan-hall,Miss Joan Hall,uk.org.publicwhip/person/21939,Conservative,Keighley,1.50
+1973-07-10-015,1973-07-10,Mr. Edward Taylor,speech_not_found,,,,,,
+1973-07-12-013,1973-07-12,Mr. Barnett,matched,mr-joel-barnett,Mr Joel Barnett,uk.org.publicwhip/person/21941,Labour,Heywood and Royton,1.50
+1973-07-17-014,1973-07-17,Mrs. Short,matched,mrs-renee-short,Mrs Renée Short,uk.org.publicwhip/person/22552,Labour,Wolverhampton North East,1.50
+1973-07-19-011,1973-07-19,Mrs. Short,matched,mrs-renee-short,Mrs Renée Short,uk.org.publicwhip/person/22552,Labour,Wolverhampton North East,1.50
+1973-07-19-024,1973-07-19,Miss Hall,matched,miss-joan-hall,Miss Joan Hall,uk.org.publicwhip/person/21939,Conservative,Keighley,1.50
+1973-10-16-005,1973-10-16,Mr. Edward Taylor,speech_not_found,,,,,,
+1973-10-23-002,1973-10-23,Miss Hall,matched,miss-joan-hall,Miss Joan Hall,uk.org.publicwhip/person/21939,Conservative,Keighley,1.50
+1973-10-23-004,1973-10-23,Mr. Edward Taylor,speech_not_found,,,,,,
+1973-10-23-005,1973-10-23,Mr. Taylor,speech_not_found,,,,,,
+1973-11-13-020,1973-11-13,Mr. Edward Taylor,speech_not_found,,,,,,
+1973-11-20-012,1973-11-20,Mr. Fowler,matched,mr-norman-fowler,Mr Norman Fowler,uk.org.publicwhip/person/10212,Conservative,Nottingham South,1.50
+1973-11-20-013,1973-11-20,Mr. Fowler,matched,mr-norman-fowler,Mr Norman Fowler,uk.org.publicwhip/person/10212,Conservative,Nottingham South,1.50
+1973-12-13-002,1973-12-13,Mr. Cunningham,matched,mr-george-cunningham,Mr George Cunningham,uk.org.publicwhip/person/22512,Labour,Islington South West,1.50
+1974-03-19-001,1974-03-19,Mr. Ioan Evans,speech_not_found,,,,,,
+1974-03-19-002,1974-03-19,Mr. Evans,speech_not_found,,,,,,
+1974-03-21-003,1974-03-21,Mr. Ioan Evans,speech_not_found,,,,,,
+1974-03-21-004,1974-03-21,Mr. Evans,speech_not_found,,,,,,
+1974-03-21-005,1974-03-21,Mr. Edward Taylor,speech_not_found,,,,,,
+1974-04-09-026,1974-04-09,Mr. Ioan Evans,speech_not_found,,,,,,
+1974-04-11-009,1974-04-11,Mr. loan Evans,speech_not_found,,,,,,
+1974-04-11-012,1974-04-11,Mr. Evans,speech_not_found,,,,,,
+1974-05-02-030,1974-05-02,Mr. Ioan Evans,speech_not_found,,,,,,
+1974-06-20-003,1974-06-20,Mr. Evans,speech_not_found,,,,,,
+1974-06-20-008,1974-06-20,Mr. Renton,matched,mr-timothy-renton,Mr Timothy Renton,uk.org.publicwhip/person/18907,Conservative,Mid Sussex,1.50
+1974-07-04-008,1974-07-04,Mr. Ioan Evans,speech_not_found,,,,,,
+1974-07-04-009,1974-07-04,Mr. Evans,speech_not_found,,,,,,
+1974-07-16-003,1974-07-16,Mr. Ioan Evans,speech_not_found,,,,,,
+1974-07-16-004,1974-07-16,Mr. Evans,speech_not_found,,,,,,
+1974-07-18-002,1974-07-18,Mr. Barnett,matched,mr-guy-barnett,Mr Guy Barnett,uk.org.publicwhip/person/22051,Labour,Greenwich,1.50
+1974-07-25-009,1974-07-25,Mr. Renton,matched,mr-timothy-renton,Mr Timothy Renton,uk.org.publicwhip/person/18907,Conservative,Mid Sussex,1.50
+1974-11-07-007,1974-11-07,Mrs. Short,matched,mrs-renee-short,Mrs Renée Short,uk.org.publicwhip/person/22552,Labour,Wolverhampton North East,1.50
+1975-01-21-003,1975-01-21,Mr. Renton,matched,mr-timothy-renton,Mr Timothy Renton,uk.org.publicwhip/person/18907,Conservative,Mid Sussex,1.50
+1975-01-23-006,1975-01-23,Mr. Renton,matched,mr-timothy-renton,Mr Timothy Renton,uk.org.publicwhip/person/18907,Conservative,Mid Sussex,1.50
+1975-02-06-008,1975-02-06,Mr. Renton,matched,mr-timothy-renton,Mr Timothy Renton,uk.org.publicwhip/person/18907,Conservative,Mid Sussex,1.50
+1975-02-11-016,1975-02-11,Mr. Renton,matched,mr-timothy-renton,Mr Timothy Renton,uk.org.publicwhip/person/18907,Conservative,Mid Sussex,1.50
+1975-02-20-007,1975-02-20,Mr. Renton,matched,mr-timothy-renton,Mr Timothy Renton,uk.org.publicwhip/person/18907,Conservative,Mid Sussex,1.50
+1975-03-04-004,1975-03-04,Mr. Morrison,matched,hon-peter-morrison,Hon. Peter Morrison,uk.org.publicwhip/person/22075,Conservative,City of Chester,1.00
+1975-03-20-006,1975-03-20,Mr. Renton,matched,mr-timothy-renton,Mr Timothy Renton,uk.org.publicwhip/person/18907,Conservative,Mid Sussex,1.50
+1975-03-20-010,1975-03-20,Mr. Morrison,matched,mr-charles-morrison,Mr Charles Morrison,uk.org.publicwhip/person/21695,Conservative,Devizes,1.50
+1975-04-15-010,1975-04-15,Mr. Renton,matched,mr-timothy-renton,Mr Timothy Renton,uk.org.publicwhip/person/18907,Conservative,Mid Sussex,1.50
+1975-04-15-012,1975-04-15,Mr. Morrison,matched,hon-peter-morrison,Hon. Peter Morrison,uk.org.publicwhip/person/22075,Conservative,City of Chester,1.00
+1975-05-13-011,1975-05-13,Mr. Mark Hughes,speech_not_found,,,,,,
+1975-05-20-002,1975-05-20,Mr. Renton,matched,mr-timothy-renton,Mr Timothy Renton,uk.org.publicwhip/person/18907,Conservative,Mid Sussex,1.50
+1975-05-22-015,1975-05-22,Mr. Renton,matched,mr-timothy-renton,Mr Timothy Renton,uk.org.publicwhip/person/18907,Conservative,Mid Sussex,1.50
+1975-06-10-002,1975-06-10,Mr. Renton,matched,mr-timothy-renton,Mr Timothy Renton,uk.org.publicwhip/person/18907,Conservative,Mid Sussex,1.50
+1975-06-24-015,1975-06-24,Mrs. Short,matched,mrs-renee-short,Mrs Renée Short,uk.org.publicwhip/person/22552,Labour,Wolverhampton North East,1.50
+1975-07-03-014,1975-07-03,Mr. Morrison,matched,hon-peter-morrison,Hon. Peter Morrison,uk.org.publicwhip/person/22075,Conservative,City of Chester,1.00
+1975-07-15-004,1975-07-15,Mr. Morrison,matched,hon-peter-morrison,Hon. Peter Morrison,uk.org.publicwhip/person/22075,Conservative,City of Chester,1.00
+1975-10-16-007,1975-10-16,Mr. Morrison,matched,hon-peter-morrison,Hon. Peter Morrison,uk.org.publicwhip/person/22075,Conservative,City of Chester,1.00
+1975-10-21-015,1975-10-21,Dr. M. S. Miller,speech_not_found,,,,,,
+1975-10-28-012,1975-10-28,Mr. Tom Ellis,speech_not_found,,,,,,
+1975-10-28-013,1975-10-28,Mr. Ellis,speech_not_found,,,,,,
+1975-10-30-018,1975-10-30,Mr. Morrison,matched,hon-peter-morrison,Hon. Peter Morrison,uk.org.publicwhip/person/22075,Conservative,City of Chester,1.00
+1975-11-11-012,1975-11-11,Mr. Renton,matched,mr-timothy-renton,Mr Timothy Renton,uk.org.publicwhip/person/18907,Conservative,Mid Sussex,1.50
+1975-12-04-013,1975-12-04,Mr. McNair-Wilson,matched,mr-michael-mcnair-wilson,Mr Michael McNair-Wilson,uk.org.publicwhip/person/18416,Conservative,Newbury,1.50
+1976-01-22-006,1976-01-22,Dr. M. S. Miller,speech_not_found,,,,,,
+1976-01-27-006,1976-01-27,Mr. Morrison,matched,hon-peter-morrison,Hon. Peter Morrison,uk.org.publicwhip/person/22075,Conservative,City of Chester,1.00
+1976-01-29-012,1976-01-29,Dr. Cunningham,matched,dr-jack-cunningham,Dr Jack Cunningham,uk.org.publicwhip/person/10146,Labour,Whitehaven,1.50
+1976-02-12-013,1976-02-12,Mr. McNair-Wilson,matched,mr-michael-mcnair-wilson,Mr Michael McNair-Wilson,uk.org.publicwhip/person/18416,Conservative,Newbury,1.50
+1976-02-17-012,1976-02-17,Mr. Renton,matched,mr-timothy-renton,Mr Timothy Renton,uk.org.publicwhip/person/18907,Conservative,Mid Sussex,1.50
+1976-02-24-008,1976-02-24,Mr. Morrison,matched,hon-peter-morrison,Hon. Peter Morrison,uk.org.publicwhip/person/22075,Conservative,City of Chester,1.00
+1976-02-24-009,1976-02-24,Mr. Morrison,matched,hon-peter-morrison,Hon. Peter Morrison,uk.org.publicwhip/person/22075,Conservative,City of Chester,1.00
+1976-03-02-006,1976-03-02,Mr. McNair-Wilson,matched,mr-michael-mcnair-wilson,Mr Michael McNair-Wilson,uk.org.publicwhip/person/18416,Conservative,Newbury,1.50
+1976-03-25-018,1976-03-25,Dr. M. S. Miller,speech_not_found,,,,,,
+1976-03-30-002,1976-03-30,Mr. White,matched,mr-frank-white,Mr Frank White,uk.org.publicwhip/person/21800,Labour,Bury and Radcliffe,1.50
+1976-04-08-002,1976-04-08,Mr. Morrison,matched,hon-peter-morrison,Hon. Peter Morrison,uk.org.publicwhip/person/22075,Conservative,City of Chester,1.00
+1976-04-13-004,1976-04-13,Mr. Renton,matched,mr-timothy-renton,Mr Timothy Renton,uk.org.publicwhip/person/18907,Conservative,Mid Sussex,1.50
+1976-05-04-007,1976-05-04,Mr. Morrison,matched,hon-peter-morrison,Hon. Peter Morrison,uk.org.publicwhip/person/22075,Conservative,City of Chester,1.00
+1976-07-15-002,1976-07-15,Mr. Morrison,matched,hon-peter-morrison,Hon. Peter Morrison,uk.org.publicwhip/person/22075,Conservative,City of Chester,1.00
+1976-08-03-009,1976-08-03,Mr. Morrison,matched,hon-peter-morrison,Hon. Peter Morrison,uk.org.publicwhip/person/22075,Conservative,City of Chester,1.00
+1976-11-02-011,1976-11-02,Mr. Morrison,matched,hon-peter-morrison,Hon. Peter Morrison,uk.org.publicwhip/person/22075,Conservative,City of Chester,1.00
+1976-12-16-008,1976-12-16,Mr. Renton,matched,mr-timothy-renton,Mr Timothy Renton,uk.org.publicwhip/person/18907,Conservative,Mid Sussex,1.50
+1977-01-18-008,1977-01-18,Mr. Renton,matched,mr-timothy-renton,Mr Timothy Renton,uk.org.publicwhip/person/18907,Conservative,Mid Sussex,1.50
+1977-01-20-002,1977-01-20,Mr. Renton,matched,mr-timothy-renton,Mr Timothy Renton,uk.org.publicwhip/person/18907,Conservative,Mid Sussex,1.50
+1977-03-01-004,1977-03-01,Mr. Morrison,matched,mr-charles-morrison,Mr Charles Morrison,uk.org.publicwhip/person/21695,Conservative,Devizes,1.50
+1977-03-15-013,1977-03-15,Mr. Morrison,matched,mr-charles-morrison,Mr Charles Morrison,uk.org.publicwhip/person/21695,Conservative,Devizes,1.50
+1977-04-07-002,1977-04-07,Mr. Renton,matched,mr-timothy-renton,Mr Timothy Renton,uk.org.publicwhip/person/18907,Conservative,Mid Sussex,1.50
+1977-05-05-009,1977-05-05,Mr. Renton,matched,mr-timothy-renton,Mr Timothy Renton,uk.org.publicwhip/person/18907,Conservative,Mid Sussex,1.50
+1977-07-14-002,1977-07-14,Mr. Hunt,matched,mr-david-hunt,Mr David Hunt,uk.org.publicwhip/person/21733,Conservative,Wirral,1.50
+1977-07-21-020,1977-07-21,Mr. Renton,matched,mr-timothy-renton,Mr Timothy Renton,uk.org.publicwhip/person/18907,Conservative,Mid Sussex,1.50
+1977-07-28-002,1977-07-28,Mr. Renton,matched,mr-timothy-renton,Mr Timothy Renton,uk.org.publicwhip/person/18907,Conservative,Mid Sussex,1.50
+1977-11-22-016,1977-11-22,Mr. Renton,matched,mr-timothy-renton,Mr Timothy Renton,uk.org.publicwhip/person/18907,Conservative,Mid Sussex,1.50
+1978-04-11-002,1978-04-11,Mr. Renton,matched,mr-timothy-renton,Mr Timothy Renton,uk.org.publicwhip/person/18907,Conservative,Mid Sussex,1.50
+1978-05-02-011,1978-05-02,Mr. Hughes,matched,mr-robert-hughes-1,Mr Robert Hughes,uk.org.publicwhip/person/22114,Labour,Aberdeen North,1.50
+1978-06-06-020,1978-06-06,Mr. Hughes,matched,mr-robert-hughes-1,Mr Robert Hughes,uk.org.publicwhip/person/22114,Labour,Aberdeen North,1.50
+1979-02-01-014,1979-02-01,Mr. Spicer,matched,mr-michael-spicer,Mr Michael Spicer,uk.org.publicwhip/person/10560,Conservative,Worcestershire South,1.50
+1979-02-06-002,1979-02-06,Mr. Hunt,matched,mr-john-hunt,Mr John Hunt,uk.org.publicwhip/person/21981,Conservative,Bromley Ravensbourne,1.50
+1979-02-06-006,1979-02-06,Mr. Alan Lee Williams,speech_not_found,,,,,,
+1979-02-20-014,1979-02-20,Mr. Ellis,matched,mr-john-ellis-3,Mr John Ellis,uk.org.publicwhip/person/21942,Labour,Brigg and Scunthorpe,1.50
+1979-03-06-006,1979-03-06,Mr. Spicer,matched,mr-michael-spicer,Mr Michael Spicer,uk.org.publicwhip/person/10560,Conservative,Worcestershire South,1.50
+1979-04-03-007,1979-04-03,Mr. Hunt,matched,mr-john-hunt,Mr John Hunt,uk.org.publicwhip/person/21981,Conservative,Bromley Ravensbourne,1.50
+1979-05-22-002,1979-05-22,Mr. Davis,matched,mr-clinton-davis,Mr Clinton Davis,uk.org.publicwhip/person/22561,Labour,Hackney Central,1.50
+1979-05-24-013,1979-05-24,Mr. Hughes,matched,mr-robert-hughes-1,Mr Robert Hughes,uk.org.publicwhip/person/22114,Labour,Aberdeen North,1.50
+1979-06-14-007,1979-06-14,Mr. Hughes,matched,mr-robert-hughes-1,Mr Robert Hughes,uk.org.publicwhip/person/22114,Labour,Aberdeen North,1.50
+1979-06-19-015,1979-06-19,Mr. Evans,matched,mr-john-evans-2,Mr John Evans,uk.org.publicwhip/person/22255,Labour,Newton,1.50
+1979-07-10-002,1979-07-10,Mr. Shepherd,matched,mr-colin-shepherd,Mr Colin Shepherd,uk.org.publicwhip/person/22493,Conservative,Hereford,1.50
+1979-07-12-014,1979-07-12,Mr. Lloyd,matched,mr-ian-lloyd,Mr Ian Lloyd,uk.org.publicwhip/person/21900,Conservative,Havant and Waterloo,1.50
+1979-07-19-021,1979-07-19,Mr. Spicer,matched,mr-michael-spicer,Mr Michael Spicer,uk.org.publicwhip/person/10560,Conservative,Worcestershire South,1.50
+1979-07-26-008,1979-07-26,Mr. Patten,matched,mr-chris-patten,Mr Chris Patten,uk.org.publicwhip/person/22597,Conservative,Bath,1.50
+1979-07-26-015,1979-07-26,Mr. Griffiths,matched,mr-eldon-griffiths,Mr Eldon Griffiths,uk.org.publicwhip/person/22503,Conservative,Bury St Edmunds,1.50
+1979-11-01-010,1979-11-01,Mr. Atkins,matched,mr-robert-atkins,Mr Robert Atkins,uk.org.publicwhip/person/19736,Conservative,Preston North,1.50
+1979-11-08-007,1979-11-08,Mr. Atkins,matched,mr-robert-atkins,Mr Robert Atkins,uk.org.publicwhip/person/19736,Conservative,Preston North,1.50
+1979-12-04-016,1979-12-04,Mr. Evans,matched,mr-john-evans-2,Mr John Evans,uk.org.publicwhip/person/22255,Labour,Newton,1.50
+1979-12-13-002,1979-12-13,Mr. Atkins,matched,mr-robert-atkins,Mr Robert Atkins,uk.org.publicwhip/person/19736,Conservative,Preston North,1.50
+1980-01-31-002,1980-01-31,Mr. Evans,matched,mr-ioan-evans,Mr Ioan Evans,uk.org.publicwhip/person/21904,Labour,Aberdare,1.50
+1980-02-28-002,1980-02-28,Mr. Evans,matched,mr-john-evans-2,Mr John Evans,uk.org.publicwhip/person/22255,Labour,Newton,1.50
+1980-03-04-013,1980-03-04,Mr. Baker,matched,mr-nicholas-baker,Mr Nicholas Baker,uk.org.publicwhip/person/22346,Conservative,North Dorset,1.50
+1980-03-11-017,1980-03-11,Mr. Evans,matched,mr-ioan-evans,Mr Ioan Evans,uk.org.publicwhip/person/21904,Labour,Aberdare,1.50
+1980-03-13-016,1980-03-13,Mr. Atkins,matched,mr-robert-atkins,Mr Robert Atkins,uk.org.publicwhip/person/19736,Conservative,Preston North,1.50
+1980-03-18-015,1980-03-18,Mr. Evans,matched,mr-ioan-evans,Mr Ioan Evans,uk.org.publicwhip/person/21904,Labour,Aberdare,1.50
+1980-03-27-010,1980-03-27,Mr. loan Evans,speech_not_found,,,,,,
+1980-04-01-016,1980-04-01,Mr. Atkins,matched,mr-robert-atkins,Mr Robert Atkins,uk.org.publicwhip/person/19736,Conservative,Preston North,1.50
+1980-05-15-005,1980-05-15,Mr. Shepherd,matched,mr-colin-shepherd,Mr Colin Shepherd,uk.org.publicwhip/person/22493,Conservative,Hereford,1.50
+1980-06-10-010,1980-06-10,Mr. loan Evans,speech_not_found,,,,,,
+1980-06-17-012,1980-06-17,Mr. Shepherd,matched,mr-colin-shepherd,Mr Colin Shepherd,uk.org.publicwhip/person/22493,Conservative,Hereford,1.50
+1980-07-22-004,1980-07-22,Mr. Baker,matched,mr-nicholas-baker,Mr Nicholas Baker,uk.org.publicwhip/person/22346,Conservative,North Dorset,1.50
+1980-07-24-002,1980-07-24,Mr. Atkins,matched,mr-robert-atkins,Mr Robert Atkins,uk.org.publicwhip/person/19736,Conservative,Preston North,1.50
+1980-07-24-017,1980-07-24,Mr. Ron Brown,speech_not_found,,,,,,
+1980-08-07-001,1980-08-07,Mr. Ron Brown,speech_not_found,,,,,,
+1980-11-25-002,1980-11-25,Mr. Baker,matched,mr-nicholas-baker,Mr Nicholas Baker,uk.org.publicwhip/person/22346,Conservative,North Dorset,1.50
+1980-12-16-007,1980-12-16,Mr. Lloyd,matched,mr-ian-lloyd,Mr Ian Lloyd,uk.org.publicwhip/person/21900,Conservative,Havant and Waterloo,1.50
+1981-01-20-013,1981-01-20,Mr. Shepherd,matched,mr-colin-shepherd,Mr Colin Shepherd,uk.org.publicwhip/person/22493,Conservative,Hereford,1.50
+1981-01-27-016,1981-01-27,Mr. Atkins,matched,mr-robert-atkins,Mr Robert Atkins,uk.org.publicwhip/person/19736,Conservative,Preston North,1.50
+1981-02-05-001,1981-02-05,Mr. Ron Brown,speech_not_found,,,,,,
+1981-02-05-002,1981-02-05,Mr. Ron Brown,speech_not_found,,,,,,
+1981-02-05-006,1981-02-05,Mr. Atkins,matched,mr-robert-atkins,Mr Robert Atkins,uk.org.publicwhip/person/19736,Conservative,Preston North,1.50
+1981-03-10-008,1981-03-10,Mr. loan Evans,speech_not_found,,,,,,
+1981-03-17-006,1981-03-17,Mr. Shepherd,matched,mr-colin-shepherd,Mr Colin Shepherd,uk.org.publicwhip/person/22493,Conservative,Hereford,1.50
+1981-03-26-017,1981-03-26,Mr. Spicer,matched,mr-michael-spicer,Mr Michael Spicer,uk.org.publicwhip/person/10560,Conservative,Worcestershire South,1.50
+1981-03-31-013,1981-03-31,Mr. Carlisle,matched,mr-john-carlisle,Mr John Carlisle,uk.org.publicwhip/person/16897,Conservative,Luton West,1.50
+1981-04-07-008,1981-04-07,Mr. Hughes,matched,mr-roy-hughes,Mr Roy Hughes,uk.org.publicwhip/person/22158,Labour,Newport (Monmouthshire/Gwent),0.83
+1981-05-07-002,1981-05-07,Mr. Spicer,matched,mr-michael-spicer,Mr Michael Spicer,uk.org.publicwhip/person/10560,Conservative,Worcestershire South,1.50
+1981-05-19-008,1981-05-19,Mr. James Callaghan,speech_not_found,,,,,,
+1981-06-16-002,1981-06-16,Mr. Carlisle,matched,mr-kenneth-carlisle,Mr Kenneth Carlisle,uk.org.publicwhip/person/16895,Conservative,Lincoln,1.50
+1981-07-07-002,1981-07-07,Mr. Johnson,matched,mr-walter-johnson,Mr Walter Johnson,uk.org.publicwhip/person/22205,Labour,Derby South,1.50
+1981-07-16-005,1981-07-16,Mr. Silkin,matched,hon-john-silkin,Hon. John Silkin,uk.org.publicwhip/person/19093,Labour,"Lewisham, Deptford",1.50
+1981-07-16-015,1981-07-16,Mr. Silkin,matched,hon-john-silkin,Hon. John Silkin,uk.org.publicwhip/person/19093,Labour,"Lewisham, Deptford",1.50
+1981-07-16-016,1981-07-16,Mr. Silkin,matched,hon-john-silkin,Hon. John Silkin,uk.org.publicwhip/person/19093,Labour,"Lewisham, Deptford",1.50
+1981-07-28-006,1981-07-28,Mr. Shepherd,matched,mr-colin-shepherd,Mr Colin Shepherd,uk.org.publicwhip/person/22493,Conservative,Hereford,1.50
+1981-11-19-002,1981-11-19,Mr. Atkins,matched,mr-robert-atkins,Mr Robert Atkins,uk.org.publicwhip/person/19736,Conservative,Preston North,1.50
+1981-11-24-002,1981-11-24,Mr. Evans,matched,mr-ioan-evans,Mr Ioan Evans,uk.org.publicwhip/person/21904,Labour,Aberdare,1.50
+1981-12-08-002,1981-12-08,Mr. Spicer,matched,mr-michael-spicer,Mr Michael Spicer,uk.org.publicwhip/person/10560,Conservative,Worcestershire South,1.50
+1981-12-10-011,1981-12-10,Mr. Atkins,matched,mr-robert-atkins,Mr Robert Atkins,uk.org.publicwhip/person/19736,Conservative,Preston North,1.50
+1982-02-04-010,1982-02-04,Mr. Carlisle,matched,mr-john-carlisle,Mr John Carlisle,uk.org.publicwhip/person/16897,Conservative,Luton West,1.50
+1982-02-09-011,1982-02-09,Mr. Atkins,matched,mr-robert-atkins,Mr Robert Atkins,uk.org.publicwhip/person/19736,Conservative,Preston North,1.50
+1982-02-09-012,1982-02-09,Mr. James Callaghan,speech_not_found,,,,,,
+1982-03-09-003,1982-03-09,Mr. loan Evans,speech_not_found,,,,,,
+1982-03-18-013,1982-03-18,Mr. James Callaghan,speech_not_found,,,,,,
+1982-04-01-013,1982-04-01,Mr. Silkin,matched,hon-john-silkin,Hon. John Silkin,uk.org.publicwhip/person/19093,Labour,"Lewisham, Deptford",1.50
+1982-04-01-014,1982-04-01,Mr. Silkin,matched,hon-john-silkin,Hon. John Silkin,uk.org.publicwhip/person/19093,Labour,"Lewisham, Deptford",1.50
+1982-05-18-009,1982-05-18,Mr. Atkins,matched,mr-robert-atkins,Mr Robert Atkins,uk.org.publicwhip/person/19736,Conservative,Preston North,1.50
+1982-06-08-014,1982-06-08,Mr. Hughes,matched,mr-roy-hughes,Mr Roy Hughes,uk.org.publicwhip/person/22158,Labour,Newport (Monmouthshire/Gwent),0.83
+1982-06-15-002,1982-06-15,Mr. Carlisle,matched,mr-kenneth-carlisle,Mr Kenneth Carlisle,uk.org.publicwhip/person/16895,Conservative,Lincoln,1.50
+1982-06-24-009,1982-06-24,Mr. James Callaghan,speech_not_found,,,,,,
+1982-07-13-002,1982-07-13,Mr. Hughes,matched,mr-roy-hughes,Mr Roy Hughes,uk.org.publicwhip/person/22158,Labour,Newport (Monmouthshire/Gwent),0.83
+1982-10-19-007,1982-10-19,Mr. Atkins,matched,mr-robert-atkins,Mr Robert Atkins,uk.org.publicwhip/person/19736,Conservative,Preston North,1.50
+1982-12-14-002,1982-12-14,Mr. Carlisle,matched,mr-kenneth-carlisle,Mr Kenneth Carlisle,uk.org.publicwhip/person/16895,Conservative,Lincoln,1.50
+1983-02-22-018,1983-02-22,Mr. Atkins,matched,mr-robert-atkins,Mr Robert Atkins,uk.org.publicwhip/person/19736,Conservative,Preston North,1.50
+1983-03-08-006,1983-03-08,Mr. James Callaghan,speech_not_found,,,,,,
+1983-03-08-017,1983-03-08,Mr. Carlisle,matched,mr-kenneth-carlisle,Mr Kenneth Carlisle,uk.org.publicwhip/person/16895,Conservative,Lincoln,1.50
+1983-03-15-018,1983-03-15,Mr. Evans,matched,mr-john-evans-2,Mr John Evans,uk.org.publicwhip/person/22255,Labour,Newton,1.50
+1983-04-12-010,1983-04-12,Mr. Carlisle,matched,mr-kenneth-carlisle,Mr Kenneth Carlisle,uk.org.publicwhip/person/16895,Conservative,Lincoln,1.50
+1983-05-10-008,1983-05-10,Mr. Hunt,matched,mr-john-hunt,Mr John Hunt,uk.org.publicwhip/person/21981,Conservative,Bromley Ravensbourne,1.50
+1983-07-07-007,1983-07-07,Mrs. Knight,speech_not_found,,,,,,
+1983-07-26-013,1983-07-26,Mr. MacKay,matched,mr-andrew-mackay,Mr Andrew MacKay,uk.org.publicwhip/person/10391,Conservative,Berkshire East,1.50
+1983-07-28-009,1983-07-28,Mr. MacKay,matched,mr-andrew-mackay,Mr Andrew MacKay,uk.org.publicwhip/person/10391,Conservative,Berkshire East,1.50
+1983-07-28-010,1983-07-28,Mr. James Callaghan,speech_not_found,,,,,,
+1983-10-27-015,1983-10-27,Mr. Davies,matched,mr-ron-davies,Mr Ron Davies,uk.org.publicwhip/person/10161,Labour,Caerphilly,1.50
+1983-11-10-007,1983-11-10,Mr. MacKay,matched,mr-andrew-mackay,Mr Andrew MacKay,uk.org.publicwhip/person/10391,Conservative,Berkshire East,1.50
+1983-12-01-007,1983-12-01,Mr. Baker,speech_not_found,,,,,,
+1984-03-27-002,1984-03-27,Mrs. Knight,matched,mrs-jill-knight,Mrs Jill Knight,uk.org.publicwhip/person/22530,Conservative,"Birmingham, Edgbaston",1.50
+1984-03-29-007,1984-03-29,Mr. MacKay,matched,mr-andrew-mackay,Mr Andrew MacKay,uk.org.publicwhip/person/10391,Conservative,Berkshire East,1.50
+1984-04-05-010,1984-04-05,Mr. James Callaghan,speech_not_found,,,,,,
+1984-04-05-020,1984-04-05,Mr. Winterton,matched,mr-nicholas-winterton,Mr Nicholas Winterton,uk.org.publicwhip/person/10647,Conservative,Macclesfield,1.50
+1984-04-12-002,1984-04-12,Mr. Howarth,matched,mr-gerald-howarth,Mr Gerald Howarth,uk.org.publicwhip/person/10293,Conservative,Cannock and Burntwood,1.50
+1984-06-14-007,1984-06-14,Mr. MacKay,matched,mr-andrew-mackay,Mr Andrew MacKay,uk.org.publicwhip/person/10391,Conservative,Berkshire East,1.50
+1984-06-21-007,1984-06-21,Mr. Carlisle,matched,mr-kenneth-carlisle,Mr Kenneth Carlisle,uk.org.publicwhip/person/16895,Conservative,Lincoln,1.50
+1984-06-21-010,1984-06-21,Mr. Atkins,matched,mr-robert-atkins,Mr Robert Atkins,uk.org.publicwhip/person/19736,Conservative,South Ribble,1.50
+1984-06-28-013,1984-06-28,Mr. Andy Stewart,speech_not_found,,,,,,
+1984-06-28-018,1984-06-28,Mr. Howarth,matched,mr-gerald-howarth,Mr Gerald Howarth,uk.org.publicwhip/person/10293,Conservative,Cannock and Burntwood,1.50
+1984-07-12-013,1984-07-12,Mr. MacKay,matched,mr-andrew-mackay,Mr Andrew MacKay,uk.org.publicwhip/person/10391,Conservative,Berkshire East,1.50
+1984-07-19-006,1984-07-19,Mr. Andy Stewart,speech_not_found,,,,,,
+1984-07-31-008,1984-07-31,Mr. MacKay,matched,mr-andrew-mackay,Mr Andrew MacKay,uk.org.publicwhip/person/10391,Conservative,Berkshire East,1.50
+1984-10-23-008,1984-10-23,Mr. Hunt,matched,mr-john-hunt,Mr John Hunt,uk.org.publicwhip/person/21981,Conservative,Ravensbourne,1.50
+1984-10-25-016,1984-10-25,Mr. Baker,matched,mr-nicholas-baker,Mr Nicholas Baker,uk.org.publicwhip/person/22346,Conservative,North Dorset,1.50
+1984-11-13-008,1984-11-13,Mr. Atkins,matched,mr-robert-atkins,Mr Robert Atkins,uk.org.publicwhip/person/19736,Conservative,South Ribble,1.50
+1984-11-15-003,1984-11-15,Mr. James Callaghan,speech_not_found,,,,,,
+1984-11-22-015,1984-11-22,Mr. Knight,matched,mr-greg-knight,Mr Greg Knight,uk.org.publicwhip/person/11026,Conservative,Derby North,1.50
+1984-11-27-002,1984-11-27,Mr. Howarth,matched,mr-alan-howarth,Mr Alan Howarth,uk.org.publicwhip/person/10291,Conservative,Stratford-on-Avon,1.50
+1984-11-27-024,1984-11-27,Mr. Walker,matched,mr-bill-walker,Mr Bill Walker,uk.org.publicwhip/person/22605,Conservative,North Tayside,1.50
+1984-11-29-008,1984-11-29,Mr. Winterton,matched,mr-nicholas-winterton,Mr Nicholas Winterton,uk.org.publicwhip/person/10647,Conservative,Macclesfield,1.50
+1984-12-06-014,1984-12-06,Ms. Short,matched,ms-clare-short,Ms Clare Short,uk.org.publicwhip/person/10540,Labour,"Birmingham, Ladywood",1.50
+1984-12-11-011,1984-12-11,Mrs. Knight,matched,mrs-jill-knight,Mrs Jill Knight,uk.org.publicwhip/person/22530,Conservative,"Birmingham, Edgbaston",1.50
+1984-12-13-011,1984-12-13,Mr. Davies,matched,mr-ron-davies,Mr Ron Davies,uk.org.publicwhip/person/10161,Labour,Caerphilly,1.50
+1985-01-31-004,1985-01-31,Mr. Oppenheim,matched,mr-philip-oppenheim,Mr Philip Oppenheim,uk.org.publicwhip/person/18674,Conservative,Amber Valley,1.50
+1985-01-31-023,1985-01-31,Ms. Short,matched,ms-clare-short,Ms Clare Short,uk.org.publicwhip/person/10540,Labour,"Birmingham, Ladywood",1.50
+1985-02-05-002,1985-02-05,Mr. King,matched,mr-roger-king,Mr Roger King,uk.org.publicwhip/person/22621,Conservative,"Birmingham, Northfield",1.50
+1985-02-05-013,1985-02-05,Mr. Cook,matched,mr-frank-cook,Mr Frank Cook,uk.org.publicwhip/person/10129,Labour,Stockton North,1.50
+1985-02-07-004,1985-02-07,Mr. Howarth,matched,mr-gerald-howarth,Mr Gerald Howarth,uk.org.publicwhip/person/10293,Conservative,Cannock and Burntwood,1.50
+1985-02-19-022,1985-02-19,Mr. MacKay,matched,mr-andrew-mackay,Mr Andrew MacKay,uk.org.publicwhip/person/10391,Conservative,Berkshire East,1.50
+1985-02-26-023,1985-02-26,Mr. Cook,matched,mr-frank-cook,Mr Frank Cook,uk.org.publicwhip/person/10129,Labour,Stockton North,1.50
+1985-02-28-010,1985-02-28,Mr. Atkins,matched,mr-robert-atkins,Mr Robert Atkins,uk.org.publicwhip/person/19736,Conservative,South Ribble,1.50
+1985-03-19-010,1985-03-19,Mr. Atkins,matched,mr-robert-atkins,Mr Robert Atkins,uk.org.publicwhip/person/19736,Conservative,South Ribble,1.50
+1985-03-28-007,1985-03-28,Mr. Cook,matched,mr-frank-cook,Mr Frank Cook,uk.org.publicwhip/person/10129,Labour,Stockton North,1.50
+1985-04-02-018,1985-04-02,Mr. Winterton,matched,mr-nicholas-winterton,Mr Nicholas Winterton,uk.org.publicwhip/person/10647,Conservative,Macclesfield,1.50
+1985-04-16-013,1985-04-16,Mr. MacKay,matched,mr-andrew-mackay,Mr Andrew MacKay,uk.org.publicwhip/person/10391,Conservative,Berkshire East,1.50
+1985-05-07-007,1985-05-07,Mr. MacKay,matched,mr-andrew-mackay,Mr Andrew MacKay,uk.org.publicwhip/person/10391,Conservative,Berkshire East,1.50
+1985-05-07-019,1985-05-07,Mr. Howarth,matched,mr-gerald-howarth,Mr Gerald Howarth,uk.org.publicwhip/person/10293,Conservative,Cannock and Burntwood,1.50
+1985-05-14-018,1985-05-14,Mr. Cook,matched,mr-frank-cook,Mr Frank Cook,uk.org.publicwhip/person/10129,Labour,Stockton North,1.50
+1985-05-16-020,1985-05-16,Mr. MacKay,matched,mr-andrew-mackay,Mr Andrew MacKay,uk.org.publicwhip/person/10391,Conservative,Berkshire East,1.50
+1985-06-06-024,1985-06-06,Mr. James Callaghan,speech_not_found,,,,,,
+1985-06-06-026,1985-06-06,Mr. MacKay,matched,mr-andrew-mackay,Mr Andrew MacKay,uk.org.publicwhip/person/10391,Conservative,Berkshire East,1.50
+1985-06-13-006,1985-06-13,Mr. James Callaghan,speech_not_found,,,,,,
+1985-06-13-008,1985-06-13,Mr. Ron Brown,speech_not_found,,,,,,
+1985-06-27-016,1985-06-27,Mrs. Bottomley,matched,mrs-virginia-bottomley,Mrs Virginia Bottomley,uk.org.publicwhip/person/10058,Conservative,South West Surrey,1.50
+1985-07-16-006,1985-07-16,Mr. Winterton,matched,mr-nicholas-winterton,Mr Nicholas Winterton,uk.org.publicwhip/person/10647,Conservative,Macclesfield,1.50
+1985-07-18-017,1985-07-18,Mr. Spicer,matched,mr-james-spicer,Mr James Spicer,uk.org.publicwhip/person/21934,Conservative,West Dorset,1.50
+1985-11-19-009,1985-11-19,Mr. James Callaghan,speech_not_found,,,,,,
+1985-11-26-011,1985-11-26,Mr. Howarth,matched,mr-gerald-howarth,Mr Gerald Howarth,uk.org.publicwhip/person/10293,Conservative,Cannock and Burntwood,1.50
+1985-11-28-008,1985-11-28,Mr. Bowden,matched,mr-gerald-bowden,Mr Gerald Bowden,uk.org.publicwhip/person/16734,Conservative,Dulwich,1.50
+1985-12-10-007,1985-12-10,Mr. Andy Stewart,speech_not_found,,,,,,
+1985-12-17-004,1985-12-17,Ms. Short,speech_not_found,,,,,,
+1985-12-19-016,1985-12-19,Mr. Taylor,matched,mr-teddy-taylor,Mr Teddy Taylor,uk.org.publicwhip/person/10591,Conservative,Southend East,1.50
+1986-01-28-010,1986-01-28,Mr. Bowden,matched,mr-andrew-bowden,Mr Andrew Bowden,uk.org.publicwhip/person/16732,Conservative,"Brighton, Kemptown",1.50
+1986-01-28-018,1986-01-28,Mr. Davies,matched,mr-ron-davies,Mr Ron Davies,uk.org.publicwhip/person/10161,Labour,Caerphilly,1.50
+1986-02-04-011,1986-02-04,Ms. Short,matched,ms-clare-short,Ms Clare Short,uk.org.publicwhip/person/10540,Labour,"Birmingham, Ladywood",1.50
+1986-02-06-022,1986-02-06,Mrs. Bottomley,matched,mrs-virginia-bottomley,Mrs Virginia Bottomley,uk.org.publicwhip/person/10058,Conservative,South West Surrey,1.50
+1986-02-11-005,1986-02-11,Mr. Howarth,matched,mr-gerald-howarth,Mr Gerald Howarth,uk.org.publicwhip/person/10293,Conservative,Cannock and Burntwood,1.50
+1986-02-13-015,1986-02-13,Mr. Howarth,matched,mr-gerald-howarth,Mr Gerald Howarth,uk.org.publicwhip/person/10293,Conservative,Cannock and Burntwood,1.50
+1986-02-13-025,1986-02-13,Mr. King,matched,mr-roger-king,Mr Roger King,uk.org.publicwhip/person/22621,Conservative,"Birmingham, Northfield",1.50
+1986-02-18-012,1986-02-18,Mr. Ron Brown,speech_not_found,,,,,,
+1986-02-20-018,1986-02-20,Mr. Winterton,matched,mr-nicholas-winterton,Mr Nicholas Winterton,uk.org.publicwhip/person/10647,Conservative,Macclesfield,1.50
+1986-03-25-019,1986-03-25,Ms. Short,matched,ms-clare-short,Ms Clare Short,uk.org.publicwhip/person/10540,Labour,"Birmingham, Ladywood",1.50
+1986-04-22-012,1986-04-22,Mr. Bowden,matched,mr-gerald-bowden,Mr Gerald Bowden,uk.org.publicwhip/person/16734,Conservative,Dulwich,1.50
+1986-04-22-022,1986-04-22,Mr. MacKay,matched,mr-andrew-mackay,Mr Andrew MacKay,uk.org.publicwhip/person/10391,Conservative,Berkshire East,1.50
+1986-04-29-002,1986-04-29,Mr. Bowden,matched,mr-gerald-bowden,Mr Gerald Bowden,uk.org.publicwhip/person/16734,Conservative,Dulwich,1.50
+1986-04-29-009,1986-04-29,Mr. MacKay,matched,mr-andrew-mackay,Mr Andrew MacKay,uk.org.publicwhip/person/10391,Conservative,Berkshire East,1.50
+1986-05-15-007,1986-05-15,Mr. James Callaghan,speech_not_found,,,,,,
+1986-05-15-014,1986-05-15,Mr. Jim Callaghan,speech_not_found,,,,,,
+1986-05-15-015,1986-05-15,Mr. Callaghan,speech_not_found,,,,,,
+1986-06-19-013,1986-06-19,Mr. Ron Brown,speech_not_found,,,,,,
+1986-07-03-013,1986-07-03,Mr. Oppenheim,matched,mr-philip-oppenheim,Mr Philip Oppenheim,uk.org.publicwhip/person/18674,Conservative,Amber Valley,1.50
+1986-07-10-022,1986-07-10,Mr. Shepherd,matched,mr-colin-shepherd,Mr Colin Shepherd,uk.org.publicwhip/person/22493,Conservative,Hereford,1.50
+1986-11-06-008,1986-11-06,Mr. James Callaghan,speech_not_found,,,,,,
+1986-11-18-019,1986-11-18,Mr. Atkins,matched,mr-robert-atkins,Mr Robert Atkins,uk.org.publicwhip/person/19736,Conservative,South Ribble,1.50
+1986-11-27-012,1986-11-27,Mr. Shepherd,matched,mr-colin-shepherd,Mr Colin Shepherd,uk.org.publicwhip/person/22493,Conservative,Hereford,1.50
+1986-11-27-017,1986-11-27,Mr. Davies,matched,mr-ron-davies,Mr Ron Davies,uk.org.publicwhip/person/10161,Labour,Caerphilly,1.50
+1986-12-16-012,1986-12-16,Mr. Knight,matched,mr-greg-knight,Mr Greg Knight,uk.org.publicwhip/person/11026,Conservative,Derby North,1.50
+1986-12-16-015,1986-12-16,Mrs. Bottomley,matched,mrs-virginia-bottomley,Mrs Virginia Bottomley,uk.org.publicwhip/person/10058,Conservative,South West Surrey,1.50
+1987-01-29-016,1987-01-29,Mr. Atkins,matched,mr-robert-atkins,Mr Robert Atkins,uk.org.publicwhip/person/19736,Conservative,South Ribble,1.50
+1987-01-29-019,1987-01-29,Mrs. Bottomley,matched,mrs-virginia-bottomley,Mrs Virginia Bottomley,uk.org.publicwhip/person/10058,Conservative,South West Surrey,1.50
+1987-02-24-019,1987-02-24,Mr. Shepherd,matched,mr-richard-shepherd,Mr Richard Shepherd,uk.org.publicwhip/person/10537,Conservative,Aldridge-Brownhills,1.50
+1987-02-26-019,1987-02-26,Mrs. Bottomley,matched,mrs-virginia-bottomley,Mrs Virginia Bottomley,uk.org.publicwhip/person/10058,Conservative,South West Surrey,1.50
+1987-03-05-010,1987-03-05,Mr. Jim Callaghan,speech_not_found,,,,,,
+1987-03-05-011,1987-03-05,Mr. Callaghan,speech_not_found,,,,,,
+1987-03-12-012,1987-03-12,Mrs. Bottomley,matched,mrs-virginia-bottomley,Mrs Virginia Bottomley,uk.org.publicwhip/person/10058,Conservative,South West Surrey,1.50
+1987-04-02-007,1987-04-02,Mr. MacKay,matched,mr-andrew-mackay,Mr Andrew MacKay,uk.org.publicwhip/person/10391,Conservative,Berkshire East,1.50
+1987-04-02-016,1987-04-02,Mr. Baker,matched,mr-nicholas-baker,Mr Nicholas Baker,uk.org.publicwhip/person/22346,Conservative,North Dorset,1.50
+1987-04-07-002,1987-04-07,Mrs. Winterton,matched,mrs-ann-winterton,Mrs Ann Winterton,uk.org.publicwhip/person/10646,Conservative,Congleton,1.50
+1987-04-23-007,1987-04-23,Mr. MacKay,matched,mr-andrew-mackay,Mr Andrew MacKay,uk.org.publicwhip/person/10391,Conservative,Berkshire East,1.50
+1987-04-28-011,1987-04-28,Mrs. Winterton,matched,mrs-ann-winterton,Mrs Ann Winterton,uk.org.publicwhip/person/10646,Conservative,Congleton,1.50
+1987-04-30-013,1987-04-30,Mr. Oppenheim,matched,mr-philip-oppenheim,Mr Philip Oppenheim,uk.org.publicwhip/person/18674,Conservative,Amber Valley,1.50
+1987-07-14-022,1987-07-14,Mr. Greenway,matched,mr-harry-greenway,Mr Harry Greenway,uk.org.publicwhip/person/22587,Conservative,Ealing North,1.50
+1987-10-27-022,1987-10-27,Mr. Bowden,matched,mr-gerald-bowden,Mr Gerald Bowden,uk.org.publicwhip/person/16734,Conservative,Dulwich,1.50
+1987-10-29-001,1987-10-29,Mr. Dalyel,speech_not_found,,,,,,
+1987-10-29-018,1987-10-29,Mr. John David Taylor,speech_not_found,,,,,,
+1987-11-10-020,1987-11-10,Mr. Coombs,matched,mr-anthony-coombs,Mr Anthony Coombs,uk.org.publicwhip/person/17035,Conservative,Wyre Forest,1.50
+1987-12-01-011,1987-12-01,Mr. Hargreaves,matched,mr-kenneth-hargreaves,Mr Kenneth Hargreaves,uk.org.publicwhip/person/17677,Conservative,Hyndburn,1.50
+1987-12-08-017,1987-12-08,Mr. King,matched,mr-roger-king,Mr Roger King,uk.org.publicwhip/person/22621,Conservative,"Birmingham, Northfield",1.50
+1987-12-15-013,1987-12-15,Mr. Nicholson,matched,mr-david-nicholson,Mr David Nicholson,uk.org.publicwhip/person/22645,Conservative,Taunton,1.50
+1988-01-14-015,1988-01-14,Mr. Greenway,matched,mr-harry-greenway,Mr Harry Greenway,uk.org.publicwhip/person/22587,Conservative,Ealing North,1.50
+1988-01-26-009,1988-01-26,Mr. Bowden,matched,mr-gerald-bowden,Mr Gerald Bowden,uk.org.publicwhip/person/16734,Conservative,Dulwich,1.50
+1988-01-28-022,1988-01-28,Mr. King,matched,mr-roger-king,Mr Roger King,uk.org.publicwhip/person/22621,Conservative,"Birmingham, Northfield",1.50
+1988-02-04-016,1988-02-04,Mr. King,matched,mr-roger-king,Mr Roger King,uk.org.publicwhip/person/22621,Conservative,"Birmingham, Northfield",1.50
+1988-03-10-018,1988-03-10,Mr. Ted Garrett,speech_not_found,,,,,,
+1988-03-10-019,1988-03-10,Mr. Garrett,speech_not_found,,,,,,
+1988-03-22-004,1988-03-22,Mr. Stewart,matched,mr-allan-stewart,Mr Allan Stewart,uk.org.publicwhip/person/22601,Conservative,East Renfrewshire,1.50
+1988-03-29-016,1988-03-29,Mr. Shaw,matched,mr-david-shaw,Mr David Shaw,uk.org.publicwhip/person/22648,Conservative,Dover,1.50
+1988-03-29-018,1988-03-29,Mr. Cook,matched,mr-frank-cook,Mr Frank Cook,uk.org.publicwhip/person/10129,Labour,Stockton North,1.50
+1988-03-31-002,1988-03-31,Mrs. Hicks,matched,mrs-maureen-hicks,Mrs Maureen Hicks,uk.org.publicwhip/person/22642,Conservative,Wolverhampton North East,1.50
+1988-04-28-014,1988-04-28,Mr. Alan W. Williams,speech_not_found,,,,,,
+1988-05-03-002,1988-05-03,Mr. Greenway,matched,mr-harry-greenway,Mr Harry Greenway,uk.org.publicwhip/person/22587,Conservative,Ealing North,1.50
+1988-05-03-014,1988-05-03,Miss Nicholson,matched,miss-emma-nicholson,Miss Emma Nicholson,uk.org.publicwhip/person/22646,Conservative,Torridge and West Devon,1.50
+1988-05-05-011,1988-05-05,Mr. Andy Stewart,speech_not_found,,,,,,
+1988-05-05-012,1988-05-05,Mr. Stewart,speech_not_found,,,,,,
+1988-05-10-021,1988-05-10,Mr. Ted Garrett,speech_not_found,,,,,,
+1988-05-10-022,1988-05-10,Mr. Garrett,speech_not_found,,,,,,
+1988-05-17-002,1988-05-17,Mr. Arnold,matched,mr-jacques-arnold,Mr Jacques Arnold,uk.org.publicwhip/person/19738,Conservative,Gravesham,1.50
+1988-05-26-018,1988-05-26,Mr. King,matched,mr-roger-king,Mr Roger King,uk.org.publicwhip/person/22621,Conservative,"Birmingham, Northfield",1.50
+1988-06-07-002,1988-06-07,Mr. Bowden,matched,mr-gerald-bowden,Mr Gerald Bowden,uk.org.publicwhip/person/16734,Conservative,Dulwich,1.50
+1988-06-09-015,1988-06-09,Mr. Alan W. Williams,speech_not_found,,,,,,
+1988-06-09-016,1988-06-09,Mr. Williams,speech_not_found,,,,,,
+1988-06-14-002,1988-06-14,Mr. Coombs,matched,mr-anthony-coombs,Mr Anthony Coombs,uk.org.publicwhip/person/17035,Conservative,Wyre Forest,1.50
+1988-06-30-022,1988-06-30,Mr. Greenway,matched,mr-harry-greenway,Mr Harry Greenway,uk.org.publicwhip/person/22587,Conservative,Ealing North,1.50
+1988-07-07-011,1988-07-07,Mrs. Gillian Shepherd,speech_not_found,,,,,,
+1988-07-21-016,1988-07-21,Miss Nicholson,matched,miss-emma-nicholson,Miss Emma Nicholson,uk.org.publicwhip/person/22646,Conservative,Torridge and West Devon,1.50
+1988-07-26-010,1988-07-26,Mr. Andy Stewart,speech_not_found,,,,,,
+1988-07-26-011,1988-07-26,Mr. Stewart,speech_not_found,,,,,,
+1988-07-26-015,1988-07-26,Mr. Hamilton,matched,mr-neil-hamilton,Mr Neil Hamilton,uk.org.publicwhip/person/16433,Conservative,Tatton,1.50
+1988-10-20-006,1988-10-20,Mr. Greenway,matched,mr-john-greenway,Mr John Greenway,uk.org.publicwhip/person/10242,Conservative,Ryedale,1.50
+1988-11-08-009,1988-11-08,Mr. Nicholson,matched,mr-david-nicholson,Mr David Nicholson,uk.org.publicwhip/person/22645,Conservative,Taunton,1.50
+1988-12-01-002,1988-12-01,Mr. Bowden,matched,mr-andrew-bowden,Mr Andrew Bowden,uk.org.publicwhip/person/16732,Conservative,"Brighton, Kemptown",1.50
+1988-12-06-019,1988-12-06,Miss Nicholson,matched,miss-emma-nicholson,Miss Emma Nicholson,uk.org.publicwhip/person/22646,Conservative,Torridge and West Devon,1.50
+1989-01-17-010,1989-01-17,Mr. Nicholson,matched,mr-david-nicholson,Mr David Nicholson,uk.org.publicwhip/person/22645,Conservative,Taunton,1.50
+1989-01-19-011,1989-01-19,Mr. Shaw,matched,mr-david-shaw,Mr David Shaw,uk.org.publicwhip/person/22648,Conservative,Dover,1.50
+1989-02-07-002,1989-02-07,Mr. Porter,matched,mr-david-porter,Mr David Porter,uk.org.publicwhip/person/22647,Conservative,Waveney,1.50
+1989-02-07-007,1989-02-07,Mr. Greenway,matched,mr-harry-greenway,Mr Harry Greenway,uk.org.publicwhip/person/22587,Conservative,Ealing North,1.50
+1989-02-16-018,1989-02-16,Mr. Greenway,matched,mr-john-greenway,Mr John Greenway,uk.org.publicwhip/person/10242,Conservative,Ryedale,1.50
+1989-02-23-011,1989-02-23,Miss Nicholson,matched,miss-emma-nicholson,Miss Emma Nicholson,uk.org.publicwhip/person/22646,Conservative,Torridge and West Devon,1.50
+1989-03-02-013,1989-03-02,Mr. Porter,matched,mr-barry-porter,Mr Barry Porter,uk.org.publicwhip/person/16399,Conservative,Wirral South,1.50
+1989-03-09-007,1989-03-09,Mr. Coombs,matched,mr-anthony-coombs,Mr Anthony Coombs,uk.org.publicwhip/person/17035,Conservative,Wyre Forest,1.50
+1989-03-14-010,1989-03-14,Mr. McNair-Wilson,matched,mr-patrick-mcnair-wilson,Mr Patrick McNair-Wilson,uk.org.publicwhip/person/18417,Conservative,New Forest,1.50
+1989-03-14-016,1989-03-14,Mr. King,matched,mr-roger-king,Mr Roger King,uk.org.publicwhip/person/22621,Conservative,"Birmingham, Northfield",1.50
+1989-03-21-007,1989-03-21,Mr. Cook,matched,mr-frank-cook,Mr Frank Cook,uk.org.publicwhip/person/10129,Labour,Stockton North,1.50
+1989-03-21-012,1989-03-21,Mr. Greenway,matched,mr-john-greenway,Mr John Greenway,uk.org.publicwhip/person/10242,Conservative,Ryedale,1.50
+1989-04-04-007,1989-04-04,Mr. Porter,matched,mr-david-porter,Mr David Porter,uk.org.publicwhip/person/22647,Conservative,Waveney,1.50
+1989-04-13-017,1989-04-13,Mr. Greenway,matched,mr-harry-greenway,Mr Harry Greenway,uk.org.publicwhip/person/22587,Conservative,Ealing North,1.50
+1989-04-20-002,1989-04-20,Mr. Bowden,matched,mr-gerald-bowden,Mr Gerald Bowden,uk.org.publicwhip/person/16734,Conservative,Dulwich,1.50
+1989-04-25-010,1989-04-25,Mr. Baker,matched,mr-nicholas-baker,Mr Nicholas Baker,uk.org.publicwhip/person/22346,Conservative,North Dorset,1.50
+1989-05-04-007,1989-05-04,Mr. Ted Garrett,speech_not_found,,,,,,
+1989-05-04-008,1989-05-04,Mr. Garrett,speech_not_found,,,,,,
+1989-05-11-014,1989-05-11,Mr. Greenway,matched,mr-john-greenway,Mr John Greenway,uk.org.publicwhip/person/10242,Conservative,Ryedale,1.50
+1989-05-16-006,1989-05-16,Mr. Arnold,matched,mr-jacques-arnold,Mr Jacques Arnold,uk.org.publicwhip/person/19738,Conservative,Gravesham,1.50
+1989-05-18-018,1989-05-18,Miss Nicholson,matched,miss-emma-nicholson,Miss Emma Nicholson,uk.org.publicwhip/person/22646,Conservative,Torridge and West Devon,1.50
+1989-06-08-014,1989-06-08,Mr. King,matched,mr-roger-king,Mr Roger King,uk.org.publicwhip/person/22621,Conservative,"Birmingham, Northfield",1.50
+1989-06-08-023,1989-06-08,Mr. Hargreaves,matched,mr-kenneth-hargreaves,Mr Kenneth Hargreaves,uk.org.publicwhip/person/17677,Conservative,Hyndburn,1.50
+1989-06-13-002,1989-06-13,Mr. Porter,matched,mr-barry-porter,Mr Barry Porter,uk.org.publicwhip/person/16399,Conservative,Wirral South,1.50
+1989-06-15-012,1989-06-15,Mr. McNair-Wilson,matched,mr-patrick-mcnair-wilson,Mr Patrick McNair-Wilson,uk.org.publicwhip/person/18417,Conservative,New Forest,1.50
+1989-06-22-009,1989-06-22,Mr. Coombs,matched,mr-anthony-coombs,Mr Anthony Coombs,uk.org.publicwhip/person/17035,Conservative,Wyre Forest,1.50
+1989-06-22-014,1989-06-22,Mr. Knight,matched,mr-greg-knight,Mr Greg Knight,uk.org.publicwhip/person/11026,Conservative,Derby North,1.50
+1989-06-29-012,1989-06-29,Miss Nicholson,speech_not_found,,,,,,
+1989-06-29-013,1989-06-29,Miss Nicholson,speech_not_found,,,,,,
+1989-07-20-015,1989-07-20,Mr. Hamilton,matched,mr-neil-hamilton,Mr Neil Hamilton,uk.org.publicwhip/person/16433,Conservative,Tatton,1.50
+1989-07-27-002,1989-07-27,Miss Nicholson,matched,miss-emma-nicholson,Miss Emma Nicholson,uk.org.publicwhip/person/22646,Conservative,Torridge and West Devon,1.50
+1989-10-31-015,1989-10-31,Mr. King,matched,mr-roger-king,Mr Roger King,uk.org.publicwhip/person/22621,Conservative,"Birmingham, Northfield",1.50
+1989-11-02-011,1989-11-02,Mr. Arnold,matched,mr-jacques-arnold,Mr Jacques Arnold,uk.org.publicwhip/person/19738,Conservative,Gravesham,1.50
+1989-11-07-016,1989-11-07,Mr. Porter,matched,mr-david-porter,Mr David Porter,uk.org.publicwhip/person/22647,Conservative,Waveney,1.50
+1989-11-14-002,1989-11-14,Mr. Cook,matched,mr-frank-cook,Mr Frank Cook,uk.org.publicwhip/person/10129,Labour,Stockton North,1.50
+1989-11-30-011,1989-11-30,Mr. Shepherd,matched,mr-colin-shepherd,Mr Colin Shepherd,uk.org.publicwhip/person/22493,Conservative,Hereford,1.50
+1989-12-05-012,1989-12-05,Mr. Bowden,matched,mr-gerald-bowden,Mr Gerald Bowden,uk.org.publicwhip/person/16734,Conservative,Dulwich,1.50
+1989-12-19-010,1989-12-19,Mr. Andy Stewart,speech_not_found,,,,,,
+1990-01-11-016,1990-01-11,Mr. Porter,matched,mr-david-porter,Mr David Porter,uk.org.publicwhip/person/22647,Conservative,Waveney,1.50
+1990-01-16-005,1990-01-16,Mr. Greenway,matched,mr-john-greenway,Mr John Greenway,uk.org.publicwhip/person/10242,Conservative,Ryedale,1.50
+1990-01-18-014,1990-01-18,Mr. Shaw,matched,mr-david-shaw,Mr David Shaw,uk.org.publicwhip/person/22648,Conservative,Dover,1.50
+1990-01-25-017,1990-01-25,Mr. Coombs,matched,mr-anthony-coombs,Mr Anthony Coombs,uk.org.publicwhip/person/17035,Conservative,Wyre Forest,1.50
+1990-02-15-020,1990-02-15,Mr. Alan W. Williams,speech_not_found,,,,,,
+1990-02-15-021,1990-02-15,Mr. Williams,speech_not_found,,,,,,
+1990-02-22-009,1990-02-22,Mr. Hamilton,matched,mr-neil-hamilton,Mr Neil Hamilton,uk.org.publicwhip/person/16433,Conservative,Tatton,1.50
+1990-02-22-015,1990-02-22,Mr. Shepherd,matched,mr-colin-shepherd,Mr Colin Shepherd,uk.org.publicwhip/person/22493,Conservative,Hereford,1.50
+1990-03-01-016,1990-03-01,Mr. King,matched,mr-roger-king,Mr Roger King,uk.org.publicwhip/person/22621,Conservative,"Birmingham, Northfield",1.50
+1990-03-22-007,1990-03-22,Mrs. Hicks,matched,mrs-maureen-hicks,Mrs Maureen Hicks,uk.org.publicwhip/person/22642,Conservative,Wolverhampton North East,1.50
+1990-03-22-010,1990-03-22,Mr. Coombs,matched,mr-anthony-coombs,Mr Anthony Coombs,uk.org.publicwhip/person/17035,Conservative,Wyre Forest,1.50
+1990-03-29-015,1990-03-29,Mrs. Hicks,matched,mrs-maureen-hicks,Mrs Maureen Hicks,uk.org.publicwhip/person/22642,Conservative,Wolverhampton North East,1.50
+1990-05-03-015,1990-05-03,Mr. Shaw,matched,mr-david-shaw,Mr David Shaw,uk.org.publicwhip/person/22648,Conservative,Dover,1.50
+1990-05-22-002,1990-05-22,Mr. Nicholson,matched,mr-david-nicholson,Mr David Nicholson,uk.org.publicwhip/person/22645,Conservative,Taunton,1.50
+1990-06-05-017,1990-06-05,Mr. John P. Smith,speech_not_found,,,,,,
+1990-07-17-014,1990-07-17,Mr. Ted Garrett,speech_not_found,,,,,,
+1990-07-17-015,1990-07-17,Mr. Garrett,speech_not_found,,,,,,
+1990-07-19-002,1990-07-19,Mr. Greenway,matched,mr-john-greenway,Mr John Greenway,uk.org.publicwhip/person/10242,Conservative,Ryedale,1.50
+1990-07-24-002,1990-07-24,Mr. Garrett,matched,mr-john-garrett,Mr John Garrett,uk.org.publicwhip/person/17491,Labour,Norwich South,1.50
+1990-07-24-013,1990-07-24,Mr. Alan W. Williams,speech_not_found,,,,,,
+1990-07-24-014,1990-07-24,Mr. Williams,speech_not_found,,,,,,
+1990-10-25-005,1990-10-25,Mr. John P. Smith,speech_not_found,,,,,,
+1990-10-25-011,1990-10-25,Mrs. Hicks,matched,mrs-maureen-hicks,Mrs Maureen Hicks,uk.org.publicwhip/person/22642,Conservative,Wolverhampton North East,1.50
+1990-11-29-003,1990-11-29,Mr. King,matched,mr-roger-king,Mr Roger King,uk.org.publicwhip/person/22621,Conservative,"Birmingham, Northfield",1.50
+1990-11-29-013,1990-11-29,Mr. Coombs,matched,mr-anthony-coombs,Mr Anthony Coombs,uk.org.publicwhip/person/17035,Conservative,Wyre Forest,1.50
+1990-11-29-019,1990-11-29,Mrs. Hicks,matched,mrs-maureen-hicks,Mrs Maureen Hicks,uk.org.publicwhip/person/22642,Conservative,Wolverhampton North East,1.50
+1990-12-18-003,1990-12-18,Mr. King,matched,mr-roger-king,Mr Roger King,uk.org.publicwhip/person/22621,Conservative,"Birmingham, Northfield",1.50
+1990-12-18-019,1990-12-18,Mr. Andy Stewart,speech_not_found,,,,,,
+1990-12-18-020,1990-12-18,Mr. Stewart,speech_not_found,,,,,,
+1991-01-15-002,1991-01-15,Mr. Arnold,matched,mr-jacques-arnold,Mr Jacques Arnold,uk.org.publicwhip/person/19738,Conservative,Gravesham,1.50
+1991-02-05-023,1991-02-05,Mr. Alan Williams,speech_not_found,,,,,,
+1991-02-19-002,1991-02-19,Mr. Carlisle,matched,mr-john-carlisle,Mr John Carlisle,uk.org.publicwhip/person/16897,Conservative,Luton North,1.50
+1991-02-19-016,1991-02-19,Mr. Greenway,matched,mr-harry-greenway,Mr Harry Greenway,uk.org.publicwhip/person/22587,Conservative,Ealing North,1.50
+1991-02-28-002,1991-02-28,Mr. Hicks,matched,mr-robert-hicks,Mr Robert Hicks,uk.org.publicwhip/person/22118,Conservative,South East Cornwall,1.50
+1991-02-28-014,1991-02-28,Mr. Shaw,matched,mr-david-shaw,Mr David Shaw,uk.org.publicwhip/person/22648,Conservative,Dover,1.50
+1991-03-14-001,1991-03-14,Mr. Alan W. Williams,speech_not_found,,,,,,
+1991-03-14-002,1991-03-14,Mr. Williams,speech_not_found,,,,,,
+1991-03-19-011,1991-03-19,Mr. Nicholson,matched,mr-david-nicholson,Mr David Nicholson,uk.org.publicwhip/person/22645,Conservative,Taunton,1.50
+1991-03-21-016,1991-03-21,Mr. Alan W. Williams,speech_not_found,,,,,,
+1991-03-21-017,1991-03-21,Mr. Williams,speech_not_found,,,,,,
+1991-04-30-011,1991-04-30,Mr. Greenway,matched,mr-harry-greenway,Mr Harry Greenway,uk.org.publicwhip/person/22587,Conservative,Ealing North,1.50
+1991-05-07-019,1991-05-07,Mr. Arnold,matched,mr-jacques-arnold,Mr Jacques Arnold,uk.org.publicwhip/person/19738,Conservative,Gravesham,1.50
+1991-05-14-014,1991-05-14,Mr. King,matched,mr-roger-king,Mr Roger King,uk.org.publicwhip/person/22621,Conservative,"Birmingham, Northfield",1.50
+1991-05-21-015,1991-05-21,Mr. Arnold,matched,mr-jacques-arnold,Mr Jacques Arnold,uk.org.publicwhip/person/19738,Conservative,Gravesham,1.50
+1991-06-04-002,1991-06-04,Mr. Coombs,matched,mr-anthony-coombs,Mr Anthony Coombs,uk.org.publicwhip/person/17035,Conservative,Wyre Forest,1.50
+1991-06-06-012,1991-06-06,Mr. Nicholson,matched,mr-david-nicholson,Mr David Nicholson,uk.org.publicwhip/person/22645,Conservative,Taunton,1.50
+1991-06-11-002,1991-06-11,Mr. Greenway,matched,mr-john-greenway,Mr John Greenway,uk.org.publicwhip/person/10242,Conservative,Ryedale,1.50
+1991-06-13-007,1991-06-13,Mrs. Hicks,matched,mrs-maureen-hicks,Mrs Maureen Hicks,uk.org.publicwhip/person/22642,Conservative,Wolverhampton North East,1.50
+1991-06-13-018,1991-06-13,Mr. Andy Stewart,speech_not_found,,,,,,
+1991-06-20-007,1991-06-20,Mr. King,matched,mr-roger-king,Mr Roger King,uk.org.publicwhip/person/22621,Conservative,"Birmingham, Northfield",1.50
+1991-06-20-020,1991-06-20,Mr. Coombs,matched,mr-anthony-coombs,Mr Anthony Coombs,uk.org.publicwhip/person/17035,Conservative,Wyre Forest,1.50
+1991-06-25-015,1991-06-25,Mrs. Hicks,matched,mrs-maureen-hicks,Mrs Maureen Hicks,uk.org.publicwhip/person/22642,Conservative,Wolverhampton North East,1.50
+1991-06-27-018,1991-06-27,Mr. Coombs,matched,mr-anthony-coombs,Mr Anthony Coombs,uk.org.publicwhip/person/17035,Conservative,Wyre Forest,1.50
+1991-06-27-021,1991-06-27,Mr. Bottomley,matched,mr-peter-bottomley,Mr Peter Bottomley,uk.org.publicwhip/person/10057,Conservative,Eltham,1.50
+1991-07-04-019,1991-07-04,Mr. Nicholson,matched,mr-david-nicholson,Mr David Nicholson,uk.org.publicwhip/person/22645,Conservative,Taunton,1.50
+1991-07-09-018,1991-07-09,Mr. John P. Smith,speech_not_found,,,,,,
+1991-07-11-016,1991-07-11,Mrs. Hicks,matched,mrs-maureen-hicks,Mrs Maureen Hicks,uk.org.publicwhip/person/22642,Conservative,Wolverhampton North East,1.50
+1991-11-19-005,1991-11-19,Mr. Shepherd,matched,mr-colin-shepherd,Mr Colin Shepherd,uk.org.publicwhip/person/22493,Conservative,Hereford,1.50
+1991-11-19-017,1991-11-19,Mr. Arnold,matched,mr-jacques-arnold,Mr Jacques Arnold,uk.org.publicwhip/person/19738,Conservative,Gravesham,1.50
+1991-12-17-002,1991-12-17,Mr. Garrett,matched,mr-john-garrett,Mr John Garrett,uk.org.publicwhip/person/17491,Labour,Norwich South,1.50
+1992-01-23-008,1992-01-23,Mr. Coombs,matched,mr-simon-coombs,Mr Simon Coombs,uk.org.publicwhip/person/17034,Conservative,Swindon,1.50
+1992-02-11-004,1992-02-11,Mr. Andy Stewart,speech_not_found,,,,,,
+1992-02-11-005,1992-02-11,Mr. Stewart,speech_not_found,,,,,,
+1992-02-18-015,1992-02-18,Mr. Garrett,matched,mr-john-garrett,Mr John Garrett,uk.org.publicwhip/person/17491,Labour,Norwich South,1.50
+1992-02-25-014,1992-02-25,Mr. Alan W. Williams,speech_not_found,,,,,,
+1992-02-25-015,1992-02-25,Mr. Williams,speech_not_found,,,,,,
+1992-02-27-015,1992-02-27,Mr. Ted Garrett,speech_not_found,,,,,,
+1992-02-27-016,1992-02-27,Mr. Garrett,speech_not_found,,,,,,
+1992-03-03-017,1992-03-03,Mr. Bottomley,matched,mr-peter-bottomley,Mr Peter Bottomley,uk.org.publicwhip/person/10057,Conservative,Eltham,1.50
+1992-03-05-013,1992-03-05,Mr. John P. Smith,speech_not_found,,,,,,
+1992-03-12-004,1992-03-12,Mr. Coombs,matched,mr-simon-coombs,Mr Simon Coombs,uk.org.publicwhip/person/17034,Conservative,Swindon,1.50
+1992-03-12-017,1992-03-12,Mr. Shaw,matched,mr-david-shaw,Mr David Shaw,uk.org.publicwhip/person/22648,Conservative,Dover,1.50
+1992-05-21-017,1992-05-21,Mr. Coombs,matched,mr-simon-coombs,Mr Simon Coombs,uk.org.publicwhip/person/17034,Conservative,Swindon,1.50
+1992-06-02-012,1992-06-02,Mr. Arnold,matched,mr-jacques-arnold,Mr Jacques Arnold,uk.org.publicwhip/person/19738,Conservative,Gravesham,1.50
+1992-06-04-010,1992-06-04,Mr. Coombs,matched,mr-simon-coombs,Mr Simon Coombs,uk.org.publicwhip/person/17034,Conservative,Swindon,1.50
+1992-06-04-022,1992-06-04,Mr. Alan W. Williams,speech_not_found,,,,,,
+1992-06-04-023,1992-06-04,Mr. Williams,speech_not_found,,,,,,
+1992-06-16-020,1992-06-16,Mr. Shaw,matched,mr-david-shaw,Mr David Shaw,uk.org.publicwhip/person/22648,Conservative,Dover,1.50
+1992-07-02-002,1992-07-02,Mr. Atkinson,matched,mr-david-atkinson,Mr David Atkinson,uk.org.publicwhip/person/10019,Conservative,Bournemouth East,1.50
+1992-10-20-002,1992-10-20,Mr. Arnold,matched,mr-jacques-arnold,Mr Jacques Arnold,uk.org.publicwhip/person/19738,Conservative,Gravesham,1.50
+1992-10-27-015,1992-10-27,Mrs. Knight,matched,mrs-angela-knight,Mrs Angela Knight,uk.org.publicwhip/person/22652,Conservative,Erewash,1.50
+1992-10-29-001,1992-10-29,Ql. Mr. William O'Brien,speech_not_found,,,,,,
+1992-10-29-002,1992-10-29,Mr. O'Brien,speech_not_found,,,,,,
+1992-10-29-011,1992-10-29,Mr. Atkinson,matched,mr-david-atkinson,Mr David Atkinson,uk.org.publicwhip/person/10019,Conservative,Bournemouth East,1.50
+1992-11-17-022,1992-11-17,Mr. Greenway,matched,mr-harry-greenway,Mr Harry Greenway,uk.org.publicwhip/person/22587,Conservative,Ealing North,1.50
+1992-12-15-002,1992-12-15,Mrs. Knight,matched,mrs-angela-knight,Mrs Angela Knight,uk.org.publicwhip/person/22652,Conservative,Erewash,1.50
+1992-12-15-006,1992-12-15,Mr. Coombs,matched,mr-anthony-coombs,Mr Anthony Coombs,uk.org.publicwhip/person/17035,Conservative,Wyre Forest,1.50
+1993-01-19-013,1993-01-19,Mr. Greenway,matched,mr-harry-greenway,Mr Harry Greenway,uk.org.publicwhip/person/22587,Conservative,Ealing North,1.50
+1993-02-02-004,1993-02-02,Dr. Fox,matched,dr-liam-fox,Dr Liam Fox,uk.org.publicwhip/person/10213,Conservative,Woodspring,1.50
+1993-02-04-002,1993-02-04,Dr. Fox,matched,dr-liam-fox,Dr Liam Fox,uk.org.publicwhip/person/10213,Conservative,Woodspring,1.50
+1993-02-09-010,1993-02-09,Mr. Arnold,matched,mr-jacques-arnold,Mr Jacques Arnold,uk.org.publicwhip/person/19738,Conservative,Gravesham,1.50
+1993-02-09-014,1993-02-09,Mr. Greenway,matched,mr-harry-greenway,Mr Harry Greenway,uk.org.publicwhip/person/22587,Conservative,Ealing North,1.50
+1993-03-02-021,1993-03-02,Mr. Shepherd,speech_not_found,,,,,,
+1993-03-09-019,1993-03-09,Mr. Arnold,matched,mr-jacques-arnold,Mr Jacques Arnold,uk.org.publicwhip/person/19738,Conservative,Gravesham,1.50
+1993-03-11-019,1993-03-11,Mr. Atkinson,matched,mr-david-atkinson,Mr David Atkinson,uk.org.publicwhip/person/10019,Conservative,Bournemouth East,1.50
+1993-03-18-002,1993-03-18,Mr. Coombs,matched,mr-anthony-coombs,Mr Anthony Coombs,uk.org.publicwhip/person/17035,Conservative,Wyre Forest,1.50
+1993-03-18-009,1993-03-18,Mr. Prentice,matched,mr-gordon-prentice,Mr Gordon Prentice,uk.org.publicwhip/person/10487,Labour,Pendle,1.50
+1993-03-18-021,1993-03-18,Mrs. Winterton,matched,mrs-ann-winterton,Mrs Ann Winterton,uk.org.publicwhip/person/10646,Conservative,Congleton,1.50
+1993-03-23-013,1993-03-23,Mr. Bottomley,matched,mr-peter-bottomley,Mr Peter Bottomley,uk.org.publicwhip/person/10057,Conservative,Eltham,1.50
+1993-04-15-004,1993-04-15,Mr. Arnold,matched,mr-jacques-arnold,Mr Jacques Arnold,uk.org.publicwhip/person/19738,Conservative,Gravesham,1.50
+1993-04-20-012,1993-04-20,Mr. Greenway,matched,mr-harry-greenway,Mr Harry Greenway,uk.org.publicwhip/person/22587,Conservative,Ealing North,1.50
+1993-04-29-015,1993-04-29,Mrs. Winterton,matched,mrs-ann-winterton,Mrs Ann Winterton,uk.org.publicwhip/person/10646,Conservative,Congleton,1.50
+1993-05-04-012,1993-05-04,Mr. O'Brien,matched,mr-mike-obrien,Mr Mike O'Brien,uk.org.publicwhip/person/10461,Labour,North Warwickshire,1.50
+1993-05-18-010,1993-05-18,Mr. William O'Brien,speech_not_found,,,,,,
+1993-05-18-011,1993-05-18,Mr. O'Brien,speech_not_found,,,,,,
+1993-05-20-016,1993-05-20,Mr. Greenway,matched,mr-harry-greenway,Mr Harry Greenway,uk.org.publicwhip/person/22587,Conservative,Ealing North,1.50
+1993-05-20-019,1993-05-20,Mr. Winterton,matched,mr-nicholas-winterton,Mr Nicholas Winterton,uk.org.publicwhip/person/10647,Conservative,Macclesfield,1.50
+1993-07-13-008,1993-07-13,Mr. Greenway,matched,mr-harry-greenway,Mr Harry Greenway,uk.org.publicwhip/person/22587,Conservative,Ealing North,1.50
+1993-07-15-016,1993-07-15,Mr. Winterton,matched,mr-nicholas-winterton,Mr Nicholas Winterton,uk.org.publicwhip/person/10647,Conservative,Macclesfield,1.50
+1993-07-20-002,1993-07-20,Mr. Coombs,matched,mr-simon-coombs,Mr Simon Coombs,uk.org.publicwhip/person/17034,Conservative,Swindon,1.50
+1993-07-22-004,1993-07-22,Mr. Atkinson,matched,mr-david-atkinson,Mr David Atkinson,uk.org.publicwhip/person/10019,Conservative,Bournemouth East,1.50
+1993-07-22-019,1993-07-22,Mr. Coombs,matched,mr-simon-coombs,Mr Simon Coombs,uk.org.publicwhip/person/17034,Conservative,Swindon,1.50
+1993-10-28-010,1993-10-28,Mr. Atkinson,matched,mr-david-atkinson,Mr David Atkinson,uk.org.publicwhip/person/10019,Conservative,Bournemouth East,1.50
+1993-11-04-015,1993-11-04,Mr. Greenway,matched,mr-john-greenway,Mr John Greenway,uk.org.publicwhip/person/10242,Conservative,Ryedale,1.50
+1993-11-04-019,1993-11-04,Mr. Greenway,matched,mr-harry-greenway,Mr Harry Greenway,uk.org.publicwhip/person/22587,Conservative,Ealing North,1.50
+1993-11-23-019,1993-11-23,Mr. Prentice,matched,mr-gordon-prentice,Mr Gordon Prentice,uk.org.publicwhip/person/10487,Labour,Pendle,1.50
+1993-11-30-014,1993-11-30,Mr. Coombs,matched,mr-anthony-coombs,Mr Anthony Coombs,uk.org.publicwhip/person/17035,Conservative,Wyre Forest,1.50
+1993-12-02-013,1993-12-02,Mr. Prentice,matched,mr-gordon-prentice,Mr Gordon Prentice,uk.org.publicwhip/person/10487,Labour,Pendle,1.50
+1993-12-07-014,1993-12-07,Mr. Greenway,matched,mr-harry-greenway,Mr Harry Greenway,uk.org.publicwhip/person/22587,Conservative,Ealing North,1.50
+1993-12-14-016,1993-12-14,Mr. Cunningham,matched,mr-jim-cunningham,Mr Jim Cunningham,uk.org.publicwhip/person/10147,Labour,Coventry South East,1.50
+1993-12-16-011,1993-12-16,Mrs. Prentice,matched,ms-bridget-prentice,Ms Bridget Prentice,uk.org.publicwhip/person/10486,Labour,Lewisham East,1.50
+1994-01-18-009,1994-01-18,Mrs. Winterton,matched,mrs-ann-winterton,Mrs Ann Winterton,uk.org.publicwhip/person/10646,Conservative,Congleton,1.50
+1994-01-20-010,1994-01-20,Mr. O'Brien,matched,mr-mike-obrien,Mr Mike O'Brien,uk.org.publicwhip/person/10461,Labour,North Warwickshire,1.50
+1994-02-03-010,1994-02-03,Mr. Greenway,matched,mr-john-greenway,Mr John Greenway,uk.org.publicwhip/person/10242,Conservative,Ryedale,1.50
+1994-02-22-018,1994-02-22,Mr. Coombs,matched,mr-simon-coombs,Mr Simon Coombs,uk.org.publicwhip/person/17034,Conservative,Swindon,1.50
+1994-02-24-015,1994-02-24,Mr. William O'Brien,speech_not_found,,,,,,
+1994-02-24-016,1994-02-24,Mr. O'Brien,speech_not_found,,,,,,
+1994-03-03-017,1994-03-03,Mr. Coombs,matched,mr-anthony-coombs,Mr Anthony Coombs,uk.org.publicwhip/person/17035,Conservative,Wyre Forest,1.50
+1994-03-15-011,1994-03-15,Dr. Fox,matched,dr-liam-fox,Dr Liam Fox,uk.org.publicwhip/person/10213,Conservative,Woodspring,1.50
+1994-03-17-002,1994-03-17,Mrs. Prentice,matched,ms-bridget-prentice,Ms Bridget Prentice,uk.org.publicwhip/person/10486,Labour,Lewisham East,1.50
+1994-04-26-016,1994-04-26,Mr. Alan W. Williams,speech_not_found,,,,,,
+1994-04-26-017,1994-04-26,Mr. Williams,speech_not_found,,,,,,
+1994-04-28-011,1994-04-28,Mr. Cunningham,matched,mr-jim-cunningham,Mr Jim Cunningham,uk.org.publicwhip/person/10147,Labour,Coventry South East,1.50
+1994-05-05-023,1994-05-05,Mrs. Prentice,matched,ms-bridget-prentice,Ms Bridget Prentice,uk.org.publicwhip/person/10486,Labour,Lewisham East,1.50
+1994-05-10-002,1994-05-10,Mr. Shepherd,matched,mr-colin-shepherd,Mr Colin Shepherd,uk.org.publicwhip/person/22493,Conservative,Hereford,1.50
+1994-05-24-015,1994-05-24,Mrs. Prentice,matched,ms-bridget-prentice,Ms Bridget Prentice,uk.org.publicwhip/person/10486,Labour,Lewisham East,1.50
+1994-06-30-019,1994-06-30,Mr. Arnold,matched,mr-jacques-arnold,Mr Jacques Arnold,uk.org.publicwhip/person/19738,Conservative,Gravesham,1.50
+1994-07-12-014,1994-07-12,Mr. Atkinson,matched,mr-david-atkinson,Mr David Atkinson,uk.org.publicwhip/person/10019,Conservative,Bournemouth East,1.50
+1994-07-19-019,1994-07-19,Dr. Fox,matched,dr-liam-fox,Dr Liam Fox,uk.org.publicwhip/person/10213,Conservative,Woodspring,1.50
+1994-10-27-002,1994-10-27,Mr. Cunningham,matched,mr-jim-cunningham,Mr Jim Cunningham,uk.org.publicwhip/person/10147,Labour,Coventry South East,1.50
+1994-11-01-020,1994-11-01,Mr. Cunningham,matched,mr-jim-cunningham,Mr Jim Cunningham,uk.org.publicwhip/person/10147,Labour,Coventry South East,1.50
+1994-11-01-022,1994-11-01,Mrs. Knight,matched,mrs-angela-knight,Mrs Angela Knight,uk.org.publicwhip/person/22652,Conservative,Erewash,1.50
+1994-11-22-016,1994-11-22,Mr. Winterton,matched,mr-nicholas-winterton,Mr Nicholas Winterton,uk.org.publicwhip/person/10647,Conservative,Macclesfield,1.50
+1994-11-29-023,1994-11-29,Ms Anderson,matched,mrs-janet-anderson,Mrs Janet Anderson,uk.org.publicwhip/person/10012,Labour,Rossendale and Darwen,1.50
+1994-12-01-002,1994-12-01,Mr. Coombs,matched,mr-simon-coombs,Mr Simon Coombs,uk.org.publicwhip/person/17034,Conservative,Swindon,1.50
+1994-12-01-015,1994-12-01,Mr. Arnold,matched,mr-jacques-arnold,Mr Jacques Arnold,uk.org.publicwhip/person/19738,Conservative,Gravesham,1.50
+1994-12-08-010,1994-12-08,Mr. Prentice,matched,mr-gordon-prentice,Mr Gordon Prentice,uk.org.publicwhip/person/10487,Labour,Pendle,1.50
+1995-01-10-015,1995-01-10,Mr. Shepherd,matched,mr-colin-shepherd,Mr Colin Shepherd,uk.org.publicwhip/person/22493,Conservative,Hereford,1.50
+1995-01-10-016,1995-01-10,Mr. William O'Brien,speech_not_found,,,,,,
+1995-01-10-017,1995-01-10,Mr. O'Brien,speech_not_found,,,,,,
+1995-01-12-002,1995-01-12,Mr. Shepherd,matched,mr-colin-shepherd,Mr Colin Shepherd,uk.org.publicwhip/person/22493,Conservative,Hereford,1.50
+1995-01-19-006,1995-01-19,Mr. Shaw,matched,mr-david-shaw,Mr David Shaw,uk.org.publicwhip/person/22648,Conservative,Dover,1.50
+1995-02-07-012,1995-02-07,Mr. Prentice,matched,mr-gordon-prentice,Mr Gordon Prentice,uk.org.publicwhip/person/10487,Labour,Pendle,1.50
+1995-02-09-014,1995-02-09,Mr. Winterton,matched,mr-nicholas-winterton,Mr Nicholas Winterton,uk.org.publicwhip/person/10647,Conservative,Macclesfield,1.50
+1995-02-14-014,1995-02-14,Mr. Cunningham,matched,mr-jim-cunningham,Mr Jim Cunningham,uk.org.publicwhip/person/10147,Labour,Coventry South East,1.50
+1995-02-14-016,1995-02-14,Mr. Arnold,matched,mr-jacques-arnold,Mr Jacques Arnold,uk.org.publicwhip/person/19738,Conservative,Gravesham,1.50
+1995-02-21-012,1995-02-21,Mr. Greenway,matched,mr-john-greenway,Mr John Greenway,uk.org.publicwhip/person/10242,Conservative,Ryedale,1.50
+1995-02-28-017,1995-02-28,Mr. Shaw,matched,mr-david-shaw,Mr David Shaw,uk.org.publicwhip/person/22648,Conservative,Dover,1.50
+1995-03-16-002,1995-03-16,Mr. Shaw,matched,mr-david-shaw,Mr David Shaw,uk.org.publicwhip/person/22648,Conservative,Dover,1.50
+1995-03-16-007,1995-03-16,Mr. Greenway,matched,mr-harry-greenway,Mr Harry Greenway,uk.org.publicwhip/person/22587,Conservative,Ealing North,1.50
+1995-03-21-017,1995-03-21,Mrs. Prentice,matched,ms-bridget-prentice,Ms Bridget Prentice,uk.org.publicwhip/person/10486,Labour,Lewisham East,1.50
+1995-04-18-015,1995-04-18,Mr. Winterton,matched,mr-nicholas-winterton,Mr Nicholas Winterton,uk.org.publicwhip/person/10647,Conservative,Macclesfield,1.50
+1995-04-27-002,1995-04-27,Mr. Greenway,matched,mr-john-greenway,Mr John Greenway,uk.org.publicwhip/person/10242,Conservative,Ryedale,1.50
+1995-05-11-002,1995-05-11,Mr. Prentice,matched,mr-gordon-prentice,Mr Gordon Prentice,uk.org.publicwhip/person/10487,Labour,Pendle,1.50
+1995-05-18-010,1995-05-18,Mr. Greenway,matched,mr-harry-greenway,Mr Harry Greenway,uk.org.publicwhip/person/22587,Conservative,Ealing North,1.50
+1995-06-06-012,1995-06-06,Mr. Prentice,matched,mr-gordon-prentice,Mr Gordon Prentice,uk.org.publicwhip/person/10487,Labour,Pendle,1.50
+1995-06-06-013,1995-06-06,Mr. Prentice,matched,mr-gordon-prentice,Mr Gordon Prentice,uk.org.publicwhip/person/10487,Labour,Pendle,1.50
+1995-06-08-017,1995-06-08,Mr. O'Brien,matched,mr-mike-obrien,Mr Mike O'Brien,uk.org.publicwhip/person/10461,Labour,North Warwickshire,1.50
+1995-06-13-018,1995-06-13,Mr. Bottomley,matched,mr-peter-bottomley,Mr Peter Bottomley,uk.org.publicwhip/person/10057,Conservative,Eltham,1.50
+1995-06-22-002,1995-06-22,Ms Anderson,matched,mrs-janet-anderson,Mrs Janet Anderson,uk.org.publicwhip/person/10012,Labour,Rossendale and Darwen,1.50
+1995-10-17-002,1995-10-17,Mr. Coombs,matched,mr-anthony-coombs,Mr Anthony Coombs,uk.org.publicwhip/person/17035,Conservative,Wyre Forest,1.50
+1995-11-02-011,1995-11-02,Mr. William O'Brien,speech_not_found,,,,,,
+1995-11-02-012,1995-11-02,Mr. O'Brien,speech_not_found,,,,,,
+1995-11-23-012,1995-11-23,Mr. Alan W. Williams,speech_not_found,,,,,,
+1995-11-23-013,1995-11-23,Mr. Williams,speech_not_found,,,,,,
+1995-11-28-015,1995-11-28,Mr. Coombs,matched,mr-simon-coombs,Mr Simon Coombs,uk.org.publicwhip/person/17034,Conservative,Swindon,1.50
+1995-12-19-004,1995-12-19,Mr. Shaw,matched,mr-david-shaw,Mr David Shaw,uk.org.publicwhip/person/22648,Conservative,Dover,1.50
+1996-02-15-019,1996-02-15,Mr. Winterton,matched,mr-nicholas-winterton,Mr Nicholas Winterton,uk.org.publicwhip/person/10647,Conservative,Macclesfield,1.50
+1996-02-15-021,1996-02-15,Mr. Prentice,matched,mr-gordon-prentice,Mr Gordon Prentice,uk.org.publicwhip/person/10487,Labour,Pendle,1.50
+1996-02-20-011,1996-02-20,Mr. Alan W. Williams,speech_not_found,,,,,,
+1996-02-20-012,1996-02-20,Mr. Williams,speech_not_found,,,,,,
+1996-02-22-012,1996-02-22,Mr. O'Brien,matched,mr-mike-obrien,Mr Mike O'Brien,uk.org.publicwhip/person/10461,Labour,North Warwickshire,1.50
+1996-03-28-011,1996-03-28,Mr. Coombs,matched,mr-simon-coombs,Mr Simon Coombs,uk.org.publicwhip/person/17034,Conservative,Swindon,1.50
+1996-04-23-007,1996-04-23,Mr. Arnold,matched,mr-jacques-arnold,Mr Jacques Arnold,uk.org.publicwhip/person/19738,Conservative,Gravesham,1.50
+1996-04-30-015,1996-04-30,Mr. O'Brien,matched,mr-mike-obrien,Mr Mike O'Brien,uk.org.publicwhip/person/10461,Labour,North Warwickshire,1.50
+1996-04-30-021,1996-04-30,Mr. Prentice,matched,mr-gordon-prentice,Mr Gordon Prentice,uk.org.publicwhip/person/10487,Labour,Pendle,1.50
+1996-05-02-002,1996-05-02,Mr. Arnold,matched,mr-jacques-arnold,Mr Jacques Arnold,uk.org.publicwhip/person/19738,Conservative,Gravesham,1.50
+1996-05-02-007,1996-05-02,Mrs. Prentice,matched,ms-bridget-prentice,Ms Bridget Prentice,uk.org.publicwhip/person/10486,Labour,Lewisham East,1.50
+1996-05-07-010,1996-05-07,Mr. Greenway,matched,mr-harry-greenway,Mr Harry Greenway,uk.org.publicwhip/person/22587,Conservative,Ealing North,1.50
+1996-05-14-002,1996-05-14,Mr. Greenway,matched,mr-harry-greenway,Mr Harry Greenway,uk.org.publicwhip/person/22587,Conservative,Ealing North,1.50
+1996-05-21-011,1996-05-21,Mrs. Prentice,matched,ms-bridget-prentice,Ms Bridget Prentice,uk.org.publicwhip/person/10486,Labour,Lewisham East,1.50
+1996-06-04-002,1996-06-04,Mr. Prentice,matched,mr-gordon-prentice,Mr Gordon Prentice,uk.org.publicwhip/person/10487,Labour,Pendle,1.50
+1996-06-13-002,1996-06-13,Mr. Arnold,matched,mr-jacques-arnold,Mr Jacques Arnold,uk.org.publicwhip/person/19738,Conservative,Gravesham,1.50
+1996-07-02-018,1996-07-02,Mr. Coombs,matched,mr-simon-coombs,Mr Simon Coombs,uk.org.publicwhip/person/17034,Conservative,Swindon,1.50
+1996-07-09-002,1996-07-09,Mr. Anderson,matched,mr-donald-anderson,Mr Donald Anderson,uk.org.publicwhip/person/10011,Labour,Swansea East,1.50
+1996-07-23-015,1996-07-23,Mr. Baker,matched,mr-nicholas-baker,Mr Nicholas Baker,uk.org.publicwhip/person/22346,Conservative,North Dorset,1.50
+1996-11-19-002,1996-11-19,Mrs. Winterton,matched,mrs-ann-winterton,Mrs Ann Winterton,uk.org.publicwhip/person/10646,Conservative,Congleton,1.50
+1996-12-12-002,1996-12-12,Mr. Greenway,matched,mr-harry-greenway,Mr Harry Greenway,uk.org.publicwhip/person/22587,Conservative,Ealing North,1.50
+1996-12-17-004,1996-12-17,Mr. Greenway,matched,mr-harry-greenway,Mr Harry Greenway,uk.org.publicwhip/person/22587,Conservative,Ealing North,1.50
+1997-01-16-001,1997-01-16,Mr. William O'Brien,speech_not_found,,,,,,
+1997-01-16-002,1997-01-16,Mr. O'Brien,speech_not_found,,,,,,
+1997-01-28-002,1997-01-28,Mr. Greenway,matched,mr-harry-greenway,Mr Harry Greenway,uk.org.publicwhip/person/22587,Conservative,Ealing North,1.50
+1997-02-06-018,1997-02-06,Mr. Greenway,matched,mr-harry-greenway,Mr Harry Greenway,uk.org.publicwhip/person/22587,Conservative,Ealing North,1.50
+1997-02-25-017,1997-02-25,Mr. Prentice,matched,mr-gordon-prentice,Mr Gordon Prentice,uk.org.publicwhip/person/10487,Labour,Pendle,1.50
+1997-02-25-018,1997-02-25,Mr. Prentice,matched,mr-gordon-prentice,Mr Gordon Prentice,uk.org.publicwhip/person/10487,Labour,Pendle,1.50
+1997-03-06-002,1997-03-06,Mr. Coombs,matched,mr-simon-coombs,Mr Simon Coombs,uk.org.publicwhip/person/17034,Conservative,Swindon,1.50
+1997-03-06-008,1997-03-06,Mr. Arnold,matched,mr-jacques-arnold,Mr Jacques Arnold,uk.org.publicwhip/person/19738,Conservative,Gravesham,1.50
+1997-03-11-011,1997-03-11,Mr. Greenway,matched,mr-john-greenway,Mr John Greenway,uk.org.publicwhip/person/10242,Conservative,Ryedale,1.50
+1961-03-09-005-s,1961-03-09,Mrs. White,speech_not_found,,,,,,
+1961-03-28-005-s,1961-03-28,Mr. Pannell,speech_not_found,,,,,,
+1961-03-28-011-s,1961-03-28,Mr. Pannell,speech_not_found,,,,,,
+1961-03-30-002-s,1961-03-30,Mr. Henderson,matched,mr-arthur-henderson-1,Mr Arthur Henderson,uk.org.publicwhip/person/21670,Labour,Rowley Regis and Tipton,1.50
+1961-03-30-009-s,1961-03-30,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1961-05-18-003-s,1961-05-18,Mr. J. T. Price,speech_not_found,,,,,,
+1961-06-08-003-s,1961-06-08,Mr. Holt,speech_not_found,,,,,,
+1961-06-08-009-s,1961-06-08,Mr. Silverman,speech_not_found,,,,,,
+1962-04-17-004-s,1962-04-17,Mr. H. Wilson,speech_not_found,,,,,,
+1962-04-17-018-s,1962-04-17,Mr. Henderson,matched,mr-arthur-henderson-1,Mr Arthur Henderson,uk.org.publicwhip/person/21670,Labour,Rowley Regis and Tipton,1.50
+1962-04-17-019-s,1962-04-17,Mr. Henderson,matched,mr-arthur-henderson-1,Mr Arthur Henderson,uk.org.publicwhip/person/21670,Labour,Rowley Regis and Tipton,1.50
+1962-04-17-022-s,1962-04-17,Mr. H. Wilson,speech_not_found,,,,,,
+1962-05-01-002-s,1962-05-01,Mr. Henderson,matched,mr-arthur-henderson-1,Mr Arthur Henderson,uk.org.publicwhip/person/21670,Labour,Rowley Regis and Tipton,1.50
+1962-07-10-006-s,1962-07-10,Mr. Hynd,speech_not_found,,,,,,
+1962-07-10-009-s,1962-07-10,Mrs. Slater,speech_not_found,,,,,,
+1962-12-20-002-s,1962-12-20,Mr. Foot,matched,mr-dingle-foot,Mr Dingle Foot,uk.org.publicwhip/person/17431,Labour,Ipswich,1.50
+1962-12-20-006-s,1962-12-20,Mr. Foot,matched,mr-dingle-foot,Mr Dingle Foot,uk.org.publicwhip/person/17431,Labour,Ipswich,1.50
+1963-05-23-004-s,1963-05-23,Mr. Henderson,matched,mr-arthur-henderson-1,Mr Arthur Henderson,uk.org.publicwhip/person/21670,Labour,Rowley Regis and Tipton,1.50
+1963-05-23-012-s,1963-05-23,Mr. Lewis,matched,mr-arthur-lewis,Mr Arthur Lewis,uk.org.publicwhip/person/21680,Labour,West Ham North,1.50
+1963-06-25-012-s,1963-06-25,Mr. Royle,matched,mr-charles-royle-1,Mr Charles Royle,uk.org.publicwhip/person/18982,Labour,Salford West,1.50
+1963-06-25-023-s,1963-06-25,Mr. Noel-Baker,matched,mr-philip-noel-baker,Mr Philip Noel-Baker,uk.org.publicwhip/person/18611,Labour,Derby South,1.50
+1963-06-25-024-s,1963-06-25,Mr. Noel-Baker,matched,mr-philip-noel-baker,Mr Philip Noel-Baker,uk.org.publicwhip/person/18611,Labour,Derby South,1.50
+1963-06-25-025-s,1963-06-25,Mr. Noel-Baker,matched,mr-philip-noel-baker,Mr Philip Noel-Baker,uk.org.publicwhip/person/18611,Labour,Derby South,1.50
+1963-11-26-004-s,1963-11-26,Mr. Hughes,matched,mr-hector-hughes,Mr Hector Hughes,uk.org.publicwhip/person/21863,Labour,Aberdeen North,1.50
+1963-11-26-014-s,1963-11-26,Mrs. Slater,speech_not_found,,,,,,
+1963-11-26-016-s,1963-11-26,Mr. Hamilton,matched,mr-willie-hamilton,Mr Willie Hamilton,uk.org.publicwhip/person/22249,Labour,Fife West,1.50
+1964-02-11-009-s,1964-02-11,Mrs. Slater,speech_not_found,,,,,,
+1964-02-11-012-s,1964-02-11,Mr. Henderson,speech_not_found,,,,,,
+1964-02-11-017-s,1964-02-11,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1964-02-13-009-s,1964-02-13,Mr. R. Gresham Cooke,speech_not_found,,,,,,
+1964-02-13-010-s,1964-02-13,Mr. Gresham Cooke,speech_not_found,,,,,,
+1964-03-19-006-s,1964-03-19,Mr. Noel-Baker,matched,mr-philip-noel-baker,Mr Philip Noel-Baker,uk.org.publicwhip/person/18611,Labour,Derby South,1.50
+1964-03-19-007-s,1964-03-19,Mr. Noel-Baker,matched,mr-philip-noel-baker,Mr Philip Noel-Baker,uk.org.publicwhip/person/18611,Labour,Derby South,1.50
+1964-06-11-009-s,1964-06-11,Mr. Hughes,matched,mr-emrys-hughes,Mr Emrys Hughes,uk.org.publicwhip/person/21773,Labour,South Ayrshire,1.50
+1964-12-08-015-s,1964-12-08,Mr. Hamilton,matched,mr-willie-hamilton,Mr Willie Hamilton,uk.org.publicwhip/person/22249,Labour,Fife West,1.50
+1964-12-08-016-s,1964-12-08,Mr. Gresham Cooke,speech_not_found,,,,,,
+1965-04-08-002-s,1965-04-08,Mr. Griffiths,matched,mr-eldon-griffiths,Mr Eldon Griffiths,uk.org.publicwhip/person/22503,Conservative,Bury St Edmunds,1.50
+1965-04-15-008-s,1965-04-15,Mr. Walker,matched,mr-peter-walker,Mr Peter Walker,uk.org.publicwhip/person/22072,Conservative,Worcester,1.50
+1965-04-15-020-s,1965-04-15,Mr. Gresham Cooke,speech_not_found,,,,,,
+1965-04-15-026-s,1965-04-15,Mr. Griffiths,matched,mr-peter-griffiths,Mr Peter Griffiths,uk.org.publicwhip/person/22547,Conservative,Smethwick,1.50
+1965-10-28-009-s,1965-10-28,Mr. J. E. B. Hill,speech_not_found,,,,,,
+1965-10-28-010-s,1965-10-28,Mr. Hill,speech_not_found,,,,,,
+1965-12-16-014-s,1965-12-16,Dr. Kerr,speech_not_found,,,,,,
+1965-12-16-017-s,1965-12-16,Mr. Edward M. Taylor,speech_not_found,,,,,,
+1965-12-16-018-s,1965-12-16,Mr. Taylor,speech_not_found,,,,,,
+1965-12-16-025-s,1965-12-16,Mr. Fraser,speech_not_found,,,,,,
+1965-12-16-029-s,1965-12-16,Mr. Griffiths,matched,mr-eldon-griffiths,Mr Eldon Griffiths,uk.org.publicwhip/person/22503,Conservative,Bury St Edmunds,1.50
+1965-12-16-031-s,1965-12-16,Mr. Hughes,speech_not_found,,,,,,
+1966-02-22-002-s,1966-02-22,Dr. Kerr,speech_not_found,,,,,,
+1966-02-22-003-s,1966-02-22,Mr. Hopkins,speech_not_found,,,,,,
+1966-02-22-004-s,1966-02-22,Mr. Hopkins,speech_not_found,,,,,,
+1966-02-22-009-s,1966-02-22,Mr. King,speech_not_found,,,,,,
+1966-02-22-012-s,1966-02-22,Mr. King,speech_not_found,,,,,,
+1966-02-22-017-s,1966-02-22,Mr. Mills,speech_not_found,,,,,,
+1966-02-24-003-s,1966-02-24,Mr. Geoffrey Wilson,speech_not_found,,,,,,
+1966-02-24-007-s,1966-02-24,Mrs. Williams,matched,mrs-shirley-williams,Mrs Shirley Williams,uk.org.publicwhip/person/16475,Labour,Hitchin,1.50
+1966-02-24-010-s,1966-02-24,Mr. Hamilton,matched,mr-willie-hamilton,Mr Willie Hamilton,uk.org.publicwhip/person/22249,Labour,Fife West,1.50
+1966-02-24-011-s,1966-02-24,Mr. Jenkins,matched,mr-hugh-jenkins,Mr Hugh Jenkins,uk.org.publicwhip/person/21890,Labour,Wandsworth Putney,1.50
+1966-02-24-012-s,1966-02-24,Sir H. Lucas-Tooth,matched,sir-hugh-munro-lucas-tooth,Sir Hugh Munro-Lucas-Tooth,uk.org.publicwhip/person/18549,Conservative,Hendon South,1.50
+1966-02-24-017-s,1966-02-24,Sir H. Lucas-Tooth,matched,sir-hugh-munro-lucas-tooth,Sir Hugh Munro-Lucas-Tooth,uk.org.publicwhip/person/18549,Conservative,Hendon South,1.50
+1966-02-24-021-s,1966-02-24,Mr. Hamilton,speech_not_found,,,,,,
+1966-02-24-026-s,1966-02-24,Mr. Lewis,speech_not_found,,,,,,
+1966-02-24-029-s,1966-02-24,Mr. Lewis,speech_not_found,,,,,,
+1967-01-17-005-s,1967-01-17,Mr. Lloyd,matched,mr-ian-lloyd,Mr Ian Lloyd,uk.org.publicwhip/person/21900,Conservative,Portsmouth Langstone,1.50
+1967-01-17-016-s,1967-01-17,Dr. Dunwoody,matched,dr-john-dunwoody,Dr John Dunwoody,uk.org.publicwhip/person/22538,Labour,Falmouth and Camborne,1.50
+1967-01-24-010-s,1967-01-24,Mr. Griffiths,matched,mr-william-griffiths,Mr William Griffiths,uk.org.publicwhip/person/22568,Labour,Manchester Exchange,1.50
+1967-01-24-017-s,1967-01-24,Dr. Dunwoody,speech_not_found,,,,,,
+1967-04-25-002-s,1967-04-25,Dr. Owen,matched,dr-david-owen,Dr David Owen,uk.org.publicwhip/person/21725,Labour,"Plymouth, Sutton",1.50
+1967-06-01-004-s,1967-06-01,Mr. Bob Brown,speech_not_found,,,,,,
+1967-06-01-005-s,1967-06-01,Mr. Bob Brown,speech_not_found,,,,,,
+1967-12-21-005-s,1967-12-21,Mr. Morris,matched,mr-alf-morris,Mr Alf Morris,uk.org.publicwhip/person/21654,Labour Co-op,Manchester Wythenshawe,1.50
+1967-12-21-018-s,1967-12-21,Mr. Hamilton,matched,mr-willie-hamilton,Mr Willie Hamilton,uk.org.publicwhip/person/22249,Labour,Fife West,1.50
+1968-01-23-015-s,1968-01-23,Mr. Roberts,matched,mr-gwilym-roberts,Mr Gwilym Roberts,uk.org.publicwhip/person/21848,Labour,Bedfordshire South,1.50
+1968-02-08-005-s,1968-02-08,Mr. Wells,speech_not_found,,,,,,
+1968-02-08-017-s,1968-02-08,Mrs. Ewing,speech_not_found,,,,,,
+1969-02-13-022-s,1969-02-13,Mr. King,matched,mr-evelyn-king,Mr Evelyn King,uk.org.publicwhip/person/21791,Conservative,South Dorset,1.50
+1969-03-27-012-s,1969-03-27,Mr. Mills,matched,mr-peter-mills,Mr Peter Mills,uk.org.publicwhip/person/22077,Conservative,Torrington,1.50
+1969-03-27-022-s,1969-03-27,Mr. Fraser,matched,mr-john-fraser,Mr John Fraser,uk.org.publicwhip/person/21960,Labour,Lambeth Norwood,1.50
+1969-04-01-003-s,1969-04-01,Mr. Hamilton,speech_not_found,,,,,,
+1969-04-01-010-s,1969-04-01,Mr. Gresham Cooke,speech_not_found,,,,,,
+1969-04-01-011-s,1969-04-01,Mr. Gresham Cooke,speech_not_found,,,,,,
+1969-04-01-017-s,1969-04-01,Mr. Davidson,speech_not_found,,,,,,
+1969-07-01-002-s,1969-07-01,Mr. Fletcher,matched,mr-raymond-fletcher,Mr Raymond Fletcher,uk.org.publicwhip/person/22012,Labour,Ilkeston,1.50
+1969-07-01-015-s,1969-07-01,Mr. Price,matched,mr-william-price-2,Mr William Price,uk.org.publicwhip/person/22225,Labour,Rugby,1.50
+1969-07-01-020-s,1969-07-01,Mr. Morris,speech_not_found,,,,,,
+1969-07-01-023-s,1969-07-01,Mr. Griffiths,matched,mr-eldon-griffiths,Mr Eldon Griffiths,uk.org.publicwhip/person/22503,Conservative,Bury St Edmunds,1.50
+1969-07-01-026-s,1969-07-01,Mr. J. T. Price,speech_not_found,,,,,,
+1970-01-27-016-s,1970-01-27,Mr. Lewis,matched,mr-arthur-lewis,Mr Arthur Lewis,uk.org.publicwhip/person/21680,Labour,West Ham North,1.50
+1970-12-17-005-s,1970-12-17,Mr. Davis,matched,mr-clinton-davis,Mr Clinton Davis,uk.org.publicwhip/person/22561,Labour,Hackney Central,1.50
+1970-12-17-013-s,1970-12-17,Mr. Hamilton,matched,mr-willie-hamilton,Mr Willie Hamilton,uk.org.publicwhip/person/22249,Labour,Fife West,1.50
+1970-12-17-030-s,1970-12-17,Mr. Archer,matched,mr-peter-archer,Mr Peter Archer,uk.org.publicwhip/person/16494,Labour,Rowley Regis and Tipton,1.50
+1970-12-17-032-s,1970-12-17,Mr. Archer,matched,mr-peter-archer,Mr Peter Archer,uk.org.publicwhip/person/16494,Labour,Rowley Regis and Tipton,1.50
+1971-01-14-025-s,1971-01-14,Mr. Hamilton,speech_not_found,,,,,,
+1971-01-19-014-s,1971-01-19,Mr. J. T. Price,speech_not_found,,,,,,
+1971-01-21-006-s,1971-01-21,Mr. Jenkins,matched,mr-hugh-jenkins,Mr Hugh Jenkins,uk.org.publicwhip/person/21890,Labour,Wandsworth Putney,1.50
+1971-04-06-002-s,1971-04-06,Mr. Archer,matched,mr-peter-archer,Mr Peter Archer,uk.org.publicwhip/person/16494,Labour,Rowley Regis and Tipton,1.50
+1971-04-06-003-s,1971-04-06,Mr. Grant,matched,mr-john-grant,Mr John Grant,uk.org.publicwhip/person/14187,Labour,Islington East,1.50
+1971-04-06-005-s,1971-04-06,Mr. Hamilton,matched,mr-willie-hamilton,Mr Willie Hamilton,uk.org.publicwhip/person/22249,Labour,Fife West,1.50
+1971-04-06-013-s,1971-04-06,Mr. Lewis,matched,mr-arthur-lewis,Mr Arthur Lewis,uk.org.publicwhip/person/21680,Labour,West Ham North,1.50
+1971-04-06-015-s,1971-04-06,Mr. Price,matched,mr-william-price-2,Mr William Price,uk.org.publicwhip/person/22225,Labour,Rugby,1.50
+1971-04-06-019-s,1971-04-06,Mr. Wells,matched,mr-john-wells,Mr John Wells,uk.org.publicwhip/person/20052,Conservative,Maidstone,1.50
+1971-04-06-022-s,1971-04-06,Mr. Grant,matched,mr-john-grant,Mr John Grant,uk.org.publicwhip/person/14187,Labour,Islington East,1.50
+1971-05-20-008-s,1971-05-20,Mr. Archer,matched,mr-peter-archer,Mr Peter Archer,uk.org.publicwhip/person/16494,Labour,Rowley Regis and Tipton,1.50
+1971-05-20-013-s,1971-05-20,Mr. Jenkins,matched,mr-roy-jenkins,Mr Roy Jenkins,uk.org.publicwhip/person/16436,Labour,Birmingham Stechford,1.50
+1971-11-18-008-s,1971-11-18,Mr. Hamilton,matched,mr-willie-hamilton,Mr Willie Hamilton,uk.org.publicwhip/person/22249,Labour,Fife West,1.50
+1972-04-20-005-s,1972-04-20,Mr. Hamilton,matched,mr-willie-hamilton,Mr Willie Hamilton,uk.org.publicwhip/person/22249,Labour,Fife West,1.50
+1972-04-20-016-s,1972-04-20,Mr. Barnett,matched,mr-joel-barnett,Mr Joel Barnett,uk.org.publicwhip/person/21941,Labour,Heywood and Royton,1.50
+1972-06-08-003-s,1972-06-08,Mr. Hamilton,matched,mr-willie-hamilton,Mr Willie Hamilton,uk.org.publicwhip/person/22249,Labour,Fife West,1.50
+1972-06-08-006-s,1972-06-08,Mr. Roberts,matched,mr-wyn-roberts,Mr Wyn Roberts,uk.org.publicwhip/person/21902,Conservative,Conway,1.50
+1972-11-16-010-s,1972-11-16,Mr. Edward Taylor,speech_not_found,,,,,,
+1972-11-16-011-s,1972-11-16,Mr. Taylor,speech_not_found,,,,,,
+1972-11-16-021-s,1972-11-16,Miss Hall,matched,miss-joan-hall,Miss Joan Hall,uk.org.publicwhip/person/21939,Conservative,Keighley,1.50
+1973-03-01-026-s,1973-03-01,Mr. Edward Taylor,speech_not_found,,,,,,
+1973-05-22-017-s,1973-05-22,Mr. Roberts,matched,mr-wyn-roberts,Mr Wyn Roberts,uk.org.publicwhip/person/21902,Conservative,Conway,1.50
+1973-05-22-018-s,1973-05-22,Mr. Davis,matched,mr-clinton-davis,Mr Clinton Davis,uk.org.publicwhip/person/22561,Labour,Hackney Central,1.50
+1973-05-22-020-s,1973-05-22,Mr. Archer,matched,mr-peter-archer,Mr Peter Archer,uk.org.publicwhip/person/16494,Labour,Rowley Regis and Tipton,1.50
+1974-06-25-003-s,1974-06-25,Mr. Wainwright,matched,mr-edwin-wainwright,Mr Edwin Wainwright,uk.org.publicwhip/person/19419,Labour,Dearne Valley,1.50
+1974-06-25-007-s,1974-06-25,Mr. Lawson,matched,mr-nigel-lawson,Mr Nigel Lawson,uk.org.publicwhip/person/22053,Conservative,Blaby,1.50
+1974-06-25-015-s,1974-06-25,Mr. Ewing,matched,mr-harry-ewing,Mr Harry Ewing,uk.org.publicwhip/person/22520,Labour,Stirling Falkirk and Grangemouth,1.50
+1974-11-21-008-s,1974-11-21,Mr. Renton,matched,mr-timothy-renton,Mr Timothy Renton,uk.org.publicwhip/person/18907,Conservative,Mid Sussex,1.50
+1974-11-21-016-s,1974-11-21,Dr. Cunningham,matched,dr-jack-cunningham,Dr Jack Cunningham,uk.org.publicwhip/person/10146,Labour,Whitehaven,1.50
+1974-11-21-019-s,1974-11-21,Mr. Hamilton,matched,mr-willie-hamilton,Mr Willie Hamilton,uk.org.publicwhip/person/22249,Labour,Central Fife,1.50
+1974-11-21-022-s,1974-11-21,Mr. Roberts,matched,mr-wyn-roberts,Mr Wyn Roberts,uk.org.publicwhip/person/21902,Conservative,Conway,1.50
+1974-12-03-002-s,1974-12-03,Mr. Evans,matched,mr-gwynfor-evans,Mr Gwynfor Evans,uk.org.publicwhip/person/21851,Plaid Cymru,Carmarthen,1.50
+1974-12-03-011-s,1974-12-03,Mr. Latham,matched,mr-michael-latham,Mr Michael Latham,uk.org.publicwhip/person/22033,Conservative,Melton,1.50
+1974-12-12-010-s,1974-12-12,Mr. Roberts,matched,mr-wyn-roberts,Mr Wyn Roberts,uk.org.publicwhip/person/21902,Conservative,Conway,1.50
+1974-12-12-017-s,1974-12-12,Mr. Latham,matched,mr-michael-latham,Mr Michael Latham,uk.org.publicwhip/person/22033,Conservative,Melton,1.50
+1975-01-30-002-s,1975-01-30,Dr. Marshall,matched,dr-edmund-marshall,Dr Edmund Marshall,uk.org.publicwhip/person/22499,Labour,Goole,1.50
+1975-01-30-006-s,1975-01-30,Mr. Roberts,matched,mr-wyn-roberts,Mr Wyn Roberts,uk.org.publicwhip/person/21902,Conservative,Conway,1.50
+1975-01-30-023-s,1975-01-30,Mrs. Kellett-Bowman,matched,mrs-elaine-kellett,Mrs Elaine Kellett,uk.org.publicwhip/person/17973,Conservative,Lancaster,1.50
+1975-02-13-002-s,1975-02-13,Mr. Renton,matched,mr-timothy-renton,Mr Timothy Renton,uk.org.publicwhip/person/18907,Conservative,Mid Sussex,1.50
+1975-03-11-002-s,1975-03-11,Mr. McNair-Wilson,matched,mr-michael-mcnair-wilson,Mr Michael McNair-Wilson,uk.org.publicwhip/person/18416,Conservative,Newbury,1.50
+1975-03-11-005-s,1975-03-11,Mr. Latham,matched,mr-michael-latham,Mr Michael Latham,uk.org.publicwhip/person/22033,Conservative,Melton,1.50
+1975-03-25-011-s,1975-03-25,Mr. McNair-Wilson,matched,mr-michael-mcnair-wilson,Mr Michael McNair-Wilson,uk.org.publicwhip/person/18416,Conservative,Newbury,1.50
+1975-03-25-014-s,1975-03-25,Mr. Fletcher,matched,mr-alexander-fletcher,Mr Alexander Fletcher,uk.org.publicwhip/person/21651,Conservative,Edinburgh North,1.50
+1975-04-29-006-s,1975-04-29,Mr. Hamilton,matched,mr-willie-hamilton,Mr Willie Hamilton,uk.org.publicwhip/person/22249,Labour,Central Fife,1.50
+1975-05-01-003-s,1975-05-01,Mr. Latham,matched,mr-michael-latham,Mr Michael Latham,uk.org.publicwhip/person/22033,Conservative,Melton,1.50
+1975-05-01-007-s,1975-05-01,Mr. Tom Ellis,speech_not_found,,,,,,
+1975-05-06-002-s,1975-05-06,Mr. Thomas,matched,mr-mike-thomas,Mr Mike Thomas,uk.org.publicwhip/person/22040,Labour,Newcastle upon Tyne East,1.50
+1975-05-06-009-s,1975-05-06,Mr. Renton,matched,mr-timothy-renton,Mr Timothy Renton,uk.org.publicwhip/person/18907,Conservative,Mid Sussex,1.50
+1975-05-06-010-s,1975-05-06,Mr. Morrison,matched,hon-peter-morrison,Hon. Peter Morrison,uk.org.publicwhip/person/22075,Conservative,City of Chester,1.00
+1975-07-08-004-s,1975-07-08,Mr. Morrison,matched,hon-peter-morrison,Hon. Peter Morrison,uk.org.publicwhip/person/22075,Conservative,City of Chester,1.00
+1975-07-08-005-s,1975-07-08,Mr. Hafer,speech_not_found,,,,,,
+1975-07-08-019-s,1975-07-08,Mr. Taylor,matched,mr-teddy-taylor,Mr Teddy Taylor,uk.org.publicwhip/person/10591,Conservative,Glasgow Cathcart,1.50
+1975-07-17-013-s,1975-07-17,Mr. Tom Ellis,speech_not_found,,,,,,
+1975-07-17-018-s,1975-07-17,Mr. Renton,matched,mr-timothy-renton,Mr Timothy Renton,uk.org.publicwhip/person/18907,Conservative,Mid Sussex,1.50
+1975-12-18-002-s,1975-12-18,Mr. Steele,speech_not_found,,,,,,
+1975-12-18-004-s,1975-12-18,Mr. Latham,matched,mr-michael-latham,Mr Michael Latham,uk.org.publicwhip/person/22033,Conservative,Melton,1.50
+1975-12-18-007-s,1975-12-18,Mr. Renton,matched,mr-timothy-renton,Mr Timothy Renton,uk.org.publicwhip/person/18907,Conservative,Mid Sussex,1.50
+1975-12-18-019-s,1975-12-18,Mr. Thomas,matched,mr-mike-thomas,Mr Mike Thomas,uk.org.publicwhip/person/22040,Labour,Newcastle upon Tyne East,1.50
+1976-04-01-014-s,1976-04-01,Mr. Rodgers,matched,mr-george-rodgers,Mr George Rodgers,uk.org.publicwhip/person/18947,Labour,Chorley,1.50
+1976-07-13-013-s,1976-07-13,Mr. Evans,matched,mr-ioan-evans,Mr Ioan Evans,uk.org.publicwhip/person/21904,Labour,Aberdare,1.50
+1976-11-30-002-s,1976-11-30,Mr. Price,matched,mr-chris-price,Mr Chris Price,uk.org.publicwhip/person/21704,Labour,Lewisham West,1.50
+1976-11-30-012-s,1976-11-30,Mr. Roberts,matched,mr-wyn-roberts,Mr Wyn Roberts,uk.org.publicwhip/person/21902,Conservative,Conway,1.50
+1977-05-10-005-s,1977-05-10,Mr. Hunt,speech_not_found,,,,,,
+1977-05-10-010-s,1977-05-10,Mr. Latham,matched,mr-michael-latham,Mr Michael Latham,uk.org.publicwhip/person/22033,Conservative,Melton,1.50
+1977-12-06-002-s,1977-12-06,Mr. Thomas,matched,mr-mike-thomas,Mr Mike Thomas,uk.org.publicwhip/person/22040,Labour,Newcastle upon Tyne East,1.50
+1977-12-06-019-s,1977-12-06,Mr. Renton,matched,mr-timothy-renton,Mr Timothy Renton,uk.org.publicwhip/person/18907,Conservative,Mid Sussex,1.50
+1978-01-10-008-s,1978-01-10,Mr. Thomas,matched,mr-mike-thomas,Mr Mike Thomas,uk.org.publicwhip/person/22040,Labour,Newcastle upon Tyne East,1.50
+1978-01-12-009-s,1978-01-12,Mr. Hughes,matched,mr-roy-hughes,Mr Roy Hughes,uk.org.publicwhip/person/22158,Labour,Newport (Monmouthshire/Gwent),0.83
+1978-06-27-002-s,1978-06-27,Mr. Evans,matched,mr-john-evans-2,Mr John Evans,uk.org.publicwhip/person/22255,Labour,Newton,1.50
+1978-06-27-014-s,1978-06-27,Mr. Wainwright,matched,mr-edwin-wainwright,Mr Edwin Wainwright,uk.org.publicwhip/person/19419,Labour,Dearne Valley,1.50
+1978-12-05-001-s,1978-12-05,Q1. Mr. Terry Walker,matched,mr-terence-walker,Mr Terence Walker,uk.org.publicwhip/person/22173,Labour,Kingswood,1.50
+1978-12-05-002-s,1978-12-05,Mr. Walker,matched,mr-terence-walker,Mr Terence Walker,uk.org.publicwhip/person/22173,Labour,Kingswood,1.50
+1978-12-05-011-s,1978-12-05,Mr. Anderson,matched,mr-donald-anderson,Mr Donald Anderson,uk.org.publicwhip/person/10011,Labour,Swansea East,1.50
+1979-03-13-002-s,1979-03-13,Dr. Marshall,matched,dr-edmund-marshall,Dr Edmund Marshall,uk.org.publicwhip/person/22499,Labour,Goole,1.50
+1979-06-21-007-s,1979-06-21,Mr. Thomas,matched,mr-mike-thomas,Mr Mike Thomas,uk.org.publicwhip/person/22040,Labour,Newcastle upon Tyne East,1.50
+1979-06-21-013-s,1979-06-21,Mr. Hunt,matched,mr-john-hunt,Mr John Hunt,uk.org.publicwhip/person/21981,Conservative,Bromley Ravensbourne,1.50
+1979-06-21-021-s,1979-06-21,Mr. Dean,matched,mr-joseph-dean,Mr Joseph Dean,uk.org.publicwhip/person/22540,Labour,Leeds West,1.50
+1979-11-29-011-s,1979-11-29,Mr. Howell,matched,mr-ralph-howell,Mr Ralph Howell,uk.org.publicwhip/person/22087,Conservative,North Norfolk,1.50
+1979-12-18-017-s,1979-12-18,Mr. Canavan asked the Prime Minister what are her official engagements for 18 December.,speech_not_found,,,,,,
+1979-12-18-022-s,1979-12-18,Mr. Atkins,matched,mr-robert-atkins,Mr Robert Atkins,uk.org.publicwhip/person/19736,Conservative,Preston North,1.50
+1980-05-08-002-s,1980-05-08,Mr. Wilson,matched,mr-gordon-wilson,Mr Gordon Wilson,uk.org.publicwhip/person/22128,SNP,Dundee East,1.50
+1980-05-08-011-s,1980-05-08,Mrs. Kellett-Bowman,matched,mrs-elaine-kellett,Mrs Elaine Kellett,uk.org.publicwhip/person/17973,Conservative,Lancaster,1.50
+1980-05-08-015-s,1980-05-08,Mr. Jones,matched,mr-barry-jones,Mr Barry Jones,uk.org.publicwhip/person/10317,Labour,Flint East,1.50
+1980-06-12-002-s,1980-06-12,Mr. Dunn,matched,mr-bob-dunn,Mr Bob Dunn,uk.org.publicwhip/person/22584,Conservative,Dartford,1.50
+1980-12-02-002-s,1980-12-02,Mr. Bottomley,matched,mr-peter-bottomley,Mr Peter Bottomley,uk.org.publicwhip/person/10057,Conservative,Greenwich Woolwich West,1.50
+1981-02-26-002-s,1981-02-26,Mr. Bottomley,matched,mr-peter-bottomley,Mr Peter Bottomley,uk.org.publicwhip/person/10057,Conservative,Greenwich Woolwich West,1.50
+1981-02-26-006-s,1981-02-26,Mr. Atkinson,matched,mr-norman-atkinson,Mr Norman Atkinson,uk.org.publicwhip/person/19723,Labour,Haringey Tottenham,1.50
+1981-04-16-009-s,1981-04-16,Mr. Atkins,matched,mr-robert-atkins,Mr Robert Atkins,uk.org.publicwhip/person/19736,Conservative,Preston North,1.50
+1981-06-30-016-s,1981-06-30,Mr. Wainwright,matched,mr-edwin-wainwright,Mr Edwin Wainwright,uk.org.publicwhip/person/19419,Labour,Dearne Valley,1.50
+1982-03-30-010-s,1982-03-30,Mr Powell,matched,mr-ray-powell,Mr Ray Powell,uk.org.publicwhip/person/10485,Labour,Ogmore,1.50
+1982-06-10-002-s,1982-06-10,Mr. Thorne,matched,mr-stanley-thorne,Mr Stanley Thorne,uk.org.publicwhip/person/19291,Labour,Preston South,1.50
+1982-06-10-014-s,1982-06-10,Mr. Robinson,matched,mr-geoffrey-robinson,Mr Geoffrey Robinson,uk.org.publicwhip/person/10506,Labour,Coventry North West,1.50
+1983-11-22-013-s,1983-11-22,Mr. Smith,matched,mr-tim-smith,Mr Tim Smith,uk.org.publicwhip/person/22191,Conservative,Beaconsfield,1.50
+1983-11-24-007-s,1983-11-24,Mr. Ross,matched,mr-stephen-ross,Mr Stephen Ross,uk.org.publicwhip/person/22170,Liberal,Isle of Wight,1.50
+1983-11-29-006-s,1983-11-29,Mr. Smith,matched,mr-tim-smith,Mr Tim Smith,uk.org.publicwhip/person/22191,Conservative,Beaconsfield,1.50
+1983-11-29-016-s,1983-11-29,Mr. Atkinson,matched,mr-norman-atkinson,Mr Norman Atkinson,uk.org.publicwhip/person/19723,Labour,Tottenham,1.50
+1983-12-06-002-s,1983-12-06,Mr. Stewart,matched,mr-donald-stewart,Mr Donald Stewart,uk.org.publicwhip/person/21745,SNP,Na h-Eileanan an Iar,0.70
+1983-12-06-007-s,1983-12-06,Mr. Hughes,matched,mr-roy-hughes,Mr Roy Hughes,uk.org.publicwhip/person/22158,Labour,Newport East,1.50
+1984-03-20-011-s,1984-03-20,Mr. MacKay,matched,mr-andrew-mackay,Mr Andrew MacKay,uk.org.publicwhip/person/10391,Conservative,Berkshire East,1.50
+1984-03-20-014-s,1984-03-20,Mr. Atkins,matched,mr-robert-atkins,Mr Robert Atkins,uk.org.publicwhip/person/19736,Conservative,South Ribble,1.50
+1984-06-07-008-s,1984-06-07,Mr. Ross,matched,mr-stephen-ross,Mr Stephen Ross,uk.org.publicwhip/person/22170,Liberal,Isle of Wight,1.50
+1984-06-07-012-s,1984-06-07,Mr. Atkins,matched,mr-robert-atkins,Mr Robert Atkins,uk.org.publicwhip/person/19736,Conservative,South Ribble,1.50
+1984-06-26-007-s,1984-06-26,Mr. Stewart,matched,mr-donald-stewart,Mr Donald Stewart,uk.org.publicwhip/person/21745,SNP,Na h-Eileanan an Iar,0.70
+1984-06-26-013-s,1984-06-26,Mr. Lewis,matched,mr-terry-lewis,Mr Terry Lewis,uk.org.publicwhip/person/10359,Labour,Worsley,1.50
+1984-12-04-015-s,1984-12-04,Mrs. Kellett-Bowman,matched,mrs-elaine-kellett,Mrs Elaine Kellett,uk.org.publicwhip/person/17973,Conservative,Lancaster,1.50
+1984-12-18-002-s,1984-12-18,Mr. Hamilton,matched,mr-jimmy-hamilton,Mr Jimmy Hamilton,uk.org.publicwhip/person/19811,Labour,Motherwell North,1.50
+1984-12-18-021-s,1984-12-18,Mr. Hughes,matched,mr-sean-hughes,Mr Sean Hughes,uk.org.publicwhip/person/16417,Labour,Knowsley South,1.50
+1984-12-18-024-s,1984-12-18,Ms. Short,matched,ms-clare-short,Ms Clare Short,uk.org.publicwhip/person/10540,Labour,"Birmingham, Ladywood",1.50
+1984-12-20-006-s,1984-12-20,Mr. Andy Stewart,speech_not_found,,,,,,
+1984-12-20-011-s,1984-12-20,Mr. Hamilton,matched,mr-willie-hamilton,Mr Willie Hamilton,uk.org.publicwhip/person/22249,Labour,Central Fife,1.50
+1984-12-20-012-s,1984-12-20,Mr. Hamilton,matched,mr-willie-hamilton,Mr Willie Hamilton,uk.org.publicwhip/person/22249,Labour,Central Fife,1.50
+1984-12-20-024-s,1984-12-20,Mr. MacKay,matched,mr-andrew-mackay,Mr Andrew MacKay,uk.org.publicwhip/person/10391,Conservative,Berkshire East,1.50
+1984-12-20-026-s,1984-12-20,Mr. Banks,matched,mr-tony-banks,Mr Tony Banks,uk.org.publicwhip/person/10025,Labour,Newham North West,1.50
+1985-04-04-017-s,1985-04-04,Mr. Mackay,matched,mr-andrew-mackay,Mr Andrew MacKay,uk.org.publicwhip/person/10391,Conservative,Berkshire East,1.50
+1985-04-04-022-s,1985-04-04,Mr. Banks,matched,mr-tony-banks,Mr Tony Banks,uk.org.publicwhip/person/10025,Labour,Newham North West,1.50
+1985-11-21-004-s,1985-11-21,Mrs. Bottomley,matched,mrs-virginia-bottomley,Mrs Virginia Bottomley,uk.org.publicwhip/person/10058,Conservative,South West Surrey,1.50
+1985-11-21-010-s,1985-11-21,Mr. Ross,matched,mr-stephen-ross,Mr Stephen Ross,uk.org.publicwhip/person/22170,Liberal,Isle of Wight,1.50
+1985-11-21-023-s,1985-11-21,Mr. Hughes,matched,mr-simon-hughes,Mr Simon Hughes,uk.org.publicwhip/person/10298,Liberal,Southwark and Bermondsey,1.50
+1985-12-03-002-s,1985-12-03,Mr. Hamilton,matched,mr-neil-hamilton,Mr Neil Hamilton,uk.org.publicwhip/person/16433,Conservative,Tatton,1.50
+1985-12-03-004-s,1985-12-03,Mr. Ross,matched,mr-stephen-ross,Mr Stephen Ross,uk.org.publicwhip/person/22170,Liberal,Isle of Wight,1.50
+1985-12-03-016-s,1985-12-03,Mr. Davies,matched,mr-ron-davies,Mr Ron Davies,uk.org.publicwhip/person/10161,Labour,Caerphilly,1.50
+1986-05-06-014-s,1986-05-06,Mr. Mitchell,matched,mr-austin-mitchell,Mr Austin Mitchell,uk.org.publicwhip/person/10436,Labour,Great Grimsby,1.50
+1986-06-26-002-s,1986-06-26,Mr. Thorne,matched,mr-stanley-thorne,Mr Stanley Thorne,uk.org.publicwhip/person/19291,Labour,Preston,1.50
+1986-06-26-009-s,1986-06-26,Mr. Stewart,matched,mr-donald-stewart,Mr Donald Stewart,uk.org.publicwhip/person/21745,SNP,Na h-Eileanan an Iar,0.70
+1986-06-26-017-s,1986-06-26,Mr. Howarth,matched,mr-alan-howarth,Mr Alan Howarth,uk.org.publicwhip/person/10291,Conservative,Stratford-on-Avon,1.50
+1986-12-09-002-s,1986-12-09,Dr. Clark,matched,dr-michael-clark,Dr Michael Clark,uk.org.publicwhip/person/10111,Conservative,Rochford,1.50
+1986-12-09-018-s,1986-12-09,Mr. Hamilton,matched,mr-jimmy-hamilton,Mr Jimmy Hamilton,uk.org.publicwhip/person/19811,Labour,Motherwell North,1.50
+1987-03-31-002-s,1987-03-31,Mr. Atkinson,matched,mr-norman-atkinson,Mr Norman Atkinson,uk.org.publicwhip/person/19723,Labour,Tottenham,1.50
+1987-06-30-009-s,1987-06-30,Mr. Martin,matched,mr-michael-martin,Mr Michael Martin,uk.org.publicwhip/person/10420,Labour,Glasgow Springburn,1.50
+1987-06-30-012-s,1987-06-30,Mr. Lloyd,matched,mr-tony-lloyd,Mr Tony Lloyd,uk.org.publicwhip/person/10367,Labour,Stretford,1.50
+1987-06-30-015-s,1987-06-30,Mr. Ross,matched,mr-ernie-ross,Mr Ernie Ross,uk.org.publicwhip/person/10513,Labour,Dundee West,1.50
+1987-06-30-018-s,1987-06-30,Mr. Jones,matched,mr-ieuan-wyn-jones,Mr Ieuan Wyn Jones,uk.org.publicwhip/person/10320,Plaid Cymru,Ynys Môn,1.50
+1987-06-30-022-s,1987-06-30,Mr. Brown,matched,mr-michael-brown,Mr Michael Brown,uk.org.publicwhip/person/22577,Conservative,Brigg and Cleethorpes,1.50
+1988-02-11-011-s,1988-02-11,Mr. Bruce,matched,mr-malcolm-bruce,Mr Malcolm Bruce,uk.org.publicwhip/person/10074,Liberal,Gordon,1.50
+1988-03-03-006-s,1988-03-03,Mr. John M. Taylor,speech_not_found,,,,,,
+1988-03-03-014-s,1988-03-03,Mr. Cram,speech_not_found,,,,,,
+1988-06-21-004-s,1988-06-21,Mrs. Hicks,matched,mrs-maureen-hicks,Mrs Maureen Hicks,uk.org.publicwhip/person/22642,Conservative,Wolverhampton North East,1.50
+1988-06-21-009-s,1988-06-21,Mrs. Michie,matched,mrs-ray-michie,Mrs Ray Michie,uk.org.publicwhip/person/10433,Liberal,Argyll and Bute,1.50
+1988-06-28-007-s,1988-06-28,Mr. Walker,matched,mr-bill-walker,Mr Bill Walker,uk.org.publicwhip/person/22605,Conservative,North Tayside,1.50
+1988-11-03-020-s,1988-11-03,Mr. Porter,matched,mr-david-porter,Mr David Porter,uk.org.publicwhip/person/22647,Conservative,Waveney,1.50
+1989-02-21-012-s,1989-02-21,Mr. Howarth,matched,mr-george-howarth,Mr George Howarth,uk.org.publicwhip/person/10292,Labour,Knowsley North,1.50
+1989-04-06-005-s,1989-04-06,Mr. Marshall,matched,mr-john-marshall-1,Mr John Marshall,uk.org.publicwhip/person/22674,Conservative,Hendon South,1.50
+1989-04-06-008-s,1989-04-06,Mr. Robertson,speech_not_found,,,,,,
+1989-10-17-002-s,1989-10-17,Mrs. Ewing,matched,mrs-margaret-bain,Mrs Margaret Bain,uk.org.publicwhip/person/10191,SNP,Moray,1.50
+1989-10-24-021-s,1989-10-24,Mr. Campbell,matched,mr-menzies-campbell,Mr Menzies Campbell,uk.org.publicwhip/person/10088,Liberal,North East Fife,1.50
+1990-06-07-020-s,1990-06-07,Mr. Alan Williams,speech_not_found,,,,,,
+1990-06-07-021-s,1990-06-07,Mr. Williams,speech_not_found,,,,,,
+1990-06-26-009-s,1990-06-26,Mr. Marshall,matched,mr-john-marshall-1,Mr John Marshall,uk.org.publicwhip/person/22674,Conservative,Hendon South,1.50
+1990-06-26-018-s,1990-06-26,Mr. Robert Hughes,speech_not_found,,,,,,
+1990-07-05-002-s,1990-07-05,Mr. Bruce,matched,mr-ian-bruce,Mr Ian Bruce,uk.org.publicwhip/person/10073,Conservative,South Dorset,1.50
+1990-07-05-010-s,1990-07-05,Mr. Robert G. Hughes,speech_not_found,,,,,,
+1990-07-10-004-s,1990-07-10,Mr. Bennett,matched,mr-nicholas-bennett,Mr Nicholas Bennett,uk.org.publicwhip/person/22350,Conservative,Pembroke,1.50
+1990-07-10-016-s,1990-07-10,Mrs. Ewing,matched,mrs-margaret-bain,Mrs Margaret Bain,uk.org.publicwhip/person/10191,SNP,Moray,1.50
+1990-07-10-020-s,1990-07-10,Mr. Robert G. Hughes,speech_not_found,,,,,,
+1990-07-10-021-s,1990-07-10,Mr. Hughes,speech_not_found,,,,,,
+1990-11-20-016-s,1990-11-20,Mr. Howarth,matched,mr-gerald-howarth,Mr Gerald Howarth,uk.org.publicwhip/person/10293,Conservative,Cannock and Burntwood,1.50
+1991-03-05-002-s,1991-03-05,Mr. Michie,matched,mr-bill-michie,Mr Bill Michie,uk.org.publicwhip/person/10432,Labour,"Sheffield, Heeley",1.50
+1991-03-05-021-s,1991-03-05,Mr. Alan W. Williams,speech_not_found,,,,,,
+1991-03-05-022-s,1991-03-05,Mr. Williams,speech_not_found,,,,,,
+1991-07-16-016-s,1991-07-16,Mr. Powell,matched,mr-william-powell-2,Mr William Powell,uk.org.publicwhip/person/22625,Conservative,Corby,1.50
+1991-07-16-019-s,1991-07-16,Mr. Thompson,matched,mr-patrick-thompson,Mr Patrick Thompson,uk.org.publicwhip/person/22633,Conservative,Norwich North,1.50
+1991-07-18-004-s,1991-07-18,Sir Fergus Mongomery,speech_not_found,,,,,,
+1991-07-18-012-s,1991-07-18,Mr. Nicholson,matched,mr-david-nicholson,Mr David Nicholson,uk.org.publicwhip/person/22645,Conservative,Taunton,1.50
+1991-10-15-010-s,1991-10-15,Mr. King,matched,mr-roger-king,Mr Roger King,uk.org.publicwhip/person/22621,Conservative,"Birmingham, Northfield",1.50
+1991-10-17-010-s,1991-10-17,Mr. Hughes,matched,mr-simon-hughes,Mr Simon Hughes,uk.org.publicwhip/person/10298,Liberal,Southwark and Bermondsey,1.50
+1991-10-17-015-s,1991-10-17,Mr. Robert G. Hughes,matched,mr-simon-hughes,Mr Simon Hughes,uk.org.publicwhip/person/10298,Liberal,Southwark and Bermondsey,1.50
+1991-10-17-016-s,1991-10-17,Mr. Hughes,speech_not_found,,,,,,
+1991-10-17-019-s,1991-10-17,Mr. Hicks,matched,mr-robert-hicks,Mr Robert Hicks,uk.org.publicwhip/person/22118,Conservative,South East Cornwall,1.50
+1991-10-22-007-s,1991-10-22,Mr. Brown,matched,mr-michael-brown,Mr Michael Brown,uk.org.publicwhip/person/22577,Conservative,Brigg and Cleethorpes,1.50
+1991-11-07-012-s,1991-11-07,Mr. Campbell,matched,mr-menzies-campbell,Mr Menzies Campbell,uk.org.publicwhip/person/10088,Liberal,North East Fife,1.50
+1991-11-07-017-s,1991-11-07,Mr. Mitchell,matched,mr-andrew-mitchell,Mr Andrew Mitchell,uk.org.publicwhip/person/11115,Conservative,Gedling,1.50
+1992-01-30-002-s,1992-01-30,Mr. Jones,matched,mr-martyn-jones,Mr Martyn Jones,uk.org.publicwhip/person/10324,Labour,Clwyd South West,1.50
+1992-01-30-010-s,1992-01-30,Mr. Robert G. Hughes,speech_not_found,,,,,,
+1992-01-30-014-s,1992-01-30,Mr. Field,matched,mr-barry-field,Mr Barry Field,uk.org.publicwhip/person/22639,Conservative,Isle of Wight,1.50
+1992-01-30-019-s,1992-01-30,Mr. Coombs,matched,mr-anthony-coombs,Mr Anthony Coombs,uk.org.publicwhip/person/17035,Conservative,Wyre Forest,1.50
+1992-01-30-021-s,1992-01-30,Mr. Bennett,matched,mr-andrew-bennett,Mr Andrew Bennett,uk.org.publicwhip/person/10038,Labour,Denton and Reddish,1.50
+1992-06-11-012-s,1992-06-11,Mr. O'Brien,speech_not_found,,,,,,
+1992-06-11-014-s,1992-06-11,Mr. Robertson,matched,mr-raymond-robertson,Mr Raymond Robertson,uk.org.publicwhip/person/22655,Conservative,Aberdeen South,1.50
+1992-06-11-019-s,1992-06-11,Mr. Jones,matched,mr-martyn-jones,Mr Martyn Jones,uk.org.publicwhip/person/10324,Labour,Clwyd South West,1.50
+1992-07-07-004-s,1992-07-07,Dr. John Cunningham,speech_not_found,,,,,,
+1992-07-07-005-s,1992-07-07,Dr. Cunningham,speech_not_found,,,,,,
+1992-07-09-002-s,1992-07-09,Mrs. Jackson,matched,mrs-helen-jackson,Mrs Helen Jackson,uk.org.publicwhip/person/10309,Labour,"Sheffield, Hillsborough",1.50
+1992-07-09-005-s,1992-07-09,Dr. John Cunningham,speech_not_found,,,,,,
+1992-07-09-006-s,1992-07-09,Dr. Cunningham,speech_not_found,,,,,,
+1992-07-09-007-s,1992-07-09,Dr. Cunningham,speech_not_found,,,,,,
+1992-07-09-020-s,1992-07-09,Mr. Robinson,matched,mr-mark-robinson,Mr Mark Robinson,uk.org.publicwhip/person/22628,Conservative,Somerton and Frome,1.50
+1992-11-24-013-s,1992-11-24,Mr. Michie,speech_not_found,,,,,,
+1992-11-24-014-s,1992-11-24,Mr. Michie,speech_not_found,,,,,,
+1992-11-24-016-s,1992-11-24,Mr. Evans,matched,mr-david-evans-1,Mr David Evans,uk.org.publicwhip/person/22638,Conservative,Welwyn Hatfield,1.50
+1992-12-01-002-s,1992-12-01,Mr. Campbell,matched,mr-ronnie-campbell,Mr Ronnie Campbell,uk.org.publicwhip/person/10089,Labour,Blyth Valley,1.50
+1992-12-01-016-s,1992-12-01,Mr. Ross,matched,mr-ernie-ross,Mr Ernie Ross,uk.org.publicwhip/person/10513,Labour,Dundee West,1.50
+1992-12-10-010-s,1992-12-10,Mr. Banks,matched,mr-tony-banks,Mr Tony Banks,uk.org.publicwhip/person/10025,Labour,Newham North West,1.50
+1992-12-10-016-s,1992-12-10,Ms. Jackson,matched,ms-glenda-jackson,Ms Glenda Jackson,uk.org.publicwhip/person/10308,Labour,Hampstead and Highgate,1.50
+1993-01-26-013-s,1993-01-26,Mr. Bottomley,matched,mr-peter-bottomley,Mr Peter Bottomley,uk.org.publicwhip/person/10057,Conservative,Eltham,1.50
+1993-01-26-015-s,1993-01-26,Mr. Lloyd,matched,mr-tony-lloyd,Mr Tony Lloyd,uk.org.publicwhip/person/10367,Labour,Stretford,1.50
+1993-02-25-006-s,1993-02-25,Dame Elaine Kellett-Bowman,matched,mrs-elaine-kellett,Mrs Elaine Kellett,uk.org.publicwhip/person/17973,Conservative,Lancaster,1.50
+1993-05-25-012-s,1993-05-25,Mr. Prentice,matched,mr-gordon-prentice,Mr Gordon Prentice,uk.org.publicwhip/person/10487,Labour,Pendle,1.50
+1993-06-22-014-s,1993-06-22,Mr. Marshall,matched,dr-jim-marshall,Dr Jim Marshall,uk.org.publicwhip/person/10418,Labour,Leicester South,1.50
+1993-07-06-017-s,1993-07-06,Dr. Clark,matched,dr-michael-clark,Dr Michael Clark,uk.org.publicwhip/person/10111,Conservative,Rochford,1.50
+1993-07-08-016-s,1993-07-08,Mr. Prentice,matched,mr-gordon-prentice,Mr Gordon Prentice,uk.org.publicwhip/person/10487,Labour,Pendle,1.50
+1993-10-21-009-s,1993-10-21,Mr. Jones,matched,mr-martyn-jones,Mr Martyn Jones,uk.org.publicwhip/person/10324,Labour,Clwyd South West,1.50
+1993-10-21-018-s,1993-10-21,Mr. Shaw,matched,mr-david-shaw,Mr David Shaw,uk.org.publicwhip/person/22648,Conservative,Dover,1.50
+1993-11-25-015-s,1993-11-25,Mr. Robert Ainsworth,speech_not_found,,,,,,
+1993-11-25-016-s,1993-11-25,Mr. Ainsworth,speech_not_found,,,,,,
+1994-01-11-003-s,1994-01-11,Dr. Michael Clarke,speech_not_found,,,,,,
+1994-01-11-012-s,1994-01-11,Mr. Clarke,matched,mr-eric-clarke,Mr Eric Clarke,uk.org.publicwhip/person/10114,Labour,Midlothian,1.50
+1994-02-15-009-s,1994-02-15,Mr. Jones,matched,mr-ieuan-wyn-jones,Mr Ieuan Wyn Jones,uk.org.publicwhip/person/10320,Plaid Cymru,Ynys Môn,1.50
+1994-02-15-016-s,1994-02-15,Mr. Davies,matched,mr-bryan-davies,Mr Bryan Davies,uk.org.publicwhip/person/21687,Labour,Oldham Central and Royton,1.50
+1994-02-15-021-s,1994-02-15,Mr. Evans,matched,mr-nigel-evans,Mr Nigel Evans,uk.org.publicwhip/person/10190,Conservative,Ribble Valley,1.50
+1994-03-01-004-s,1994-03-01,Mr. Greenway,matched,mr-harry-greenway,Mr Harry Greenway,uk.org.publicwhip/person/22587,Conservative,Ealing North,1.50
+1994-03-01-020-s,1994-03-01,Mr. Evans,matched,mr-john-evans-2,Mr John Evans,uk.org.publicwhip/person/22255,Labour,St Helens North,1.50
+1994-03-01-023-s,1994-03-01,Mr. Cunningham,matched,mr-jim-cunningham,Mr Jim Cunningham,uk.org.publicwhip/person/10147,Labour,Coventry South East,1.50
+1994-06-23-002-s,1994-06-23,Mr. Davies,matched,mr-quentin-davies,Mr Quentin Davies,uk.org.publicwhip/person/10160,Conservative,Stamford and Spalding,1.50
+1994-06-23-016-s,1994-06-23,Dr. Jones,matched,dr-lynne-jones,Dr Lynne Jones,uk.org.publicwhip/person/10323,Labour,"Birmingham, Selly Oak",1.50
+1994-07-05-015-s,1994-07-05,Mr. Banks,matched,mr-matthew-banks,Mr Matthew Banks,uk.org.publicwhip/person/22351,Conservative,Southport,1.50
+1994-12-06-002-s,1994-12-06,Mrs. Prentice,matched,ms-bridget-prentice,Ms Bridget Prentice,uk.org.publicwhip/person/10486,Labour,Lewisham East,1.50
+1994-12-06-020-s,1994-12-06,Mr. Davies,matched,mr-bryan-davies,Mr Bryan Davies,uk.org.publicwhip/person/21687,Labour,Oldham Central and Royton,1.50
+1995-03-14-013-s,1995-03-14,Mr. Wilson,matched,mr-brian-wilson,Mr Brian Wilson,uk.org.publicwhip/person/10644,Labour,Cunninghame North,1.50
+1995-03-14-014-s,1995-03-14,Mr. Wilson,matched,mr-brian-wilson,Mr Brian Wilson,uk.org.publicwhip/person/10644,Labour,Cunninghame North,1.50
+1995-03-14-022-s,1995-03-14,Mr. Atkinson,matched,mr-david-atkinson,Mr David Atkinson,uk.org.publicwhip/person/10019,Conservative,Bournemouth East,1.50
+1995-04-04-001-s,1995-04-04,Mr. Robert Hughes,speech_not_found,,,,,,
+1995-04-04-002-s,1995-04-04,Mr. Hughes,speech_not_found,,,,,,
+1995-04-04-010-s,1995-04-04,Mr. Greenway,matched,mr-harry-greenway,Mr Harry Greenway,uk.org.publicwhip/person/22587,Conservative,Ealing North,1.50
+1995-04-04-012-s,1995-04-04,Mr. Michie,matched,mr-bill-michie,Mr Bill Michie,uk.org.publicwhip/person/10432,Labour,"Sheffield, Heeley",1.50
+1995-05-09-002-s,1995-05-09,Mr. Jones,matched,mr-jon-owen-jones,Mr Jon Owen Jones,uk.org.publicwhip/person/10322,Labour Co-Op,Cardiff Central,1.50
+1995-05-09-011-s,1995-05-09,Mr. Wilson,matched,mr-brian-wilson,Mr Brian Wilson,uk.org.publicwhip/person/10644,Labour,Cunninghame North,1.50
+1995-05-09-012-s,1995-05-09,Mr. Wilson,matched,mr-brian-wilson,Mr Brian Wilson,uk.org.publicwhip/person/10644,Labour,Cunninghame North,1.50
+1995-05-09-017-s,1995-05-09,Mr. Coombs,matched,mr-simon-coombs,Mr Simon Coombs,uk.org.publicwhip/person/17034,Conservative,Swindon,1.50
+1995-06-15-006-s,1995-06-15,Mr. Field,matched,mr-barry-field,Mr Barry Field,uk.org.publicwhip/person/22639,Conservative,Isle of Wight,1.50
+1995-06-15-018-s,1995-06-15,Mrs. Campbell,matched,mrs-anne-campbell,Mrs Anne Campbell,uk.org.publicwhip/person/10087,Labour,Cambridge,1.50
+1995-06-27-002-s,1995-06-27,Mr. Hill,matched,mr-keith-hill,Mr Keith Hill,uk.org.publicwhip/person/10279,Labour,Streatham,1.50
+1995-10-24-019-s,1995-10-24,Mr. Bruce,matched,mr-ian-bruce,Mr Ian Bruce,uk.org.publicwhip/person/10073,Conservative,South Dorset,1.50
+1995-11-07-005-s,1995-11-07,Mr. Evans,matched,mr-nigel-evans,Mr Nigel Evans,uk.org.publicwhip/person/10190,Conservative,Ribble Valley,1.50
+1995-11-07-020-s,1995-11-07,Mr. Jones,matched,mr-martyn-jones,Mr Martyn Jones,uk.org.publicwhip/person/10324,Labour,Clwyd South West,1.50
+1995-12-14-002-s,1995-12-14,Mrs. Campbell,matched,mrs-anne-campbell,Mrs Anne Campbell,uk.org.publicwhip/person/10087,Labour,Cambridge,1.50
+1995-12-14-005-s,1995-12-14,Mrs. Taylor,matched,mrs-ann-taylor,Mrs Ann Taylor,uk.org.publicwhip/person/10584,Labour,Dewsbury,1.50
+1995-12-14-010-s,1995-12-14,Mr. Cunningham,matched,mr-jim-cunningham,Mr Jim Cunningham,uk.org.publicwhip/person/10147,Labour,Coventry South East,1.50
+1995-12-14-013-s,1995-12-14,Mr. Hill,matched,mr-keith-hill,Mr Keith Hill,uk.org.publicwhip/person/10279,Labour,Streatham,1.50
+1996-01-11-002-s,1996-01-11,Mr. O'Brien,matched,mr-mike-obrien,Mr Mike O'Brien,uk.org.publicwhip/person/10461,Labour,North Warwickshire,1.50
+1996-01-11-016-s,1996-01-11,Mr. Bruce,matched,mr-malcolm-bruce,Mr Malcolm Bruce,uk.org.publicwhip/person/10074,Liberal Democrats,Gordon,1.50
+1996-02-29-002-s,1996-02-29,Mr. Shaw,matched,mr-david-shaw,Mr David Shaw,uk.org.publicwhip/person/22648,Conservative,Dover,1.50
+1996-02-29-021-s,1996-02-29,Mr. Thompson,matched,mr-jack-thompson,Mr Jack Thompson,uk.org.publicwhip/person/22634,Labour,Wansbeck,1.50
+1996-03-05-006-s,1996-03-05,Dr. Clark,matched,dr-michael-clark,Dr Michael Clark,uk.org.publicwhip/person/10111,Conservative,Rochford,1.50
+1996-04-18-011-s,1996-04-18,Mr. Hughes,matched,mr-simon-hughes,Mr Simon Hughes,uk.org.publicwhip/person/10298,Liberal Democrats,Southwark and Bermondsey,1.50
+1996-06-27-004-s,1996-06-27,Mr. Arnold,matched,mr-jacques-arnold,Mr Jacques Arnold,uk.org.publicwhip/person/19738,Conservative,Gravesham,1.50
+1996-06-27-009-s,1996-06-27,Mr. Marshall,matched,mr-david-marshall,Mr David Marshall,uk.org.publicwhip/person/10417,Labour,Glasgow Shettleston,1.50
+1996-06-27-011-s,1996-06-27,Mr. William O'Brien,speech_not_found,,,,,,
+1996-06-27-012-s,1996-06-27,Mr. O'Brien,speech_not_found,,,,,,
+1996-07-11-004-s,1996-07-11,Mr. Marshall,matched,mr-john-marshall-1,Mr John Marshall,uk.org.publicwhip/person/22674,Conservative,Hendon South,1.50
+1996-11-07-011-s,1996-11-07,Mr. Bruce,matched,mr-ian-bruce,Mr Ian Bruce,uk.org.publicwhip/person/10073,Conservative,South Dorset,1.50
+1997-01-14-005-s,1997-01-14,Mrs. Taylor,matched,mrs-ann-taylor,Mrs Ann Taylor,uk.org.publicwhip/person/10584,Labour,Dewsbury,1.50
+1997-01-14-006-s,1997-01-14,Mrs. Taylor,matched,mrs-ann-taylor,Mrs Ann Taylor,uk.org.publicwhip/person/10584,Labour,Dewsbury,1.50
+1997-01-14-007-s,1997-01-14,Dame Elaine Kellett—Bowman,matched,mrs-elaine-kellett,Mrs Elaine Kellett,uk.org.publicwhip/person/17973,Conservative,Lancaster,1.50
+1997-01-14-009-s,1997-01-14,Mr. Jones,matched,mr-ieuan-wyn-jones,Mr Ieuan Wyn Jones,uk.org.publicwhip/person/10320,Plaid Cymru,Ynys Môn,1.50
