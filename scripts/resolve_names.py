@@ -38,7 +38,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 from enrich_parties import CUTOFF, REF_DIR, Members, key  # noqa: E402
-from extract_pmqs import HEADERS, OUT_DIR  # noqa: E402
+from extract_pmqs import HEADERS, OUT_DIR, STANDIN_DIR  # noqa: E402
 
 BASE = "https://api.parliament.uk/historic-hansard"
 MATCHES = REF_DIR / "historic_hansard_matches.csv"
@@ -182,7 +182,8 @@ def resolve(members, row):
 
 
 def pre1997_rows():
-    for path in sorted(OUT_DIR.glob("*.csv")):
+    """Pre-1997 exchanges from both the main files and the stand-in files."""
+    for path in sorted(OUT_DIR.glob("*.csv")) + sorted(STANDIN_DIR.glob("*.csv")):
         if int(path.stem) > 1997:
             continue
         with open(path, encoding="utf-8") as f:
@@ -231,14 +232,19 @@ def main():
     done = set()
     if MATCHES.exists():
         with open(MATCHES, encoding="utf-8") as f:
-            done = {r["exchange_id"] for r in csv.DictReader(f)}
+            # Keyed on the questioner's name too: after a rebuild renumbers a
+            # day's exchanges, an ID may now belong to someone else.
+            done = {(r["exchange_id"], r["name"]) for r in csv.DictReader(f)}
     else:
         REF_DIR.mkdir(parents=True, exist_ok=True)
         with open(MATCHES, "w", newline="", encoding="utf-8") as f:
             csv.writer(f).writerow(FIELDS)
 
-    todo = [r for r in pre1997_rows() if r.get("q_match") in ("ambiguous", "none", "fuzzy")
-            and r["exchange_id"] not in done]
+    # ambiguous_same_party: the party is known because every candidate shares
+    # it, but not which MP it was, which gender and individual analysis need.
+    todo = [r for r in pre1997_rows()
+            if r.get("q_match") in ("ambiguous", "ambiguous_same_party", "none", "fuzzy")
+            and (r["exchange_id"], r["q_name"]) not in done]
     print(f"{len(todo)} exchanges to resolve ({len(done)} already in {MATCHES})")
     stop_at = time.time() + args.minutes * 60
     counts = {}
