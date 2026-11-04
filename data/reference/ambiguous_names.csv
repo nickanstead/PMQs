@@ -32,6 +32,7 @@ Mr. John David Taylor,5,1984-02-07,1987-10-29,John Taylor (Solihull): Conservati
 Mr. John Mark Taylor,5,1985-05-16,1987-07-07,John Taylor (Solihull): Conservative | John Taylor (Strangford): UUP
 Mr. John D. Taylor,5,1988-03-10,1992-07-14,John Taylor (Solihull): Conservative | John Taylor (Strangford): UUP
 Mr. Robert Ainsworth,5,1993-03-23,1996-07-18,Bob Ainsworth (Coventry North East): Labour | Peter Ainsworth (East Surrey): Conservative
+Mr. Hamilton,5,1984-12-18,1986-12-09,Archie Hamilton (Epsom and Ewell): Conservative | James Douglas-Hamilton (Edinburgh West): Conservative | Jimmy Hamilton (Motherwell North): Labour | Neil Hamilton (Tatton): Conservative | Willie Hamilton (Central Fife): Labour
 Mr. Bruce,5,1988-02-11,1996-11-07,Ian Bruce (South Dorset): Conservative | Malcolm Bruce (Gordon): Liberal Democrats
 Mr. Marshall,5,1989-04-06,1996-07-11,David Marshall (Glasgow Shettleston): Labour | Jim Marshall (Leicester South): Labour | John Marshall (Hendon South): Conservative | Michael Marshall (Arundel): Conservative
 Mr. J. E. B. Hill,4,1965-01-19,1965-10-28,James Hill (Midlothian): Labour | John Hill (South Norfolk): Conservative
@@ -47,7 +48,6 @@ Mr. Ainsworth,4,1993-11-25,1996-07-18,Bob Ainsworth (Coventry North East): Labou
 Mr. Roberts,4,1974-11-21,1976-11-30,Albert Roberts (Normanton): Labour | Gwilym Roberts (Cannock): Labour | Michael Roberts (Cardiff North West): Conservative | Wyn Roberts (Conway): Conservative
 Mr. Thomas,4,1975-05-06,1978-01-10,Dafydd Elis Thomas (Merioneth): Plaid Cymru | George Thomas (Cardiff West): Labour | Jeffrey Thomas (Abertillery): Labour | John Stradling Thomas (Monmouth): Conservative | Mike Thomas (Newcastle upon Tyne East): Labour | Peter Thomas (Barnet Hendon South): Conservative | Ronald Thomas (Bristol North West): Labour
 Mr. Ross,4,1983-11-24,1985-12-03,Ernie Ross (Dundee West): Labour | Stephen Ross (Isle of Wight): Liberal | William Ross (East Londonderry): UUP
-Mr. Hamilton,4,1984-12-18,1985-12-03,Archie Hamilton (Epsom and Ewell): Conservative | James Douglas-Hamilton (Edinburgh West): Conservative | Jimmy Hamilton (Motherwell North): Labour | Neil Hamilton (Tatton): Conservative | Willie Hamilton (Central Fife): Labour
 Mr. Michie,4,1991-03-05,1995-04-04,"Bill Michie (Sheffield, Heeley): Labour | Ray Michie (Argyll and Bute): Liberal Democrats"
 Mr. Evans,4,1992-11-24,1995-11-07,David Evans (Welwyn Hatfield): Conservative | John Evans (St Helens North): Labour | Jonathan Evans (Brecon and Radnor): Conservative | Nigel Evans (Ribble Valley): Conservative | Roger Evans (Monmouth): Conservative
 Mr. Wilson,4,1995-03-14,1995-05-09,Brian Wilson (Cunninghame North): Labour | Patrick McNair-Wilson (New Forest): Conservative
@@ -93,7 +93,6 @@ Mr. Howell,2,1970-07-14,1979-11-29,David Howell (Guildford): Conservative | Deni
 Mr. Davis,2,1970-12-15,1970-12-17,Alfred Hall-Davis (Morecambe and Lonsdale): Conservative | Clinton Davis (Hackney Central): Labour
 Mr. J. T. Price,2,1971-01-19,1972-11-30,David Price (Eastleigh): Conservative | Thomas Price (Westhoughton): Labour | William Price (Rugby): Labour
 Dr. Marshall,2,1974-03-19,1974-03-19,Edmund Marshall (Goole): Labour | Michael Marshall (Arundel): Conservative
-Mr. Walker,2,1984-11-27,1988-06-28,Bill Walker (North Tayside): Conservative | Cecil Walker (Belfast North): UUP | Harold Walker (Doncaster Central): Labour | Peter Walker (Worcester): Conservative
 Mr. Marshall,2,1985-03-14,1985-03-14,David Marshall (Glasgow Shettleston): Labour | Michael Marshall (Arundel): Conservative
 Mr. Taylor,2,1985-05-16,1986-07-01,John Taylor (Solihull): Conservative | John Taylor (Strangford): UUP | Teddy Taylor (Southend East): Conservative
 Mr. Mark Hughes,2,1986-05-13,1987-04-23,Robert Hughes (Aberdeen North): Labour | Roy Hughes (Newport East): Labour | Sean Hughes (Knowsley South): Labour | Simon Hughes (Southwark and Bermondsey): Liberal | William Hughes (City of Durham): Labour
@@ -159,7 +158,6 @@ Mr. Roberts,1,1979-11-20,1979-11-20,Albert Roberts (Normanton): Labour | Allan R
 Mr. Brown,1,1980-08-07,1980-08-07,Hugh Brown (Glasgow Provan): Labour | Michael Brown (Brigg and Scunthorpe): Conservative | Robert Brown (Newcastle upon Tyne West): Labour | Ronald Brown (Edinburgh Leith): Labour | Ronald Brown (Hackney South and Shoreditch): Labour
 Mr. Price,1,1981-02-24,1981-02-24,Chris Price (Lewisham West): Labour | David Price (Eastleigh): Conservative
 Mr. R. C.Mitchell,1,1982-02-16,1982-02-16,"Austin Mitchell (Grimsby): Labour | Bob Mitchell (Southampton, Itchen): Labour | David Mitchell (Basingstoke): Conservative"
-Mr. Bennett,1,1985-12-05,1985-12-05,Andrew Bennett (Denton and Reddish): Labour | Frederic Bennett (Torbay): Conservative
 Mr. Williams,1,1986-11-18,1986-11-18,Alan Williams (Swansea West): Labour | Brandon Rhys Williams (Kensington): Conservative
 Mr. Williams,1,1988-04-28,1988-04-28,Alan Williams (Carmarthen): Labour | Alan Williams (Swansea West): Labour | Brandon Rhys Williams (Kensington): Conservative
 Mr. Griffiths,1,1989-06-08,1989-06-08,Eldon Griffiths (Bury St Edmunds): Conservative | Nigel Griffiths (Edinburgh South): Labour | Peter Griffiths (Portsmouth North): Conservative | Win Griffiths (Bridgend): Labour
@@ -191,9 +189,11 @@ Mr Powell,1,1982-03-30,1982-03-30,Enoch Powell (South Down): UUP | Raymond Powel
 Mr. Robinson,1,1982-06-10,1982-06-10,Geoffrey Robinson (Coventry North West): Labour | Peter Robinson (Belfast East): DUP
 Mr. Lewis,1,1984-06-26,1984-06-26,Kenneth Lewis (Stamford and Spalding): Conservative | Ronald Lewis (Carlisle): Labour | Terry Lewis (Worsley): Labour
 Mr. Mitchell,1,1986-05-06,1986-05-06,Austin Mitchell (Great Grimsby): Labour | David Mitchell (North West Hampshire): Conservative
+Dr. Clark,1,1986-12-09,1986-12-09,"Alan Clark (Plymouth, Sutton): Conservative | David Clark (South Shields): Labour | Michael Clark (Rochford): Conservative | William Clark (Croydon South): Conservative"
 Mr. Martin,1,1987-06-30,1987-06-30,David Martin (Portsmouth South): Conservative | Michael Martin (Glasgow Springburn): Labour
 Mr. Lloyd,1,1987-06-30,1987-06-30,Ian Lloyd (Havant): Conservative | Peter Lloyd (Fareham): Conservative | Tony Lloyd (Stretford): Labour
 Mr. John M. Taylor,1,1988-03-03,1988-03-03,John Taylor (Solihull): Conservative | John Taylor (Strangford): UUP
+Mr. Walker,1,1988-06-28,1988-06-28,Bill Walker (North Tayside): Conservative | Cecil Walker (Belfast North): UUP | Harold Walker (Doncaster Central): Labour | Peter Walker (Worcester): Conservative
 Mr. Powell,1,1991-07-16,1991-07-16,Raymond Powell (Ogmore): Labour | William Powell (Corby): Conservative
 Mr. Mitchell,1,1991-11-07,1991-11-07,Andrew Mitchell (Gedling): Conservative | Austin Mitchell (Great Grimsby): Labour | David Mitchell (North West Hampshire): Conservative
 Mr. Robertson,1,1992-06-11,1992-06-11,George Robertson (Hamilton): Labour | John Home Robertson (East Lothian): Labour | Raymond Robertson (Aberdeen South): Conservative
