@@ -35,6 +35,7 @@ PEOPLE_URL = "https://raw.githubusercontent.com/mysociety/parlparse/master/membe
 OUT_DIR = Path("data/pmqs")
 STANDIN_DIR = Path("data/standins")
 REPORT_DIR = Path("data/reports")
+EXCLUSIONS = Path("data/reference/manual_exclusions.csv")
 DIAG_DIR = Path("data/diagnostics")
 CACHE = Path("data/cache")
 HEADERS = {"User-Agent": "pmqs-honeymoon-clock (academic research, LSE)"}
@@ -528,8 +529,18 @@ def process_day(date, xml_bytes, people):
     return rows, [], {"pmqs_speeches": len(speeches), "note": "", "detail": detail}
 
 
+def load_exclusions():
+    """Manual corrections the rules can't make: for each date, drop that
+    day's exchanges from from_exchange onwards (1 drops the whole session)."""
+    if not EXCLUSIONS.exists():
+        return {}
+    with open(EXCLUSIONS, encoding="utf-8") as f:
+        return {r["date"]: (int(r["from_exchange"]), r["reason"]) for r in csv.DictReader(f)}
+
+
 def process_year(year, people):
     rows, standins, diag = [], [], []
+    exclusions = load_exclusions()
     files = day_files(year)
     if not files:
         print(f"{year}: WARNING no files found in the TheyWorkForYou index")
@@ -549,6 +560,12 @@ def process_year(year, people):
         except ET.ParseError as err:
             day_rows, day_standins, info = [], [], {"pmqs_speeches": "",
                                                     "note": f"XML parse error: {err}"}
+        if date in exclusions:
+            cut, reason = exclusions[date]
+            day_rows = [r for r in day_rows if r["sequence"] < cut]
+            day_standins = [r for r in day_standins if r["sequence"] < cut]
+            info["note"] = (info.get("note") or "") + f" [manual exclusion from exchange {cut}: {reason}]"
+            info["note"] = info["note"].strip()
         rows.extend(day_rows)
         standins.extend(day_standins)
         diag.append({"date": date, "file": fname,
@@ -606,7 +623,7 @@ def main():
         write_csv(STANDIN_DIR / f"{year}.csv", standins, STANDIN_FIELDS)
         write_csv(DIAG_DIR / f"{year}.csv", diag, DIAG_FIELDS)
         sessions = sum(1 for d in diag if d["exchanges"] and not d["note"].startswith("stand-in"))
-        n_si = sum(1 for d in diag if d["note"].startswith("stand-in"))
+        n_si = sum(1 for d in diag if d["exchanges"] and d["note"].startswith("stand-in"))
         print(f"{year}: {len(rows)} exchanges from {sessions} sessions; {n_si} stand-in sessions")
     write_missing_report()
 
