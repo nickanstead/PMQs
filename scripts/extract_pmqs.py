@@ -155,12 +155,17 @@ def text_of(el):
     return re.sub(r"\s+", " ", "".join(el.itertext())).strip()
 
 
-def load_people():
+def load_people_json():
+    """mySociety's people.json: every MP, their names, titles and IDs."""
     path = CACHE / "people.json"
     if not path.exists():
         CACHE.mkdir(parents=True, exist_ok=True)
         path.write_bytes(fetch(PEOPLE_URL))
-    data = json.loads(path.read_text(encoding="utf-8"))
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def load_people():
+    data = load_people_json()
     orgs = {o["id"]: o.get("name", o["id"]) for o in data.get("organizations", [])}
     member_to_person, by_person = {}, {}
     for m in data.get("memberships", []):

@@ -395,6 +395,10 @@ def main():
         print("  " + ", ".join(f"{k}: {v}" for k, v in totals.most_common() if k != "with_party"))
         print(f"  {len(report)} ambiguous names listed in {AMBIGUOUS_REPORT}")
 
+    # Gender uses the member IDs just settled, so it runs straight after.
+    import add_gender
+    add_gender.main()
+
 
 if __name__ == "__main__":
     main()
