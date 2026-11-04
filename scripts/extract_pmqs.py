@@ -88,8 +88,8 @@ MAIN_OPPOSITION = [
 # (ENGAGEMENTS)". A heading that merely mentions the PM, such as "Prime
 # Minister's Update" for a statement, does not count.
 PM_HEADING = re.compile(
-    r"(oral answers to questions )?(the )?prime minister( engagements)?"
-    r"|engagements|prime ministers? questions|questions to the prime minister")
+    r"(oral answers to questions )?(the )?prime minister( engagements?)?"
+    r"|engagements?|prime ministers? questions|questions to the prime minister")
 NOT_PM_HEADING = re.compile(r"deputy prime minister", re.I)
 SPEAKER_NAME = re.compile(r"\bspeaker\b", re.I)
 FORMULA = re.compile(
@@ -265,9 +265,20 @@ ASKED_PM = re.compile(
 ORAL_PREFIX = re.compile(r"^oral answers to questions\s*")
 
 
-# A tabled question: a question number at the start ("Q3.", "4.") or a
-# reference number in brackets ("[15127]") near the start of the speech.
-TABLED = re.compile(r"^\s*q?\d+\.|\[\d{3,}\]", re.I)
+# Business that can follow PMQs under the same "Prime Minister" heading and
+# is not a question to the PM: statements, points of order, urgent questions.
+NOT_A_QUESTION = re.compile(
+    r"^\s*(with permission|on a point of order|\(urgent question\)|to ask\b"
+    r"|i beg to move|i (should|would) like to make a statement|order\b|before we come)", re.I)
+
+
+def opens_question(text):
+    """True if a speech reads as a question tabled to the PM, such as "If he
+    will make an official visit to Dartington" or "When he next expects to
+    visit Ayrshire": short, and not a statement, point of order or urgent
+    question. Statements open with a long speech by the minister."""
+    text = QUESTION_NUMBER.sub("", text)
+    return not NOT_A_QUESTION.match(text) and len(text.split()) <= 80
 
 
 def normalise_heading(text):
@@ -298,17 +309,19 @@ def pmqs_speeches(root, keep_topics=True):
             else:
                 # Under a "Prime Minister" major heading, a topic minor heading
                 # (a substantive question on, say, Iraq) stays inside if the
-                # speech after it is a tabled question. A statement after PMQs
-                # ("With permission...") is not, so it is left out. With
-                # keep_topics off, process_day's fallback, topic headings close.
+                # speech after it reads as a question to the PM. A statement
+                # after PMQs ("With permission...") does not, so it is left
+                # out. With keep_topics off, process_day's fallback, topic
+                # headings close.
                 inside = False
                 topic_pending = pm_major and keep_topics
             if is_pm:
                 opened.append(heading[:40])
         elif el.tag == "speech" and el.get("nospeaker") != "true":
-            if topic_pending:
+            if topic_pending and not SPEAKER_NAME.search(el.get("speakername", "")):
+                # The first speech after the heading, not counting the Speaker.
                 topic_pending = False
-                if TABLED.search(text_of(el)[:300]):
+                if opens_question(text_of(el)):
                     inside = True
             if not inside and ASKED_PM.match(text_of(el)):
                 inside = True
@@ -511,7 +524,7 @@ def process_day(date, xml_bytes, people):
         return [], rows, {"pmqs_speeches": len(speeches),
                           "note": f"stand-in: {standin[0]}", "detail": detail}
     if pm_name != in_office:
-        detail += f"; handover day, answered by outgoing PM"
+        detail += "; handover day, answered by outgoing PM"
     return rows, [], {"pmqs_speeches": len(speeches), "note": "", "detail": detail}
 
 
