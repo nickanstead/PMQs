@@ -79,6 +79,50 @@ def get_json(url, tries=3):
         time.sleep(5 * (attempt + 1))
 
 
+# Wikidata asks automated clients to identify themselves with a way to get in
+# touch; without that, requests from shared servers are throttled hard.
+WIKIDATA_HEADERS = {"User-Agent": "PMQs-dataset/1.0 (https://github.com/nickanstead/PMQs)",
+                    "Accept": "application/sparql-results+json"}
+
+
+def sparql(query, tries=5):
+    """Run a Wikidata query (sent by POST, so batches can be large), waiting
+    as asked when Wikidata says it is busy."""
+    body = urllib.parse.urlencode({"query": query}).encode("utf-8")
+    for attempt in range(tries):
+        try:
+            req = urllib.request.Request(WIKIDATA_SPARQL, data=body, headers={
+                **WIKIDATA_HEADERS, "Content-Type": "application/x-www-form-urlencoded"})
+            with urllib.request.urlopen(req, timeout=120) as r:
+                return json.loads(r.read().decode("utf-8")).get("results", {}).get("bindings", [])
+        except urllib.error.HTTPError as err:
+            if attempt == tries - 1:
+                raise
+            wait = err.headers.get("Retry-After", "") if err.headers else ""
+            time.sleep(int(wait) if wait.isdigit() else 30 * (attempt + 1))
+        except Exception:
+            if attempt == tries - 1:
+                raise
+            time.sleep(30 * (attempt + 1))
+
+
+def run_batches(items, make_query, size=200):
+    """Yield the results of each batch; skip a batch that keeps failing, and
+    give up after three failures in a row (the next run tries again)."""
+    failures = 0
+    for start in range(0, len(items), size):
+        try:
+            yield sparql(make_query(items[start:start + size]))
+            failures = 0
+        except Exception as err:
+            failures += 1
+            print(f"  Wikidata batch failed ({err})")
+            if failures == 3:
+                print("  Wikidata unavailable; will try again next run")
+                return
+        time.sleep(2)
+
+
 def read_csv(path):
     if not path.exists():
         return []
@@ -122,22 +166,18 @@ def members_api(ids):
 def wikidata(ids):
     """{person_id: gender} for {person_id: Wikidata Q-id}, in batches."""
     by_q = {q: pid for pid, q in ids.items()}
-    found, qs = {}, sorted(by_q)
-    for start in range(0, len(qs), 200):
-        batch = " ".join(f"wd:{q}" for q in qs[start:start + 200])
-        query = f"SELECT ?item ?sex WHERE {{ VALUES ?item {{ {batch} }} ?item wdt:P21 ?sex . }}"
-        url = WIKIDATA_SPARQL + "?" + urllib.parse.urlencode({"query": query, "format": "json"})
-        try:
-            data = get_json(url)
-        except Exception as err:
-            print(f"  Wikidata unavailable ({err}); will try again next run")
-            break
-        for b in (data or {}).get("results", {}).get("bindings", []):
+    found = {}
+
+    def query(batch):
+        values = " ".join(f"wd:{q}" for q in batch)
+        return f"SELECT ?item ?sex WHERE {{ VALUES ?item {{ {values} }} ?item wdt:P21 ?sex . }}"
+
+    for bindings in run_batches(sorted(by_q), query):
+        for b in bindings:
             q = b["item"]["value"].rsplit("/", 1)[-1]
             g = WIKIDATA_SEX.get(b["sex"]["value"].rsplit("/", 1)[-1])
             if g and q in by_q:
                 found[by_q[q]] = g
-        time.sleep(1)
     return found
 
 

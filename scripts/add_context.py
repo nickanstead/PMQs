@@ -42,8 +42,6 @@ import json
 import math
 import re
 import sys
-import time
-import urllib.parse
 from bisect import bisect_right
 from collections import Counter, defaultdict
 from datetime import date as Date
@@ -341,23 +339,20 @@ class Context:
 
 
 def wikidata_births(qids):
-    """{Q-id: birth date} from Wikidata, in batches of 50."""
-    found, qs = {}, sorted(qids)
-    for start in range(0, len(qs), 50):
-        batch = " ".join(f"wd:{q}" for q in qs[start:start + 50])
-        query = f"SELECT ?item ?born WHERE {{ VALUES ?item {{ {batch} }} ?item wdt:P569 ?born . }}"
-        url = add_gender.WIKIDATA_SPARQL + "?" + urllib.parse.urlencode({"query": query, "format": "json"})
-        try:
-            data = add_gender.get_json(url)
-        except Exception as err:
-            print(f"  Wikidata unavailable ({err}); will try again next run")
-            break
-        for b in (data or {}).get("results", {}).get("bindings", []):
+    """{Q-id: birth date} from Wikidata."""
+    found = {}
+
+    def query(batch):
+        values = " ".join(f"wd:{q}" for q in batch)
+        return f"SELECT ?item ?born WHERE {{ VALUES ?item {{ {values} }} ?item wdt:P569 ?born . }}"
+
+    for bindings in add_gender.run_batches(sorted(qids), query):
+        for b in bindings:
             q = b["item"]["value"].rsplit("/", 1)[-1]
             born = b["born"]["value"][:10]
             if re.match(r"\d{4}-\d\d-\d\d", born) and q not in found:
                 found[q] = born
-        time.sleep(1)
+    print(f"  Wikidata birth dates found: {len(found)}")
     return found
 
 
