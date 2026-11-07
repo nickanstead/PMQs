@@ -398,6 +398,9 @@ def main():
     # Gender uses the member IDs just settled, so it runs straight after.
     import add_gender
     add_gender.main()
+    # Then session context and questioner characteristics.
+    import add_context
+    add_context.main()
 
 
 if __name__ == "__main__":

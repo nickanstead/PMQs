@@ -90,9 +90,14 @@ MAIN_OPPOSITION = [
 # Minister's Update" for a statement, does not count.
 PM_HEADING = re.compile(
     r"(oral answers to questions )?(the )?prime minister( engagements?)?"
-    r"|engagements?|prime ministers? questions|questions to the prime minister")
+    r"|engagements?|prime ministers? questions|questions to the prime minister"
+    r"|(the )?prime minister was asked")
 NOT_PM_HEADING = re.compile(r"deputy prime minister", re.I)
 SPEAKER_NAME = re.compile(r"\bspeaker\b", re.I)
+# Kinds of Speaker intervention: a call to order ("Order." / "Order, order!"),
+# and a demand to withdraw a remark or the naming of a Member.
+ORDER_CALL = re.compile(r"(^|[.!?]\s+)order\b\s*[.!,]", re.I)
+WITHDRAW_OR_NAME = re.compile(r"\bwithdraw|\bI (must )?name\b", re.I)
 FORMULA = re.compile(
     r"official engagements|engagements for (monday|tuesday|wednesday|thursday|friday)", re.I)
 QUESTION_NUMBER = re.compile(r"^\s*(Q\d+\.?\s*)?(\[\d+\]\s*)?")
@@ -312,6 +317,10 @@ def pmqs_speeches(root, keep_topics=True):
                 pm_major = inside = is_pm
             elif is_pm:
                 inside = True
+                # "The Prime Minister was asked—" (from November 2026) heads
+                # the whole session, like a "Prime Minister" major heading.
+                if "was asked" in normalise_heading(heading):
+                    pm_major = True
             else:
                 # Under a "Prime Minister" major heading, a topic minor heading
                 # (a substantive question on, say, Iraq) stays inside if the
@@ -337,7 +346,7 @@ def pmqs_speeches(root, keep_topics=True):
     return out, opened
 
 
-ORAL_HINT = re.compile(r"oral answers|\basked the\b|to ask the", re.I)
+ORAL_HINT = re.compile(r"oral answers|\basked the\b|to ask the|\bwas asked\b", re.I)
 
 
 def all_headings(root, limit=500):
@@ -395,14 +404,20 @@ def standin_matcher(speeches):
     return (lambda nm, p: speaker_key(nm, p) == top), name, pid
 
 
-def pair_exchanges(speeches, is_answerer):
-    """Pair each MP's speech with the answerer's next reply."""
-    exchanges, pending = [], None
-    for name, pid, text in speeches:
+def pair_exchanges(speeches, is_answerer, speaker_after=None):
+    """Pair each MP's speech with the answerer's next reply.
+
+    speaker_after maps the index of a speech to the Speaker's interventions
+    that followed it. Each intervention is credited to the exchange in
+    progress: from its question up to the next question."""
+    speaker_after = speaker_after or {}
+    exchanges, pending, current = [], None, None
+    for i, (name, pid, text) in enumerate(speeches):
         if is_answerer(name, pid):
             if pending:
                 exchanges.append({"q_name": pending[0], "q_pid": pending[1],
-                                  "question": pending[2], "answer": text})
+                                  "question": pending[2], "answer": text,
+                                  "speaker": current})
                 pending = None
             elif exchanges:
                 exchanges[-1]["answer"] += " " + text  # answer resumed after interruption
@@ -412,6 +427,9 @@ def pair_exchanges(speeches, is_answerer):
                 pending = (pending[0], pending[1], pending[2] + " " + text)
             else:
                 pending = (name, pid, text)  # an unanswered earlier speech is dropped
+                current = []
+        if current is not None:
+            current.extend(speaker_after.get(i, []))
     return exchanges
 
 
@@ -422,22 +440,30 @@ def process_day(date, xml_bytes, people):
     root = ET.fromstring(xml_bytes)
 
     def collect(keep_topics):
+        """The section's speeches, without the Speaker's; and the Speaker's
+        interventions, keyed by the index of the speech each followed."""
         section, opened = pmqs_speeches(root, keep_topics)
-        found = []
+        found, speaker_after, last_was_speaker = [], {}, False
         for el in section:
             name = el.get("speakername", "").strip()
             if not name and not el.get("person_id") and not el.get("speakerid"):
                 # Unnamed speech: in older Hansard, the same speaker continuing.
-                if found:
+                if last_was_speaker and speaker_after:
+                    key = max(speaker_after)
+                    speaker_after[key][-1] += " " + text_of(el)
+                elif found:
                     found[-1] = (found[-1][0], found[-1][1], found[-1][2] + " " + text_of(el))
                 continue
             pid = el.get("person_id") or member_to_person.get(el.get("speakerid", ""), "")
             # The Speaker's interventions are neither questions nor answers. Modern
             # files name the Speaker personally ("Lindsay Hoyle"), so check party too.
             if SPEAKER_NAME.search(name) or party_on(by_person, pid, date) == "Speaker":
+                speaker_after.setdefault(len(found) - 1, []).append(text_of(el))
+                last_was_speaker = True
                 continue
+            last_was_speaker = False
             found.append((name, pid, text_of(el)))
-        return found, "; ".join(sorted(set(opened)))[:120]
+        return found, speaker_after, "; ".join(sorted(set(opened)))[:120]
 
     def which_pm(speeches):
         # Which PM answered: on a handover day, whichever candidate fits best.
@@ -448,7 +474,7 @@ def process_day(date, xml_bytes, people):
                 best = (is_pm, full, n, answered)
         return best
 
-    speeches, opened_by = collect(True)
+    speeches, speaker_after, opened_by = collect(True)
     if not speeches:
         if not pmqs_day(date):
             note = "not a PMQs day"
@@ -464,9 +490,10 @@ def process_day(date, xml_bytes, people):
         # Topic headings may have swept in other business (13 Mar 1990: Arts
         # questions after PMQs). Retry without them, and use that stricter
         # section for the stand-in check too.
-        strict, strict_opened = collect(False)
+        strict, strict_speaker, strict_opened = collect(False)
         if strict and strict != speeches:
-            speeches, opened_by = strict, strict_opened + "; strict headings"
+            speeches, speaker_after = strict, strict_speaker
+            opened_by = strict_opened + "; strict headings"
             is_pm, pm_name, n_pm, answered = which_pm(speeches)
     in_office = pm_for(date)[1]
 
@@ -480,10 +507,11 @@ def process_day(date, xml_bytes, people):
                             "note": "PM not found and no clear stand-in, excluded",
                             "detail": detail}
         standin = (resp_name, resp_pid)
-        exchanges = pair_exchanges(speeches, is_answerer)
+        exchanges = pair_exchanges(speeches, is_answerer, speaker_after)
         pm_name = in_office
     else:
-        exchanges = pair_exchanges(speeches, is_pm)
+        exchanges = pair_exchanges(speeches, is_pm, speaker_after)
+    session_speaker = sum(len(v) for v in speaker_after.values())
 
     gov = lookup(GOVERNMENTS, date) or []
     main_opp = lookup(MAIN_OPPOSITION, date)
@@ -518,6 +546,10 @@ def process_day(date, xml_bytes, people):
             "is_formula": int(e["is_formula"]),
             "q_words": len(e["question"].split()), "a_words": len(e["answer"].split()),
             "question": e["question"], "answer": e["answer"],
+            "speaker_interventions": len(e["speaker"] or []),
+            "speaker_order": sum(bool(ORDER_CALL.search(t)) for t in e["speaker"] or []),
+            "speaker_withdraw": sum(bool(WITHDRAW_OR_NAME.search(t)) for t in e["speaker"] or []),
+            "session_speaker_interventions": session_speaker,
         }
         if standin:
             row["answered_by"], row["answered_by_pid"] = standin
@@ -588,7 +620,9 @@ def write_csv(path, rows, fields):
 
 
 ROW_FIELDS = ["exchange_id", "date", "pm", "sequence", "q_name", "q_pid", "q_party",
-              "q_role", "is_formula", "q_words", "a_words", "question", "answer"]
+              "q_role", "is_formula", "q_words", "a_words", "question", "answer",
+              "speaker_interventions", "speaker_order", "speaker_withdraw",
+              "session_speaker_interventions"]
 STANDIN_FIELDS = ROW_FIELDS + ["answered_by", "answered_by_pid"]
 DIAG_FIELDS = ["date", "file", "exchanges", "pmqs_speeches", "note", "detail"]
 
