@@ -14,11 +14,18 @@ on:
         type: boolean
         default: false
   schedule:
-    - cron: "0 12 * * 4"   # Thursdays 12:00 UTC, the day after Wednesday PMQs
-    - cron: "0 8 * * 5"    # Fridays 08:00 UTC, backstop in case Hansard was late
+    # Odd minutes, because GitHub's scheduler is most congested on the hour.
+    - cron: "37 12 * * 4"  # Thursdays 12:37 UTC, the day after Wednesday PMQs
+    - cron: "23 8 * * 5"   # Fridays 08:23 UTC, backstop in case Hansard was late
 
 permissions:
   contents: write
+
+# Both data workflows share one queue: a run that starts while another is
+# going waits for it to finish, so their saves can't clash.
+concurrency:
+  group: pmqs-data
+  cancel-in-progress: false
 
 jobs:
   update:
