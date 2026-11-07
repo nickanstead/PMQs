@@ -14,6 +14,12 @@ on:
 permissions:
   contents: write
 
+# Both data workflows share one queue: a run that starts while another is
+# going waits for it to finish, so their saves can't clash.
+concurrency:
+  group: pmqs-data
+  cancel-in-progress: false
+
 jobs:
   resolve:
     runs-on: ubuntu-latest
