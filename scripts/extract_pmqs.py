@@ -346,7 +346,9 @@ def pmqs_speeches(root, keep_topics=True):
     return out, opened
 
 
-ORAL_HINT = re.compile(r"oral answers|\basked the\b|to ask the|\bwas asked\b", re.I)
+# Signs that oral questions were held. ("To ask the..." is left out: it also
+# opens urgent questions, which are taken on days with no question time.)
+ORAL_HINT = re.compile(r"oral answers|\basked the\b|\bwas asked\b", re.I)
 
 
 def all_headings(root, limit=500):
@@ -550,6 +552,8 @@ def process_day(date, xml_bytes, people):
             "speaker_order": sum(bool(ORDER_CALL.search(t)) for t in e["speaker"] or []),
             "speaker_withdraw": sum(bool(WITHDRAW_OR_NAME.search(t)) for t in e["speaker"] or []),
             "session_speaker_interventions": session_speaker,
+            # The interventions' words, in order, separated by " || ".
+            "speaker_text": " || ".join(t.strip() for t in e["speaker"] or []),
         }
         if standin:
             row["answered_by"], row["answered_by_pid"] = standin
@@ -622,7 +626,7 @@ def write_csv(path, rows, fields):
 ROW_FIELDS = ["exchange_id", "date", "pm", "sequence", "q_name", "q_pid", "q_party",
               "q_role", "is_formula", "q_words", "a_words", "question", "answer",
               "speaker_interventions", "speaker_order", "speaker_withdraw",
-              "session_speaker_interventions"]
+              "session_speaker_interventions", "speaker_text"]
 STANDIN_FIELDS = ROW_FIELDS + ["answered_by", "answered_by_pid"]
 DIAG_FIELDS = ["date", "file", "exchanges", "pmqs_speeches", "note", "detail"]
 
