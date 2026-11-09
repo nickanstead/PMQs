@@ -346,9 +346,12 @@ def pmqs_speeches(root, keep_topics=True):
     return out, opened
 
 
-# Signs that oral questions were held. ("To ask the..." is left out: it also
-# opens urgent questions, which are taken on days with no question time.)
-ORAL_HINT = re.compile(r"oral answers|\basked the\b|\bwas asked\b", re.I)
+# Signs that oral questions were held: a question-time heading, or (in older
+# Hansard) a speech that opens "asked the Secretary of State...". Phrases
+# inside debates ("I asked the Minister") and urgent questions ("To ask
+# the...") don't count, because they also occur on days with no question time.
+ORAL_HEADING = re.compile(r"oral answers|\bwas asked\b", re.I)
+ORAL_SPEECH = re.compile(r"^\s*(Q?\d+\.\s*)?(\[\d+\]\s*)?asked the\b", re.I)
 
 
 def all_headings(root, limit=500):
@@ -480,8 +483,9 @@ def process_day(date, xml_bytes, people):
     if not speeches:
         if not pmqs_day(date):
             note = "not a PMQs day"
-        elif any(ORAL_HINT.search(text_of(el)) for el in root
-                 if el.tag in ("major-heading", "minor-heading", "speech")):
+        elif any(ORAL_HEADING.search(text_of(el)) if el.tag != "speech"
+                 else ORAL_SPEECH.match(text_of(el))
+                 for el in root if el.tag in ("major-heading", "minor-heading", "speech")):
             note = "MISSING: questions held but no PMQs section found"
         else:
             note = "no PMQs section found (no questions held)"

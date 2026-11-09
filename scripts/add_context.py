@@ -356,6 +356,85 @@ def wikidata_births(qids):
     return found
 
 
+# --- Speaker interventions, counted from their text ---------------------------
+# The Speaker calling the next Member ("I call the Leader of the Opposition",
+# "Finally, I call Tim Farron", or a bare name in older Hansard) is not an
+# intervention; Hansard records such calls far more often since 2019.
+CALL = re.compile(r"(^|[.!?]\s+)(and\s+)?(finally,?\s+)?(I\s+(now\s+)?call|we\s+(now\s+)?come\s+to|"
+                  r"I\s+will\s+call|let\s+us\s+(go|hear))\b[^.!?]*[.!?]?\s*$", re.I)
+NAME_ONLY = re.compile(r"^\s*((Mr|Mrs|Miss|Ms|Dr|Sir|Dame)\.?\s+[A-Z][\w'’-]+(\s+[A-Z][\w'’-]+){0,3}"
+                       r"|The Prime Minister|The right hon\.? [\w ]+)\.?\s*$")
+ORDER_CALL = re.compile(r"(^|[.!?]\s+)order\b\s*([.!,—–-]|$)", re.I)
+WITHDRAW_OR_NAME = re.compile(r"\bwithdraw|\bI (must )?name\b", re.I)
+SPEAKER_FIELDS = ["speaker_interventions", "speaker_calls", "speaker_order", "speaker_withdraw",
+                  "session_speaker_interventions"]
+
+
+def is_call(text):
+    """A short call to the next Member, with no ruling in it."""
+    return ((bool(CALL.search(text)) and len(text.split()) <= 15 and not ORDER_CALL.search(text))
+            or bool(NAME_ONLY.match(text)))
+
+
+def recount_speaker(rows):
+    """Recount each exchange's Speaker interventions from speaker_text, with
+    calls to the next Member counted separately; the session total is the sum
+    over the session's exchanges."""
+    if not rows or "speaker_text" not in rows[0]:
+        return
+    per_session = Counter()
+    for r in rows:
+        texts = [t for t in (r.get("speaker_text") or "").split(" || ") if t.strip()]
+        calls = [t for t in texts if is_call(t)]
+        rest = [t for t in texts if not is_call(t)]
+        r["speaker_interventions"] = len(rest)
+        r["speaker_calls"] = len(calls)
+        r["speaker_order"] = sum(bool(ORDER_CALL.search(t)) for t in rest)
+        r["speaker_withdraw"] = sum(bool(WITHDRAW_OR_NAME.search(t)) for t in rest)
+        per_session[r["date"]] += len(rest)
+    for r in rows:
+        r["session_speaker_interventions"] = per_session[r["date"]]
+
+
+# --- Suspected missing sessions ------------------------------------------------
+DIAG_DIR = Path("data/diagnostics")
+MISSING_REPORT = Path("data/reports/missing_sessions.csv")
+ORAL_HEADING = re.compile(r"oral answers|\bwas asked\b", re.I)
+
+
+def refresh_missing_report():
+    """Re-check days noted as missing: only those whose headings show question
+    time stay in the report; the rest are relabelled as days without questions.
+    (Older runs counted "I asked the Minister" in a debate as question time.)"""
+    if not DIAG_DIR.exists():
+        return
+    missing = []
+    for path in sorted(DIAG_DIR.glob("*.csv")):
+        with open(path, encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+            rows, fields = list(reader), reader.fieldnames
+        changed = False
+        for r in rows:
+            if r.get("note", "").startswith("MISSING"):
+                if ORAL_HEADING.search(r.get("detail", "")):
+                    missing.append(r)
+                else:
+                    r["note"] = "no PMQs section found (no questions held)"
+                    changed = True
+        if changed:
+            with open(path, "w", newline="", encoding="utf-8") as f:
+                w = csv.DictWriter(f, fieldnames=fields)
+                w.writeheader()
+                w.writerows(rows)
+    if missing:
+        MISSING_REPORT.parent.mkdir(parents=True, exist_ok=True)
+        with open(MISSING_REPORT, "w", newline="", encoding="utf-8") as f:
+            w = csv.DictWriter(f, fieldnames=list(missing[0].keys()))
+            w.writeheader()
+            w.writerows(missing)
+    print(f"  {len(missing)} suspected missing sessions in {MISSING_REPORT}")
+
+
 def loto_on(date):
     for name, pid, start, end, status in LOTO:
         if start <= date < end:
@@ -403,6 +482,7 @@ def main():
             fields = list(reader.fieldnames or [])
         if not rows:
             continue
+        recount_speaker(rows)
         for r in rows:
             d, pid = r["date"], r.get("q_pid", "")
             i = bisect_right(ELECTION_DATES, d) - 1
@@ -433,11 +513,12 @@ def main():
             n += 1
             for c in ("q_constituency", "q_years_in_commons", "q_age", "q_majority_pct", "q_bench"):
                 filled[c] += r[c] != ""
-        fields += [c for c in FIELDS if c not in fields]
+        fields += [c for c in SPEAKER_FIELDS + FIELDS if c not in fields and (c in rows[0])]
         with open(path, "w", newline="", encoding="utf-8") as f:
             w = csv.DictWriter(f, fieldnames=fields)
             w.writeheader()
             w.writerows(rows)
+    refresh_missing_report()
     print(f"context added to {n} exchanges; filled: " +
           ", ".join(f"{c} {filled[c] / max(n, 1):.1%}" for c in filled))
 
